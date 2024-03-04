@@ -17,7 +17,7 @@ covariance_xy == (sum_x_mul_y - (N*mean_x*mean_y)) # True
 Use the least squares estimates from part (b) to compute the fitted values of $y$, and complete the remainder of the table below. Put the sums in the last row.
 Calculate the sample variance of $y$, $s^2_y = \sum_{i=1}^{N}(y_i - \bar{y})^2 / (N-1)$, the sample variance of $x$,  $s^2_x = \sum_{i=1}^{N}(x_i - \bar{x})^2 / (N-1)$, the sample correlation between $x$ and $y$, $r_{xy} = s_{xy} / (s_x s_y)$ and the coeeficient of variation of $x$, $CV_x= 100(s_x/\bar{x})$. What is the median, 50th percentile, of $x$?
 ### The Ordinary LEast Squares (OLS) Estimators
-$b2 = \frac{\sum{(x_i-\bar{x}) \cdot (y_i -\bar{y})}}{\sum{(x_i - \bar{x})^2}} \quad (2.7)$
+$b2 = \frac{\sum{(x_i-\bar{x}) \cdot (y_i -\bar{y})}}{\sum{(x_i - \bar{x})^2}} \quad (2.7)$\
 $b1 = \bar{y} - b_2\bar{x} \quad (2.8)$
 ```
 mean_x = mean(x)
