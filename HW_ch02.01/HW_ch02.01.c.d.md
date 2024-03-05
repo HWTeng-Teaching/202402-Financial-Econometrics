@@ -46,5 +46,4 @@ Following the code line 25 - 32, we will get the table below:
 ---
 
 The questions remainder just follow the code line 34 - 44\
-The sum of random error $\hat{e}_i$ is not zero because of the precision error.\
-The sum of $x_i\hat{e}_i$ is not zero because of the same reason as previous.
+As the <font color=red> precision error </font>, the sum of $\hat{e_i}$ & $x_i \hat{e}_i$ is not zero.
