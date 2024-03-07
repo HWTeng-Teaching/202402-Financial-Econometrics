@@ -1,3 +1,5 @@
+#
+## This homework is written by 312707001 葉宗翰
 # ch02.25 (e)
 Plot ln(FOODAWAY) against INCOME, and include the fitted line from part (d).
 ```
