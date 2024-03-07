@@ -8,6 +8,14 @@ On graph paper, plot the data points and sketch the fitted regression line
 x = c(-1,0,1,2,3)
 y = c(1,0,3,2,4)
 estimate_y = c(0.4,1.2,2,2.8,3.6)
+plot(x, y,
+     xlab="x", 
+     ylab="y",
+     )
+points(x,estimate_y, 
+       pch=16,                
+       col="blue")  
+lines(x, estimate_y, col = "blue")
 
 ```
 
