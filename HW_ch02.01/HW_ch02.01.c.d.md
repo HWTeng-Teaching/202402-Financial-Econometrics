@@ -1,6 +1,6 @@
 ##
 
-This homework is written by NAME (ID)...
+This homework is written by 汪文豪 (311707006)
 
 ## ch02.01 (c)
 Compute $\sum_{i=1}^{5} x^2_i, \sum_{i=1}^{5}x_i y_i $ Using these numerical values, show that $\sum{(x_i-\bar{x})^2} = \sum{x^2_i - N \bar{x}^2}$ and $\sum{(x_i - \bar{x}) (y_i - \bar{i}) = \sum{x_i y_i - N \bar{x} \bar{y}}}$ 
