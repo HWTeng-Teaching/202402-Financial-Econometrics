@@ -30,8 +30,10 @@ On the sketch in part (e), locate the point of the means (x,y). Does your fitted
 pass through that point? If not, go back to the drawing board, literally
 
 根據(d)小題可知 $\bar{x} = 1,  \bar{y} = 1$
+
+觀察(e)小題的圖，( $$\bar{x}, $$\bar{y} ) = ( 1, 2 )`
 ```
-觀察(e)小題的圖，bar{x} = 1,􀝕􀴤 = 2.`
+
 
 
 ```
