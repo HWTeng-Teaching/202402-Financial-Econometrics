@@ -29,6 +29,7 @@ On the sketch in part (e), locate the point of the means (x,y). Does your fitted
 pass through that point? If not, go back to the drawing board, literally
 
 bar{x} 
+\bar{a}
 ```
 觀察(e)小題的圖，bar{x} = 1,􀝕􀴤 = 2.`
 
