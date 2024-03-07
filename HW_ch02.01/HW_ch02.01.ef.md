@@ -5,17 +5,17 @@ On graph paper, plot the data points and sketch the fitted regression line
 觀測值: (-1,1),(0,0),(1,3),(2,2),(3,4)
 預估值: (-1,0.4),(0,1.2),(1,2),(2,2.8),(3,3.6)
 ```
-x = c(-1,0,1,2,3)
-y = c(1,0,3,2,4)
-estimate_y = c(0.4,1.2,2,2.8,3.6)
-plot(x, y,
+x = c( -1,0,1,2,3 )
+y = c( 1,0,3,2,4 )
+estimate_y = c( 0.4,1.2,2,2.8,3.6 )
+plot( x, y,
      xlab="x", 
      ylab="y",
      )
-points(x,estimate_y, 
+points( x,estimate_y, 
        pch=16,                
-       col="blue")  
-lines(x, estimate_y, col = "blue")
+       col="blue" )  
+lines( x, estimate_y, col = "blue" )
 
 ```
 
