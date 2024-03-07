@@ -1,4 +1,4 @@
-This homework is written by 游政諺 ( 311707012 ).
+##This homework is written by 游政諺 ( 311707012 ).
 # ch02.01 (e)
 On graph paper, plot the data points and sketch the fitted regression line
 $\hat{y} = b1+b2*x$
