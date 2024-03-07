@@ -3,7 +3,7 @@ This homework is written by 游政諺 ( 311707012 ).
 On graph paper, plot the data points and sketch the fitted regression line
 ^yi=b1+b2*xi
 
-透過(d)小題可得估計值^y
+根據(d)小題可知估計值^y
 
 觀測值: (-1,1),(0,0),(1,3),(2,2),(3,4)
 估計值: (-1,0.4),(0,1.2),(1,2),(2,2.8),(3,3.6)
@@ -28,7 +28,7 @@ lines( x, estimate_y, col = "blue" )
 On the sketch in part (e), locate the point of the means (x,y). Does your fitted line
 pass through that point? If not, go back to the drawing board, literally
 
-$\bar{x} = 1,  \bar{y} = 1$
+根據(d)小題可知 $\bar{x} = 1,  \bar{y} = 1$
 ```
 觀察(e)小題的圖，bar{x} = 1,􀝕􀴤 = 2.`
 
