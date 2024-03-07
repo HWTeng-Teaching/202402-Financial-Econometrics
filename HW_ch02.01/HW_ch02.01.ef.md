@@ -1,7 +1,7 @@
 This homework is written by 游政諺 ( 311707012 ).
 # ch02.01 (e)
 On graph paper, plot the data points and sketch the fitted regression line
-$\hat{y} = b1+b2*xi$
+$\hat{y} = b1+b2*x$
 
 根據(d)小題可知估計值 $\hat{y}
 
