@@ -31,7 +31,7 @@ pass through that point? If not, go back to the drawing board, literally
 bar{x} 
 \bar{a}
 
-$\bar{x} = 1, $\bar{y} = 1
+$\bar{x} = 1 $\bar{y} = 1
 ```
 觀察(e)小題的圖，bar{x} = 1,􀝕􀴤 = 2.`
 
