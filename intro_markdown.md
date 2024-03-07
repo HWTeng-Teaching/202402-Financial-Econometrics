@@ -1,4 +1,14 @@
-# 202402-Financial-Econometrics
+# Introduction to markdown syntax
+
+
+
+--- 
+Some useful links for markdown syntax
+
+- https://markdown.tw
+- https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book
+- https://hackmd.io/@sysprog/B1RwlM85Z
+---- 
 
 
 This is a very simple illustration how to type math formula: $$y=\beta_1+\beta_2 x+\varepsilon$$
