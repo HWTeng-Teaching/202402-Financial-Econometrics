@@ -1,4 +1,4 @@
-## ch02.01 (e)
+# ch02.01 (e)
 On graph paper, plot the data points and sketch the fitted regression line
 ^yi=b1+b2*xi
 ```
