@@ -18,7 +18,7 @@ points( x,estimate_y,
 lines( x, estimate_y, col = "blue" )
 
 ```
-![image]([b5d6cf20-bd02-4adf-8048-4596b9181ef4.png](https://github.com/adni7413/hw0201_e/blob/main/b5d6cf20-bd02-4adf-8048-4596b9181ef4.png))
+![image](https://github.com/adni7413/hw0201_e/blob/main/b5d6cf20-bd02-4adf-8048-4596b9181ef4.png)
 
 ---
 # ch02.01 (f)
