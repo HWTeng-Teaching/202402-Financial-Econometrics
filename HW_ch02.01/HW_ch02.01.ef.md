@@ -56,7 +56,7 @@ points(1,2,
        col="red")  
 
 ```
-![image](https://github.com/adni7413/hw0201_e/blob/main/b5d6cf20-bd02-4adf-8048-4596b9181ef4.png)
+![image](https://github.com/adni7413/hw0201_e/blob/main/Rplot01.png)
 
 ---
 
