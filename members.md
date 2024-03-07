@@ -7,9 +7,9 @@
 | 孫知岱           | 311707054  | 150406858                 | NO       |
 | 葉宗翰           | 312707001  | danny0701                 | YES      |
 | 陳家祺           | 312707002  | tino890726                | NO       |
-| 黃鈺婷           | 312707003  | tina900221@gmail.com      | YES      |
+| 黃鈺婷           | 312707003  |     | YES      |
 | 李宇量           | 312707004  | LiYuLiang0908             | YES      |
-| 張祐慈           | 312707005  | yuki020936@gmail.com      | YES      |
+| 張祐慈           | 312707005  |     | YES      |
 | 黃馨霈           | 312707006  | hsin456                   | YES      |
 | 施昱全           | 312707008  | shih95286                 | YES      |
 | 歐陽君欣         | 312707009  | ArielOY                   | YES      |
@@ -26,7 +26,7 @@
 | 鄭宇翔           | 312707029  | pp23283815                | YES      |
 | 莊巧筠           | 312707030  | ACharlene                 | YES      |
 | 鄧筠潔           | 312707031  | yunjiet                   | YES      |
-| 陳品妤           | 312707032  | alicechen890105@gmail.com | YES      |
+| 陳品妤           | 312707032  |  | YES      |
 | 包坤達           | 312707033  | paokunta02223             | YES      |
 | 李昀庭           | 312707034  | timlee73                  | YES      |
 | 黃子騏           | 312707036  | J72024                    | NO       |
@@ -36,15 +36,15 @@
 | 林筱慈           | 312707042  | xiaoci19                  | YES      |
 | 張禕紘           | 312707043  | moccer80                  | NO       |
 | 吳日為           | 312707044  |                           | NO       |
-| 張永濬           | 312707048  | gene09841009@gmail.com    | YES      |
+| 張永濬           | 312707048  |    | YES      |
 | 張家榮           | 312707049  | Galong123                 | YES      |
 | 梁宏宇           | 312707050  | taiwanegg                 | YES      |
 | 趙悅豪           | 312707051  | cloryYH                   | YES      |
 | 賴岳錡           | 312707052  | LaiYuehchi                | YES      |
 | 陳怡仁           | 312707053  | Pauljkk                   | YES      |
 | 吳柏賢           | 312707054  | Howardwuwu                | NO       |
-| 許誌榮           | 312707055  | 58423678louis@gmail.com   | YES      |
-| 吳悦寧           | 312707056  | https://github.com/ivywu0807 | YES   |
+| 許誌榮           | 312707055  |   | YES      |
+| 吳悦寧           | 312707056  | ivywu0807 | YES   |
 | 曾昱樵           | 312707057  | Joey-Tseng                | YES      |
-| 阮春順 / Nguyen Xuan Thuan | 412707007 | nxthuan.mg12@nycu.edu.tw | YES |
+| 阮春順 / Nguyen Xuan Thuan | 412707007 | | YES |
 | 林書凡           | 512717014  |                           | NO       |
