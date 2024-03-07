@@ -4,6 +4,7 @@ On graph paper, plot the data points and sketch the fitted regression line
 ^yi=b1+b2*xi
 
 透過(d)可得估計值^y
+
 觀測值: (-1,1),(0,0),(1,3),(2,2),(3,4)
 估計值: (-1,0.4),(0,1.2),(1,2),(2,2.8),(3,3.6)
 ```
