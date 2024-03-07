@@ -35,12 +35,28 @@ pass through that point? If not, go back to the drawing board, literally
 
 ( $\bar{x}$, $\bar{y}$ ) = ( 1, 2 )，觀察(e)小題的圖可知迴歸線通過點 ( 1, 2 )
 ```
+x = c(-1,0,1,2,3)
+y = c(1,0,3,2,4)
+estimate_y = c(0.4,1.2,2,2.8,3.6)
+
+plot(x, y,
+     xlab="x", 
+     ylab="y",
+     pch = 16, 
+     col = 1
+     )
+points(x,estimate_y, 
+       pch=16,                
+       col="blue")  
+lines(x, estimate_y, col = "blue")
 
 
+points(1,2, 
+       pch=16,                
+       col="red")  
 
 ```
-
-
+![image](https://github.com/adni7413/hw0201_e/blob/main/b5d6cf20-bd02-4adf-8048-4596b9181ef4.png)
 
 ---
 
