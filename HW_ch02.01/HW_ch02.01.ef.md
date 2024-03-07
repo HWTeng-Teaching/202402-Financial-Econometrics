@@ -29,7 +29,7 @@ On the sketch in part (e), locate the point of the means (x,y). Does your fitted
 pass through that point? If not, go back to the drawing board, literally
 
 ```
-觀察(e)小題的圖，$\overline{x} = 1,􀝕􀴤 = 2.`
+觀察(e)小題的圖，$\overline{x}$ = 1,􀝕􀴤 = 2.`
 
 
 ```
