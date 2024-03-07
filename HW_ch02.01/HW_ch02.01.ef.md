@@ -2,7 +2,8 @@
 On graph paper, plot the data points and sketch the fitted regression line
 ^yi=b1+b2*xi
 ```
-
+觀測值: (-1,1),(0,0),(1,3),(2,2),(3,4)
+預估值: (-1,1),(0,0),(1,3),(2,2),(3,4)
 ```
 
 ---
