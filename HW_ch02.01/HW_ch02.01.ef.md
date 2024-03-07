@@ -26,12 +26,12 @@ lines( x, estimate_y, col = "blue" )
 
 ---
 # ch02.01 (f)
-On the sketch in part (e), locate the point of the means (x,y). Does your fitted line
+On the sketch in part (e), locate the point of the means ( $\bar{x}$, $\bar{y}$ ). Does your fitted line
 pass through that point? If not, go back to the drawing board, literally
 
 根據(d)小題可知 $\bar{x} = 1,  \bar{y} = 1$
 
-觀察(e)小題的圖，( $\bar{x}$, $\bar{y}$ ) = ( 1, 2 )`
+( $\bar{x}$, $\bar{y}$ ) = ( 1, 2 )，觀察(e)小題的圖可知迴歸線通過點 ( 1, 2 )
 ```
 
 
