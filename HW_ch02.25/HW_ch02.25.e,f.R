@@ -1,3 +1,5 @@
+# This homework is written by 312707001 葉宗翰
+
 #Download the required data and set up variables and linear models.
 
 setwd("C:/Users/User/Desktop")
