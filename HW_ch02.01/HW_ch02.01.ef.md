@@ -1,9 +1,12 @@
 # ch02.01 (e)
 On graph paper, plot the data points and sketch the fitted regression line
 ^yi=b1+b2*xi
-```
 觀測值: (-1,1),(0,0),(1,3),(2,2),(3,4)
 預估值: (-1,0.4),(0,1.2),(1,2),(2,2.8),(3,3.6)
+```
+x = c(-1,0,1,2,3)
+y = c(1,0,3,2,4)
+estimate_y = c(0.4,1.2,2,2.8,3.6)
 
 ```
 
