@@ -6,7 +6,7 @@ from previous steps we know:
 
 $\hat{y} = b1+b2*x$, 
 
-$b1=1.2 b2=0.8$, 
+$b1=1.2, b2=0.8$, 
 
 $\hat{y} = 1.2+0.8*x$, 
 
