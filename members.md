@@ -27,7 +27,7 @@
 | 莊巧筠           | 312707030  | ACharlene                 | YES      |
 | 鄧筠潔           | 312707031  | yunjiet                   | YES      |
 | 陳品妤           | 312707032  |  PinYu0105| YES      |
-| 包坤達           | 312707033  | paokunta02223             | YES      |
+| 包坤達           | 312707033  | paokunta0223          | YES      |
 | 李昀庭           | 312707034  | timlee73                  | YES      |
 | 黃子騏           | 312707036  | J72024                    | YES      |
 | 廖軒霈           | 312707038  | liaoooooo23               | YES      |
@@ -42,7 +42,7 @@
 | 趙悅豪           | 312707051  | cloryYH                   | YES      |
 | 賴岳錡           | 312707052  | LaiYuehchi                | YES      |
 | 陳怡仁           | 312707053  | Pauljkk                   | YES      |
-| 吳柏賢           | 312707054  | Howardwuwu                | NO       |
+| 吳柏賢           | 312707054  | Howardwuwu                | YES       |
 | 許誌榮           | 312707055  |  Louis0506 | YES      |
 | 吳悦寧           | 312707056  | ivywu0807 | YES   |
 | 曾昱樵           | 312707057  | Joey-Tseng                | YES      |
