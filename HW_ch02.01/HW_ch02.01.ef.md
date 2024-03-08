@@ -3,7 +3,7 @@
 On graph paper, plot the data points and sketch the fitted regression line
 $\hat{y} = b1+b2*x$
 
-According to the (d) section, we can obtain the  $\hat{y}$
+According to the part (d), we can obtain the  $\hat{y}$
 
 data points: ( -1, 1 ), ( 0, 0 ), ( 1, 3 ), ( 2, 2 ), ( 3, 4 )
 
@@ -43,9 +43,11 @@ lines(x, estimate_y, col = "blue")
 On the sketch in part (e), locate the point of the means ( $\bar{x}$, $\bar{y}$ ). Does your fitted line
 pass through that point? If not, go back to the drawing board, literally
 
-根據(d)小題可知 $\bar{x} = 1,  \bar{y} = 2$
+According to the part (d), we can obtain $\bar{x} = 1,  \bar{y} = 2$
 
-( $\bar{x}$, $\bar{y}$ ) = ( 1, 2 )，觀察(e)小題的圖可知迴歸線通過點 ( 1, 2 )
+( $\bar{x}$, $\bar{y}$ ) = ( 1, 2 )，on the sketch in part (e), we can see fitted line
+pass through the point of the means ( 1, 2 ).
+
 ```
 x = c(-1,0,1,2,3)
 y = c(1,0,3,2,4)
