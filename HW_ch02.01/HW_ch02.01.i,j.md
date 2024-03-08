@@ -1,6 +1,6 @@
 This homework is written by 孫知岱（311707054）
 
-i.Compute sigma_hat_square
+i.Compute $\hat{σ^2}$
 
 from previous steps we know:
 y_hat = b1+b2*x
