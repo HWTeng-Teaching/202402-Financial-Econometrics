@@ -36,14 +36,14 @@
 | 林筱慈           | 312707042  | xiaoci19                  | YES      |
 | 張禕紘           | 312707043  | moccer80                  | YES       |
 | 吳日為           | 312707044  |                           | NO       |
-| 張永濬           | 312707048  |    | YES      |
+| 張永濬           | 312707048  |   changyungchun | YES      |
 | 張家榮           | 312707049  | Galong123                 | YES      |
 | 梁宏宇           | 312707050  | taiwanegg                 | YES      |
 | 趙悅豪           | 312707051  | cloryYH                   | YES      |
 | 賴岳錡           | 312707052  | LaiYuehchi                | YES      |
 | 陳怡仁           | 312707053  | Pauljkk                   | YES      |
 | 吳柏賢           | 312707054  | Howardwuwu                | NO       |
-| 許誌榮           | 312707055  |   | YES      |
+| 許誌榮           | 312707055  |  Louis0506 | YES      |
 | 吳悦寧           | 312707056  | ivywu0807 | YES   |
 | 曾昱樵           | 312707057  | Joey-Tseng                | YES      |
 | 阮春順 / Nguyen Xuan Thuan | 412707007 | | YES |
