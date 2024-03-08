@@ -24,18 +24,18 @@ $y = [4,2,3,1,0]$\
 $\bar{x} = 1$\
 $\bar{y} = 2$\
 $\sum_{i=1}^{5} x^2_i = 15$\
-$\sum_{i=1}^{5} x_i y_i = 18$\
+$\sum_{i=1}^{5} x_i y_i = 18$
 
 ---
 $\sum{(x_i-\bar{x})^2} = 10$\
-$\sum{x^2_i - N \bar{x}^2} = 10$\
+$\sum{x^2_i - N \bar{x}^2} = 10$
 
-The answer is true.\
+The answer is true.
 
 $\sum{(x_i - \bar{x}) (y_i - \bar{i})} = 8$\
-$\sum{x_i y_i - N \bar{x} \bar{y}} = 8$ \
+$\sum{x_i y_i - N \bar{x} \bar{y}} = 8$ 
 
-The answer is true.\
+The answer is true.
 
 ---
 # ch02.01 (d)
@@ -48,19 +48,19 @@ $b_2 = \frac{\sum{(x_i-\bar{x}) \cdot (y_i -\bar{y})}}{\sum{(x_i - \bar{x})^2}} 
 $b_1 = \bar{y} - b_2\bar{x} \quad (2.8)$\
 The calculate result is:\
 $b_2 = 0.8$\
-$b_1 = 1.2$\
+$b_1 = 1.2$
 
 ```
-mean_x = mean(x)\
-mean_y = mean(y)\
+mean_x = mean(x)
+mean_y = mean(y)
 
-sum_of_square = sum((x-mean_x)^2)\
-covariance_xy = sum((x-mean_x)*(y-mean_y))\
+sum_of_square = sum((x-mean_x)^2)
+covariance_xy = sum((x-mean_x)*(y-mean_y))
 
-N = length(x)\
+N = length(x)
 
-b2 = covariance_xy / sum_of_square # 0.8\
-b1 = mean_y - b2*mean_x # 1.2\
+b2 = covariance_xy / sum_of_square # 0.8
+b1 = mean_y - b2*mean_x # 1.2
 
 ```
 Following the R code (from: HW_ch02.01.c.d.R) line 25 - 32, we will get the table below:
