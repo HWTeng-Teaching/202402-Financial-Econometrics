@@ -6,6 +6,11 @@ from previous steps we know:
 
 $\hat{y} = b1+b2*x$, 
 
+$b1=1.2 b2=0.8$, 
+
+$\hat{y} = 1.2+0.8*x$, 
+
+$\hat{e}_i = y_i-\hat{y}_i$
 
 Using formula 2.19:
 $\hat{σ}^2 = \sum(\hat{e}_i^2)/(N-2) = 1.2$
