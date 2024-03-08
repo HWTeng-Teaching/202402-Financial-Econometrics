@@ -8,7 +8,7 @@ $\hat{y} = b1+b2*x$,
 
 
 Using formula 2.19:
-$\hat{σ^2}$ = $\sum(\hat{ei^2})/(N-2)$ = 1.2
+$\hat{σ^2} = \sum(\hat{ei^2})/(N-2) = 1.2$
 
 g.Compute conditional variance and standard errors of b2
 
