@@ -16,7 +16,7 @@ T2 english classroom: subscript, superscript.
 
 Using formula 2.21 & 2.24:
 
-$\hat{var}(b2|x) = \hat{σ}^2/\sum((x-x&#x305)^2) = 0.12$, 
+$\hat{var}(b2|x) = \hat{σ}^2/\sum(x-x&#x305)^2 = 0.12$, 
 
-$se(b2) = \sqrt(conditional_variance_b2) = 0.346$
+$se(b2) = \sqrt(\hat{var}(b2|x)) = 0.346$
 
