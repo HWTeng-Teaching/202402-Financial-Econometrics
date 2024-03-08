@@ -26,6 +26,9 @@ lines(x, estimate_y, col = "blue")
 ```
 ![image](https://github.com/adni7413/hw0201_e/blob/main/b5d6cf20-bd02-4adf-8048-4596b9181ef4.png)
 
+<img width="544" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/55239313/a2f99433-4102-44f8-801d-e7911e199dfb">
+
+
 ---
 # ch02.01 (f)
 On the sketch in part (e), locate the point of the means ( $\bar{x}$, $\bar{y}$ ). Does your fitted line
