@@ -46,5 +46,5 @@
 | 許誌榮           | 312707055  |  Louis0506 | YES      |
 | 吳悦寧           | 312707056  | ivywu0807 | YES   |
 | 曾昱樵           | 312707057  | Joey-Tseng                | YES      |
-| 阮春順 / Nguyen Xuan Thuan | 412707007 | | YES |
+| 阮春順 / Nguyen Xuan Thuan | 412707007 |Aaron Nguyen | YES |
 | 林書凡           | 512717014  |                           | NO       |
