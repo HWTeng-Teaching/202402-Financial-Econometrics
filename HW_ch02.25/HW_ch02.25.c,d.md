@@ -15,7 +15,7 @@ cex5_small$lnfoodaway[is.infinite(cex5_small$lnfoodaway)] <- NA
 
 hist(cex5_small$lnfoodaway)
 ```
-
+![hist(lnfoodaway)](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/0275dba5-883a-4524-96bc-c41d60266323)
 
 ```{r}
 summary(cex5_small$lnfoodaway)
