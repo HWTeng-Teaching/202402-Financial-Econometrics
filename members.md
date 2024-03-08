@@ -35,7 +35,7 @@
 | 張滕淇           | 312707041  | TengChiChang              | YES      |
 | 林筱慈           | 312707042  | xiaoci19                  | YES      |
 | 張禕紘           | 312707043  | moccer80                  | YES       |
-| 吳日為           | 312707044  |                           | NO       |
+| 吳日為           | 312707044  |           wuriwei                | YES       |
 | 張永濬           | 312707048  |   changyungchun | YES      |
 | 張家榮           | 312707049  | Galong123                 | YES      |
 | 梁宏宇           | 312707050  | taiwanegg                 | YES      |
