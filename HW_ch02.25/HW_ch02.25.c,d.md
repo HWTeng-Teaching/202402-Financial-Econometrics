@@ -15,13 +15,13 @@ cex5_small$lnfoodaway[is.infinite(cex5_small$lnfoodaway)] <- NA
 
 hist(cex5_small$lnfoodaway)
 ```
-![hist(lnfoodaway)](https://github.com/hsin456/NYCU/blob/main/FinEco_HW/hist(lnfoodaway).png)
+![hist(lnfoodaway)](https://github.com/hsin456/NYCU/raw/main/FinEco_HW/hist(lnfoodaway).png)
 
 
 ```{r}
 summary(cex5_small$lnfoodaway)
 ```
-![hist(lnfoodaway)](https://github.com/hsin456/NYCU/blob/main/FinEco_HW/messageImage_1709885096777.jpg)
+![hist(lnfoodaway)](https://github.com/hsin456/NYCU/raw/main/FinEco_HW/messageImage_1709885096777.jpg)
 
 # ch02.25 (d)
 
@@ -35,4 +35,4 @@ lm_Income_lnFoodaway <- lm(lnfoodaway ~ income, data = cex5_small)
 summary(lm_Income_lnFoodaway)
 ```
 
-![hist(lnfoodaway)](https://github.com/hsin456/NYCU/blob/main/FinEco_HW/messageImage_1709885240749.jpg)
+![hist(lnfoodaway)](https://github.com/hsin456/NYCU/raw/main/FinEco_HW/messageImage_1709885240749.jpg)
