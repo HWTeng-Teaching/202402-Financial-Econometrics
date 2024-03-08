@@ -20,6 +20,7 @@ hist(cex5_small$lnfoodaway)
 ```{r}
 summary(cex5_small$lnfoodaway)
 ```
+![messageImage_1709885096777](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/1da876c1-3b8a-46f3-b1c1-80c23d62e248)
 
 # ch02.25 (d)
 
@@ -32,4 +33,5 @@ Interpretation of slope: When the size of one household monthly income is $100 u
 lm_Income_lnFoodaway <- lm(lnfoodaway ~ income, data = cex5_small)
 summary(lm_Income_lnFoodaway)
 ```
+![messageImage_1709885240749](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/f51ad527-5861-4f7f-99d8-1f097c389cf0)
 
