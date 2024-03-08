@@ -9,7 +9,7 @@ data points: ( -1, 1 ), ( 0, 0 ), ( 1, 3 ), ( 2, 2 ), ( 3, 4 )
 
 estimate points: ( -1, 0.4 ), ( 0, 1.2 ), ( 1, 2 ), ( 2, 2.8 ), ( 3, 3.6 )
 
-Based on the estimaye points, we can sketch the fitted regression line
+Based on the estimate points, we can sketch the fitted regression line
 
 |$x_i$|$y_i$ |$\hat{y}_i$|
 |:---:|:---:|:---------:|
