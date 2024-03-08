@@ -1,3 +1,6 @@
+# This homework is written by 312707001 葉宗翰
+
+#Download the required data and set up variables and linear models.
 
 library(POE5Rdata)
 data("cex5_small")
