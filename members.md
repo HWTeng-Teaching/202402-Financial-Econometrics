@@ -1,10 +1,10 @@
-| Name        | Student ID | GitHub account            | 是否加入 |
+| Name        | Student ID | GitHub account            | 是否成功加入github |
 |------------------|------------|---------------------------|----------|
 | Matthew Wright   | 112705804  | leeyuwright               | YES      |
 | 曾川             | 310707054  | Jerenzeng                 | YES      |
 | 汪文豪           | 311707006  | Ryan0911                  | YES      |
 | 游政諺           | 311707012  | adni7413                  | YES      |
-| 孫知岱           | 311707054  |zeddasun                 | NO       |
+| 孫知岱           | 311707054  |zeddasun                 |        |
 | 葉宗翰           | 312707001  | danny0701                 | YES      |
 | 陳家祺           | 312707002  | tino890726                | NO       |
 | 黃鈺婷           | 312707003  |     | YES      |
