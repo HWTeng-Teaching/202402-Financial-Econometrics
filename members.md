@@ -1,4 +1,4 @@
-| Your name        | Student ID | GitHub account            | 是否加入 |
+| Name        | Student ID | GitHub account            | 是否加入 |
 |------------------|------------|---------------------------|----------|
 | Matthew Wright   | 112705804  | leeyuwright               | YES      |
 | 曾川             | 310707054  | Jerenzeng                 | YES      |
