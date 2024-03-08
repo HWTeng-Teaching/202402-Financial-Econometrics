@@ -3,11 +3,13 @@
 On graph paper, plot the data points and sketch the fitted regression line
 $\hat{y} = b1+b2*x$
 
-根據(d)小題可知估計值 $\hat{y}$
+According to the (d) section, we can obtain the  $\hat{y}$
 
-觀測值: ( -1, 1 ), ( 0, 0 ), ( 1, 3 ), ( 2, 2 ), ( 3, 4 )
+data points: ( -1, 1 ), ( 0, 0 ), ( 1, 3 ), ( 2, 2 ), ( 3, 4 )
 
-估計值: ( -1, 0.4 ), ( 0, 1.2 ), ( 1, 2 ), ( 2, 2.8 ), ( 3, 3.6 )
+estimate points: ( -1, 0.4 ), ( 0, 1.2 ), ( 1, 2 ), ( 2, 2.8 ), ( 3, 3.6 )
+
+Based on the estimaye points, we can sketch the fitted regression line
 
 |$x_i$|$y_i$ |$\hat{y}_i$|
 |:---:|:---:|:---------:|
