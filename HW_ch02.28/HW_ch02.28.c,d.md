@@ -1,3 +1,4 @@
+This homework is written by  黃鈺婷 (312707003)
 # c.  
 **Question:**  
 Calculate the least squares residuals and plot them against $EDUC$.  
