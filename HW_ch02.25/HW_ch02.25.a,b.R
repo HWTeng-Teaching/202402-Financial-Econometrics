@@ -6,7 +6,6 @@ foodaway = cex5_small$foodaway
 hist(x = foodaway,main = "Histogram of foodaway",xlab = 'Food away')
 
 summary(foodaway)
-
 # Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 # 0.00   12.04   32.55   49.27   67.50 1179.00 
 
