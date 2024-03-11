@@ -40,7 +40,9 @@ print(paste("Kurtosis:", kurtosis(LN_WAGE)))
 Question:\
 (b)Obtain the OLS estimates from the log-linear regression model ln(WAGE) = β1 + β2EDUC + e and interpret the estimated value of β .
 
-![](HW_ch02.29_b.jpg)
+<p align="center">
+  <img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786795/bacae199-918e-4f6e-837c-750cde769fe7")>
+</p>
 
 ans:
 $\hat{ln(WAGE)} = 1.5968 + 0.0987EDUC$
