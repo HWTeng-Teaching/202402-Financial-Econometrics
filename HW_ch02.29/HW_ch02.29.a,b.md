@@ -9,7 +9,7 @@ Question:\
 Create the variable LWAGE = ln(WAGE). Construct a histogram and calculate detailed summary statistics. Does the histogram appear bell shaped and normally distributed? A normal distribution is symmetrical with no skewness, skewness = 0. The tails of the normal distribution have a certain “thickness.” A measure of the tail thickness is kurtosis, discussed in Appendix C.4.2. For a normal distribution, the kurtosis = 3, discussed in Appendix C.7.4. How close are the measures of skewness and kurtosis for LWAGE to 0 and 3, respectively?
 
 <div style="width:20%; margin: auto;">
-![](HW_ch02.29_a.jpg)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786795/22ebf1a7-0cc3-4495-a6c7-e339a04a75f6)
 </div>
 
 ans:
