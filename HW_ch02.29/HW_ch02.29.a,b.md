@@ -1,9 +1,5 @@
 ---
 title: "312707012_鄭今惠_HW2"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
 date: "2024-03-11"
 ---
 
