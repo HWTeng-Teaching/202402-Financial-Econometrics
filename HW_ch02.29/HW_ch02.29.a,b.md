@@ -15,7 +15,7 @@ Create the variable LWAGE = ln(WAGE). Construct a histogram and calculate detail
 
 ![](HW_ch02.29_a.jpg)
 
-ans:\
+ans:
 | $variable$ |  $N$   |  $mean$  | $median$ |  $min$   |  $max$   | $skewness$ | $kurtosis$ |
 |:----------:|:------:|:--------:|:--------:|:--------:|:--------:|:----------:|:----------:|
 | $ln(WAGE)$ | $1200$ | $2.9994$ | $2.9601$ | $1.3712$ | $5.3986$ |  $0.2306$  |  $2.6846$  |
@@ -44,7 +44,7 @@ Question:\
 
 ![](HW_ch02.29_b.jpg)
 
-ans:\
+ans:
 $\hat{ln(WAGE)} = 1.5968 + 0.0987EDUC$
 
 We can estimate that for each additional year of education, the wage will be 9.87% higher, assuming all other factors remain constant.
