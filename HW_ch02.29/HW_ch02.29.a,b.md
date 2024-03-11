@@ -14,9 +14,9 @@ Create the variable LWAGE = ln(WAGE). Construct a histogram and calculate detail
 
 
 ans:
-          | $variable$ |  $N$   |  $mean$  | $median$ |  $min$   |  $max$   | $skewness$ | $kurtosis$ |
-          |:----------:|:------:|:--------:|:--------:|:--------:|:--------:|:----------:|:----------:|
-          | $ln(WAGE)$ | $1200$ | $2.9994$ | $2.9601$ | $1.3712$ | $5.3986$ |  $0.2306$  |  $2.6846$  |
+| $variable$ |  $N$   |  $mean$  | $median$ |  $min$   |  $max$   | $skewness$ | $kurtosis$ |
+|:----------:|:------:|:--------:|:--------:|:--------:|:--------:|:----------:|:----------:|
+| $ln(WAGE)$ | $1200$ | $2.9994$ | $2.9601$ | $1.3712$ | $5.3986$ |  $0.2306$  |  $2.6846$  |
 
 
 The histogram of ln(WAGE) indicates that its distribution is nearly symmetrical. This is unlike skewed distributions where the mean and median differ significantly. The skewness coefficient is slightly different from zero, and the kurtosis is slightly different from three. Therefore, the feature seems to be a normal distribution.
