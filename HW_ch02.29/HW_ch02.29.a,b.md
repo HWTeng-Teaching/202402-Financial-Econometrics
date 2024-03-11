@@ -16,7 +16,6 @@ Create the variable LWAGE = ln(WAGE). Construct a histogram and calculate detail
 ![](HW_ch02.29_a.jpg)
 
 ans:\
-
 | $variable$ |  $N$   |  $mean$  | $median$ |  $min$   |  $max$   | $skewness$ | $kurtosis$ |
 |:----------:|:------:|:--------:|:--------:|:--------:|:--------:|:----------:|:----------:|
 | $ln(WAGE)$ | $1200$ | $2.9994$ | $2.9601$ | $1.3712$ | $5.3986$ |  $0.2306$  |  $2.6846$  |
