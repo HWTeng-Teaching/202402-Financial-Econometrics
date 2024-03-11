@@ -49,7 +49,7 @@ Question:\
   <img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786795/bacae199-918e-4f6e-837c-750cde769fe7" alt="HW_ch02 29_b" style="width: 70%;">
 </p>
 
-ans:
+ans:\
 $\hat{ln(WAGE)} = 1.5968 + 0.0987EDUC$
 
 We can estimate that for each additional year of education, the wage will be 9.87% higher, assuming all other factors remain constant.
