@@ -10,7 +10,6 @@ Create the variable LWAGE = ln(WAGE). Construct a histogram and calculate detail
 
 <div style="width:20%; margin: auto;">
 ![HW_ch02 29_a](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786795/d53287ce-09c8-465e-add9-cc1ebfc0aa8b)
-</div>
 
 ans:
 | $variable$ |  $N$   |  $mean$  | $median$ |  $min$   |  $max$   | $skewness$ | $kurtosis$ |
