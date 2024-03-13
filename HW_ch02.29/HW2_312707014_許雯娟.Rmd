@@ -1,0 +1,343 @@
+---
+title: "HW2_312707014_許雯娟"
+output:
+  html_document:
+    code_folding: hide
+---
+
+# 2.11
+## a
+```{r, warning=FALSE, message=FALSE}
+intercept <- 13.77
+slope <- 0.52
+
+cat("For each additional hundred dollars of monthly household income, the estimated expenditure on food away from home per household member per month increases by", slope, "dollars.")
+cat("\nThe estimated expenditure when the monthly household income is zero (intercept) is", intercept, "dollars.")
+
+```
+
+Answer: We estimate that each additional $100 per month income is associated with an additional 52 cents per person expenditure, on average, on food away from home. If monthly income is zero, we estimate that household will spend an average of $13.77 per person on food away 
+from home.
+
+## b
+```{r, warning=FALSE, message=FALSE}
+monthly_income <- 20
+predicted_expenditure <- intercept + slope * monthly_income
+cat("Household with $2000 per month income will 
+spend on average $", round(predicted_expenditure, 4),"per person on food away from home.")
+
+```
+
+Answer: We predict that household with $2000 per month income will 
+spend on average $24.17 per person on food away from home.
+
+## c
+```{r, warning=FALSE, message=FALSE}
+monthly_income <- 20
+elasticity_hat <- 0.52 * (monthly_income / predicted_expenditure)
+cat("A 1% increase in income will increase expected food expenditure by", round(elasticity_hat, 4),"% per person.")
+
+```
+
+Answer: We estimate that a 1% increase in income will increase expected food expenditure by 0.4303% per person.
+
+## d
+```{r, warning=FALSE, message=FALSE}
+log_slope <- 0.007
+monthly_income <- 20
+elasticity_hat <- log_slope * monthly_income
+cat("In this log-linear relationship, the elasticity is", round(elasticity_hat, 2))
+
+```
+
+Answer: In this log-linear relationship, the elasticity is 0.14.
+
+## e
+```{r, warning=FALSE, message=FALSE}
+log_intercept <- 3.14
+log_slop <- 0.007
+
+y_hat_x20 <- exp(log_intercept + log_slop * 20)
+y_hat_x30 <- exp(log_intercept + log_slop * 30)
+
+slope_x20 <- log_slope * y_hat_x20
+slope_x30 <- log_slope * y_hat_x30
+
+cat("For x = 20, ŷ is approximately", round(y_hat_x20, 4), "and the slope dy/dx is approximately", round(slope_x20, 4), "\n")
+cat("For x = 30, ŷ is approximately", round(y_hat_x30, 4), "and the slope dy/dx is approximately", round(slope_x30, 4), "\n")
+
+```
+
+Answer: 
+For x = 20, ŷ is approximately 26.5758 and the slope dy/dx is approximately 0.186. 
+For x = 30, ŷ is approximately 28.5027 and the slope dy/dx is approximately 0.1995.
+It is increasing at an increasing rate.
+
+## f
+```{r, warning=FALSE, message=FALSE}
+n_total <- 2334  # Total number of observations in the original dataset
+n_updated <- 2005  # Number of observations in the updated dataset
+
+no_expenditure_count <- n_total - n_updated
+
+cat("The number of households in the sample that reported no expenditures on food away from home in the past quarter is", no_expenditure_count)
+
+```
+
+Answer: The number of households in the sample that reported no expenditures on food away from home in the past quarter is 329. 
+The reason for the reduction in the number of observations is that the logarithm of zero is undefined and creates a missing data value. The software throws out the row of data when it encounters a missing value when doing its calculations.
+
+
+# 2.28
+## a
+```{r, warning=FALSE, message=FALSE}
+library(POE5Rdata)
+library(ggplot2)
+library(dplyr)
+data("cps5_small")
+
+summary_stats <- summary(cps5_small[c("wage", "educ")])
+
+print(summary_stats)
+
+hist(cps5_small$wage, breaks = 20, main = "Wage rate", xlab = "Earnings per hour", ylab = "Percent", col = "lightblue", border = "black")
+hist(cps5_small$educ, main = "Education years", xlab = "Years of education", ylab = "Percent", col = "lightgreen", border = "black", breaks = 20)
+
+```
+
+Answer: 
+The observations for WAGE are skewed to the right indicating that most of the observations lie between the hourly wages of 5 to 50, and that there is a smaller proportion of observations with an hourly wage greater than 50. Half of the sample earns an hourly wage of more than $19.30 per hour, with the average being $23.64 per hour. The maximum earned in this sample is $221.10 per hour and the least earned in this sample is $3.94 per hour.
+
+307 people had 12 years of education, implying that they finished their education at the end of high school. There are a few observations at less than 12, representing those who did not complete high school. The spike at 16 years describes those 304 who completed a 4-year college degree, while those at 18 and 21 years represent a master’s degree, and further education such as a PhD, respectively. Spikes at 13 and 14 years are people who had one or two years at college.
+
+## b
+```{r, warning=FALSE, message=FALSE}
+model_1 <- lm(wage ~ educ, data = cps5_small)
+summary(model_1)
+
+coefficients <- coefficients(model_1)
+regression <- paste("ln(wage) =", round(coefficients[1], 4), "+", round(coefficients[2], 4), "educ")
+cat("Reg:", regression, "\n")
+
+```
+
+Answer: The coefficient 2.3968 represents the estimated increase in the expected hourly wage rate for an extra year of education. The coefficient −10.4 represents the estimated wage rate of a worker with no years of education. It should not be considered meaningful as it is not possible to have a negative hourly wage rate.
+
+## c
+```{r, warning=FALSE, message=FALSE}
+residuals <- residuals(model_1)
+
+plot(cps5_small$educ, residuals, main = "Residuals from linear wage model", xlab = "Years of education", ylab = "Residuals", col = "black", pch = 16)
+abline(h = 0, col = "red", lty = 2)  # Add a horizontal line at y = 0 for reference
+
+```
+
+Answer: The residuals are plotted against education in Figure. There is a pattern evident; as EDUC increases, the magnitude of the residuals also increases, suggesting that the error variance is larger for larger values of EDUC—a violation of assumption SR3. If the assumptions SR1-SR5 hold, there should not be any patterns evident in the residuals.
+
+## d
+```{r, warning=FALSE, message=FALSE}
+model_all <- lm(wage ~ educ, data = cps5_small)
+summary_all <- summary(model_1)
+
+model_male <- lm(wage ~ educ, data = subset(cps5_small, female == 0))
+model_female <- lm(wage ~ educ, data = subset(cps5_small, female == 1))
+model_black <- lm(wage ~ educ, data = subset(cps5_small, black == 1))
+model_white <- lm(wage ~ educ, data = subset(cps5_small, black == 0))
+
+summary_male <- summary(model_male)
+summary_female <- summary(model_female)
+summary_black <- summary(model_black)
+summary_white <- summary(model_white)
+
+print("Summary Statistics for All:")
+print(model_all)
+
+print("Summary Statistics for Males:")
+print(summary_male)
+
+print("Summary Statistics for Females:")
+print(summary_female)
+
+print("Summary Statistics for Blacks:")
+print(summary_black)
+
+print("Summary Statistics for Whites:")
+print(summary_white)
+
+```
+
+Answer: The white equation is obtained from those workers who are neither black nor Asian. From the results, we can see that an extra year of education increases the expected wage rate of a white worker more than it does for a black worker. And an extra year of education increases the expected wage rate of a female worker more than it does for a male worker.
+
+## e
+```{r, warning=FALSE, message=FALSE}
+data_f <- cps5_small %>% mutate(edu_square = educ^2)
+data_f
+
+lm_wage_edu_square <- lm(wage~edu_square, data = data_f)
+summary(lm_wage_edu_square)
+
+new_sample <- data.frame(edu_square = c(144,256))
+
+predictions  <- predict(lm_wage_edu_square, newdata = new_sample)
+predictions
+
+```
+
+Answer: The marginal effect is d(WAGE_hat)/dEDUC. For a person with 12 years of education, the estimated marginal effect of an additional year of education on expected wage is 2(0.0891)(12) = 2.1392. That is, an additional year of education for a person with 12 years of education is expected to increase wage by $2.14. For a person with 16 years of education, the marginal effect of an additional year of education is
+2(0.0891)(16) = 2.8523. An additional year of education for a person with 16 years of education is expected to increase wage by $2.85. The linear model in (b) suggested that an additional year of education is expected to increase wage by $2.40 regardless of the number of years of education attained. That is, the rate of change was constant. The quadratic model suggests that the effect of an additional year of education on wage increases with the level of education already attained.
+
+## f
+```{r, warning=FALSE, message=FALSE}
+# Fit the linear model from part (b)
+lm_linear <- lm(wage ~ educ, data = cps5_small)
+
+# Fit the quadratic model from part (e)
+lm_quadratic <- lm(wage ~ educ + poly(educ^2), data = cps5_small)
+
+educ_values <- seq(min(cps5_small$educ), max(cps5_small$educ), length.out = 100)
+linear_predictions <- predict(lm_linear, newdata = data.frame(educ = educ_values))
+quadratic_predictions <- predict(lm_quadratic, newdata = data.frame(educ = educ_values, educ_square = educ_values^2))
+
+plot(cps5_small$educ, cps5_small$wage, col = "black", pch =16 , xlab = "Years of education", ylab = "Wage", main = "Linear and Quadratic Fitted Lines")
+
+lines(educ_values, linear_predictions, col = "red", lwd = 2, type = "l", lty = 1)
+lines(educ_values, quadratic_predictions, col = "gray", lwd = 2, type = "l", lty = 2)
+
+legend("topleft", legend = c("Earnings per hour, $", "Linear Model", "Quadratic Model"), col = c("black", "red", "gray"), lty = c(NA, 1, 2), lwd = c(NA, 2, 2), pch = c(16, NA, NA))
+
+```
+
+Answer: The quadratic model appears to fit the data slightly better than the linear equation, especially at lower levels of education.
+
+# 2.29
+## a
+```{r, warning=FALSE, message=FALSE}
+library(moments)
+library(POE5Rdata)
+library(ggplot2)
+library(dplyr)
+data("cps5_small")
+
+cps5_small$LWAGE <- log(cps5_small$wage)
+hist(cps5_small$LWAGE, breaks = 30, main = " Histogram of ln(wage)
+", xlab = "LWAGE", ylab = "Density", col = "skyblue", border = "black")
+
+summary(cps5_small$LWAGE)
+
+skewness <- skewness(cps5_small$LWAGE)
+kurtosis <- kurtosis(cps5_small$LWAGE)
+
+cat("Observation:", length(cps5_small$LWAGE), "\n")
+cat("Skewness of LWAGE:", skewness, "\n")
+cat("Kurtosis of LWAGE:", kurtosis, "\n")
+
+```
+
+Answer: The histogram shows the distribution of ln(WAGE) to be almost symmetrical. Note that the mean and median are similar, which is not the case for skewed distributions. The skewness coefficient is not quite zero. Similarly, the kurtosis is not quite three, as it should be for a normal distribution.
+
+## b
+```{r, warning=FALSE, message=FALSE}
+model_2 <- lm(LWAGE ~ educ, data = cps5_small)
+summary(model_2)
+
+coefficients <- coefficients(model_2)
+regression <- paste("ln(wage) =", round(coefficients[1], 4), "+", round(coefficients[2], 4), "educ")
+cat("Reg:", regression, "\n")
+
+```
+
+Answer: We estimate that each additional year of education predicts a 9.88% higher wage, all else held constant.
+
+## c
+```{r, warning=FALSE, message=FALSE}
+# After conducting the regression in part (b), substitute values of educ = 12 and educ = 16 into the equation
+
+model_2 <- lm(LWAGE ~ educ, data = cps5_small)
+
+b1 <- coefficients(model_2)[[1]]
+b2 <- coefficients(model_2)[[2]]
+
+educ <- 12
+wage_hat_12 <- paste("wage_hat_12 = exp{ln(wage)} =", round(exp(b1 + b2 * educ), 4))
+
+educ <- 16
+wage_hat_16 <- paste("wage_hat_16 = exp{ln(wage)} =", round(exp(b1 + b2 * educ), 4))
+
+cat(wage_hat_12, "\n")
+cat(wage_hat_16, "\n")
+
+``` 
+
+Answer: 
+wage _hat =  exp (ln(wage)) = exp (1.5968 +0.0988EDUC)
+For a person with 12 years of education, wage_hat = exp (1.5968 + 0.0988 * 12) = 16.1493
+For a person with 16 years of education, wage_hat = exp (1.5968 + 0.0988 * 16) = 23.9721
+
+## d
+```{r, warning=FALSE, message=FALSE}
+# Marginal effect(slope) in the log-linear model ln(y) = b1 + b2x, which is dy/dx = b2 * exp(b1 + b2x) 
+
+model_2 <- lm(LWAGE ~ educ, data = cps5_small)
+
+b1 <- coefficients(model_2)[[1]]
+b2 <- coefficients(model_2)[[2]]
+
+educ <- 12
+marginal_effect_12 <- round(b2 * exp(b1 + b2 * educ), 4)
+
+educ <- 16
+marginal_effect_16 <- round(b2 * exp(b1 + b2 * educ), 4)
+
+cat("Marginal Effect of additional education for a person with 12 years of education:", marginal_effect_12, "\n")
+cat("Marginal Effect of additional education for a person with 16 years of education:", marginal_effect_16, "\n")
+
+```
+
+Answer: 
+The marginal effects of education on expected wage in the log-linear model:
+When a person with 12 years of education, the expected wage increases about $1.5948 with an additional education.
+When a person with 16 years of education, the expected wage increases about $2.3673 with an additional education.
+
+## e
+```{r, warning=FALSE, message=FALSE}
+lm_linear <- lm(wage ~ educ, data = cps5_small)
+lm_log_linear <- lm(LWAGE ~ educ, data = cps5_small)
+
+educ_values <- seq(min(cps5_small$educ), max(cps5_small$educ), length.out = 100)
+
+linear_predictions <- predict(lm_linear, newdata = data.frame(educ = educ_values))
+
+log_linear_predictions <- exp(predict(lm_log_linear, newdata = data.frame(educ = educ_values)))
+
+plot(cps5_small$educ, cps5_small$wage, col = "black", pch = 16, xlab = "Years of education", ylab = "Wage", main = "Observations with linear and loglinear fitted lines")
+
+lines(educ_values, linear_predictions, col = "red", lwd = 2, type = "l", lty = 1)
+
+lines(educ_values, log_linear_predictions, col = "gray", lwd = 2, type = "l", lty = 2)
+
+legend("topleft", legend = c("Earnings per hour, $", "Linear Model", "Log-linear Model"), col = c("black", "red", "gray"), pch = c(16, NA, NA), lty = c(NA, 1, 2), lwd = c(NA, 2, 2))
+
+```
+
+Answer: The log-linear model fits the data better at low levels of education.
+
+## f
+```{r, warning=FALSE, message=FALSE}
+data("cps5_small")
+lm_linear <- lm(wage ~ educ, data = cps5_small)
+cps5_small$LWAGE <- log(cps5_small$wage)
+model_2 <- lm(LWAGE ~ educ, data = cps5_small)
+b1 <- coefficients(model_2)[[1]]
+b2 <- coefficients(model_2)[[2]]
+EDUC <- cps5_small$educ
+log_linear <- exp(b1 + b2 * EDUC)
+
+sum_squared_residuals_log_linear <- sum((cps5_small$wage - log_linear)^2)
+sum_squared_residuals_linear <- sum(lm_linear$residuals^2)
+
+cat("Sum of squared residuals (Log-linear model):", sum_squared_residuals_log_linear, "\n")
+cat("Sum of squared residuals (Linear model):", sum_squared_residuals_linear, "\n")
+
+```
+
+Answer: For the log-linear model this value is 228,573.5 and for the linear model 220,062.3. Based on this measure the linear model fits the data better than the linear model. 
