@@ -50,6 +50,7 @@ Question:\
 What is the marginal effect of additional education for a person with 12 years of education and for a person with 16 years of education? [Hint: This is the slope of the fitted model at those two points.]
 
 Answer:\ 
+
 The marginal effects of education on expected wage in the log-linear model:\
 When a person with 12 years of education, the expected wage increases about $1.5948 with an additional education.\
 When a person with 16 years of education, the expected wage increases about $2.3673 with an additional education.
