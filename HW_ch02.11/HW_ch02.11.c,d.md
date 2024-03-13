@@ -27,3 +27,13 @@ We estimate the log-linear model to be $\hat{ln(y)}$ = 3.14 + 0.007x. What is th
 When it became log-linear model, while the household income is $2000 per month, the estimated elasticity of expendture on food away from home with respect to income is 0.14.
 
 **Sample code**
+```
+b11 <- 3.14
+b22 <- 0.007
+x2 <- 2000/100
+ln_yhat <- b11 + b22 * x2
+yhat <- exp(b11 + b22 * x2)
+slope <- b22 * exp(b11 + b22 * x2)
+elas1 <- b22 * x2
+print(elas1)
+```
