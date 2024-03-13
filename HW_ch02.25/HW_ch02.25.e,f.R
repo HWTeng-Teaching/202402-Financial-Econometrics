@@ -2,8 +2,8 @@
 
 #Download the required data and set up variables and linear models.
 
-setwd("C:/Users/User/Desktop")
-cex5_small <- read.csv("cex5_small.csv")
+library(POE5data)
+data("cps5_small")
 
 cex5_small$lnfoodaway <- log(cex5_small$foodaway)
 cex5_small$lnfoodaway[is.infinite(cex5_small$lnfoodaway)] <- NA
