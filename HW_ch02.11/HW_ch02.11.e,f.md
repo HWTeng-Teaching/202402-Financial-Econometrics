@@ -1,7 +1,7 @@
 ### This homework is written by 吳亭儀 (312707011)
 ## 02.11 (e)
 **Question:**\
-For the log-linear model in part (d), calculate $\hat{y}$ = exp(3.14 + 0.007x) when x = 20 and when x = 30. Evaluate the slope of the relation between y and x, dy/dx, for each of these $\hat{y}$ values. Based on these calculations for the log-linear model, is expenditure on food away from home increasing
+For the log-linear model in part (d), calculate $\hat{y}$ = exp(3.14 + 0.007x) when $\{x}$ = 20 and when x = 30. Evaluate the slope of the relation between y and x, dy/dx, for each of these $\hat{y}$ values. Based on these calculations for the log-linear model, is expenditure on food away from home increasing
 with respect to income at an increasing or decreasing rate?
 
 **Ans:**\
