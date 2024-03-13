@@ -27,4 +27,4 @@ slope2
 When estimating the log-linear model in part (d), the number of observations used in the regression falls to N = 2005. How many households in the sample reported no expenditures on food away from home in the past quarter?
 
 **Ans:**\
-##Since natural logarithm cannot be taken when the argument is zero, it means that there are 2334 - 2005 = 329 householdes in the sample reported no expenditures on food away from home in the past quarter.
+Since natural logarithm cannot be taken when the argument is zero, it means that there are 2334 - 2005 = 329 householdes in the sample reported no expenditures on food away from home in the past quarter.
