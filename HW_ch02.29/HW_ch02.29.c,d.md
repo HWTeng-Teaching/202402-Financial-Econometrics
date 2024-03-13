@@ -7,7 +7,7 @@ How much does education affect wage rates? The data file cps5_small contains 120
 ## 2.29 (c)
 
 Question:\
-c. Obtain the predicted wage, $\widehat{W A G E}=\exp \left(b_{1}+b_{2} E D U C\right)$, for a person with 12 years of education and for a person with 16 years of education.
+Obtain the predicted wage, $\widehat{W A G E}=\exp \left(b_{1}+b_{2} E D U C\right)$, for a person with 12 years of education and for a person with 16 years of education.
 
 Answer:\
 $\widehat{W A G E}=\exp (ln(wage)) =\exp (1.5968 +0.0988EDUC)\
