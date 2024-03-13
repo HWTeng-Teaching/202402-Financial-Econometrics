@@ -19,6 +19,9 @@ yhat <- b1 + b2 * x1
 elas <- b2 * x1 / yhat
 print(elas)
 ```
+```
+0.4302855
+```
 ## 02.11 (d)
 **Question:**\
 We estimate the log-linear model to be $\hat{ln(y)}$ = 3.14 + 0.007x. What is the estimated elasticity of expenditure on food away from home with respect to income, if household income is $2000 per month?
@@ -36,4 +39,7 @@ yhat <- exp(b11 + b22 * x2)
 slope <- b22 * exp(b11 + b22 * x2)
 elas1 <- b22 * x2
 print(elas1)
+```
+```
+0.14
 ```
