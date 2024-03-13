@@ -11,7 +11,7 @@ When x = 30, the slope of the relation between y and x is 0.1995191.
 
 The increasing of slope when x is increasing shows that y increasing with respect to x at an increasing rate.
 
-Therefore, we can conclude that xpenditure on food away from home is increasing with respect to income at an increasing or decreasing rate.
+Therefore, we can conclude that expenditure on food away from home is increasing with respect to income at an increasing rate.
 
 
 **Sample code**
