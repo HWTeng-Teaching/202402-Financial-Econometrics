@@ -12,7 +12,8 @@ quad_model <- lm(wage ~ I(educ^2), data = cps_data)
 # Summary of the quadratic regression results
 summary(quad_model)
 ```
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/c172c33b-6c19-4f19-a18f-4301e2a6f8e9)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/7eb845f9-bc7e-4d4e-8107-57b5c13b5945)
+
 
 
 ```{r}
@@ -23,13 +24,13 @@ marginal_effect_12 <- diff(edu_12)#WRONG??
 marginal_effect_16 <- diff(edu_16)
 marginal_effect_12
 marginal_effect_16
-a1 <- coef(quad_model)[1]#-10.4
-a2 <- coef(quad_model)[2]#2.4
-emargin12=2*a2*12#57.6
-emargin16=2*a2*16#76.8
+a1 <- coef(quad_model)[1]#4.92
+a2 <- coef(quad_model)[2]#0.0891
+emargin12=2*a2*12#2.14
+emargin16=2*a2*16#2.85
 ```
-marginal effect when educ=12 is 57.6  
-marginal effect when educ=16 is 76.8
+marginal effect when educ=12 is 2.14  
+marginal effect when educ=16 is 2.85
 
 The marginal effect in (b) for educ=12 and educ=16 are both 2.4  
 
