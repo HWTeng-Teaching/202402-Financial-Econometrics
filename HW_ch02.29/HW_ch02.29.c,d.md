@@ -47,7 +47,7 @@ cat(wage_hat_16, "\n")
 ## 2.29 (d)
 
 Question:\
-What is the marginal effect of additional education for a person with 12 years of education and for a person with 16 years of education? [Hint: This is the slope of the fitted model at those two points.]
+What is the marginal effect of additional education for a person with 12 years of education and for a person with 16 years of education? [Hint: This is the slope of the fitted model at those two points.]\
 
 Answer:\ 
 
