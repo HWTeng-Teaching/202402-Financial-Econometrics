@@ -4,7 +4,7 @@ This homework is written by 黃馨霈 312707006
 Question. Construct a histogram of $\ln(FOODAWAY)$ and its summary statistics. Explain why FOODAWAY and $\ln(FOODAWAY)$ have different numbers of observations.  
 
 Answer. There are some 0 in the raw data of FOODAWAY, but $\ln(0)= - \infty$ .  
-Therefore, replace $- \infty$ into NA.  
+Therefore, replace $- \infty$ with NA.  
 
 ```
 library(POE5Rdata)
