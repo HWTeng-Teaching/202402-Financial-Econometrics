@@ -10,9 +10,9 @@ Question:\
 Obtain the predicted wage, $\widehat{W A G E}=\exp \left(b_{1}+b_{2} E D U C\right)$, for a person with 12 years of education and for a person with 16 years of education.
 
 Answer:\
-$\widehat{W A G E}=\exp (ln(wage)) =\exp (1.5968 +0.0988EDUC)\
-For a person with 12 years of education, $\widehat{W A G E}=\exp (1.5968 + 0.0988 * 12) = 16.1493\
-For a person with 16 years of education, $\widehat{W A G E}=\exp (1.5968 + 0.0988 * 16) = 23.9721
+$\widehat{W A G E}=\exp (ln(wage)) =\exp (1.5968 +0.0988EDUC)\$
+For a person with 12 years of education, $\widehat{W A G E}=\exp (1.5968 + 0.0988 * 12) = 16.1493$\
+For a person with 16 years of education, $\widehat{W A G E}=\exp (1.5968 + 0.0988 * 16) = 23.9721$
 
 **code**
 
