@@ -26,8 +26,8 @@ summary(cex5_small$lnfoodaway)
 
 Question. Estimate the linear regression $\ln(FOODAWAY)=\beta_1 + \beta_2 INCOME+ e$. Interpret the estimated slope.  
 
-Answer.  $\hat{\ln(FOODAWAY)}=3.1293 + 0.0069 INCOME$  
-Interpretation of slope: When the size of one household monthly income is $100 units, the expected food away from home expenditure per month(FOODAWAY) increases about $0.0069\times \exp(3.1293+0.0069INCOME)$ unit with an additional $100 units.  
+Answer.  $\widehat{\ln(FOODAWAY)}=3.1293 + 0.0069 INCOME$  
+Interpretation of slope: When the size of one household with a predicted monthly income $1,000 units, the estimated increase in food away from home expenditure per month for an additional income of one household is $0.0069\times \widehat{INCOME}$ .  
 
 ```{r}
 lm_Income_lnFoodaway <- lm(lnfoodaway ~ income, data = cex5_small)
