@@ -6,8 +6,8 @@ Question: Plot ln(FOODAWAY) against INCOME, and include the fitted line from par
 
 Solution:
 ```
-setwd("C:/Users/User/Desktop")
-cex5_small <- read.csv("cex5_small.csv")
+library(POE5data)
+data("cps5-small")
 lnfoodaway <- log(cex5_small$foodaway)
 lnfoodaway[is.infinite(lnfoodaway)] <- NA
 plot(cex5_small$income, cex5_small$lnfoodaway, xlab = "Income",ylab = "ln(foodaway)",main = "Scatterplot + Fitted Line")
