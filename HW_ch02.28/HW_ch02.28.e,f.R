@@ -4,7 +4,7 @@ cps_data <- read_csv("cps5_small.csv")#讀取cps_small檔
 
 #28e
 # Fit quadratic regression model
-quad_model <- lm(wage ~ (educ^2), data = cps_data)#設定二次式
+quad_model <- lm(wage ~ I(educ^2), data = cps_data)#設定二次式
 
 # Summary of the quadratic regression results
 summary(quad_model)
