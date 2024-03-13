@@ -25,6 +25,7 @@ y_hat2 <- exp(3.14 + 0.007*x2)
 slope2 <- 0.007*exp(3.14 + 0.007*x2)
 print(slope2)
 ```
+
 ## 02.11 (f)
 **Question:**\
 When estimating the log-linear model in part (d), the number of observations used in the regression falls to N = 2005. How many households in the sample reported no expenditures on food away from home in the past quarter?
