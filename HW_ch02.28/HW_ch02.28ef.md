@@ -7,7 +7,7 @@ and for a person with 16 years of education.
 Compare these values to the estimated marginal effect of education from the linear regression in part (b).
 ```{r}
 # Fit quadratic regression model
-quad_model <- lm(wage ~ (educ^2), data = cps_data)
+quad_model <- lm(wage ~ I(educ^2), data = cps_data)
 
 # Summary of the quadratic regression results
 summary(quad_model)
