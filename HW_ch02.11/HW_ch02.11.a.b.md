@@ -19,7 +19,7 @@ We know that when household income is $2000 per month, on average, the expenditu
 **Sample code**
 ```
 y = 13.77 + 0.52 * (2000 / 100)
-y
+cat(y)
 ```
 ```
 24.17
