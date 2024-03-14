@@ -8,7 +8,7 @@ Plot ln(FOODAWAY) against INCOME, and include the fitted line from part (d).
 Solution:
 ```
 library(POE5Rdata)
-data("cps5_small")
+data("cex5_small")
 lnfoodaway <- log(cex5_small$foodaway)
 lnfoodaway[is.infinite(lnfoodaway)] <- NA
 plot(cex5_small$income, cex5_small$lnfoodaway, xlab = "Income",ylab = "ln(foodaway)",main = "Scatterplot + Fitted Line")
@@ -29,8 +29,7 @@ Plot them vs. INCOME. Do you find any unusual patterns, or do they seem complete
 Solution:
 ```
 plot(resid(regmod3) ~income, data = cex5_small)
-residuals<- residuals(regmod3)
-print(residuals)
+resid(regmod3)
 ```
 
 ![24](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407278/f1f26d76-8a38-40f7-960d-60d4304d8314)
