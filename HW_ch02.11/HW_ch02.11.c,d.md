@@ -37,7 +37,7 @@ x2 <- 2000/100
 ln_yhat <- b11 + b22 * x2
 yhat <- exp(b11 + b22 * x2)
 slope <- b22 * exp(b11 + b22 * x2)
-elas1 <- b22 * x2
+elas1 = slope * x2 / yhat
 print(elas1)
 ```
 ```
