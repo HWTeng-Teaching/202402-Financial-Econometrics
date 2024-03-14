@@ -4,7 +4,7 @@
 For the log-linear model in part (d), calculate $\hat{y}$ = exp(3.14 + 0.007x) when x = 20 and when x = 30. Evaluate the slope of the relation between y and x, dy/dx, for each of these $\hat{y}$ values. Based on these calculations for the log-linear model, is expenditure on food away from home increasing with respect to income at an increasing or decreasing rate?
 
 **Ans:**\
-When the equation is y = exp($\beta_1$ + $\beta_2$*x), the slope m = dy/dx = 0.007*exp(3.14 + 0.007x).
+When the equation is y = exp($\beta_1$ + $\beta_2$*x), the slope m = dy/dx = $\beta_2$*exp($\beta_1$ + $\beta_2$*x).
 
 When x = 20, the slope of the relation between y and x is 0.1860304.
 
@@ -18,7 +18,6 @@ Therefore, we can conclude that expenditure on food away from home is increasing
 **Sample code**
 ```
 x1 <- 20
-y_hat1 <- exp(3.14 + 0.007*x1)
 slope1 <- 0.007*exp(3.14 + 0.007*x1)
 print(slope1)
 ```
@@ -27,7 +26,6 @@ print(slope1)
 ```
 ```
 x2 <- 30
-y_hat2 <- exp(3.14 + 0.007*x2)
 slope2 <- 0.007*exp(3.14 + 0.007*x2)
 print(slope2)
 ```
