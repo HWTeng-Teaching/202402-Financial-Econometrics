@@ -1,7 +1,7 @@
 ##### This homework is written by 張祐慈 (312707005)
 # 02.25
 ## a.
-### Construct a histogram of FOODAWAY and its summary statistics. What are the mean and medianvalues? What are the 25th and 75th percentiles?
+### Construct a histogram of FOODAWAY and its summary statistics. What are the mean and median values? What are the 25th and 75th percentiles?
 ## Ans.
 ```
 library("POE5Rdata")
