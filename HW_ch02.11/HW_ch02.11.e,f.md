@@ -17,11 +17,8 @@ Therefore, we can conclude that expenditure on food away from home is increasing
 **Sample code**
 ```
 x1 <- 20
-
 y_hat1 <- exp(3.14 + 0.007*x1)
-
 slope1 <- 0.007*exp(3.14 + 0.007*x1)
-
 print(slope1)
 ```
 ```
@@ -29,11 +26,8 @@ print(slope1)
 ```
 ```
 x2 <- 30
-
 y_hat2 <- exp(3.14 + 0.007*x2)
-
 slope2 <- 0.007*exp(3.14 + 0.007*x2)
-
 print(slope2)
 ```
 ```
