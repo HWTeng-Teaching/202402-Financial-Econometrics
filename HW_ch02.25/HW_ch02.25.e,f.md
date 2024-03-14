@@ -1,7 +1,8 @@
 #
 ## This homework is written by  葉宗翰 (312707001)
 # ch02.25 (e)
-Question: Plot ln(FOODAWAY) against INCOME, and include the fitted line from part (d).\
+Question:\
+Plot ln(FOODAWAY) against INCOME, and include the fitted line from part (d).
 
 
 Solution:
@@ -21,8 +22,9 @@ abline(a = intercept, b = slope, col = "red")
 
 ---
 # ch02.25 (f)
-Question: Calculate the least squares residuals from the estimation in part (d). Plot them vs. INCOME. 
-Do you find any unusual patterns, or do they seem completely random?\
+Question: \
+Calculate the least squares residuals from the estimation in part (d).\
+Plot them vs. INCOME. Do you find any unusual patterns, or do they seem completely random?
 
 Solution:
 ```
