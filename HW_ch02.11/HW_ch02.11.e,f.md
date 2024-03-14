@@ -4,7 +4,7 @@
 For the log-linear model in part (d), calculate $\hat{y}$ = exp(3.14 + 0.007x) when x = 20 and when x = 30. Evaluate the slope of the relation between y and x, dy/dx, for each of these $\hat{y}$ values. Based on these calculations for the log-linear model, is expenditure on food away from home increasing with respect to income at an increasing or decreasing rate?
 
 **Ans:**\
-When the equation is expenditure = exp(3.14 + 0.007*(monthly income in hundred of dollars)), the slope m = dy/dx = 0.007*exp(3.14 + 0.007x).
+When the equation is y = exp(3.14 + 0.007x), the slope m = dy/dx = 0.007*exp(3.14 + 0.007x).
 
 When x = 20, the slope of the relation between y and x is 0.1860304.
 
