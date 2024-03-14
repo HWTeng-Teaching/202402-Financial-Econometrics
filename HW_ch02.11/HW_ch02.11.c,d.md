@@ -1,7 +1,7 @@
 ### This homework is written by 歐陽君欣 (312707009)
 ## 02.11 (c)
 **Question:**\
-Calculate the elasticity of expenditure on food away from hohme with respect to income when household income is $2000 per month. [ Hint: Elasticity must be calculated for a point on the fitted regression.]
+Calculate the elasticity of expenditure on food away from home with respect to income when household income is $2000 per month. [ Hint: Elasticity must be calculated for a point on the fitted regression.]
 
 **Ans:**\
 The elasticity of mean expenditure with respect to income is:
