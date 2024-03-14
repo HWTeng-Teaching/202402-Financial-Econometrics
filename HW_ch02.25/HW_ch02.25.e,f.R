@@ -3,7 +3,7 @@
 #Download the required data and set up variables and linear models.
 
 library(POE5data)
-data("cps5_small")
+data("cex5_small")
 
 cex5_small$lnfoodaway <- log(cex5_small$foodaway)
 cex5_small$lnfoodaway[is.infinite(cex5_small$lnfoodaway)] <- NA
@@ -17,5 +17,4 @@ abline(a = intercept, b = slope, col = "red",lwd = 3)
 
 #2.25 (f)
 plot(resid(regmod3) ~income, data = cex5_small)
-residuals<- residuals(regmod3)
-print(residuals)
+resid(regmod3)
