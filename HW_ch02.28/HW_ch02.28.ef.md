@@ -1,7 +1,7 @@
 This homework is written by  李宇量 (312707004)
 # e.  
 **Question:**  
-Estimate the quadratic regression WAGE = α1 + α2EDUC^2 + e and discuss the results.  
+Estimate the quadratic regression $WAGE = α1 + α2EDUC^2 + e$ and discuss the results.  
 Estimatethe marginal effect of another year of education on wage for a person with 12 years of education
 and for a person with 16 years of education.   
 Compare these values to the estimated marginal effect of education from the linear regression in part (b).
