@@ -32,7 +32,8 @@ plot(resid(regmod3) ~income, data = cex5_small)
 resid(regmod3)
 ```
 
-![24](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407278/f1f26d76-8a38-40f7-960d-60d4304d8314)
+
+![residuals](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407278/039be612-fd4d-4f40-95c9-c2ec659730ce)
 
 ![Rplot01](https://github.com/HWTeng-Course/202402-FinEco/assets/150407278/98827e1e-067f-41e1-9468-a4cd84454db2)
 ---
