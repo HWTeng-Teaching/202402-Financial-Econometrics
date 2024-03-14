@@ -42,7 +42,7 @@ value to the sum of squared residuals from the estimated linear relationship. Us
 Answer:\
 ![f](https://github.com/hhhellahhh/mmmmm/blob/main/2.29%20f.png)
 
-So, we can know that the linear model fits the data better, because its SRR is smaller.
+So, we can know that the linear model fits the data better, because its SSR is smaller.
 
 **code**
 
