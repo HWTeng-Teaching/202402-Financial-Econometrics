@@ -18,12 +18,16 @@ plot(cps5_small$educ, residual,
 There is a pattern evident; as EDUC increases, the magnitude of the residuals also increases, suggesting that the error variance is larger for larger values of EDUC - a violation of assumption SR3(Conditional Homoskedasticity $Var(e_i|X)=\sigma^2$).  
 If the assumptions SR1-SR5 hold, there should not be any patterns evident in the residuals.
 
+<span style="color: red;">[teng: Modify these]
+
 1. Mean
 2. Variations
 3. Outlier
    
 
-[teng: Modify these]
+</span>
+
+
 
 # d.  
 **Question:**  
