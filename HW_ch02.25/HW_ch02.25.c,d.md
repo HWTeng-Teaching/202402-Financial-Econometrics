@@ -41,9 +41,7 @@ and the slope is $m=dy/dx=0.0069\times \exp(3.1293+0.0069\texttt{INCOME})=$
 - $0.0069\times \exp(3.1293+0.0069\text{INCOME})$
 - $0.0069\times \exp(3.1293+0.0069INCOME)$
 
-<font color=#FF0000>
-  [Teng: Revise the above formula!]
-</font>
+[Teng: Revise the above formula!]
 
 
 
