@@ -44,7 +44,7 @@ From the graph of the education chart above, it can be observed that the distrib
 # b.
 **Question:**
 
-Estimate the linear regression WAGE = $\beta1 + \beta2 EDUC + e$ and discuss the results.
+Estimate the linear regression WAGE = $\beta_1 + \beta_2 EDUC + e$ and discuss the results.
 
 **Answer:**
 ```{r}
@@ -56,9 +56,9 @@ summary(mod)
 
 Calculate the coefficients $\beta1$ and $\beta2$ of the linear model for wage and education data using the lm function in R
 
-WAGE = $\beta1 + \beta2 EDUC + e$
+WAGE = $\beta_1 + \beta_2 EDUC + e$
 
-$\beta1$ = -10.4, $\beta2$ = 2.3968
+$\beta_1$ = -10.4, $\beta_2$ = 2.3968
 
 $\hat{WAGE} = -10.4 + 2.3968EDUC + e$
 
