@@ -36,7 +36,12 @@ $m=dy/dx=\beta_2\exp(\beta_1+\beta_2 x)$
 
 The log-linear model here is $\widehat{\ln(FOODAWAY)}$ = $\beta_1$ + $\beta_2$ INCOME, with $\beta_1$ = 3.1293, and $\beta_2$ = 0.0069.  
 Times exponential to both sides, we can get $\widehat{FOODAWAY}$ = $exp$(3.1293 + 0.0069 INCOME),  
-and the slope is $m=dy/dx=\beta_2\ exp(\beta_1+\beta_2 \ x)=0.0069\times \exp(3.1293+0.0069\texttt{INCOME})=0.0069\times \exp(3.1293+0.0069\text{INCOME})=0.0069\times \exp(3.1293+0.0069INCOME)$
+and the slope is $m=dy/dx=\beta_2\ exp(\beta_1+\beta_2 \ x)=0.0069\times =$
+
+
+- $\exp(3.1293+0.0069\texttt{INCOME})$
+- $0.0069\times \exp(3.1293+0.0069\text{INCOME})$
+- $0.0069\times \exp(3.1293+0.0069INCOME)$
 
 [Teng: Revise the above formula!]
 
