@@ -56,6 +56,8 @@ summary(mod)
 
 Calculate the coefficients $\beta1$ and $\beta2$ of the linear model for wage and education data using the lm function in R
 
+WAGE = $\beta1 + \beta2 EDUC + e$
+
 $\beta1$ = -10.4, $\beta2$ = 2.3968
 
 $\hat{WAGE} = -10.4 + 2.3968EDUC + e$
