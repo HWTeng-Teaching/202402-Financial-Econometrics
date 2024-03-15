@@ -8,7 +8,7 @@ The elasticity of mean expenditure with respect to income is:
 
 $$ \varepsilon = \frac{\frac{\Delta y}{y}}{\frac{\Delta x}{x}} = \beta_2 \times \frac{x}{\beta_1 + \beta_2x} $$
 
-When the household income is $2000 per month, the elasticity of expenditure on food away from home with respect to income is 0.4302855.
+When the household income is $2000 per month, the elasticity of expenditure on food away from home with respect to income is 0.4302855. [Teng: Wrong interpretations! 9:00 20240315]
 
 **Sample code**
 ```
