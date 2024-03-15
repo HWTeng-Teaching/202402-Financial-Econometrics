@@ -23,7 +23,7 @@ abline(a = intercept, b = slope, col = "red")
 ---
 # ch02.25 (f)
 Question: \
-Calculate the least squares residuals from the estimation in part (d).\
+Calculate the residuals from the estimation in part (d).\
 Plot them vs. INCOME. Do you find any unusual patterns, or do they seem completely random?
 
 Solution:
@@ -37,5 +37,5 @@ resid(regmod3)
 
 ![Rplot01](https://github.com/HWTeng-Course/202402-FinEco/assets/150407278/98827e1e-067f-41e1-9468-a4cd84454db2)
 ---
-The least squares residuals is a 1*1200 vector, due to layout constraints, I only display partial results.\
+The residuals is a 1*1200 vector, due to layout constraints, I only display partial results.\
 The patterns of the OLS residuals versus income seem completely random.
