@@ -30,11 +30,17 @@ Answer.
 The linear regression is $\widehat{\ln(FOODAWAY)}=3.1293 + 0.0069 INCOME$ ,  
 which is easy to see $\widehat{FOODAWAY}=exp(3.1293 + 0.0069 INCOME)$,  
 and the slope is $m=dy/dx=\beta_2\ exp(\beta_1+\beta_2 \ x)=0.0069\times exp(3.1293+0.0069INCOME)$
+
 [Teng: Revise the above formula!]
+
+
 
 
 Therefore, the interpretation of slope:  
 When the size of one household monthly income during past year is INCOME unit, the estimated food away from home expenditure per month increase about $0.0069\times exp(3.1293+0.0069INCOME)$ unit with an additional one unit of income of one household.
+
+[Teng: Revise the number. ]
+
 
 ```{r}
 lm_Income_lnFoodaway <- lm(lnfoodaway ~ income, data = cex5_small)
