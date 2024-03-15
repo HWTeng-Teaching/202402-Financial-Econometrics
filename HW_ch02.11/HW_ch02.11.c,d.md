@@ -26,6 +26,8 @@ print(elas)
 **Question:**\
 We estimate the log-linear model to be $\hat{ln(y)}$ = 3.14 + 0.007x. What is the estimated elasticity of expenditure on food away from home with respect to income, if household income is $2000 per month?
 
+[Teng: Need to add the math formula of the elasticity. Correct the interpreations. ]
+
 **Ans:**\
 When it became log-linear model, while the household income is $2000 per month, the estimated elasticity of expendture on food away from home with respect to income is 0.14.
 
