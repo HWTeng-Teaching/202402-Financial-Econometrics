@@ -86,3 +86,5 @@ The sample covariance between $x$ and $y$ = 2\
 The sample correlation between $x$ and $y$ = 0.8\
 The coefficient of variation of $x$ = 158.1139\
 The median, 50th percentile, of $x$ = 1
+
+[Reviewed by Yenting yyyymmdd.]
