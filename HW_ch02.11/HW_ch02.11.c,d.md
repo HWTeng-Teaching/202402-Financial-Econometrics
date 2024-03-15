@@ -8,7 +8,7 @@ The elasticity of mean expenditure with respect to income is:
 
 $$ \varepsilon = \frac{\frac{\Delta y}{y}}{\frac{\Delta x}{x}} = \beta_2 \times \frac{x}{\beta_1 + \beta_2x} $$
 
-When the household income is $2000 per month, the elasticity of expenditure on food away from home with respect to income is 0.4302855. [Teng: Wrong interpretations! 9:11 20240315]
+When the household income is $2000 per month, if there is 1% increase in income, there would be 0.4302855% increase in the expenditure on food away from home. [Teng: Wrong interpretations! 9:11 20240315]
 
 **Sample code**
 ```
@@ -29,7 +29,22 @@ We estimate the log-linear model to be $\hat{ln(y)}$ = 3.14 + 0.007x. What is th
 [Teng: Need to add the math formula of the elasticity. Correct the interpreations. ]
 
 **Ans:**\
-When it became log-linear model, while the household income is $2000 per month, the estimated elasticity of expendture on food away from home with respect to income is 0.14.
+When it became log-linear model, while the household income is $2000 per month,
+
+the expected expenditure on food away increases about ${\beta_2 x}$ % = 14%.
+
+$$ \varepsilon = \frac{\frac{\Delta y}{y}}{\frac{\Delta x}{x}} = \frac{\Delta y}{\Delta x} \times \frac{x}{y} $$
+
+$$ \hat{ln(y)} = \beta_1 + \beta_2x $$
+
+$$ y = e^{ \beta_1 + \beta_2x} $$
+
+$$ slope = \frac{\Delta y}{\Delta x} = \beta_2 \times e^{\beta_1 + \beta_2x} $$
+
+$$ elasticity = \beta_2 \times e^{\beta_1 + \beta_2x} \times \frac{x}{e^{\beta_1 + \beta_2x}} = 0.007 \times \frac{2000}{100} = 0.14 $$
+
+
+
 
 **Sample code**
 ```
