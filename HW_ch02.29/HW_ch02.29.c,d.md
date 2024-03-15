@@ -51,6 +51,7 @@ What is the marginal effect of additional education for a person with 12 years o
 
 Answer:\
 $ln(y)=\beta_1+\beta_2 \ x $\
+$y=exp(\beta_1+\beta_2 \ x) $\
 $dy/dx=\beta_2\ exp(\beta_1+\beta_2 \ x)$\
 The marginal effects of education on expected wage in the log-linear model\
 When a person with 12 years of education, the expected wage increases about $1.5948 with an additional education.\
