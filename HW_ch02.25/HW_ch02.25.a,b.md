@@ -15,7 +15,7 @@ hist(x = foodaway,main = "Histogram of foodaway",xlab = 'Food away')
 summary(foodaway)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/af1101ab-f35f-4095-a001-639369853bfd)
-mean = 49.27 , medianvalues = 32.55 , 25th percentile = 12.04 , 75th percentile = 67.50.
+mean = 49.27 , median values = 32.55 , 25th percentile = 12.04 , 75th percentile = 67.50.
 
 ## b.
 ### What are the mean and median values of FOODAWAY for households including a member with an advanced degree? With a college degree member? With no advanced or college degree member?
