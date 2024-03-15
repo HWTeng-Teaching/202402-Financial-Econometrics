@@ -38,3 +38,5 @@ When estimating the log-linear model in part (d), the number of observations use
 
 **Ans:**\
 Since natural logarithm cannot be taken when the argument is zero, it means that there are 2334 - 2005 = 329 householdes in the sample reported no expenditures on food away from home in the past quarter.
+
+[Teng: TA, please double confirm it.]
