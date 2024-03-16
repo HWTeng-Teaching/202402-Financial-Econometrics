@@ -56,7 +56,7 @@ fitted_log_linear <- exp(b1 + b2 * educ)
 log_linear_residuals = wage - fitted_log_linear
 
 SSR_linear <- sum(linear_resdiuals^2)
-SSR_log_linear <- sum(residuals_log_linear^2)
+SSR_log_linear <- sum(log_linear_residuals^2)
 
 cat("Sum of squared residuals (linear model):", SSR_linear, "\n")
 cat("Sum of squared residuals (log-linear model):", SSR_log_linear, "\n")
