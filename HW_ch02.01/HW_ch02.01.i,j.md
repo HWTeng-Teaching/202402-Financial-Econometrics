@@ -24,4 +24,4 @@ Using formula 2.21 & 2.24:
 $\hat{var}(b2|x) = \hat{σ}^2/\sum(x-x&#x305)^2 = 0.12$, 
 
 $se(b2) = \sqrt(\hat{var}(b2|x)) = 0.346$
-
+**[Reviewed by Yenting 20240316.]**
