@@ -44,3 +44,4 @@ summary(subset(cex5_small,(advanced == 0 & college == 0))$foodaway)
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/8fc9a7b1-08ac-4582-8b23-60570aa71877)
 For households including a member with no advanced or college degree member, mean is *39.01* and median is *26.02*.
 
+**[Reviewed by Yenting 20240316.]**
