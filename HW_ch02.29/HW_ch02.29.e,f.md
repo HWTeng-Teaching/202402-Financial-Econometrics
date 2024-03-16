@@ -63,3 +63,4 @@ SSR_log_linear <- sum(log_linear_residuals^2)
 cat("Sum of squared residuals (linear model):", SSR_linear, "\n")
 cat("Sum of squared residuals (log-linear model):", SSR_log_linear, "\n")
 ```
+**[Reviewed by Yenting 20240316.]** 
