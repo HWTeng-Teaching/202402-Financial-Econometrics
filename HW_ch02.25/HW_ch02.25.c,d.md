@@ -51,3 +51,6 @@ summary(lm_Income_lnFoodaway)
 ```
 ![messageImage_1709885240749](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/f51ad527-5861-4f7f-99d8-1f097c389cf0)
 
+**[Reviewed by Yenting 20240316.]**
+(d)小題斜率的解釋用增加多少百分比的方式去解釋
+
