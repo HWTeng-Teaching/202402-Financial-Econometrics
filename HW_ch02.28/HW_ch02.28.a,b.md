@@ -63,6 +63,8 @@ $\beta_1$ = -10.4, $\beta_2$ = 2.3968
 $\hat{WAGE} = -10.4 + 2.3968EDUC + e$
 
 On average, for each unit increase in education, wage increases by 2.3986($\beta2$) units. However, it can be observed that for education levels less than 4.336, the calculated wage is negative, which is clearly illogical. This discrepancy may be attributed to the limited representation of lower education levels in the dataset. Furthermore, as we utilize the least squares method, it's possible that the negative wage estimates arise due to attempts to fit a linear model to the dataset, despite its inadequate representation of lower education levels.
+
 **[Reviewed by Yenting 20240316.]**
+
 預測值通常就不會再加上error term.
 
