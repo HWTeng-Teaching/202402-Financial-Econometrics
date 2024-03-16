@@ -26,8 +26,14 @@ summary(cex5_small$lnfoodaway)
 
 Question. Estimate the linear regression $\ln(FOODAWAY)=\beta_1 + \beta_2 INCOME+ e$. Interpret the estimated slope.  
 
-**Ans:**\
-When the equation is $\widehat{ln(y)} = \beta_1 + \beta_2\ x$, it is easy to see $\widehat{y} = \exp(\beta_1 + \beta_2\ x)$,  
+**Ans:**  
+The log-linear model here is $\widehat{\ln (\text{FOODAWAY})} = \beta_1 + \beta_2 \ \text{INCOME}$, with $\beta_1$ = 3.1293, and $\beta_2$ = 0.0069.
+$$\widehat{\ln (\text{FOODAWAY})} = 3.1293 + 0.0069 \ \text{INCOME}$$  
+
+The natural logarithm transformation is often used to interpret percentage changes. Therefore, will interpret the slope as the expected percentage change in y for a one-unit increase in x.  
+The interpretation of slope of this model:  
+If INCOME increases by 1%, the expected change in FOODAWAY is 0.0069%.
+<!--When the equation is $\widehat{ln(y)} = \beta_1 + \beta_2\ x$, it is easy to see $\widehat{y} = \exp(\beta_1 + \beta_2\ x)$,  
 and the slope $m = dy/dx = \beta_2 \times \exp(\beta_1 + \beta_2 \ x)$. 
 
 The log-linear model here is $\widehat{\ln (\text{FOODAWAY})} = \beta_1 + \beta_2 \ \text{INCOME}$, with $\beta_1$ = 3.1293, and $\beta_2$ = 0.0069.  
@@ -44,7 +50,7 @@ then the slope is $0.0069\times \exp(3.1293+0.0069\times 65.29)=0.2475$.
 
 [Teng: Revise the number. ]
 
-
+-->
 ```{r}
 lm_Income_lnFoodaway <- lm(lnfoodaway ~ income, data = cex5_small)
 summary(lm_Income_lnFoodaway)
