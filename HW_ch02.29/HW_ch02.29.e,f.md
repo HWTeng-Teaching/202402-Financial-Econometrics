@@ -42,7 +42,9 @@ value to the sum of squared residuals from the estimated linear relationship. Us
 Answer:\
 ![f](https://github.com/hhhellahhh/mmmmm/blob/main/2.29%20f.png)
 
-So, we can know that the linear model fits the data better, because its SSR is smaller.
+
+SSR measures the discrepancy between observed and predicted values in a regression model. It quantifies how well the model fits the data, with lower SSR values indicating a better fit.\
+So, we can know that the linear model fits the data better, because its SSR is lower.
 
 **code**
 
