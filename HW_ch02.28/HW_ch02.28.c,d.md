@@ -93,3 +93,5 @@ It should not be considered meaningful as it is not possible to have a negative 
   
   From the results, we can see that an extra year of education increases, the expected wage rate of a white worker more than it  does for a black  worker.  
 And an extra year of education increases, the expected wage rate of a female worker more than it does for a male worker.
+
+**[Reviewed by Yenting 20240316.]**
