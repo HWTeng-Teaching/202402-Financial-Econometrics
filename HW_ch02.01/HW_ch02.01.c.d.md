@@ -87,4 +87,4 @@ The sample correlation between $x$ and $y$ = 0.8\
 The coefficient of variation of $x$ = 158.1139\
 The median, 50th percentile, of $x$ = 1
 
-[Reviewed by Yenting yyyymmdd.]
+**[Reviewed by Yenting 20240316.]**
