@@ -11,9 +11,9 @@ $$1-\alpha =  P\left(-t_c\leq \frac{c_1b_1+c_2b_2 - (c_1\beta_1+c_2\beta_2)}{se(
 
 $$=P\left(-t_c se(c_1b_1+c_2b_2)\leq {(c_1b_1+c_2b_2) - (c_1\beta_1+c_2\beta_2)}\leq t_cse(c_1b_1+c_2b_2)\right)$$
 
-$$P\left(-(c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq { - (c_1\beta_1+c_2\beta_2)}\leq -(c_1b_1+c_2b_2)+t_cse(c_1b_1+c_2b_2)\right)$$
+$$=P\left(-(c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq { - (c_1\beta_1+c_2\beta_2)}\leq -(c_1b_1+c_2b_2)+t_cse(c_1b_1+c_2b_2)\right)$$
 
-$$P\left((c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq {  (c_1\beta_1+c_2\beta_2)}\leq (c_1b_1+c_2b_2)-t_cse(c_1b_1+c_2b_2)\right)$$
+$$=P\left((c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq {  (c_1\beta_1+c_2\beta_2)}\leq (c_1b_1+c_2b_2)-t_cse(c_1b_1+c_2b_2)\right)$$
 
 Therefore, the $100(1-\alpha)\%$ confidence interval for $c_1\beta_1 + c_2\beta_2 $ is defined as 
      
