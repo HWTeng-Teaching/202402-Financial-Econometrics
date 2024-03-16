@@ -39,3 +39,4 @@ resid(regmod3)
 ---
 The residuals is a 1*1200 vector, due to layout constraints, I only display partial results.\
 The patterns of the OLS residuals versus income seem completely random.
+**[Reviewed by Yenting 20240316.]**
