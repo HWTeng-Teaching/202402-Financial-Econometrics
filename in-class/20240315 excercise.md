@@ -7,11 +7,16 @@
 
 
 
-\begin{eqnarray}1-\alpha &=&  P\left(-t_c\leq \frac{c_1b_1+c_2b_2 - (c_1\beta_1+c_2\beta_2)}{se(c_1b_1+c_2b_2)}\leq t_c\right)\\
-&=&P\left(-t_c se(c_1b_1+c_2b_2)\leq {(c_1b_1+c_2b_2) - (c_1\beta_1+c_2\beta_2)}\leq t_cse(c_1b_1+c_2b_2)\right)\\
-&=&P\left(-(c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq { - (c_1\beta_1+c_2\beta_2)}\leq -(c_1b_1+c_2b_2)+t_cse(c_1b_1+c_2b_2)\right)\\
-&=&P\left((c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq {  (c_1\beta_1+c_2\beta_2)}\leq (c_1b_1+c_2b_2)-t_cse(c_1b_1+c_2b_2)\right).\end{eqnarray}
+$$1-\alpha =  P\left(-t_c\leq \frac{c_1b_1+c_2b_2 - (c_1\beta_1+c_2\beta_2)}{se(c_1b_1+c_2b_2)}\leq t_c\right)$$
 
+$$=P\left(-t_c se(c_1b_1+c_2b_2)\leq {(c_1b_1+c_2b_2) - (c_1\beta_1+c_2\beta_2)}\leq t_cse(c_1b_1+c_2b_2)\right)$$
+
+$$P\left(-(c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq { - (c_1\beta_1+c_2\beta_2)}\leq -(c_1b_1+c_2b_2)+t_cse(c_1b_1+c_2b_2)\right)$$
+
+$$P\left((c_1b_1+c_2b_2)-t_c se(c_1b_1+c_2b_2)\leq {  (c_1\beta_1+c_2\beta_2)}\leq (c_1b_1+c_2b_2)-t_cse(c_1b_1+c_2b_2)\right)$$
+
+Therefore, the $100(1-\alpha)\%$ confidence interval for $c_1\beta_1 + c_2\beta_2 $ is defined as 
+     
      $$(c_1 b_1+c_2b_2)\pm t_{1-\frac{\alpha}{2}}se(c_1b_1+c_2b_2)$$
 
   Note: “Derive” means you have to show why this formula is obtained. It is not okay to just have the final CI formula.  
