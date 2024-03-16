@@ -67,3 +67,6 @@ abline(lm(LN_WAGE ~ EDUC), col = "blue", lwd = 3)
 print(coef(lm(LN_WAGE ~ EDUC))[1]) # Intercept
 print(coef(lm(LN_WAGE ~ EDUC))[2]) # Slope
 ```
+
+**[Reviewed by Yenting 20240316.]** 
+(a) 小題不能直接確定是Normal distribution
