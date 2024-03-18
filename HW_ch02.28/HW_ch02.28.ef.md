@@ -12,8 +12,8 @@ quad_model <- lm(wage ~ I(educ^2), data = cps_data)
 # Summary of the quadratic regression results
 summary(quad_model)
 ```
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/7eb845f9-bc7e-4d4e-8107-57b5c13b5945)
-
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/7eb845f9-bc7e-4d4e-8107-57b5c13b5945)  
+For each unit increase in education, wage increases by 0.089134 units.
 
 
 ```{r}
