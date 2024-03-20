@@ -31,7 +31,7 @@ pvalue_2 <- 1-pt(t_statistic_2,df)
 The degree of freedom is $df=498$.\
 We can get the function of marginal effect by differentiating the model.\
 Marginal effect is $\frac{d\ PRICE}{d\ SQFT}=2SQFT\hat{\alpha_2}=2(40)\hat{\alpha_2}=14.762$.\
-We want to test the hypothesis:$H_0:2SQFT\hat{\alpha_2}\leq13 \ v.s.\ H_a:2SQFT\hat{\alpha_2}>13$.\
+We want to test the hypothesis $H_0:2SQFT\hat{\alpha_2}\leq13 \ v.s.\ H_a:2SQFT\hat{\alpha_2}>13$.\
 The standard error is $\sqrt{\hat{var}(2SQFT\hat{\alpha_2})}=2SQFTse(\alpha_2)=0.4205$.\
 The test statistic is $t=\frac{2SQFT\hat{\alpha_2}-13}{2SQFTse(\alpha_2)}=\frac{2(40)(0.18452)}{2(0.18452)0.0053}=4.189\sim t_{(498)}$.\
 RR is { $t>1.645$ }, and the p-value is $0.00001654$.\
