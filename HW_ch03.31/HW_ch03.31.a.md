@@ -40,7 +40,15 @@ Calculate the summary statistics for SAL1 and APR1. What are the sample means, m
   
      print(summary_df)
 2. - Data Visualization: SAL1 and APR1
-   
+<p align="center">
+  <img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162009543/8c2da84f-4a42-454b-8f8f-30ec1e2f718f" alt="image" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162009543/611e8a63-b4ea-4bd4-9794-dd77a6c74d9c" alt="image" width="600">
+</p>
+
+
    - Sample code
         ```r
         tuna$index <- 1:nrow(tuna)
