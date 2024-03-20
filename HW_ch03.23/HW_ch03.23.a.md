@@ -8,7 +8,7 @@ model = lm(price ~ I(sqft^2), data = collegetown)
 summary(model)
 ```
 The estimated model is  
-$$ \hat{PRICE}=93.5659+0.1845{SQFT}^2 $$
+$$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
 
 <img width="401" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/89432894/82adcfab-b4be-477f-a63c-1b5a36c25551">
 
