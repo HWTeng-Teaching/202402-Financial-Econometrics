@@ -24,9 +24,3 @@ When household income = 59.3, the sample mean of the amount of insurance held = 
 
 ```
 
-### 03.18 (b)
-**Question:**\
-How much do we estimate that the average amount of insurance held changes with each additional $1000 of household income? Provide both a point estimate and a 95% interval estimate. Explain the interval estimate to a group of stockholders in the insurance company.
-
-**Ans:**\
- With each additional $1000 of household income, the average amount of insurance held will 
