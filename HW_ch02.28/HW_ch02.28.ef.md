@@ -51,7 +51,7 @@ ggplot(cps_data, aes(x = educ, y = wage)) +
 
 Quadratic Regression Model fit the data better.  
 Because we can see this figure the linear model get negative wage,it doesn't make sense.  
-The quadratic model fit the points for EDUC<10.
+The quadratic model fit the points for EDUC<10 well.
 
 **[Reviewed by Yenting 20240316.]** 
 
