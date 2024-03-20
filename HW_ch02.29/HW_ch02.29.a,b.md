@@ -69,3 +69,4 @@ print(coef(lm(LN_WAGE ~ EDUC))[2]) # Slope
 ```
 
 **[Reviewed by Yenting 20240316.]** 
+(a)小題說他是常態前，怎麼定義“slightly different”
