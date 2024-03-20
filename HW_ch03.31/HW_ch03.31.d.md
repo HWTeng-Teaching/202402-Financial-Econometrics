@@ -1,8 +1,3 @@
----
-title: "HW_ch03.31.d"
-output: html_document
-date: "2024-03-20"
----
 #### This homework is written by 黃子騏 (312707036)
 ### (d)
 **Question:**\
