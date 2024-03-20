@@ -23,7 +23,7 @@ t-statistic =2.0086\
 $se(\epsilon)=$ 0.9152\
 so 95% C.I. $=[$-6.8981$,$-3.2215$]$
 1.  $\epsilon=$-5.0598, sales are highly sensitive to price changes, indicating a high degree of elasticity.
-2.  Yes, canned tuna has many substitutes in the market. Cosummers have plenty of alternatives to choose if the price of canned tuna increases. So the degree of elasticity is high.
+2.  Yes, canned tuna has many substitutes in the market. Consummers have plenty of alternatives to choose from if the price of canned tuna increases. So the degree of elasticity is high.
 ## **Code**
 ```{r}
 load('/Users/xuanpei/Downloads/poe5rdata/tuna.rdata')
