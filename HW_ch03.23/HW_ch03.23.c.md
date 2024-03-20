@@ -27,6 +27,8 @@ interval
 ```
 <img width="169" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161672454/c5f28a46-0339-45b3-a03e-a0cade472889">
 
+<img width="238" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161672454/12d43abc-1273-4a46-a692-7d93ac1d92af">
+
 
 $E(PRICE|SQFT) =  α_1+ α_2×SQFT^2$
 
@@ -37,5 +39,7 @@ The expected price is $( E) ̂(PRICE|SQFT=20) = (α_1 ) ̂  + (α_2 ) ̂×20^2  
  The standard error is  
  $$√(var((α_1 ) ̂+400(α_2 ) ̂))=√(var((α_1)) ̂+400^2 var((α_2 ) ̂ )+2(400)cov((α_1 ) ̂,(α_2)) ̂ )$$
                                      =4.746378
+
 The t test is $t_(0.975,498)$= 1.964739
- The resulting interval estimate is 167.3735  ± (1.964739 )  4.746378 or [158.0481, 176.6988]
+
+The resulting interval estimate is 167.3735  ± (1.964739 )  4.746378 or [158.0481, 176.6988]
