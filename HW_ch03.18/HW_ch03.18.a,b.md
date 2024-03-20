@@ -9,6 +9,15 @@
 Draw a sketch of the fitted relationship identifying the estimated slope and intercept. The sample mean of $INCOME$ = 59.3. What is the sample mean of the amount of insurance held? Locate the point of the means in your sketch.
 
 **Ans:**\
+When the least squares estimated relationship is $\widehat{INSURANCE}=\left( 6.855 + 3.880I N C O M E\right)$ , 
+
+the estimated slope = 3.880
+
+the estimated intercept = 6.855
+
+When household income = 59.3, the sample mean of the amount of insurance held = 6.855 + 3.880 * 59.3 = 236.939
+
+
 
 **Sample code**
 ```
@@ -20,3 +29,4 @@ Draw a sketch of the fitted relationship identifying the estimated slope and int
 How much do we estimate that the average amount of insurance held changes with each additional $1000 of household income? Provide both a point estimate and a 95% interval estimate. Explain the interval estimate to a group of stockholders in the insurance company.
 
 **Ans:**\
+ With each additional $1000 of household income, the average amount of insurance held will 
