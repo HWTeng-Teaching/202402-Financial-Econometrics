@@ -14,6 +14,7 @@ qrsummary <- summary(qrmodel)
 qrmodel_A2_se <- qrsummary$coef[4]
 df <- qrsummary$df[2]
 ```
+<img width="426" alt="截圖 2024-03-20 晚上8 01 38" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/901a74e2-5b1e-4060-a8bb-1ff8f12dea33">
 The estimated model is  $\hat{PRICE}=93.56585+0.18452\ {SQFT}^2$.\
 The degree of freedom is $df=498$.
 
@@ -26,6 +27,7 @@ t_statistic_2 <- (marginal_effect_2 - 13)/se
 critical_2 <- qt(0.95, df)
 pvalue_2 <- 1-pt(t_statistic_2,df)
 ```
+<img width="135" alt="截圖 2024-03-20 晚上8 16 08" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/cd4de94a-0f73-4d98-a223-0466bf6cf4b5">
 The degree of freedom is $df=498$.\
 We can get the function of marginal effect by differentiating the model.\
 Marginal effect is $\frac{d\ PRICE}{d\ SQFT}=2SQFT\hat{\alpha_2}=2(40)\hat{\alpha_2}=14.762$.\
