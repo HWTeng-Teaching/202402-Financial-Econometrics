@@ -15,7 +15,7 @@ b_1 <- 7.383
 b_2 <- 0.112
 covariance <- -0.746
 
-insurance_hat  = intercept + slope*100
+insurance_hat = intercept + slope*100
 print(insurance_hat)
 
 ```
