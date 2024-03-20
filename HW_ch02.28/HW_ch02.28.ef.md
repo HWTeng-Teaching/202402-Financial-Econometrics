@@ -49,7 +49,8 @@ ggplot(cps_data, aes(x = educ, y = wage)) +
 ```
 ![Rplot](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/28fd7fb3-104d-454b-a4f4-f070bd8d4bf1)
 
-Quadratic Regression Model fit the data better
+Quadratic Regression Model fit the data better.  
+Because we can see this figure the linear model gat negative wage, but it doesn't make sense.
 
 **[Reviewed by Yenting 20240316.]** 
 
