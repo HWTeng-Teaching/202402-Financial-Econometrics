@@ -19,10 +19,7 @@ test_stastistic <- (b2-1)/0.112
 test_stastistic
 critical_value <- qt(1-alpha,df)
 critical_value
-upper_bound <- b2 + critical_value * se_b2
-print("the reject region is")
-print(upper_bound)
-if (test_stastistic > upper_bound) {
+if (test_stastistic > critical_value) {
   print("Reject null hypothesis: the slope is significantly greater than 1")
 } else {
   print("Fail to reject null hypothesis")
