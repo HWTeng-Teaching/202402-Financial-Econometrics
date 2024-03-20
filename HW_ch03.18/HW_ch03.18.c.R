@@ -6,7 +6,7 @@ b_2 <- 0.112
 covariance <- -0.746
 
 #calculate point estimator
-b2  = intercept + slope*100
+insurance_hat  = intercept + slope*100
 print(insurance_hat)
 
 #calculate SE
