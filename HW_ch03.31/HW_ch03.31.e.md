@@ -9,20 +9,19 @@ Construct a 95% interval estimate of the elasticity of sales of brand no. 1 with
 mean($PRICE1$)=78.25\
 mean($SAL1$)=6718.712\
 $\epsilon =\cfrac{\frac{\Delta y}{y}}{\frac{\Delta x}{x}}$
-=$m \frac{x}{y}$
-= $\beta2 \frac{PRICE1}{SAL1}$
-=-5.0598
+$=m\frac{x}{y}$
+$=\beta2 \frac{PRICE1}{SAL1}=$ -5.0598
    - For 95% C.I.\
 We need to calculate the standard deviation of $\epsilon$ and t-statistic\
-$se(\epsilon)= se(\beta2)\times \frac{PRICE1}{SAL1}=$ 0.9152\
+$se(\epsilon)=se(\beta2)\times \frac{PRICE1}{SAL1}=$ 0.9152\
 t-statistic $=t_\frac{\alpha}{2}(n-2)$\
-The interval is $\epsilon\pm t_\frac{\alpha}{2}(n-2)\times se(\epsilon)$\
-   - From R.studio ,we get\
-point estimator =-5.0598\
-t-statistic =2.0086\
+The interval is $\epsilon\pm t_\frac{\alpha}{2}(n-2)\times se(\epsilon)$
+   - From R.studio, we get\
+point estimator = -5.0598\
+t-statistic = 2.0086\
 $se(\epsilon)=$ 0.9152\
-so 95% C.I. $=[$-6.8981$,$-3.2215$]$
-1.  $\epsilon=$-5.0598, sales are highly sensitive to price changes, indicating a high degree of elasticity.
+so 95% C.I. = [-6.8981,-3.2215]
+1.  $\epsilon=$ -5.0598, sales are highly sensitive to price changes, indicating a high degree of elasticity.
 2.  Yes, canned tuna has many substitutes in the market. Consummers have plenty of alternatives to choose from if the price of canned tuna increases. So the degree of elasticity is high.
 ## **Code**
 ```{r}
