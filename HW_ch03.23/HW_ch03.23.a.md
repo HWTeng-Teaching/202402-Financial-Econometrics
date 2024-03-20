@@ -8,3 +8,5 @@ sol:\newline
 model = lm(price ~ I(sqft^2), data = collegetown)
 summary(model)
 ```
+<img width="401" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/89432894/82adcfab-b4be-477f-a63c-1b5a36c25551">
+
