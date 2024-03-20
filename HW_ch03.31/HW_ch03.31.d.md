@@ -5,8 +5,8 @@ Construct a 90% interval estimate for the expected number of cans sold in a week
 price per can is 70 cents.
 
 **Ans:**\
-To estimate $E(Y_i)$, one needs to calculate $\hat{Y_i}$ first. We start with the formula that $\hat{Y_i}$ = $\hat{\beta_1}$ + $\hat{\beta_2}$$X_0$. Given $X_0$ = 70 and based on the results in part(c), we can obtain $\hat{Y_i}$ roughly equals to 10,302.9. Also, by the formula of standard error of $\hat{Y_i}$, which is $\sqrt{ MSE \left( \frac{1}{n} + \frac{(X_i - \bar{X})^2}{S_{XX}} \right) }$,
-we can obtain the value roughly equals 1,001.231. At last, we can construct a 90% interval estimate by using $\hat{Y_i}$$\pm$$t_{\alpha/2}(n-2))$**SE**($\hat{Y_i}$) to get [8,624.934, 11,980.87].
+To estimate $E(Y_i)$, one needs to calculate $\hat{Y_i}$ first. We start with the formula that $\hat{Y_i}$ = $\hat{\beta_1}$ + $\hat{\beta_2}$ $\times$ $X_0$. Given $X_0$ = 70 and based on the results in part(c), we can obtain $\hat{Y_i}$ roughly equals 10,302.9. Also, by the formula of standard error of $\hat{Y_i}$, which is $\sqrt{ MSE \left( \frac{1}{n} + \frac{(X_i - \bar{X})^2}{S_{XX}} \right) }$,
+we can obtain the value roughly equals 1,001.231. At last, we can construct a 90% interval estimate by using $\hat{Y_i}$ $\pm$ $t_{\alpha/2}(n-2)$ $\times$ **SE**($\hat{Y_i}$) to get $[8,624.934, 11,980.87]$.
 
 ```r
 data_tuna <- read.csv('C:/Users/zxc00/Desktop/tuna.csv')
