@@ -4,9 +4,9 @@ Question:
 #### b. Using the quadratic regression model in part (a), test the hypothesis that the marginal effect on expected house price of increasing the size of a 4000 square foot house by 100 square feet is less than or equal to $13,000 against the alternative that the marginal effect will be greater than $13,000. 
 #### Use the 5% level of significance. Clearly state the test statistic used, the rejection region, and the test p-value. What do you conclude?
 
-Answer:
+Answer:\
 The estimated model is  $\hat{PRICE}=\hat{\alpha_1}+\hat{\alpha_2}{SQFT}^2=93.56585+0.18452\ {SQFT}^2$.\
-The degree of freedom is $df=n-2=500-2=498$.
+The degree of freedom is $df=n-2=500-2=498$.\
 <img width="426" alt="截圖 2024-03-20 晚上8 01 38" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/901a74e2-5b1e-4060-a8bb-1ff8f12dea33">\
 <img width="135" alt="截圖 2024-03-20 晚上8 16 08" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/cd4de94a-0f73-4d98-a223-0466bf6cf4b5">\
 We can get the function of marginal effect by differentiating the model.\
