@@ -15,7 +15,8 @@ summary(quad_model)
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/7eb845f9-bc7e-4d4e-8107-57b5c13b5945)  
 For each unit increase in education, wage increases by 0.089134 units.Compared with (b),the quad_model have positive intercept. 
 
-
+$WAGE = α_1 + α_2EDUC^2 + e$  
+The marginal effect = 2 * $α_2*EDUC$
 ```{r}
 # Calculate marginal effects
 edu_12 <- predict(quad_model, newdata = data.frame(educ = 12))
