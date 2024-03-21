@@ -14,7 +14,7 @@ the interval estimate to a group of stockholders in the insurance company.
  As the slope of the regression line is 3.880, theaverage amount of insurance held will increase  $3.880 * 1,000 = 3,880$  with each additional 1,000 of household income.
 
 
-\( \hat{\beta}_1 = b1 = 3.880 \)
+\( \hat{\beta}_1 = 3.880 \)
 
 two-tailed t value when alpha = 0.05, df = 18
 
