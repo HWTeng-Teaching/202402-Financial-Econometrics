@@ -6,7 +6,7 @@ Construct a 99% interval estimate of the expected amount of insurance held by a 
 $100,000 income. The estimated covariance between the intercept and slope coefficient is −0.746
 
 **Ans:**\
-$$\widehat{INSURANCE} = 6.855+3.880\times100 = 394.855$$
+$$\widehat{INSURANCE} = 6.855+3.880\times{INCOME} = 6.855+3.880\times100 = 394.855$$
 
 ```
 intercept <- 6.855
