@@ -3,13 +3,13 @@ Question:
 #### 3.23 The file collegetown.dat contains data on 500 single-family houses sold in Baton Rouge, Louisiana, during 2009-2013. The data include sale price in $1000 units, PRICE, and total interior area in hundreds of square feet, SQFT.
 #### a. Using the quadratic regression model, $PRICE=\alpha_1 + \alpha_2SQFT^2 + e$ , test the hypothesis that the marginal effect on expected house price of increasing the size of a 2000 square foot house by 100 square feet is less than or equal to $13000 against the alternative that that the marginal effect will be greater than $13000. Use the 5% level of significance. Clearly state the test statistic used, the rejection region, and the test p-value. What do you conclude?
 sol:
+The estimated model is  
+$$\hat{PRICE}=93.5659+0.1845\ {SQFT}^2$$
+code:
 ```{r}
 model = lm(price ~ I(sqft^2), data = collegetown)
 summary(model)
 ```
-The estimated model is  
-$$\hat{PRICE}=93.5659+0.1845\ {SQFT}^2$$
-code:
 <img width="401" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/89432894/82adcfab-b4be-477f-a63c-1b5a36c25551">
 
 ```{r}
