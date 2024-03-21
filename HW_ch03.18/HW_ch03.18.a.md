@@ -17,7 +17,9 @@ the estimated intercept = 6.855
 
 When household income = 59.3, the sample mean of the amount of insurance held = 6.855 + 3.880 * 59.3 = 236.939
 
+The fitted relation passed through the point of the means.
 
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/0f3ddac2-e682-44d4-bed7-84e371391643)
 
 **Sample code**
 ```
@@ -32,6 +34,6 @@ abline(b1, b2, col = "blue", lwd = 3)
 sample_mean_insur = 6.855+3.880*59.3
 points(59.3,sample_mean_insur,col="red",pch=16, cex=1.5)
 ```
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/0f3ddac2-e682-44d4-bed7-84e371391643)
+
 
 
