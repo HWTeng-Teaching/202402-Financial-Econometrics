@@ -40,6 +40,6 @@ The expected price is $\hat{( E)} ̂(PRICE|SQFT=20) =93.5659+0.1845*20^2  = 167.
  The standard error is  
 
 $\sqrt{{var}(\hat{α_1 })+ 400*(\hat{α_2})}=\sqrt{{var}(\hat{α_1 })+ 400^2*(\hat{α_2})+2(400)cov((\hat{α_1}) ̂,(\hat{α_2}))}=4.746378$.\
- $t_(0.975,498)$= 1.964739
+ $t_{(0.975,498)}$= 1.964739
 
 The resulting interval estimate is 167.3735  ± (1.964739 )  4.746378 = [158.0481, 176.6988]
