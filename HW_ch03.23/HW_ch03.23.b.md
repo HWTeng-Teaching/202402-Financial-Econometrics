@@ -5,28 +5,9 @@ Question:
 #### Use the 5% level of significance. Clearly state the test statistic used, the rejection region, and the test p-value. What do you conclude?
 
 Answer:
-```{r}
-price <- collegetown$price
-sqft <- collegetown$sqft
-qrmodel <- lm(price~I(sqft^2))
-qrmodel_A1 <- coef(qrmodel)[1]
-qrmodel_A2 <- coef(qrmodel)[2]
-qrsummary <- summary(qrmodel)
-qrmodel_A2_se <- qrsummary$coef[4]
-df <- qrsummary$df[2]
-```
-<img width="426" alt="截圖 2024-03-20 晚上8 01 38" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/901a74e2-5b1e-4060-a8bb-1ff8f12dea33">\
 The estimated model is  $\hat{PRICE}=\hat{\alpha_1}+\hat{\alpha_2}{SQFT}^2=93.56585+0.18452\ {SQFT}^2$.\
 The degree of freedom is $df=n-2=500-2=498$.
-```{r}
-# test the marginal effect
-sqft_2 <- 40
-marginal_effect_2 <- 2*qrmodel_A2*sqft_2
-se <- (qrmodel_A2_se*2*sqft_2)
-t_statistic_2 <- (marginal_effect_2 - 13)/se
-critical_2 <- qt(0.95, df)
-pvalue_2 <- 1-pt(t_statistic_2,df)
-```
+<img width="426" alt="截圖 2024-03-20 晚上8 01 38" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/901a74e2-5b1e-4060-a8bb-1ff8f12dea33">\
 <img width="135" alt="截圖 2024-03-20 晚上8 16 08" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/cd4de94a-0f73-4d98-a223-0466bf6cf4b5">\
 We can get the function of marginal effect by differentiating the model.\
 Marginal effect is $\frac{d\ PRICE}{d\ SQFT}=2SQFT\hat{\alpha_2}=2(40)\hat{\alpha_2}=14.762$.\
@@ -36,3 +17,21 @@ The test statistic  $t=\frac{2SQFT\hat{\alpha_2}-13}{2SQFTse(\alpha_2)}=\frac{2(
 RR is { $t>1.645$ }, and the p-value is $0.00001654$.\
 which means the test statistic $t$ falls in rejection region. \
 We do have evdience that the marginal effect is not less or equal to $13000.
+code:
+```{r}
+price <- collegetown$price
+sqft <- collegetown$sqft
+qrmodel <- lm(price~I(sqft^2))
+qrmodel_A1 <- coef(qrmodel)[1]
+qrmodel_A2 <- coef(qrmodel)[2]
+qrsummary <- summary(qrmodel)
+qrmodel_A2_se <- qrsummary$coef[4]
+df <- qrsummary$df[2]
+# test the marginal effect
+sqft_2 <- 40
+marginal_effect_2 <- 2*qrmodel_A2*sqft_2
+se <- (qrmodel_A2_se*2*sqft_2)
+t_statistic_2 <- (marginal_effect_2 - 13)/se
+critical_2 <- qt(0.95, df)
+pvalue_2 <- 1-pt(t_statistic_2,df)
+```
