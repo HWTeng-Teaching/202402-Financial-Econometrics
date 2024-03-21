@@ -29,6 +29,8 @@ where ${b_{2}}$ is the estimated coefficient for INCOME and $\text{se}({b_2})$ i
 
 Assuming a significance level of 5%, the critical value for a two-tailed test with 18 degrees of freedom (N - 2) is
 approximately 2.101 (from the t-distribution table).
+If the t-statistic falls outside of the range defined by the
+negative and positive critical values(+-2.101), the null hypothesis is rejected.\
 
 ### Conclusion
 
