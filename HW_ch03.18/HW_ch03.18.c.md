@@ -72,3 +72,5 @@ print(lower_bound)
 ```
 410.8139 378.8961
 ```
+We wll say that we have 99% confident that the average amount of insurance held by a household will at an amount between 378,896 and 410,814 with a
+$100,000 income.
