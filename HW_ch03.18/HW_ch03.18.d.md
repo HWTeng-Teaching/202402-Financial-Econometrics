@@ -2,7 +2,7 @@
 
 Question:\
 One member of the management board claims that for every \$1000 increase in income the average amount of life insurance
-held will increase by \$5000. Let the algebraic model be INSURANCE = beta_1 + beta_2\*INCOME + e. Test the hypothesis
+held will increase by \$5000. Let the algebraic model be $INSURANCE = \beta_1 + \beta_2*INCOME + e$. Test the hypothesis
 that the statement is true against the alternative that it is not true. State the conjecture in terms of a null and
 alternative hypothesis about the model parameters. Use the 5% level of significance. Do the data support the claim or
 not? Clearly, indicate the test statistic used and the rejection region.
@@ -15,7 +15,7 @@ The conjecture can be stated in terms of the model parameters as follows:
 -   Null Hypothesis ($H_0$): ${b_{2}}$ = 5 (For every \$1000 increase in income, the average amount of life insurance
     held increases by \$5000).
 -   Alternative Hypothesis ($H_1$): ${b_{2}}$ ≠ 5 (The statement is not true).
-
+$$\widehat{INSURANCE} = 6.855 + 3.880 \times INCOME$$
 ### Hypothesis Test
 
 We will test the hypothesis using a t-test. The test statistic is calculated as:
