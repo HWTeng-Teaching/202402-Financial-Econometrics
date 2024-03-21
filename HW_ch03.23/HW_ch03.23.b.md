@@ -17,7 +17,7 @@ The test statistic  $t=\frac{2SQFT\hat{\alpha_2}-13}{2SQFTse(\alpha_2)}=\frac{2(
 RR is { $t>1.645$ }, and the p-value is $0.00001654$.\
 which means the test statistic $t$ falls in rejection region. \
 We do have evdience that the marginal effect is not less or equal to $13000.\
-code:
+Code:
 ```{r}
 price <- collegetown$price
 sqft <- collegetown$sqft
