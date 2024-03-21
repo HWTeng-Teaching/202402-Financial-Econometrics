@@ -34,7 +34,7 @@ $E(PRICE|SQFT) =  α_1+ α_2×SQFT^2$
 
 100(1-α)% interval estimate for $(c_1 β_1+c_2 β_2) is (c_1 b_1+c_2 b_2)±t_c se(c_1 b_1+c_2 b_2)$
 
-The expected price is $( E) ̂(PRICE|SQFT=20) = (α_1 ) ̂  + (α_2 ) ̂×20^2  = 167.3735$
+The expected price is $\hat{( E)} ̂(PRICE|SQFT=20) =93.5659+0.1845*20^2  = 167.3735$
 
  The standard error is  
  $$√(var((α_1 ) ̂+400(α_2 ) ̂))=√(var((α_1)) ̂+400^2 var((α_2 ) ̂ )+2(400)cov((α_1 ) ̂,(α_2)) ̂ )$$
