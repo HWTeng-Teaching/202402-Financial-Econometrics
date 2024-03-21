@@ -20,7 +20,7 @@ two-tailed t value when alpha = 0.05, df = 18
 
 $tc = 2.101$
 
-The interval estimate is $[ b_1 - t_cse(b_2) , b_1 + t_cse(b_2) ] = [ 3.88 - 2.101 * 0.112 , 3.88 + 2.101 * 0.112 ] = [ 3.644.6967 , 4115.3033 ]$
+The interval estimate is $[ b_1 - t_cse(b_2) , b_1 + t_cse(b_2) ] = [ 3.88 - 2.101 * 0.112 , 3.88 + 2.101 * 0.112 ] = [ 3.645 , 4.115 ]$
 
 It means that we have 95% confident that the average amount of insurance held will increase at an amount between 3,645 and 4,115 with each additional 1,000 of household income.
 
