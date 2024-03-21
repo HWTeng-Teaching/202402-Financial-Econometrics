@@ -41,7 +41,7 @@ print(standard_error)
 ```
 5.54515
 ```
-two-tailed t value when alpha = 0.01, df = 18.
+two-tailed t value when alpha = 0.01, df = 18\
 $t_c:2.878$
 
 ```
