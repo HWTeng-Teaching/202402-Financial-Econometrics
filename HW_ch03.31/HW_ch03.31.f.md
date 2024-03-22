@@ -9,7 +9,7 @@ Question:
 4. $\varphi^{*} = (-5.059825 +3) /0.9152 = -2.25\in RR$
 5. $p-value=0.0288 < 0.1$
 
-We reject the null hypothesis. There is evidence to support elasticity is not -3.
+We reject the null hypothesis. There is an evidence that the elasticity is 3 is possibly not correct. And we conclude that the elasticity is possibly not -3.
 
 ---
 
