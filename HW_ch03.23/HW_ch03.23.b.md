@@ -13,10 +13,15 @@ We can get the function of marginal effect by differentiating the model.\
 Marginal effect is $\frac{d\ PRICE}{d\ SQFT}=2SQFT\hat{\alpha_2}=2(40)\hat{\alpha_2}=14.762$.\
 We want to test the hypothesis $H_0:2SQFT\hat{\alpha_2}\leq13 \ v.s.\ H_a:2SQFT\hat{\alpha_2}>13$.\
 The standard error $se =\sqrt{\hat{var}(2SQFT\hat{\alpha_2})}=2SQFTse(\alpha_2)=0.4205$.\
+
 The test statistic  $t=\frac{2SQFT\hat{\alpha_2}-13}{2SQFTse(\alpha_2)}=\frac{2(40)(0.18452)}{2(0.18452)0.0053}=4.189\sim t_{(498)}$.\
-RR is { $t>1.645$ }, and the p-value is $0.00001654$.\
+
+[Teng: split the above equation into two. ]
+
+RR is { $t: t>1.645$ }, and the p-value is $0.00001654$.\
 which means the test statistic $t$ falls in rejection region. \
 We reject the null hypothesis that the marginal effect is less or equal to $13000.\
+
 Code:
 ```{r}
 price <- collegetown$price
