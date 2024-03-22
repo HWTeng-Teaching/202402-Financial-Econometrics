@@ -7,7 +7,7 @@ Question:
 2. Test statistic: $\varphi = elasticity - (-3 ) / se(elasticity) \sim t(N-2=50)$ 
 3. $a = 0.1$, $RR = \\{ \varphi\ \ \mathbf{|}\ \ |\varphi| > t_{0.05}(50) = 1.675905 \\} $
 4. $\varphi^{*} = (-5.059825 +3) /0.9152 = -2.25\in RR$
-5. $p-value=0.0288 < 0.05$
+5. $p-value=0.0288 < 0.1$
 
 We reject the null hypothesis. There is evidence to support elasticity is not -3.
 
