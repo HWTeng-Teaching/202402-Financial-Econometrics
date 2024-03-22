@@ -78,3 +78,6 @@ Calculate the summary statistics for SAL1 and APR1. What are the sample means, m
       )
       
       print(var_df)
+
+
+[Teng: Please correct the conclusion about variation. ]
