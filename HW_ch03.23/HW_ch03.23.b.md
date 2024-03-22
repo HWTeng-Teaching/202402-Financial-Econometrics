@@ -16,7 +16,7 @@ The standard error $se =\sqrt{\hat{var}(2SQFT\hat{\alpha_2})}=2SQFTse(\alpha_2)=
 The test statistic  $t=\frac{2SQFT\hat{\alpha_2}-13}{2SQFTse(\alpha_2)}=\frac{2(40)(0.18452)}{2(0.18452)0.0053}=4.189\sim t_{(498)}$.\
 RR is { $t>1.645$ }, and the p-value is $0.00001654$.\
 which means the test statistic $t$ falls in rejection region. \
-We do have evdience that the marginal effect is not less or equal to $13000.\
+We reject the null hypothesis that the marginal effect is less or equal to $13000.\
 Code:
 ```{r}
 price <- collegetown$price
