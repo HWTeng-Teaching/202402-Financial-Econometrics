@@ -61,23 +61,9 @@ Calculate the summary statistics for SAL1 and APR1. What are the sample means, m
         ggplot(tuna, aes(x = index, y = apr1)) + geom_line() +
           labs(title = "Price vs. Week", x = "Week", y = "Price")
 3.  - Variation in Sales and Prices
-      | Variable | Variance    |
-      |:--------:|:-----------:|
-      |   SAL1   | 47818375.07 |
-      |   APR1   |     0.01    |
-
-    - Sample code
-      ```{r}
-       # Calculate variance for SAL1 and APR1
-      var_sales <- round(var(tuna$sal1), 2)
-      var_price <- round(var(tuna$apr1), 2)
-      
-      var_df <- data.frame(
-        Variable = c("SAL1", "APR1"),
-        Variance = c(var_sales, var_price)
-      )
-      
-      print(var_df)
+      ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162009543/95b27e46-1a87-4cff-971b-936f174714ac)
+      ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162009543/c3337e70-cb1e-4803-a38f-ba0044b16b29)
+      By incorporating the changes based on bandwidth, setting the time window to 5 days and calculating the Bollinger Bands reveals that the variation in sales and prices changes over time from week to week. Additionally, sales exhibit relatively higher volatility.
 
 
 [Teng: Please correct the conclusion about variation. ]
