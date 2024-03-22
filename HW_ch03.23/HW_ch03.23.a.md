@@ -16,7 +16,7 @@ summary(model)
 Next, the marginal effect is $\frac{d\ PRICE}{d\ SQFT}=2\hat{\alpha_2}SQFT=2\hat{\alpha_2}(20)=7.2808$.\
 Standard error is $\sqrt{\hat{var}(40\hat{\alpha_2})}=40(se(\alpha_2))=0.2102$.\
 The hypothesis is $H_0: 2\alpha_2(20)\leq13 \ v.s. \ H_1: 2\alpha_2(20) > 13$.This is a right-tail test.\
-The test statistic is $t=(40\hat{\alpha_2}-13)/\sqrt{40\hat{\alpha_2}} \sim t_{(N-2=492)}$.\
+The test statistic is $t=(40\hat{\alpha_2}-13)/\sqrt{\hat{var}(40\hat{\alpha_2})} \sim t_{(N-2=492)}$.\
 
 
 [Teng: Formula is wrong.]
