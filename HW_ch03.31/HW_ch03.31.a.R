@@ -1,6 +1,9 @@
 library(readr)
 library(dplyr)
 library(ggplot2)
+library(plotly)
+library(tidyr)
+library(zoo)
 
 tuna <- read.csv("/Users/chenpinyu/Downloads/tuna.csv")
 
@@ -41,13 +44,31 @@ ggplot(tuna, aes(x = index, y = apr1)) +
   geom_line() +
   labs(title = "Price vs. Week", x = "Week", y = "Price")
 
-# Calculate variance for SAL1 and APR1
-var_sales <- var(tuna$sal1)
-var_price <- var(tuna$apr1)
+calculate_bollinger_band <- function(data, column, window) {
+  data <- data %>%
+    mutate(
+      !!paste0(column, "_sma_", window) := rollmean(get(column), k = window, fill = NA),
+      !!paste0(column, "_upper_band_", window) := rollmean(get(column), k = window, fill = NA) + (rollapply(get(column), width = window, FUN = sd, align = "right", fill = NA, na.rm = TRUE) * 2),
+      !!paste0(column, "_lower_band_", window) := rollmean(get(column), k = window, fill = NA) - (rollapply(get(column), width = window, FUN = sd, align = "right", fill = NA, na.rm = TRUE) * 2)
+    ) %>%
+    drop_na(!!paste0(column, "_upper_band_", window))  # Remove rows with NA in sma column
+  data <- data %>%
+    select(column, !!paste0(column, "_sma_", window), !!paste0(column, "_upper_band_", window), !!paste0(column, "_lower_band_", window))
+  return(data)
+}
 
-var_df <- data.frame(
-  Variable = c("SAL1", "APR1"),
-  Variance = c(var_sales, var_price)
-)
+sal1 <- calculate_bollinger_band(tuna, 'sal1', 5)
+fig <- plot_ly()
+fig <- fig %>% add_lines(x = ~seq_len(nrow(sal1)), y = ~sal1[['sal1']], name = 'sal1', type = 'scatter', mode = 'lines')
+fig <- fig %>% add_lines(x = ~seq_len(nrow(sal1)), y = ~sal1[['sal1_upper_band_5']], name = 'sal1_upper_band_5', type = 'scatter', mode = 'lines')
+fig <- fig %>% add_lines(x = ~seq_len(nrow(sal1)), y = ~sal1[['sal1_lower_band_5']], name = 'sal1_lower_band_5', type = 'scatter', mode = 'lines')
+fig <- fig %>% layout(title = "Bollinger Bands", xaxis = list(title = "Week"), yaxis = list(title = "sal1"))
+fig
 
-print(var_df)
+apr1 <- calculate_bollinger_band(tuna, 'apr1', 5)
+fig <- plot_ly()
+fig <- fig %>% add_lines(x = ~seq_len(nrow(apr1)), y = ~apr1[['apr1']], name = 'apr1', type = 'scatter', mode = 'lines')
+fig <- fig %>% add_lines(x = ~seq_len(nrow(apr1)), y = ~apr1[['apr1_upper_band_5']], name = 'apr1_upper_band_5', type = 'scatter', mode = 'lines')
+fig <- fig %>% add_lines(x = ~seq_len(nrow(apr1)), y = ~apr1[['apr1_lower_band_5']], name = 'apr1_lower_band_5', type = 'scatter', mode = 'lines')
+fig <- fig %>% layout(title = "Bollinger Bands", xaxis = list(title = "Week"), yaxis = list(title = "apr1"))
+fig
