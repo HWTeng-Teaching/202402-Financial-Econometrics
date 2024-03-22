@@ -24,7 +24,7 @@ test_stastistic
 ```
 ### Reject region
 To find reject region, we should find criticle value first.\
-Cretical value: $t_{18,0.099} = 2.55238$\
+Critical value: $t_{18,0.01} = 2.55238$\
 The rejection region is  { $t : t > 2.55238$ }
 
 **Sample code**
