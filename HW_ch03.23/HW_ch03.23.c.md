@@ -44,4 +44,7 @@ $\sqrt{{var}(\hat{α_1 })+ 400*(\hat{α_2})}=\sqrt{{var}(\hat{α_1 })+ 400^2*(\h
 
 The resulting interval estimate is 167.3735  ± (1.964739 )  4.746378 = [158.0481, 176.6988]
 
+In repeated sampling, we estimate with 95% confidence that the average price of a 2000 square 
+foot house is between $158,048.10 and $176,698.80.
+
 [Teng: How do you interpret to the general audience?]
