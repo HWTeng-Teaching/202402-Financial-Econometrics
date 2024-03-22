@@ -16,13 +16,13 @@ What is a 95% interval estimate for the effect of a one cent increase in the pri
 
 The effect of a one cent increase in the price means the margin effect of ***PRICE1***,that is $\frac{∂SAL1}{∂PRICE1} = \beta_2$.
 
-The point estimator for $\beta_2$ is $b_2$.
+The point estimator for $\beta_2$ is $b_2=-434.4473$.
 
 For 95%C.I.
 
 We need to calculate the standard deviation of $b_2$. SE($b_2$) = $\frac{\sigma^2}{\sum(x_i-\bar{x})^2}$ and t-statistic $t_\frac{\alpha}{2}(n-2)$.
 
-The interval is $b_2 \pm SE(b_2) \cdot t_\frac{\alpha}{2}(n-2)$.
+The interval is $b_2 \pm SE(b_2) \cdot t_\frac{\alpha}{2}(n-2)=[-592.2897,-276.6049$.
 
 Code :
 
