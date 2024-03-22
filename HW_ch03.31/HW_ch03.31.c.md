@@ -20,7 +20,7 @@ The point estimator for $\beta_2$ is $b_2=-434.4473$.
 
 For 95%C.I.
 
-We need to calculate the standard deviation of $b_2$. SE($b_2$) = $\frac{\sigma^2}{\sum(x_i-\bar{x})^2}$ and t-statistic $t_\frac{\alpha}{2}(n-2)$.
+We need to calculate the standard deviation of $b_2$. SE($b_2$) = $\frac{\hat{\sigma}^2}{\sum(x_i-\bar{x})^2}$ and t-statistic $t_\frac{\alpha}{2}(n-2)$.
 
 The interval is $b_2 \pm SE(b_2) \cdot t_\frac{\alpha}{2}(n-2)=[-592.2897,-276.6049$.
 
