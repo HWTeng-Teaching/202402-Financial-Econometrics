@@ -43,3 +43,5 @@ $\sqrt{{var}(\hat{α_1 })+ 400*(\hat{α_2})}=\sqrt{{var}(\hat{α_1 })+ 400^2*(\h
  $t_{(0.975,498)}$= 1.964739
 
 The resulting interval estimate is 167.3735  ± (1.964739 )  4.746378 = [158.0481, 176.6988]
+
+[Teng: How do you interpret to the general audience?]
