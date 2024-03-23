@@ -19,3 +19,11 @@ For each of the models in (a)-(c), plot the least squares residuals against SQFT
 
 
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/a8fd7f80-0f23-4d30-94f0-36c693f4010f)
+
+
+
+
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/0c761d69-1b7b-4d1f-9868-5abd5d88c8b1)
+
+## From log-linear to log_log and finally to liner_liner. Data is becoming more and more concentrated.
+
