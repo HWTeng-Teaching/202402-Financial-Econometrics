@@ -27,9 +27,7 @@ c_residual = resid(linear_linear)    #linear_linearのresidual
 plot(a_residual~sqft, main = "The relationship between log_linear residual and sqft")
 plot(b_residual~sqft, main = "The relationship between log_log residual and sqft")
 plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft")
-summary(a_residual)
-summary(b_residual)
-summary(c_residual)
+
 ```
 
 
@@ -47,8 +45,6 @@ summary(c_residual)
 
 
 
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/0c761d69-1b7b-4d1f-9868-5abd5d88c8b1)
+## From log-linear to log_log and finally to liner_liner. The data becomes more and more concentrated and towards when x equals 20
 
-## From log-linear to log_log and finally to liner_liner. Data is becoming more and more concentrated.
-TO BE CONTINUE
 
