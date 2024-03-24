@@ -15,6 +15,4 @@ plot(a_residual~sqft, main = "The relationship between log_linear residual and s
 plot(b_residual~sqft, main = "The relationship between log_log residual and sqft")
 plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft")
 
-summary(a_residual)
-summary(b_residual)
-summary(c_residual)
+
