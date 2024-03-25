@@ -22,15 +22,15 @@ ols_plot_dffits(quardratic_model)
     residuals](https://github.com/ivywu0807/try/blob/main/截圖%202024-03-25%2010.14.31.png)
 
 
-A studentized residual is a residual divided by its estimated standard
-deviation. Typically, any observation has an absolute value of 2 is an
-outlier. Observation 14, 28, 43 are outliers.
+    A studentized residual is a residual divided by its estimated standard
+    deviation. Typically, any observation has an absolute value of 2 is an
+    outlier. Observation 14, 28, 43 are outliers.
 
 -   Data Visualization
     ![DFBETA](https://github.com/ivywu0807/try/blob/main/截圖%202024-03-25%2010.08.37.png)
 
-We can see observation 6, 14 has a great influence on the intercept.
-Observation 14, 43, 44, 48 has a great influence on the quadratic term.
+    We can see observation 6, 14 has a great influence on the intercept.
+    Observation 14, 43, 44, 48 has a great influence on the quadratic term.
 
 -   Data Visualization
     ![DFFIT](https://github.com/ivywu0807/try/blob/main/截圖%202024-03-25%2010.18.59.png)
@@ -42,7 +42,7 @@ Observation 14, 43, 44, 48 has a great influence on the quadratic term.
 -   Data Visualization
     ![LEVERAGE](https://github.com/ivywu0807/try/blob/main/截圖%202024-03-25%2010.24.04.png)
 
-An observation is considered to have high leverage if it has a value for
-the predictor variables that are much more extreme compared to the rest
-of the observations in the dataset. Observation 14, 28, 43 has a great
-influence.
+    An observation is considered to have high leverage if it has a value for
+    the predictor variables that are much more extreme compared to the rest
+    of the observations in the dataset. Observation 14, 28, 43 has a great
+    influence.
