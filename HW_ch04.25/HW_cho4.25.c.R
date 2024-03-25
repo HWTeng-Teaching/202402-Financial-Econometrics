@@ -1,4 +1,3 @@
-```{r}
 #modal(a)
 log_linear = lm(log(price)~sqft,data = collegetown)
 log_linear
@@ -11,7 +10,6 @@ y_c = y_n*exp(sum_log_linear$sigma^2/2)
 y = collegetown$price
 general_R = cor(y,y_c)^2
 general_R
-
 
 #modal(b)
 log_log = lm(log(price)~log(sqft),data = collegetown)
@@ -26,7 +24,6 @@ y = collegetown$pric
 general_R = cor(y,y_c)^2
 general_R
 
-
 #modal(c)
 linear = lm(price~sqft,data = collegetown)
 linear
@@ -39,4 +36,4 @@ y_c = y_n*exp(sum_log_linear$sigma^2/2)
 y = collegetown$price
 general_R = cor(y,y_c)^2
 general_R
-```
+
