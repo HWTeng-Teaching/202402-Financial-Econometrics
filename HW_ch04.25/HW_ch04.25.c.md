@@ -3,4 +3,4 @@
 
 ## ch04.25(c)
 
-**Question** \Compare the $R^2$ value from the linear model PRICE = δ_1 + δ_2SQFT + e to the “generalized” R2 measure for the models in (b) and (c).
+**Question** Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to the “generalized” $R^2$ measure for the models in (b) and (c).
