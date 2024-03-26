@@ -6,10 +6,13 @@
 **Question** \
 Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to the “generalized” $R^2$ measure for the models in (b) and (c).
 
+## Ans 
 
 1. $R^2$
 
-2. Calculate “generalized” $R^2$ : log-linear model
+$$R^2=\frac{SSR}{SST}$$
+
+3. Calculate “generalized” $R^2$ : log-linear model
 
 $$ln(PRICE) = β_1 + β_2SQFT + e$$
 
@@ -25,7 +28,7 @@ $$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
 |  $log-log$   | $0.4738445$ |    $0.6445084$     |
 |   $linear$   | $0.6413167$ |    $0.6413167$     |
 
-code
+## code
 
 ``` r
 #modal(a)
@@ -34,7 +37,7 @@ log_linear
 sum_log_linear = summary(log_linear)
 #R^2
 sum_log_linear
-sum_log_linear[[8]]
+sum_log_linear$r.squared
 SSR = anova(log_linear)[1,2]
 SSE = anova(log_linear )[2,2]
 SSTO = SSR+SSE
@@ -54,7 +57,7 @@ log_log = lm(log(price)~log(sqft),data = collegetown)
 log_log
 sum_log_log = summary(log_log)
 #R^2
-sum_log_log[[8]]
+sum_log_log$r.squared
 
 #general_R^2
 y_n = exp(coef(log_log)[1]+coef(log_log)[2]*log(collegetown$sqft))
@@ -68,7 +71,7 @@ linear = lm(price~sqft,data = collegetown)
 linear
 sumlinear = summary(linear)
 #R^2
-sumlinear[[8]]
+sumlinear$r.squared
 
 #general_R^2
 y_n = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
