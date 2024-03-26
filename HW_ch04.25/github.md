@@ -1,9 +1,4 @@
----
-title: "jkkk"
-author: "laiyuehchi"
-date: "2024-03-26"
-output: html_document
----
+
 
 ## This homework is written by 賴岳錡 (312707052)
 
