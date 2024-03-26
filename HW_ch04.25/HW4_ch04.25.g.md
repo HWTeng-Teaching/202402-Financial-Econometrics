@@ -27,9 +27,7 @@ PI_model_3 = [44.3,449]
 ## Code:
 
 
-```r
-read.csv("/Users/lai/Downloads/collegetown.csv")
-```
+
 
 ```
 ##       price  sqft age pool fireplace close twostory occupied
