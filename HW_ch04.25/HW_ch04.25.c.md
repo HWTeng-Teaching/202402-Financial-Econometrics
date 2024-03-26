@@ -6,6 +6,12 @@
 **Question** \
 Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to the “generalized” $R^2$ measure for the models in (b) and (c).
 
+$$\hat{y}_n = e^{b_1+b_2x}$$
+
+$$\hat{y}_c= \hat{y}_n\times e^{\hat{σ}^2/2}$$
+
+$$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
+
 |   $modal$    |    $R^2$    | $generalized\ R^2$ |
 |:------------:|:-----------:|:------------------:|
 | $log-linear$ | $0.5417259$ |    $0.6621612$     |
