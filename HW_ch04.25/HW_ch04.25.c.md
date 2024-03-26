@@ -8,11 +8,10 @@ Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to t
 
 ## Ans 
 
-1. $R^2$
+1. Calculate $R^2$ : In the summary statistics,we can directly get the $R^2$ value
+           
 
-$$R^2=\frac{SSR}{SST}$$
-
-3. Calculate “generalized” $R^2$ : log-linear model
+2. Calculate “generalized” $R^2$ : log-linear model
 
 $$ln(PRICE) = β_1 + β_2SQFT + e$$
 
@@ -36,12 +35,7 @@ log_linear = lm(log(price)~sqft,data = collegetown)
 log_linear
 sum_log_linear = summary(log_linear)
 #R^2
-sum_log_linear
 sum_log_linear$r.squared
-SSR = anova(log_linear)[1,2]
-SSE = anova(log_linear )[2,2]
-SSTO = SSR+SSE
-SSR/SSTO
 
 #general_R^2
 y_n = exp(coef(log_linear)[1]+coef(log_linear)[2]*collegetown$sqft)
