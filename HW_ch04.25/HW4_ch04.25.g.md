@@ -46,6 +46,8 @@ model_3 = lm(price~sqft , data = data)
 price_1_hat = b1 + 27*b2
 price_2_hat = a1 + log(27)*a2
 price_3_hat = d1 + 27*d2
+
+
 tvalue = qt(0.975,498)
 vara_1_2 = vcov(model_1)[2,2]
 sm1 = summary(model_1)
