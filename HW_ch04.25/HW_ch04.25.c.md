@@ -6,6 +6,13 @@
 **Question** \
 Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to the “generalized” $R^2$ measure for the models in (b) and (c).
 
+
+1. $R^2$
+
+2. Calculate “generalized” $R^2$ : log-linear model
+
+$$ln(PRICE) = β_1 + β_2SQFT + e$$
+
 $$\hat{y}_n = e^{b_1+b_2x}$$
 
 $$\hat{y}_c= \hat{y}_n\times e^{\hat{σ}^2/2}$$
