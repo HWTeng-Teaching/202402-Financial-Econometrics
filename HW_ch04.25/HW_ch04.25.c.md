@@ -38,9 +38,7 @@ $$ PRICE = δ_1 + δ_2SQFT + e $$
 
 $$\hat{y}_n = δ_1 + δ_2x$$
 
-$$\hat{y}_c= \hat{y}_n\times e^{\hat{σ}^2/2}$$
-
-$$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
+$$R_g^2 = [corr(y,\hat{y}_n)]^2$$
 
 |   $modal$    |    $R^2$    | $generalized\ R^2$ |
 |:------------:|:-----------:|:------------------:|
@@ -90,8 +88,7 @@ sumlinear$r.squared
 
 #general_R^2
 y_n = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
-y_c = y_n*exp(sum_log_linear$sigma^2/2)
 y = collegetown$price
-general_R = cor(y,y_c)^2
+general_R = cor(y,y_n)^2
 general_R
 ```
