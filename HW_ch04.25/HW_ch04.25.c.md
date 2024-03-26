@@ -20,7 +20,7 @@ $$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
 
 code
 
-```{r}
+``` r
 #modal(a)
 log_linear = lm(log(price)~sqft,data = collegetown)
 log_linear
