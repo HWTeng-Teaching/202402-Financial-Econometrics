@@ -8,7 +8,7 @@ Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to t
 
 ## *Ans* 
 
-1. Calculate $R^2$ : In the summary statistics,we can directly get the $R^2$ value
+1. Calculate $R^2$ : We can directly get the $R^2$ value in the summary statistics
            
 
 2. Calculate “generalized” $R^2$ : 
