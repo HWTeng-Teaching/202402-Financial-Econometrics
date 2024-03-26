@@ -30,10 +30,5 @@ linear
 sumlinear = summary(linear)
 #R^2
 sumlinear[[9]]
-#general_R^2
-y_n = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
-y_c = y_n*exp(sum_log_linear$sigma^2/2)
-y = collegetown$price
-general_R = cor(y,y_c)^2
-general_R
+
 
