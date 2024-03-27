@@ -11,3 +11,6 @@ From this picture,we can see that when the price per canned tuna rises,the sales
 We conclude that this is a nagative relationship.
 And the conclusion is that we are expected because law of demand
 (When price is higher,the demand becomes lower and the sales decrease;in contrast,when price is lower,the demand is higher and the sales increase)
+
+
+**[Reviewed by Yenting 20240327.]** 
