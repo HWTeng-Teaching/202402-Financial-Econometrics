@@ -64,7 +64,7 @@ $100,000 income:
 $394.855 ± 2.878 × 5.5452 = [378.8959, 410.8141]$
 
 
-**[Reviewed by Yenting 20240327.]** 
+
 ```
 upper_bound <-insurance_hat+2.878*standard_error
 lower_bound <-insurance_hat-2.878*standard_error
@@ -79,3 +79,6 @@ print(lower_bound)
 410.8139 378.8961
 ```
 In repeated sampling, about 99 percent interval constructed this way will contain the true value of the parameter.
+
+
+**[Reviewed by Yenting 20240327.]** 
