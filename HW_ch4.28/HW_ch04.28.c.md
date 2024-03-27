@@ -19,8 +19,8 @@ ols_plot_dffits(quardratic_model)
 ```
 
 -   Data Visualization ![studentized
-    residuals](<img width="780" alt="截圖 2024-03-25 10 14 31" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/62731023/999fffb3-a0f9-4809-8932-b2590b262ce0">
-)
+    residuals]<img width="780" alt="截圖 2024-03-25 10 14 31" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/62731023/999fffb3-a0f9-4809-8932-b2590b262ce0">
+
 
 
     A studentized residual is a residual divided by its estimated standard
