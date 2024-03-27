@@ -19,7 +19,7 @@ $$ln(PRICE) = β_1 + β_2SQFT + e$$
 $$\hat{y} = e^{b_1+b_2x}$$
 
 
-$$R_g^2 = [corr(y,\hat{y})]^2 $$
+$$R_g^2 = [corr(y,\hat{y})]^2 = r_{y\hat{y}}^2$$
 
 - log-log model
 
@@ -28,7 +28,7 @@ $$ ln(PRICE) = α_1 + α_2ln(SQFT) + e$$
 $$\hat{y} = e^{a_1+a_2ln(x)}$$
 
 
-$$R_g^2 = [corr(y,\hat{y})]^2 $$
+$$R_g^2 = [corr(y,\hat{y})]^2= r_{y\hat{y}}^2 $$
 
 - linear model
 
@@ -36,7 +36,7 @@ $$ PRICE = δ_1 + δ_2SQFT + e $$
 
 $$\hat{y} = δ_1 + δ_2x$$
 
-$$R_g^2 = [corr(y,\hat{y})]^2$$
+$$R_g^2 = [corr(y,\hat{y})]^2= r_{y\hat{y}}^2$$
 
 |   $modal$    |    $R^2$    | $generalized\ R^2$ |
 |:------------:|:-----------:|:------------------:|
