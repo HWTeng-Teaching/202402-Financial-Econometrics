@@ -39,3 +39,6 @@ ci_upper=ela+t_value*se_ela
 cat("Elasticity:",ela,"\n")
 cat("95% CI: [",ci_lower,",",ci_upper,"]\n")
 ```
+
+
+**[Reviewed by Yenting 20240327.]** 
