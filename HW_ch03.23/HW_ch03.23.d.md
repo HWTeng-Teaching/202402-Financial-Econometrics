@@ -12,3 +12,5 @@ summary(subset(collegetown,sqft == 20)$price)
 
 In the sample there are 3 houses with 2000 square feet ($SQFT = 20$). They sold for $138,000, $169,000 and $183,000 respectively, \
 and the sample average is 163.3, which is inside the interval estimate [158.0481, 176.6988].
+
+**[Reviewed by Yenting 20240327.]** 
