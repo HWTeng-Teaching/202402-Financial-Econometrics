@@ -34,6 +34,6 @@ abline(b1, b2, col = "blue", lwd = 3)
 sample_mean_insur = 6.855+3.880*59.3
 points(59.3,sample_mean_insur,col="red",pch=16, cex=1.5)
 ```
-
+**[Reviewed by Yenting 20240327.]** 
 
 
