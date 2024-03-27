@@ -41,4 +41,6 @@ print(paste("p-value =", p))
 <img width="219" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/89432894/282fa144-daa6-43db-984a-c3f63adce3f7">
 
 
+**[Reviewed by Yenting 20240327.]** 
+
 
