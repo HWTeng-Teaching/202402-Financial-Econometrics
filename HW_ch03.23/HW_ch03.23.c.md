@@ -48,3 +48,5 @@ In repeated sampling, we estimate with 95% confidence that the average price of 
 foot house is between $158,048.10 and $176,698.80.
 
 [Teng: How do you interpret to the general audience?]
+
+**[Reviewed by Yenting 20240327.]** 
