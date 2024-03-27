@@ -38,3 +38,4 @@ t_318b = qt(0.975, df)
 lwb_318b = b1_318 - t_318b * se_b1318
 upb_318b = b1_318 + t_318b * se_b1318
 ```
+**[Reviewed by Yenting 20240327.]** 
