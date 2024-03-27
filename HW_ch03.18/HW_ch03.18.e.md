@@ -46,3 +46,6 @@ if (test_stastistic > critical_value) {
   print("Fail to reject null hypothesis")
 }
 ```
+
+
+**[Reviewed by Yenting 20240327.]** 
