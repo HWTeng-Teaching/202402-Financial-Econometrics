@@ -94,3 +94,5 @@ Calculate the summary statistics for SAL1 and APR1. What are the sample means, m
       fig <- fig %>% add_lines(x = ~seq_len(nrow(apr1)), y = ~apr1[['apr1_lower_band_5']], name = 'apr1_lower_band_5', type = 'scatter', mode = 'lines')
       fig <- fig %>% layout(title = "Bollinger Bands", xaxis = list(title = "Week"), yaxis = list(title = "apr1"))
 [Teng: Please correct the conclusion about variation. ]
+
+**[Reviewed by Yenting 20240327.]** 
