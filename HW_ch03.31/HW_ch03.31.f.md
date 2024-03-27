@@ -31,3 +31,7 @@ print(paste("p-value =", p_value))
 ```
 
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/75521753/92f35a7c-ccac-4e41-92b4-b7bb942cec12)
+
+
+
+**[Reviewed by Yenting 20240327.]** 
