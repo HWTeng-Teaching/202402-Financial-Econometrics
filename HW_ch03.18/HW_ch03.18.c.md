@@ -69,6 +69,8 @@ lower_bound <-insurance_hat-2.878*standard_error
 print(upper_bound)
 print(lower_bound)
 
+**[Reviewed by Yenting 20240327.]** 
+
 ```
 ```
 410.8139 378.8961
