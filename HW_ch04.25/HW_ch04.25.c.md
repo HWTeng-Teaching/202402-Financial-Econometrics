@@ -16,29 +16,27 @@ Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to t
 
 $$ln(PRICE) = β_1 + β_2SQFT + e$$
 
-$$\hat{y}_n = e^{b_1+b_2x}$$
+$$\hat{y} = e^{b_1+b_2x}$$
 
-$$\hat{y}_c= \hat{y}_n\times e^{\hat{σ}^2/2}$$
 
-$$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
+$$R_g^2 = [corr(y,\hat{y})]^2 $$
 
 - log-log model
 
 $$ ln(PRICE) = α_1 + α_2ln(SQFT) + e$$
 
-$$\hat{y}_n = e^{a_1+a_2ln(x)}$$
+$$\hat{y} = e^{a_1+a_2ln(x)}$$
 
-$$\hat{y}_c= \hat{y}_n\times e^{\hat{σ}^2/2}$$
 
-$$R_g^2 = [corr(y,\hat{y}_c)]^2 $$
+$$R_g^2 = [corr(y,\hat{y})]^2 $$
 
 - linear model
 
 $$ PRICE = δ_1 + δ_2SQFT + e $$
 
-$$\hat{y}_n = δ_1 + δ_2x$$
+$$\hat{y} = δ_1 + δ_2x$$
 
-$$R_g^2 = [corr(y,\hat{y}_n)]^2$$
+$$R_g^2 = [corr(y,\hat{y})]^2$$
 
 |   $modal$    |    $R^2$    | $generalized\ R^2$ |
 |:------------:|:-----------:|:------------------:|
@@ -57,10 +55,9 @@ sum_log_linear = summary(log_linear)
 sum_log_linear$r.squared
 
 #general_R^2
-y_n = exp(coef(log_linear)[1]+coef(log_linear)[2]*collegetown$sqft)
-y_c = y_n*exp(sum_log_linear$sigma^2/2)
+y_hat = exp(coef(log_linear)[1]+coef(log_linear)[2]*collegetown$sqft)
 y = collegetown$price
-general_R = cor(y,y_c)^2
+general_R = cor(y,y_hat)^2
 general_R
 
 
@@ -73,10 +70,9 @@ sum_log_log = summary(log_log)
 sum_log_log$r.squared
 
 #general_R^2
-y_n = exp(coef(log_log)[1]+coef(log_log)[2]*log(collegetown$sqft))
-y_c = y_n*exp(sum_log_linear$sigma^2/2)
+y_hat = exp(coef(log_log)[1]+coef(log_log)[2]*log(collegetown$sqft))
 y = collegetown$price
-general_R = cor(y,y_c)^2
+general_R = cor(y,y_hat)^2
 general_R
 
 #modal(c)
@@ -87,8 +83,8 @@ sumlinear = summary(linear)
 sumlinear$r.squared
 
 #general_R^2
-y_n = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
+y_hat = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
 y = collegetown$price
-general_R = cor(y,y_n)^2
+general_R = cor(y,y_hat)^2
 general_R
 ```
