@@ -41,3 +41,6 @@ t_statistic_2 <- (marginal_effect_2 - 13)/se
 critical_2 <- qt(0.95, df)
 pvalue_2 <- 1-pt(t_statistic_2,df)
 ```
+
+
+**[Reviewed by Yenting 20240327.]** 
