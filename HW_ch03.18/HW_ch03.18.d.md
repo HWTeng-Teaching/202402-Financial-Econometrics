@@ -35,3 +35,7 @@ negative and positive critical values(+-2.101), the null hypothesis is rejected.
 ### Conclusion
 
 -10 is less than -2.101, we reject the null hypothesis and conclude that the data do not support the claim.
+
+
+
+**[Reviewed by Yenting 20240327.]** 
