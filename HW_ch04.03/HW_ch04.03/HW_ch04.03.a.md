@@ -9,7 +9,7 @@ The predicted value of *y* for *x*<sub>0</sub> = 4
 **Answer**
 
 Sincce we have estimated model : $\hat{y_i} = 1.2 + 0.8*x*<sub>i</sub>
-Then $\hat{y_0} = 1.2 + 0.8*4 = 4.4
+$\hat{y_0} = 1.2 + 0.8*4 = 4.4
 
 --------------------------------------------------------------------------------------------------
 
