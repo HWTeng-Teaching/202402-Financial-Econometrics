@@ -9,7 +9,7 @@
 Estimate the log-log model ln(PRICE)=α1 + α2ln(SQFT) + e. Interpret the estimated parameters.
 Calculate the slope and elasticity at the sample means, if necessary
 
-answer:
+### **answer:**
 
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/36e39547-946a-4eaf-b1ea-e908a229d2ce)
 
