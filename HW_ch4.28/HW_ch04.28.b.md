@@ -15,7 +15,6 @@ R_square <- matrix(c("linear-linear","linear-log","linear-quadratic","log-linear
 ,round(result1$r.squared,digits = 4),round(result2$r.squared, digits = 4)
 ,round(result3$r.squared, digits = 4),round(result4$r.squared, digits = 4)) , ncol = 2) 
 R_square <- t(R_square)
-
 R_square
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/7cc82469-4e98-4217-95d2-74d73fe3943b) 
