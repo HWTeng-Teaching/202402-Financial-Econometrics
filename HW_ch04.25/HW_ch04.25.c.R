@@ -1,22 +1,43 @@
-rm(list=ls())
-install.packages("devtools") #install PoEdata packages
-library(devtools) #devtools include install_github
-install_github("ccolonescu/POE5Rdata")
-library(POE5Rdata)
-install.packages("ggplot2")
-library(ggplot2)
-head(collegetown)
-ln_price <- log(collegetown$price)  
-ln_sqft <- log(collegetown$sqft)
+``` r
+#modal(a)
+log_linear = lm(log(price)~sqft,data = collegetown)
+log_linear
+sum_log_linear = summary(log_linear)
+#R^2
+sum_log_linear$r.squared
 
-#4.25
-#(a)
-D <- data.frame(ln_price,ln_sqft,collegetown)
-model1 <- lm(ln_price~sqft,data = D)
-summary(model1)
-x_mean <- mean(D$sqft)
-y_mean <- mean(D$price)
-slope <- coef(model1)[2] * y_mean
-elas <- slope*x_mean/y_mean
-print(paste("at the sample means, slope =", slope, "elasticity =", elas))
+#general_R^2
+y_hat = exp(coef(log_linear)[1]+coef(log_linear)[2]*collegetown$sqft)
+y = collegetown$price
+general_R = cor(y,y_hat)^2
+general_R
+
+
+
+#modal(b)
+log_log = lm(log(price)~log(sqft),data = collegetown)
+log_log
+sum_log_log = summary(log_log)
+#R^2
+sum_log_log$r.squared
+
+#general_R^2
+y_hat = exp(coef(log_log)[1]+coef(log_log)[2]*log(collegetown$sqft))
+y = collegetown$price
+general_R = cor(y,y_hat)^2
+general_R
+
+#modal(c)
+linear = lm(price~sqft,data = collegetown)
+linear
+sumlinear = summary(linear)
+#R^2
+sumlinear$r.squared
+
+#general_R^2
+y_hat = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
+y = collegetown$price
+general_R = cor(y,y_hat)^2
+general_R
+```
 
