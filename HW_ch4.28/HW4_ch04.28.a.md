@@ -52,14 +52,14 @@ Molel 1(linear-linear):
 
 ![5](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/9fd78f38-e675-4cc9-94d9-9d2ec77db093)
 
-Molel 2(linear-linear):
+Molel 2(linear-log):
 
 ![6](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/16c0c4ea-b367-4239-9395-b3f594f6fe59)
 
-Molel 3(linear-linear):
+Molel 3(linear-quadratic):
 ![7](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/d32de2a8-1afb-4f52-8c5e-079e8034e26c)
 
-Molel 4(linear-linear):
+Molel 4(log-linear):
 ![8](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/d3b77d07-fde9-42a3-9e5e-cbd0b986a390)
 
 
