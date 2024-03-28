@@ -23,4 +23,4 @@ Based on question a, we use the R-squared to determine that the linear-quadratic
 
 so we have $$\widehat{\text{YIELD}} = 0.7737 + 0.0005 \ TIME^2$$
 The elasticity is $$\frac{(2 \gamma_1 TIME)TIME}{YIELD}$$
-We can observe a relationship between elasticity and the independent variable. It is not easy for us to interpret the slope of a quadratic model, but we can say that when $\gamma_1\$ is greater than 0, the value of  YIELD will increase at an increasing rate.
+We can observe a relationship between elasticity and the independent variable. It is not easy  to interpret the slope of a quadratic model, but we can say that when $\gamma_1\$ is greater than 0, the value of  YIELD will increase at an increasing rate.
