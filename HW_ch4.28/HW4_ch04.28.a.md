@@ -23,61 +23,100 @@ a. Estimate each of the four equations.\
 
 ## Code:
 
+### Model 1
+```{r}
+library(POE5Rdata)
 
-```r
-read.csv("/Users/lai/Downloads/collegetown.csv")
+data <- POE5Rdata::wa_wheat   
+Y <- data$northampton
+X <- data$time
+
+# model 1 : linear-linear model 
+model1 <- lm(Y~X)
+result<- summary(model1)
+residual <- model1$residuals
+#畫出residual 散佈圖
+plot(residual)
+
+coe<- c(model1$coefficients)
+fitted_model_1 <- function(X){ return(coe[1] + coe[2] * X) }
+
+plot(x = X,y = Y,main = "scatter plot of X and Y",
+     xlab = "x-value" ,ylab = "y-value")
+abline(model1,lwd=2)
+
+print(result$r.squared)
+
+
 ```
 
-```
+### Model 2 
+```{r }
+Y <- data$northampton
+X <- data$time
+X_2 <- log(data$time)
+df<- data.frame(X,Y)
+# model 2 : linear-linear model 
+model2 <- lm(Y~X_2)
+result<- summary(model2)
+residual <- model1$residuals
+#畫出residual 散佈圖
+plot(residual)
+coe<- c(model2$coefficients)
+fitted_model_2 <- function(x){ return(coe[1] + coe[2] * log(x)) }
+plot(df)
+curve(fitted_model_2, from = 1, to = 100, n = 101,add =T)
+shapiro.test(residual) # H0: The data is normal dist 
+                       # H1: reject H0 
+print(result$r.squared)
+#############################
+
 
 ```
 
-```r
-data = read.csv("/Users/lai/Downloads/collegetown.csv")
-sqft = data$sqft
-price = data$price
-ln_price = log(price)
-ln_sqft = log(sqft)
-mean_sqft = mean(sqft)
-b1 = coefficients(model_1)[1]
-b2 = coefficients(model_1)[2]
-a1 = coefficients(model_2)[1]
-a2 = coefficients(model_2)[2]
-d1 = coefficients(model_3)[1]
-d2 = coefficients(model_3)[2]
-model_1 = lm(ln_price~sqft , data = data)
-model_2 = lm(ln_price~ln_sqft , data = data)
-model_3 = lm(price~sqft , data = data)
-price_1_hat = b1 + 27*b2
-price_2_hat = a1 + log(27)*a2
-price_3_hat = d1 + 27*d2
-tvalue = qt(0.975,498)
-vara_1_2 = vcov(model_1)[2,2]
-sm1 = summary(model_1)
-sigma_hat_1 = sm1$sigma^2 
-varf_1 = sigma_hat_1 + sigma_hat_1/500 + (27- mean_sqft)^2 *vara_1_2 
-sef_1 = sqrt(varf_1)
-lowb_1 =exp( price_1_hat - tvalue *sef_1)
-upb_1 =exp( price_1_hat + tvalue * sef_1)
-#log-linear[110,418]
+### Model 3
+```{r }
 
-tvalue = qt(0.975,498)
-vara_2_2 = vcov(model_2)[2,2]
-sm2 = summary(model_2)
-sigma_hat_2 = sm2$sigma^2 
-varf_2 = sigma_hat_2 + sigma_hat_2/500 + (27- mean_sqft)^2 *vara_2_2 
-sef_2 = sqrt(varf_2)
-lowb_2 = exp(price_2_hat - tvalue *sef_2)
-upb_2 = exp(price_2_hat + tvalue * sef_2)
-#log-log[111,466]
+Y <- data$northampton
+X <- data$time
+X_3 <- data$time ** 2 
+df<- data.frame(X,Y)
+# model 3 : linear-quadratic model 
+model3 <- lm(Y~X_3)
+result<- summary(model3)
+residual <- model3$residuals
+#畫出residual 散佈圖
+plot(residual)
+coe<- c(model3$coefficients)
+fitted_model_3 <- function(x){ return(coe[1] + coe[2] * x**2) }
+plot(df$X, df$Y, main = "Fitted Model", xlab = "X", ylab = "Y")
+curve(fitted_model_3, from = min(df$X), to = max(df$X), add = TRUE, col = "red")
+shapiro.test(residual) # H0: THe data is normal dist 
+# H1: reject H0 
+print(result$r.squared)
 
-tvalue = qt(0.975,498)
-vara_3_2 = vcov(model_3)[2,2]
-sm3 = summary(model_3)
-sigma_hat_3 = sm3$sigma^2
-varf_3 = sigma_hat_3 + sigma_hat_3/500 + (27- mean_sqft)^2 *vara_3_2
-sef_3 = sqrt(varf_3)
-lowb_3 = price_3_hat - tvalue *sef_3
-upb_3 = price_3_hat + tvalue * sef_3
-#linear[44.3,449]
+```
+
+
+
+### Model 4 
+```{r }
+Y <- data$northampton
+X <- data$time
+Y_4 <- log(Y)
+df<- data.frame(X,Y)
+# model 4 : linear-quadratic model 
+model4 <- lm(Y_4~X)
+result<- summary(model4)
+residual <- model4$residuals
+#畫出residual 散佈圖
+plot(residual)
+coe<- c(model4$coefficients)
+fitted_model_4 <- function(x){ return(exp(coe[1] + coe[2] * x)) }
+plot(df$X, df$Y, main = "Fitted Model", xlab = "X", ylab = "Y")
+curve(fitted_model_4, from = min(df$X), to = max(df$X), add = TRUE, col = "red")
+shapiro.test(residual) # H0: THe data is normal dist 
+# H1: reject H0 
+print(result$r.squared)
+
 ```
