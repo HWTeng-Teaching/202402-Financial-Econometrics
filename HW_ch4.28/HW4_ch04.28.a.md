@@ -91,7 +91,7 @@ Molel 4(linear-linear):
 
 | | linear-linear | linear-log | linear-quadratic | log-linear |
 |----------|----------|:--------:|---------:|---------:|
-|$R^2$| 0.578 | 0.339  | 0.689  | 0.507  | 
+|$R^2$| 0.578| 0.339| 0.689| 0.507| 
 
 
 ## Code:
