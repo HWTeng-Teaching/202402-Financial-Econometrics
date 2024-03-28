@@ -27,7 +27,7 @@ $ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}$
 a. Estimate each of the four equations.\
 (I) plot of the fitted equations \
 (II) plot of the residuals \
-(III) error normaility tests, and (IV) values for $R^2$, \ Explain it.\
+(III) error normaility tests, and (IV) values for $R^2$. Explain it.\
 
 ### answer 
 (I)\
@@ -91,7 +91,8 @@ Molel 4(linear-linear):
 
 |           | linear-linear | linear-log | linear-quadratic | log-linear |
 |-----------|:-------------:|:----------:|:----------------:|:----------:|
-| $R^2$     |     0.578     |    0.339   |      0.689       |    0.507   |\
+| $R^2$     |     0.578     |    0.339   |      0.689       |    0.507   |
+
 Based on the R-square value, roughly we can conjecture that the linear-quadratic model is batter than other models.
 
 ## Code:
