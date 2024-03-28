@@ -45,6 +45,6 @@ plot(c_residual~sqft, main = "The relationship between linear_linear residual an
 
 
 
-## From log-linear to log_log and finally to liner_liner. The data becomes more and more concentrated and towards when x equals 20
+## From log-linear to log_log and finally to linear_linear. The data becomes more and more concentrated and towards when x equals 20
 
 
