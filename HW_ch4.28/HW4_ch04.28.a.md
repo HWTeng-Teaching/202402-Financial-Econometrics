@@ -26,14 +26,14 @@ a. Estimate each of the four equations.\
 (I)\
 Molel 1(linear-linear):\
 ![1](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b6596498-3370-4a85-b273-765b97f79b68)
-Molel 2(linear-linear):\
+Molel 2(linear-log ):\
 ![2](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/5a405b35-e5ff-449a-8377-31aaf39dd007)
 
-Molel 3(linear-linear):\
+Molel 3(linear-quadratic):\
 ![3](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/84639217-96f3-4859-afb5-e1cddc7d7d09)
 
 
-Molel 4(linear-linear):\
+Molel 4(log-linear):\
 ![4](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/802b0822-7553-4401-9cc0-843eb25a41b4)
 
 
@@ -55,8 +55,27 @@ Molel 4(linear-linear):\
 
 
 (III)
+We perform the Shapiro-Wilk test.
+$H0 : The error terms are normal dist.$
+$Ha : The error terms do not follow normal dist$
+Molel 1(linear-linear):\
+
+![9](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/de8a5727-bac4-417f-bd23-eb1345b2595a)
 
 
+Molel 2(linear-linear):\
+
+![10](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/759cd924-96b9-4eaf-9b57-d6f10984524b)
+
+
+Molel 3(linear-linear):\
+
+![11](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/310a6b9a-2b55-42fc-8ada-8bb89b6b10f4)
+
+
+Molel 4(linear-linear):\
+
+![12](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/9587f8c8-a057-49d7-bd9b-e29e0660babc)
 
 
 
