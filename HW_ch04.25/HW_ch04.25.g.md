@@ -14,11 +14,18 @@ $$
 var(f) = {\sigma^2} \cdot [1 + \frac{1}{N} + \frac{(x_0 - \bar{x}^2)}{\sum(x_i - \bar{x})^2}]
 $$
 
-The interval is
+The interval for linear model is
 
 $$
 [{\hat{y} \pm se(f) \cdot t_\frac{\alpha}{2}(n-2) }]
 $$
+
+The interval for log-linear & log-log model is
+
+$$
+[\exp{({\hat{y} \pm se(f) \cdot t_\frac{\alpha}{2}(n-2) })}]
+$$
+
 
 PI_model_1 = [109.768,418.116]\
 PI_model_2 = [111.087,466.067]\
