@@ -12,6 +12,7 @@ Calculate the slope and elasticity at the sample means, if necessary
 ### **answer:**
 
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/36e39547-946a-4eaf-b1ea-e908a229d2ce)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/ef2faf07-9292-492e-b42f-72bec70f0613)
 
 
 
