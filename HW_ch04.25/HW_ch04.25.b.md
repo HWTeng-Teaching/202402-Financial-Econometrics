@@ -11,7 +11,10 @@ Calculate the slope and elasticity at the sample means, if necessary
 
 answer:
 
-![](1711640238134.jpg)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/36e39547-946a-4eaf-b1ea-e908a229d2ce)
+
+
+
 
 $\alpha_1$=2.04965<br>
 $\alpha_2$=1.02483<br>
