@@ -14,7 +14,8 @@ In this model, two parameters are estimated.
 
 The explanation of the two variables is as follows.
 
-![Untitled](HW_4%2025%20a%204950c696ca5e4cf3863b749f7e8378bb/Untitled.png)
+![螢幕擷取畫面 2024-03-28 141602](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/d871a6a3-bf78-4368-a77c-de249eba6c78)
+
 
  $\beta_1$=4.393866 ,  $\beta_2$=0.036044   $\bar{PRICE}$=250.2369   $\bar{SQFT}$=27.28212 
 
