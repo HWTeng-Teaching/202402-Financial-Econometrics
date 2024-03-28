@@ -6,7 +6,7 @@
 
 ### **Question**
 
-Estimate the log-linear model $ln(price)= \beta_1 + \beta_2SQFT + e$. Interpret the estimated model parameters. Calculate the slope and elasticity at the sample means, if necessary.
+Estimate the log-linear model $ln(PRICE)= \beta_1 + \beta_2SQFT + e$. Interpret the estimated model parameters. Calculate the slope and elasticity at the sample means, if necessary.
 
 ### answer:
 
