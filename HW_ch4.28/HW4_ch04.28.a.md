@@ -89,6 +89,10 @@ Molel 4(linear-linear):
 
 (IV)
 
+| linear-linear | linear-log | linear-quadratic | log-linear |
+|----------|:--------:|---------:|---------:|
+| Default  | Center   | Right    |
+| Text     | Text     | Text     |
 
 
 ## Code:
