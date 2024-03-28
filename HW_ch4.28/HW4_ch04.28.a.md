@@ -20,18 +20,44 @@ $ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}$
 a. Estimate each of the four equations.\
 (I) plot of the fitted equations \
 (II) plot of the residuals \
-(III) error normaility tests, and (IV) values for $R^2$, \
-(IV)which equation do you think is preferable ? Explain it.\
+(III) error normaility tests, and (IV) values for $R^2$, \ Explain it.\
 
 ### answer 
-(I)
+(I)\
+Molel 1(linear-linear):\
 ![1](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b6596498-3370-4a85-b273-765b97f79b68)
+Molel 2(linear-linear):\
+![2](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/5a405b35-e5ff-449a-8377-31aaf39dd007)
+
+Molel 3(linear-linear):\
+![3](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/84639217-96f3-4859-afb5-e1cddc7d7d09)
 
 
-(II)
+Molel 4(linear-linear):\
+![4](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/802b0822-7553-4401-9cc0-843eb25a41b4)
+
+
+
+(II)\
+Molel 1(linear-linear):\
+
+![5](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/9fd78f38-e675-4cc9-94d9-9d2ec77db093)
+
+Molel 2(linear-linear):\
+
+![6](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/16c0c4ea-b367-4239-9395-b3f594f6fe59)
+
+Molel 3(linear-linear):\
+![7](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/d32de2a8-1afb-4f52-8c5e-079e8034e26c)
+
+Molel 4(linear-linear):\
+![8](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/d3b77d07-fde9-42a3-9e5e-cbd0b986a390)
 
 
 (III)
+
+
+
 
 
 (IV)
