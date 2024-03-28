@@ -1,4 +1,4 @@
-## Ch4.28 (c)
+## Ch4.28 (d)
 
 This homework is written by 曾昱樵 (312707057)
 
