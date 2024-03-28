@@ -14,6 +14,7 @@ Model 1 linear-linear model\
 $YIELD_t =\beta_0 +\beta_1 Time+\epsilon_{1t}$\
 \
 Model 2 linear-log model\
+\
 $YIELD_t =\alpha_0 +\alpha_1ln(Time)+\epsilon_{2t}$\
 \
 Model 3 linear-quadratic model\
