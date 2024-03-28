@@ -25,7 +25,7 @@ a. Estimate each of the four equations.\
 
 ### answer 
 (I)
-
+![image](![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b820e904-6edc-4cff-aa37-8f6fe0ec0989))
 
 (II)
 
