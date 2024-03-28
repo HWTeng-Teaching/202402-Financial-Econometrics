@@ -6,20 +6,13 @@
 
 
 Model 1 linear-linear model\
-$YIELD_t =\beta_0 +\beta_1 Time+\epsilon_{1t}$
+$YIELD_t =\beta_0 +\beta_1 Time+\epsilon_{1t}$\
 Model 2 linear-log model\
-\[
-YIELD_t =\alpha_0 +\alpha_1ln(Time)+\epsilon_{2t}
-\]
+$YIELD_t =\alpha_0 +\alpha_1ln(Time)+\epsilon_{2t}$
 Model 3 linear-quadratic model\
-\[
-YIELD_t = \gamma_0 + \gamma_1 Time^2 + \epsilon_{3t}
-\]
-\
+$YIELD_t = \gamma_0 + \gamma_1 Time^2 + \epsilon_{3t}$
 Model 4 log-linear model\
-\[
-ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}
-\]
+$ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}$
 a. Estimate each of the four equations.\
 (I) plot of the fitted equations \
 (II) plot of the residuals \
