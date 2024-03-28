@@ -2,6 +2,10 @@
 
 ## ch04.25(g)
 
+
+
+
+
 ## Question:
 
 
@@ -18,6 +22,18 @@ a. Estimate each of the four equations.\
 (II) plot of the residuals \
 (III) error normaility tests, and (IV) values for $R^2$, \
 (IV)which equation do you think is preferable ? Explain it.\
+
+### answer 
+(I)
+
+
+(II)
+
+
+(III)
+
+
+(IV)
 
 
 
