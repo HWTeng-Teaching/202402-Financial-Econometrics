@@ -22,4 +22,5 @@ R_square
 Based on question a, we use the R-squared to determine that the linear-quadratic model is the best-fitting model. According to the calculation results, we obtain the function of Yield as $$\widehat{\text{YIELD}} = \gamma_0 + \gamma_1 TIME^2  $$\, with $\gamma_0$ = 0.7737, and $\gamma_1$ = 0.0005.
 
 so we have $$\widehat{\text{YIELD}} = 0.7737 + 0.0005 \ TIME^2$$
-The elasticity is 
+The elasticity is $$\frac{(2 \gamma_1 TIME)TIME}{YIELD}$$
+We can observe a relationship between elasticity and the independent variable. It is not easy for us to interpret the slope of a quadratic model, but we can say that when $\gamma_1\$ is greater than 0, the value of  YIELD will increase at an increasing rate.
