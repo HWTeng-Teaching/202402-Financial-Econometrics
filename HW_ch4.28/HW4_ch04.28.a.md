@@ -8,7 +8,7 @@
 Model 1 linear-linear model\
 $YIELD_t =\beta_0 +\beta_1 Time+\epsilon_{1t}$\
 Model 2 linear-log model\
-$YIELD_t =\alpha_0 +\alpha_1ln(Time)+\epsilon_{2t}$
+$YIELD_t =\alpha_0 +\alpha_1ln(Time)+\epsilon_{2t}$\
 Model 3 linear-quadratic model\
 $YIELD_t = \gamma_0 + \gamma_1 Time^2 + \epsilon_{3t}$
 Model 4 log-linear model\
