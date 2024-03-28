@@ -65,8 +65,8 @@ Molel 4(log-linear):
 
 (III)
 We perform the Shapiro-Wilk test.\
-$$H0 : The error terms are normal dist.$$
-$$Ha : The error terms do not follow normal dist$$
+H0 : The error terms are normal dist.\
+Ha : The error terms do not follow normal dist\
 Molel 1(linear-linear):
 
 ![9](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/de8a5727-bac4-417f-bd23-eb1345b2595a)
