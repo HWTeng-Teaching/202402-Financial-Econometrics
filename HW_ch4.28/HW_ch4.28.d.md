@@ -2,26 +2,34 @@
 
 This homework is written by 曾昱樵 (312707057)
 
+## Question:
+Using your chosen specification, use the observations up to 1996 to estimate the model. Construct a 95% prediction interval for $YIELD$ in 1997. Does your interval contain the true value?
 
+## Answer:
+The 95% prediction interval for $YIELD$ in 1997 is [0.7618 , 3], and the true yield in 1997 is 2.2318.
 
-#### Time: 1~47 (1950-1996)
+The prediction interval contains the true value.
 
-#### Yield: Average wheat yield in tonnes per hectare in Northampton Shire from 1950-1996
+## Calculation Process
+Time: 1~47 (1950-1996)
 
-#### Model: $YIELD_t = \gamma_0 + \gamma_1 \times TIME^2 + e_t$ 
-#### The predictor: $\widehat{YIELD_t} = 0.7842 + 0.00048 \times TIME^2$
+Yield: Average wheat yield in tonnes per hectare in Northampton Shire from 1950-1996
 
-#### Predicting the yield of 1997: $\widehat{YIELD_{48}} = 0.7842 + 0.00048 \times 48^2 = 1.881$
+Model: $YIELD_t = \gamma_0 + \gamma_1 \times TIME^2 + e_t$
 
-#### Calculating the standard error of forecast: $se(f) = \sqrt{\hat{var}(f)} = \sqrt{\hat{\sigma}[1 + \frac{1}{N} + \frac{(x_0 - \bar{x})^2}{\sum (x_i - \bar{x})^2}]} = \sqrt{0.2372[1 + \frac{1}{47} + \frac{(48 - 24)^2}{\sum (x_i - 24)^2}]} = 0.5558$
+The predictor: $\widehat{YIELD_t} = 0.7842 + 0.00048 \times TIME^2$
 
-#### Construcing a 95% prediction interval : $\alpha = 0.05$
+Predicting the yield of 1997: $\widehat{YIELD_{48}} = 0.7842 + 0.00048 \times 48^2 = 1.881$
 
-#### The critical value: $t_c = t_{N-2,\frac{\alpha}{2}} = t_{47-2,\frac{0.05}{2}} = t_{45,0.025} = 2.014$
+Calculating the standard error of forecast: $se(f) = \sqrt{\hat{var}(f)} = \sqrt{\hat{\sigma}[1 + \frac{1}{N} + \frac{(x_0 - \bar{x})^2}{\sum (x_i - \bar{x})^2}]} = \sqrt{0.2372[1 + \frac{1}{47} + \frac{(48 - 24)^2}{\sum (x_i - 24)^2}]} = 0.5558$
 
-#### The 95% prediction interval for $YIELD_{48}$ is $\widehat{YIELD_{48}} \pm t_{45,0.025} se(f) = 1.881 \pm 2.014 \times 0.5558 = [0.7618 , 3]$
+Construcing a 95% prediction interval : $\alpha = 0.05$
 
-#### It contains the true yield of 1997: 2.2318
+The critical value: $t_c = t_{N-2,\frac{\alpha}{2}} = t_{47-2,\frac{0.05}{2}} = t_{45,0.025} = 2.014$
+
+The 95% prediction interval for $YIELD_{48}$ is $\widehat{YIELD_{48}} \pm t_{45,0.025} se(f) = 1.881 \pm 2.014 \times 0.5558 = [0.7618 , 3]$
+
+It contains the true yield in 1997: 2.2318
 
 ```R
 new_TIME <- TIME[1:length(TIME)-1]
