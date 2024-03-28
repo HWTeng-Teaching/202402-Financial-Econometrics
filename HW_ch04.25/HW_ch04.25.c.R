@@ -1,4 +1,3 @@
-``` r
 #modal(a)
 log_linear = lm(log(price)~sqft,data = collegetown)
 log_linear
@@ -39,5 +38,4 @@ y_hat = coef(linear)[1]+coef(linear)[2]*collegetown$sqft
 y = collegetown$price
 general_R = cor(y,y_hat)^2
 general_R
-```
 
