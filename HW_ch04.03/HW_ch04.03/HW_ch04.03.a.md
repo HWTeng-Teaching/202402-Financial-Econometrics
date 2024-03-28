@@ -9,6 +9,8 @@ The predicted value of *y* for *x*<sub>0</sub> = 4
 **Answer**
 
 Sincce we have estimated model : 
+(\hat{y}_i) = 1.2 + 0.8x_i
+
 
 \( \hat{y}_i \)= 1.2 + 0.8*x*<sub>i</sub>
 
