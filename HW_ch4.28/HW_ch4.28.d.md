@@ -16,3 +16,23 @@
 ### The 95% prediction interval for $YIELD_{48}$ is $\widehat{YIELD_{48}} \pm t_{45,0.025} se(f) = 1.881 \pm 2.014 \times 0.5558 = [0.7618 , 3]$
 
 ### It contains the true yield of 1997: 2.2318
+
+```R
+new_TIME <- TIME[1:length(TIME)-1]
+new_TIME2 <- TIME2[1:length(TIME2)-1]
+new_YIELD <- YIELD[1:length(YIELD)-1]
+new_mod <- lm(new_YIELD ~ new_TIME2)
+g1 <- coef(new_mod)[[1]]
+g2 <- coef(new_mod)[[2]]
+y_hat <- g1 + g2 * 48^2
+sigma <- summary(new_mod)$sigma
+var_f <- sigma + sigma / length(new_TIME2) + ((48-mean(new_TIME))^2 / sum((new_TIME-mean(new_TIME))^2))
+se_f <- sqrt(var_f)
+
+alpha = 0.05
+cv1 <- qt(1-alpha/2,47-2)
+cv2 <- qt(alpha/2,47-2)
+
+up_b <- y_hat + cv1 * se_f
+low_b <- y_hat + cv2 * se_f
+```
