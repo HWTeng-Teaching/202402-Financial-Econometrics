@@ -23,7 +23,7 @@ $YIELD_t = \gamma_0 + \gamma_1 Time^2 + \epsilon_{3t}$\
 \
 Model 4 log-linear model\
 \
-$ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}$
+$ln(YIELD_t) = \phi_0 + \phi_1 Time + \epsilon_{3t}$\
 \
 a. Estimate each of the four equations.\
 (I) plot of the fitted equations \
