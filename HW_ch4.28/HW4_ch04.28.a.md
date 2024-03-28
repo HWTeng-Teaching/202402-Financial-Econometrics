@@ -92,6 +92,7 @@ Molel 4(linear-linear):
 |           | linear-linear | linear-log | linear-quadratic | log-linear |
 |-----------|:-------------:|:----------:|:----------------:|:----------:|
 | $R^2$     |     0.578     |    0.339   |      0.689       |    0.507   |
+Based on the R-square value, roughly we can conjecture that the linear-quadratic model is batter than other models.
 
 ## Code:
 
