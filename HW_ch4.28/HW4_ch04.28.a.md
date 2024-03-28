@@ -26,6 +26,7 @@ a. Estimate each of the four equations.\
 (I)\
 Molel 1(linear-linear):
 ![1](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b6596498-3370-4a85-b273-765b97f79b68)
+
 Molel 2(linear-log ):
 ![2](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/5a405b35-e5ff-449a-8377-31aaf39dd007)
 
