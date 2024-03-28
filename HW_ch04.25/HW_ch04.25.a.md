@@ -19,7 +19,7 @@ The explanation of the two variables is as follows.
 
  $\beta_1$=4.393866 ,  $\beta_2$=0.036044   $\bar{PRICE}$=250.2369   $\bar{SQFT}$=27.28212 
 
-When $SQFT$= 0, value $ln(PRICE)$ is 4.393866. It means that if $SQFT$= 0,  $ln(price)$ has a basic value 4.393866.
+When $SQFT$= 0, value $ln(PRICE)$ is 4.393866. It means that if $SQFT$= 0,  $ln(PRICE)$ has a basic value 4.393866.
 
 When $SQFT$ increase 1, $PRICE$ will increase 0.036044  percent.
 
