@@ -9,4 +9,11 @@ Interpret the coefficient of the time-related variable in your chosen specificat
 
 -   Sample code
 
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/4cec8e2d-47b8-4cee-8ff0-2ec87272755b)
+``` r
+#R square
+R_square <- matrix(c("linear-linear","linear-log","linear-quadratic","log-linear"
+              ,result1$r.squared,result2$r.squared,result3$r.squared,result4$r.squared) , ncol = 2) 
+R_square <- t(R_square)
+R_square
+
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/c0f06b7e-66aa-4890-9ebc-c02a59bc8186)
