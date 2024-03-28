@@ -12,8 +12,8 @@ new_mod <- lm(new_YIELD ~ new_TIME2)
 g1 <- coef(new_mod)[[1]]
 g2 <- coef(new_mod)[[2]]
 y_hat <- g1 + g2 * 48^2
-sigma <- summary(new_mod)$sigma
-var_f <- sigma + sigma / length(new_TIME2) + ((48-mean(new_TIME))^2 / sum((new_TIME-mean(new_TIME))^2))
+sigma_hat2 <- summary(new_mod)$sigma ^ 2
+var_f <- sigma_hat2 + sigma_hat2 / length(new_TIME2) + sigma_hat2 * ((48-mean(new_TIME))^2 / sum((new_TIME-mean(new_TIME))^2))
 se_f <- sqrt(var_f)
 
 alpha = 0.05
