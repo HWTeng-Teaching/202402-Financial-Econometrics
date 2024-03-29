@@ -11,11 +11,13 @@ Interpret the coefficient of the time-related variable in your chosen specificat
 
 ``` r
 #R square
-R_square <- matrix(c("linear-linear","linear-log","linear-quadratic","log-linear"
-,round(result1$r.squared,digits = 4),round(result2$r.squared, digits = 4)
-,round(result3$r.squared, digits = 4),round(result4$r.squared, digits = 4)) , ncol = 2) 
-R_square <- t(R_square)
-R_square
+logline_model = lm(I(log(northampton)) ~ time , data = data)
+result4 = summary(logline_model)
+coe4 = c(logline_model$coefficients)
+plot(logline_model$residuals , main = "log-linear residuals" , xlab = "Time" , ylab = "Residuals") #residuals
+plot(data$time , data$northampton , xlab = "Time" , ylab = "Yield" ,
+     main = expression(widehat(log(Yield)) == -0.3639+0.0186*Time)) #fitted equations
+curve(exp(coe4[1]+ coe4[2]*x) , lwd = 3 , col = "red", add = T)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/7cc82469-4e98-4217-95d2-74d73fe3943b) 
 
