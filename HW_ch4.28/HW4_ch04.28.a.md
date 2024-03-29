@@ -32,17 +32,17 @@ a. Estimate each of the four equations.\
 
 ### answer 
 (I)\
-Molel 1(linear-linear):
+Molel 1 (linear-linear):
 ![1](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b6596498-3370-4a85-b273-765b97f79b68)
 
-Molel 2(linear-log ):
+Molel 2 (linear-log ):
 ![2](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/5a405b35-e5ff-449a-8377-31aaf39dd007)
 
-Molel 3(linear-quadratic):
+Molel 3 (linear-quadratic):
 ![3](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/84639217-96f3-4859-afb5-e1cddc7d7d09)
 
 
-Molel 4(log-linear):
+Molel 4 (log-linear):
 ![4](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/802b0822-7553-4401-9cc0-843eb25a41b4)
 
 
