@@ -87,7 +87,8 @@ Molel 3(linear-linear):
 
 Molel 4(linear-linear):
 
-![12](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/9587f8c8-a057-49d7-bd9b-e29e0660babc)
+![8](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b1f085a8-3bcc-4dea-8351-531b6410c24a)
+
 
 
 
