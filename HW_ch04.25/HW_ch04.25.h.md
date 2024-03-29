@@ -8,6 +8,13 @@ Based on your work in this problem, discuss the choice of functional form. Which
 
 ## Answer:
 
+$$ R^2 = 1 - \frac{RSS}{TSS} = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2} $$
+
+$$ generlized\ R^2 = \left( \text{corr}(y, \hat{y}) \right)^2 $$
+
+$$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n}(y_i - \hat{y}_i)^2 $$
+
+$$ \text{RMSE} = \sqrt{\text{MSE}} $$
 
 |            |    $R^2$    | generalized $R^2$ |    MSE   |    RMSE    |  jarque's p value  |  residual  |
 |:------------:|:-----------:|:------------------:|:----------:|:------------:|:-----------:|:-----------:|
