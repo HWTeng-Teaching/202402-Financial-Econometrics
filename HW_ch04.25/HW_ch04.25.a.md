@@ -17,13 +17,14 @@ The explanation of the two variables is as follows.
 ![螢幕擷取畫面 2024-03-28 141602](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/d871a6a3-bf78-4368-a77c-de249eba6c78)
 
 
- $\beta_1$=4.393866 ,  $\beta_2$=0.036044   $\bar{PRICE}$=250.2369   $\bar{SQFT}$=27.28212 
+$\beta_1$=4.39 ,  $\beta_2$=0.036   $\bar{PRICE}$=250.24   $\bar{SQFT}$=27.28 
 
-When $SQFT$= 0, value $ln(PRICE)$ is 4.393866. It means that if $SQFT$= 0,  $ln(PRICE)$ has a basic value 4.393866.
+When $SQFT$ = 0, the value of $ln(PRICE)$ is 4.40. This means that if $SQFT$ = 0, $ln(PRICE)$ has a basic value of 4.40.
 
-When $SQFT$ increase 1, $PRICE$ will increase 0.03 (?) percent.
+When $SQFT$ increase by 1 unit, on average, $PRICE$ will increase by 0.036 percent.
 
-At sample mean, slope = 9.02 elasticity = 0.98
+At the sample mean, the slope is  $\frac{dy}{dx}$  = $\beta_2 \cdot \bar{y}= 9.02$  and the elasticity is 
+$\frac{dy}{dx} \cdot \frac{\bar{x}}{\bar{y}} = \text{slope} \cdot \frac{\bar{x}}{\bar{y}}$  = 0.98.
 [🍎 Teng: correct gramaticall errors. ]
 
 ## code
