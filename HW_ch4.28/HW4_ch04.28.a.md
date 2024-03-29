@@ -31,6 +31,9 @@ a. Estimate each of the four equations.\
 (III) error normaility tests, and (IV) values for $R^2$. Explain it.\
 
 ### answer 
+
+[Teng: Please correct all these residual plots by having the same ranges in y. 🍎:]
+
 (I)\
 Molel 1 (linear-linear):
 ![1](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161539032/b6596498-3370-4a85-b273-765b97f79b68)
