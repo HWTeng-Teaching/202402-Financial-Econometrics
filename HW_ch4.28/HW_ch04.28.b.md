@@ -19,7 +19,7 @@ plot(data$time , data$northampton , xlab = "Time" , ylab = "Yield" ,
      main = expression(widehat(log(Yield)) == -0.3639+0.0186*Time)) #fitted equations
 curve(exp(coe4[1]+ coe4[2]*x) , lwd = 3 , col = "red", add = T)
 ```
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/7cc82469-4e98-4217-95d2-74d73fe3943b) 
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/b2f812cb-1e2b-48dd-8c73-88215a37faa7)
 
 Based on question a, we use the R-squared to determine that the linear-quadratic model is the best-fitting model. According to the calculation results, we obtain the function of Yield as $$\widehat{\text{YIELD}} = \gamma_0 + \gamma_1 TIME^2  $$\, with $\gamma_0$ = 0.7737, and $\gamma_1$ = 0.0005.
 
