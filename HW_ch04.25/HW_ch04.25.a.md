@@ -17,7 +17,7 @@ The explanation of the two variables is as follows.
 ![螢幕擷取畫面 2024-03-28 141602](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/d871a6a3-bf78-4368-a77c-de249eba6c78)
 
 
-$\beta_1$=4.39 ,  $\beta_2$=0.036   $\bar{PRICE}=\bar{y}$=250.24   $\bar{SQFT}=\bar{x}$=27.28 
+$\beta_1$=4.39 ,  $\beta_2$=0.036   $\bar{PRICE}=\bar{y}$ = 250.24   $\bar{SQFT}=\bar{x}$ = 27.28 
 
 When $SQFT$ = 0, the value of $ln(PRICE)$ is 4.40. This means that if $SQFT$ = 0, $ln(PRICE)$ has a basic value of 4.40.
 
