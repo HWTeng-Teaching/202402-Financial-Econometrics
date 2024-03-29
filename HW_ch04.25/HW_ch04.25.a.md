@@ -21,10 +21,10 @@ The explanation of the two variables is as follows.
 
 When $SQFT$= 0, value $ln(PRICE)$ is 4.393866. It means that if $SQFT$= 0,  $ln(PRICE)$ has a basic value 4.393866.
 
-When $SQFT$ increase 1, $PRICE$ will increase 0.036044  percent.
+When $SQFT$ increase 1, $PRICE$ will increase 0.03 (?) percent.
 
-At sample mean, slope = 9.01966111089965 elasticity = 0.983370065673358
-
+At sample mean, slope = 9.02 elasticity = 0.98
+[🍎 Teng: correct gramaticall errors. ]
 
 ## code
 
