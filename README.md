@@ -1,6 +1,18 @@
 # README
 
 
+## Homework 5: 20240329
+
+| Cohort   | Name     | Question      |
+|---------|--------|---------------------------------------------------------------------------------------------------|
+| 財金碩1  | 張家維 | Special Question: Show that when K=2, b has the same formula as b1 and b2 in Chapter 2.                  |
+| 財金博1  | 阮春順 | Special Question: Show that when K=2, b has the same sampling distribution as b1 and b2 in Chapter 2. |
+| 財金專1  | 林書帆 | ch05.06(a,b,c)                                                                                   |
+| 財金碩3  | 曾川   | ch05.21(a,b,c)                                                                                   |
+| 財金碩2  | 汪文豪 | ch05.21(d,e)                                                                                     |
+| 財金碩2  | 游政諺 | ch05.24(a,b,c)                                                                                   |
+| 財金碩1  | 丁振朝 | ch05.24(d,e)                                                                                     |
+
 
 
 ## Homeowrk 4: 20240322
