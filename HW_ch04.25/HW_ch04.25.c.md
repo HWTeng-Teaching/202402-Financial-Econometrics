@@ -7,7 +7,7 @@
 Compare the $R^2$ value from the linear model $PRICE = δ_1 + δ_2SQFT + e$ to the “generalized” $R^2$ measure for the models in (b) and (c).
 
 ## *Ans* 
-
+\
 1. Calculate $R^2$ : We can directly get the $R^2$ value in the summary statistics <img width="423" alt="截圖 2024-03-27 下午5 04 31" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145115138/14e168cc-a4b0-4918-b4a0-275075545654">
      
 
