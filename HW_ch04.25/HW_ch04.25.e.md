@@ -24,27 +24,23 @@ a_residual = resid(log_linear)       # Residual of log-linear model
 b_residual = resid(log_log)          # Residual of log-log model
 c_residual = resid(linear_linear)    # Residual of linear_linear model
 
-plot(a_residual~sqft, main = "The relationship between log_linear residual and sqft")
-plot(b_residual~sqft, main = "The relationship between log_log residual and sqft")
-plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft")
+plot(a_residual~sqft, main = "The relationship between log_linear residual and sqft",,ylim=c(-200,200))   
+plot(b_residual~sqft, main = "The relationship between log_log residual and sqft",ylim=c(-200,200))
+plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft",ylim=c(-200,200))   # To control residuals value in the same range of y axis
 
 ```
 
 
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/aa0c4612-0e2b-490a-aea4-9cd258447745)
 
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/4f3dbebd-9753-4390-a55c-bb4b0cde0131)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/9aaecdcc-cb1c-4824-acf6-3abc1a999931)
 
-
-
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/36be4db4-99c9-4844-b5b7-b6a63723840f)
-
-
-
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/a8fd7f80-0f23-4d30-94f0-36c693f4010f)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/01dd7c87-1e0c-418e-b402-655bd1c52cdf)
 
 
 
 
-## From log-linear to log_log and finally to linear_linear. The data becomes more and more concentrated and towards when x equals 20
+
+## The residual fluctuations of models log-linear and log-log are smaller than linear_linear. Given SQFT, the MODELs of models log-linear and log-log satisfy that the expected residual value is 0. However, the linear-linear model does not completely satisfy this condition. 
 
 
