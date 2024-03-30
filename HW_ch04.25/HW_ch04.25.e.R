@@ -11,8 +11,8 @@ a_residual = resid(log_linear)       # Residual of log-linear model
 b_residual = resid(log_log)          # Residual of log-log model
 c_residual = resid(linear_linear)    # Residual of linear_linear model
 
-plot(a_residual~sqft, main = "The relationship between log_linear residual and sqft")
-plot(b_residual~sqft, main = "The relationship between log_log residual and sqft")
-plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft")
+plot(a_residual~sqft, main = "The relationship between log_linear residual and sqft",,ylim=c(-200,200))   
+plot(b_residual~sqft, main = "The relationship between log_log residual and sqft",ylim=c(-200,200))
+plot(c_residual~sqft, main = "The relationship between linear_linear residual and sqft",ylim=c(-200,200))   # To control in the same range of y axis
 
 
