@@ -41,6 +41,6 @@ plot(c_residual~sqft, main = "The relationship between linear_linear residual an
 
 
 
-## The residual fluctuations of models log-linear and log-log are smaller than linear_linear. Given SQFT, the MODELs of models log-linear and log-log satisfy that the expected residual value is 0. However, the linear-linear model does not completely satisfy this condition. 
+## The residual fluctuations of models log-linear and log-log are smaller than linear-linear. Given SQFT, the MODELs of models log-linear and log-log satisfy that the expected residual value is 0. However, the linear-linear model does not completely satisfy this condition. 
 
 
