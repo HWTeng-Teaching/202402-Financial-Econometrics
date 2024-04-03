@@ -23,8 +23,8 @@ When $SQFT$ = 0, the value of $ln(PRICE)$ is 4.40. This means that if $SQFT$ = 0
 
 When $SQFT$ increase by 1 unit, on average, $PRICE$ will increase by 0.036 percent.
 
-At the sample mean, the slope is  $\frac{dy}{dx}$  = $\beta_2 \cdot \bar{y}= 9.02$  and the elasticity is 
-$\frac{dy}{dx} \cdot \frac{\bar{x}}{\bar{y}} = \text{slope} \cdot \frac{\bar{x}}{\bar{y}}$  = 0.98.
+At the sample mean, the slope is  $\frac{dy}{dx}$  = $\beta_2 \cdot \hat{y}= 9.02$  and the elasticity is 
+$\frac{dy}{dx} \cdot \frac{\bar{x}}{\hat{y}} = \text{slope} \cdot \frac{\bar{x}}{\hat{y}}$  = 0.98.
 [🍎 Teng: correct gramaticall errors. ]
 
 ## code
