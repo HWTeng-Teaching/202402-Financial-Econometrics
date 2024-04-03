@@ -11,12 +11,15 @@ ln_sqft <- log(collegetown$sqft)
 
 #4.25
 #(a)
-D <- data.frame(ln_price,ln_sqft,collegetown)
 model1 <- lm(ln_price~sqft,data = D)
-summary(model1)
-x_mean <- mean(D$sqft)
-y_mean <- mean(D$price)
-slope <- coef(model1)[2] * y_mean
-elas <- slope*x_mean/y_mean
+R1 <- summary(model1)
+R12 <- R1$r.squared
+x_p <- data.frame(sqft=c(x_mean))
+predict_lny <- predict(model1,newdata=x_p)  #newdata
+predict_y <- exp(predict_lny)
+#slope
+slope <- coef(model1)[2] * predict_y
+#elasticity
+elas <- slope*x_mean/predict_y
 print(paste("at the sample means, slope =", slope, "elasticity =", elas))
 
