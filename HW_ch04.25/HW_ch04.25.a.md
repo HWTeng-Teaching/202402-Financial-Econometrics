@@ -30,6 +30,17 @@ $\frac{dy}{dx} \cdot \frac{\bar{x}}{\hat{y}} = \text{slope} \cdot \frac{\bar{x}}
 ## code
 
 ``` r
+rm(list=ls())
+install.packages("devtools") #install PoEdata packages
+library(devtools) #devtools include install_github
+install_github("ccolonescu/POE5Rdata")
+library(POE5Rdata)
+install.packages("ggplot2")
+library(ggplot2)
+head(collegetown)
+ln_price <- log(collegetown$price)  
+ln_sqft <- log(collegetown$sqft)
+
 model1 <- lm(ln_price~sqft,data = D)
 R1 <- summary(model1)
 R12 <- R1$r.squared
