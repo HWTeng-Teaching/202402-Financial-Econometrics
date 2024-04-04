@@ -22,9 +22,9 @@ $$ \text{RMSE} = \sqrt{\text{MSE}} $$
 |  log-log   | $0.4738445$ |    $0.6445084$     | $13190.87$ |  $114.8515$  |  $0.0007933$  V| convergence V|
 |   linear   | $0.6413167$ V |    $0.6413167$     | $10525.69$ V |  $102.5948$ V  |  $<2.2e-16$  | divergence |
 
-<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/130db271-f7ec-4300-8354-62273ab3e4ca" alt="圖片 1" width="250" height="250">
-<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/a52b43d6-a535-453a-92e4-eac61bf804fe" alt="圖片 1" width="250" height="250">
-<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/f0bc03d5-3249-4ff1-ad1e-fa58dc355119" alt="圖片 1" width="250" height="250">
+<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/b0b1db13-8639-48da-84a8-9232d11a7f70" alt="圖片 1" width="250" height="250">
+<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/cab6d79a-f514-4d81-b797-a742b8181138" alt="圖片 1" width="250" height="250">
+<img src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/2d0c48a0-f053-48d5-bad0-f6a9c5682158" alt="圖片 1" width="250" height="250">
 
 If you care about the prediction ability, choose the linear model; if you care about the residual distribution, choose non-linear models such as log-linear and log-log, in short, I would choose the linear model.
 
