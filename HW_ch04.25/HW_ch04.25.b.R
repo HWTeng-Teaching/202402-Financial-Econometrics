@@ -6,11 +6,11 @@ data(collegetown)
 model <- lm(log(price) ~ log(sqft), data = collegetown)
 summary(model)
 
-slope <- coef(model)[2]
-elasticity <- slope * (mean(collegetown$sqft) / mean(collegetown$price))
+slope <- coef(model) * (mean(collegetown$price) / mean(collegetown$sqft))
+elasticity <- coef(model)
 
-print(paste("斜率：", slope))
-print(paste("彈性：", elasticity))
+print(paste("the slope at the sample means：", slope, collapse = ", "))
+print(paste("the elasticity at the sample means：", elasticity, collapse = ", "))
 
 price_mean <- mean(collegetown$price)
 sqft_mean <- mean(collegetown$sqft)
