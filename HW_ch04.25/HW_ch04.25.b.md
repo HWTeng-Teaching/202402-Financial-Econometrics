@@ -26,7 +26,7 @@ $\alpha_1$: This represents the intercept of the log-log model. It indicates the
 
 $\alpha_2$: This represents the slope of the log-log model. It indicates  PRICE will change by 1.02483% when SQFT changes by 1%.
 
-At sample mean, slope = 1.02482818334365 elasticity = 0.111732064605034
+At sample mean, slope = 9.3999 elasticity = 1.0248
 
 
 ```{r setup, include=FALSE}
