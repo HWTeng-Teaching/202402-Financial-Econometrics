@@ -47,6 +47,9 @@ d_age_1 = 5
 d_MarginalEffect(d_age_1)
 
 ```
+Marginal Effect:  0.2226089 
+The 95% Confidence Interval: [ -0.6511229 ,  1.096341 ]
+
 
 (ii) 20 years old
 
@@ -55,6 +58,8 @@ d_age_2 = 20
 d_MarginalEffect(d_age_2)
 
 ```
+Marginal Effect:  0.6363136 
+The 95% Confidence Interval: [ -0.2374181 ,  1.510045 ]
 
 (iii) 40 years old
 
@@ -63,3 +68,5 @@ d_age_3 = 40
 d_MarginalEffect(d_age_3)
 
 ```
+Marginal Effect:  1.18792 
+The 95% Confidence Interval: [ 0.3141882 ,  2.061652 ]
