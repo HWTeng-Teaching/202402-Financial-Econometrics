@@ -33,6 +33,8 @@ At the 5% significance level, all estimates are significantly different from zer
 
  ## c.Do the coefficients have the expected signs? Why? (One of the objectives of technological improvements is the development of drought-resistant varieties of wheat.)
 
+ <img width="335" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161050830/6416ab05-34ca-4340-81a8-92d07ebd8d4b">
+
  Consistent with expectations, the variable Trend, representing technological progress, is positively correlated with and significantly affects yield, indicating that technological innovations lead to increased wheat production. The variable Rain, 
  representing rainfall, is also positively correlated with and significantly affects wheat yield, suggesting that an increase in rainfall leads to higher wheat production. The variable $Rain^2$ , representing the square of rainfall, is negatively correlated with wheat yield, 
  indicating that beyond a certain point, the beneficial effects of increased rainfall on yield diminish due to excessive rainfall. The interaction term between Rain and Trend is negatively correlated but not significant, because technological progress is the development of drought-resistant wheat varieties, 
