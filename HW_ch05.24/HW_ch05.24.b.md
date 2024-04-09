@@ -12,8 +12,6 @@ $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * A
 
 $\frac{\delta E(PRICE|X)}{\delta AGE} = b_3 *AGE$ = 0.01379
 
-Interpret of the coefficients:
-
 當乘以 100 後，此邊際效應給出了價格相對於
 額外 100 平方英尺的佔地面積。隨著房屋面積 (SQFT) 的增加，
 百分比變化接近常數 2 100 。因此，我們預期 2  = 0 。的標誌
