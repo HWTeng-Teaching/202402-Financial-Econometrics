@@ -23,10 +23,26 @@ sum_linear <- summary(linear_model)
 sum_linear
 
 ```
-H0: estimated coefficients equal zero
+(i) 5 years old
 
-H1: estimated coefficients different from zero
+```
+d_age_1 = 5
+d_MarginalEffect(d_age_1)
 
-以 90% 以及 95% 信心水準來說，檢定量 $\beta_3$ 以及 $\beta_1$ 的 p value 皆遠小於 0.1 以及 0.05，拒絕虛無假設，顯著異於0
+```
 
-而 $\beta_2$ 的 p value 因大於於 0.1 以及 0.05，故不拒絕虛無假設，不顯著異於0
+(ii) 20 years old
+
+```
+d_age_2 = 20
+d_MarginalEffect(d_age_2)
+
+```
+
+(iii) 40 years old
+
+```
+d_age_3 = 40
+d_MarginalEffect(d_age_3)
+
+```
