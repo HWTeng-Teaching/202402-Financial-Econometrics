@@ -4,9 +4,7 @@ Q: Find point and 95% interval estimates for the marginal effect âˆ‚E(PRICE|X)/â
 are (i) 5 years old, (ii) 20 years old, and (iii) 40 years old. How do these estimates change as
 AGE increases? (Refer to the file collegetown.def for the definition of AGE.)
 
-The estimated model is
-
-$PRICE = \beta_1 + \beta_2 SQFT + \beta_3 (SQFT * AGE)+e$
+$\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * AGE
 
 ```
 price <- collegetown$price
