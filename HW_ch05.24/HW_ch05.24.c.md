@@ -96,7 +96,7 @@ d_MarginalEffect(d_age_3)
 Marginal Effect:  0.3053498 
 The 95% Confidence Interval: [ -0.5683819 ,  1.179082 ]
 
-由於 AGE 為類別變數， 若房屋年齡增加幅度沒有使 AGE 增加 (例如: 12 增加到 14， AGE 仍為 1 ) ，則
+由於 AGE 為類別變數， 若房屋年齡增加幅度沒有使 AGE 增加 (例如: 12 增加到 14， AGE 仍為 1 ) ，則其他變數不改變。
 
 
 
