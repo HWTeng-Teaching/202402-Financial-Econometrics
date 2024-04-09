@@ -14,5 +14,5 @@ $\frac{\delta E(PRICE|X)}{\delta AGE} = b_3 *AGE$ = 0.01379
 
 SQFT 的 marginal effect 為一斜直線，代表 SQFT 的 marginal effect 會受到 AGE 值的影響。當房屋年齡為 100 單位，SQFT 的 marginal effect 為 2.84271；若房屋年齡為 110 單位， SQFT 的 marginal effect 則為 3.11851，
 
-AGE 的 marginal effect 為一水平線，代表 AGE 的 marginal effect 為一常數。例如當面積SQFT為 100 單位，AGE 的 marginal effect 為 0.01379；若當面積SQFT為 100 單位 ， AGE 的marginal effect 仍然為0.01379，
+AGE 的 marginal effect 為一水平線，代表 AGE 的 marginal effect 為一常數。例如當面積 SQFT 為 100 單位，AGE 的 marginal effect 為 0.01379；若當面積 SQFT 為 100 單位 ， AGE 的 marginal effect 仍然為 0.01379，
 
