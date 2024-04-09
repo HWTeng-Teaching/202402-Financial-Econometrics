@@ -12,10 +12,7 @@ $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * A
 
 $\frac{\delta E(PRICE|X)}{\delta AGE} = b_3 *AGE$ = 0.01379
 
-SQFT 的邊際效果，當房屋年齡 ( AGE ) 每增加 1 單位，當乘以 100 後，此邊際效應給出了價格相對於
-額外 100 平方英尺的佔地面積。隨著房屋面積 (SQFT) 的增加，
-百分比變化接近常數 2 100 。因此，我們預期 2  = 0 。的標誌
-係數 3  決定價格變動的百分比是增加或減少
-當它接近 2 100 時。對於 3   0 ，價格變化百分比隨著
-接近 2 100 ；對於 3  < 0，它正在增加。對於 3  ，任一符號都可能。然而，我們
-對於 SQFT 的所有值，確實期望 2  和 3  的振幅為 0 SQFT ME  。
+SQFT 的 marginal effect 為一斜直線，代表 SQFT 的 marginal effect 會受到 AGE 值的影響。當房屋年齡為 100 單位，SQFT 的 marginal effect 為 2.84271；若房屋年齡為 110 單位， SQFT 的 marginal effect 則為 3.11851，
+
+AGE 的 marginal effect 為一水平線，代表 AGE 的 marginal effect 為一常數。例如當面積SQFT為 100 單位，AGE 的 marginal effect 為 0.01379；若當面積SQFT為 100 單位 ， AGE 的marginal effect 仍然為0.01379，
+
