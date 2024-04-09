@@ -8,9 +8,9 @@ $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * A
 
 $\frac{\delta m}{\delta SQFT} = m$
 
-$\frac{\delta E(PRICE|X)}{\delta b_2} = 1$
+$\frac{\delta m}{\delta b_2} = 1$
 
-$\frac{\delta E(PRICE|X)}{\delta b_3} = 2AGE$
+$\frac{\delta m}{\delta b_3} = 2AGE$
 
 $se(f) = \sqrt{\sum c_i^2var(b_i) + \sum_{i \ne j} 2c_ic_jcov(b_i, b_j)}$\
 ```
