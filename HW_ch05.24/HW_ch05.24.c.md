@@ -1,6 +1,8 @@
 ## This homework is written by 游政諺 (311707012)
 ## ch05.24 (c)
-Q: Report the results. Are the estimated coefficients significantly different from zero?
+Q: Find point and 95% interval estimates for the marginal effect ∂E(PRICE|X)/∂SQFT for houses that
+are (i) 5 years old, (ii) 20 years old, and (iii) 40 years old. How do these estimates change as
+AGE increases? (Refer to the file collegetown.def for the definition of AGE.)
 
 The estimated model is
 
