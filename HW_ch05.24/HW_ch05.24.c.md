@@ -41,16 +41,28 @@ d_MarginalEffect <- function(d_age){
 
 ```
 
+AGE variable categories:
+
 New		1
+
 1-3 Years 	2
+
 4-5 Years	3
+
 6-10 Years	4
+
 11-15 Years	5
+
 16-20 Years	6
+
 21-30 Years	7
+
 31-40 Years	8
+
 41-50 Years	9
+
 51-75 Years	10
+
 76+ Years	11
 
 (i) 5 years old
