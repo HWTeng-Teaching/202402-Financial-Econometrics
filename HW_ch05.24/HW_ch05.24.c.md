@@ -40,33 +40,52 @@ d_MarginalEffect <- function(d_age){
 
 
 ```
+
+New		1
+1-3 Years 	2
+4-5 Years	3
+6-10 Years	4
+11-15 Years	5
+16-20 Years	6
+21-30 Years	7
+31-40 Years	8
+41-50 Years	9
+51-75 Years	10
+76+ Years	11
+
 (i) 5 years old
 
 ```
-d_age_1 = 5
+d_age_1 = 3
 d_MarginalEffect(d_age_1)
 
 ```
-Marginal Effect:  0.2226089 
-The 95% Confidence Interval: [ -0.6511229 ,  1.096341 ]
+Marginal Effect:  0.1674482 
+The 95% Confidence Interval: [ -0.7062835 ,  1.04118 ]
 
 
 (ii) 20 years old
 
 ```
-d_age_2 = 20
+d_age_2 = 6
 d_MarginalEffect(d_age_2)
 
 ```
-Marginal Effect:  0.6363136 
-The 95% Confidence Interval: [ -0.2374181 ,  1.510045 ]
+Marginal Effect:  0.2501892 
+The 95% Confidence Interval: [ -0.6235425 ,  1.123921 ]
 
 (iii) 40 years old
 
 ```
-d_age_3 = 40
+d_age_3 = 8
 d_MarginalEffect(d_age_3)
 
 ```
-Marginal Effect:  1.18792 
-The 95% Confidence Interval: [ 0.3141882 ,  2.061652 ]
+Marginal Effect:  0.3053498 
+The 95% Confidence Interval: [ -0.5683819 ,  1.179082 ]
+
+
+
+
+
+
