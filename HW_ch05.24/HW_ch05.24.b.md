@@ -6,6 +6,9 @@ variable AGE, what assumptions are being made?
 
 $PRICE = \beta_1 + \beta_2 SQFT + \beta_3 (SQFT * AGE)+e$
 
+expressions for the marginal effects:
+
+
 ```
 price <- collegetown$price
 sqft <- collegetown$sqft
