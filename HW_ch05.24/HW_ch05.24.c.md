@@ -6,6 +6,7 @@ AGE increases? (Refer to the file collegetown.def for the definition of AGE.)
 
 $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * AGE
 
+$se(f) = \sqrt{\sum c_i^2var(b_i) + \sum_{i \ne j} 2c_ic_jcov(b_i, b_j)}$\
 ```
 price <- collegetown$price
 sqft <- collegetown$sqft
