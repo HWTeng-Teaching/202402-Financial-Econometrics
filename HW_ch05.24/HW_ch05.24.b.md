@@ -8,7 +8,8 @@ $PRICE = \beta_1 + \beta_2 SQFT + \beta_3 (SQFT * AGE)+e$
 
 expressions for the marginal effects:
 
-
+$\frac{\delta Y_i}{\delta RAIN} = b_3 + 2b_4 RAIN_t + b_5TREND$\
+$\frac{\delta Y_i}{\delta RAIN} = g$\
 ```
 price <- collegetown$price
 sqft <- collegetown$sqft
