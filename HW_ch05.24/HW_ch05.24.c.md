@@ -5,6 +5,7 @@ are (i) 5 years old, (ii) 20 years old, and (iii) 40 years old. How do these est
 AGE increases? (Refer to the file collegetown.def for the definition of AGE.)
 
 $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ 
+
 $\frac{\delta m}{\delta SQFT} = m$
 
 $\frac{\delta m}{\delta b_2} = 1$
