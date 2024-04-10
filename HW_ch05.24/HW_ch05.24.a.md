@@ -23,6 +23,6 @@ H0: estimated coefficients equal zero
 
 H1: estimated coefficients different from zero
 
-以 90% 以及 95% 信心水準來說，檢定量 $\beta_3$ 以及 $\beta_1$ 的 p value 皆遠小於 0.1 以及 0.05，拒絕虛無假設，顯著異於0
+At 90% and 95% confidence levels, the p-values ​​of  $\beta_3$ and $\beta_1$ are both less than 0.1 and 0.05, rejecting the null hypothesis. 
 
-而 $\beta_2$ 的 p value 因大於於 0.1 以及 0.05，故不拒絕虛無假設，不顯著異於0
+However, the p-value of $\beta_2$ is greater than 0.1 and 0.05, so the null hypothesis is not rejected. Assume that it is not significantly different from 0
