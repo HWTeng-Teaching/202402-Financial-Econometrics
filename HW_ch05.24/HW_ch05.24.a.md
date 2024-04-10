@@ -16,6 +16,10 @@ sum_linear <- summary(linear_model)
 sum_linear
 
 ```
+
+https://github.com/adni7413/ch05.24.a.1/blob/main/%E4%BD%9C%E6%A5%AD51.png
+
+
 H0: estimated coefficients equal zero
 
 H1: estimated coefficients different from zero
