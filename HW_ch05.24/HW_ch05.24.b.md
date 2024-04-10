@@ -10,7 +10,7 @@ expressions for the marginal effects:
 
 $\frac{\delta E(PRICE|X)}{\delta SQFT} = b_2 + 2*b_3 *AGE$ = 0.08471+0.02758 * AGE
 
-$\frac{\delta E(PRICE|X)}{\delta AGE} = b_3 *AGE$ = 0.01379
+$\frac{\delta E(PRICE|X)}{\delta AGE} = b_3 *SQFT$ = 0.01379
 
 AGE variable categories:
 
