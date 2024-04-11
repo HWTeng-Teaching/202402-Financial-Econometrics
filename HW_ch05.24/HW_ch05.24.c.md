@@ -10,7 +10,7 @@ $\frac{\delta m}{\delta SQFT} = m$
 
 $\frac{\delta m}{\delta b_2} = 1$
 
-$\frac{\delta m}{\delta b_3} = 2AGE$
+$\frac{\delta m}{\delta b_3} = AGE$
 
 $se(f) = \sqrt{\sum c_i^2var(b_i) + \sum_{i \ne j} 2c_ic_jcov(b_i, b_j)}$\
 ```
