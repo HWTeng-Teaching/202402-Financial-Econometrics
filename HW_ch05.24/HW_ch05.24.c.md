@@ -31,7 +31,7 @@ d_MarginalEffect <- function(d_age){
   ME = b2 + 2*b3*d_age
   cat("Marginal Effect: ", ME, "\n")
   c2 <- 1
-  c3 <- 2 
+  c3 <-  AGE$
   se = sqrt(c2^2 * var_b2 + c3^2 * var_b3  + 2*c2*c3*cov_b2_b3 )
   upper = ME + t_stat * se
   lower = ME - t_stat * se
