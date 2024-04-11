@@ -1,5 +1,7 @@
 ### This homework is written by Nguyen Xuan Thuan (412707007)
 
+[Teng: This is wrong! 20240412]
+
 #### Special Question: Show that when K=2, b has the same sampling distribution as b1 and b2 in Chapter 2.
 
 #### Answer
