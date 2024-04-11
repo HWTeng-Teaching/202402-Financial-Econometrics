@@ -97,6 +97,7 @@ Find point and 95% interval estimates for the amount of rainfall that would maxi
 **Answer**\
 The amount of rainfall equation that would maximize expected yield is\
 $\frac{\delta Y_i}{\delta RAIN} = b_3 + 2b_4 RAIN_t + b_5TREND = 0$\
+$RAIN_t = \frac{b_5TREND + b_3}{ -2b_4}$\
 Using the delta method to calculate the variance\
 $\frac{\delta RAIN_{max}}{\delta b_3} =(b_3+b_5TREND)(-2b_4)^{-1}
 =(-2b_4)^{-1}$
