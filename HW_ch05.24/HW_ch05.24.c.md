@@ -99,7 +99,7 @@ Marginal Effect:  0.1950286
 
 The 95% Confidence Interval: [ -0.6748425 ,  1.0649 ]
 
-由於 AGE 為類別變數， 若房屋年齡增加幅度沒有使 AGE 增加 (例如: 12 增加到 14， AGE 仍為 1 ) ，則其他變數不改變。
+The ages of the houses are 5 years, 20 years, and 40 years respectively, and the corresponding category variable AGE values ​​are 3, 6, and 8 respectively. Because the age gap of houses spans the classification range, the increase in AGE value increases the marginal effect.
 
 
 
