@@ -74,6 +74,7 @@ marginalEffect(age_1)
 
 ```
 Marginal Effect:  0.1260778 
+
 The 95% Confidence Interval: [ -0.74701 ,  0.9991656 ]
 
 
@@ -85,6 +86,7 @@ marginalEffect(age_2)
 
 ```
 Marginal Effect:  0.1674482 
+
 The 95% Confidence Interval: [ -0.7037089 ,  1.038605 ]
 
 (iii) 40 years old
@@ -94,6 +96,7 @@ age_3 = 8
 marginalEffect(age_3)
 ```
 Marginal Effect:  0.1950286 
+
 The 95% Confidence Interval: [ -0.6748425 ,  1.0649 ]
 
 由於 AGE 為類別變數， 若房屋年齡增加幅度沒有使 AGE 增加 (例如: 12 增加到 14， AGE 仍為 1 ) ，則其他變數不改變。
