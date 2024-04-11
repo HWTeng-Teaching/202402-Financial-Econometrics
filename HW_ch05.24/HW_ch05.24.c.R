@@ -1,3 +1,4 @@
+##ch0524.b
 price <- collegetown$price
 sqft <- collegetown$sqft
 age <- price*sqft
