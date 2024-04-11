@@ -36,4 +36,5 @@ New		1
 
 76+ Years	11
 
+Since AGE is a categorical variable, if the increase in house age does not increase the AGE variable (for example: when the house age increases from 12 to 14, AGE is still 1), the marginal effect remains unchanged.
 
