@@ -27,11 +27,11 @@ alpha <- 0.05
 N = length(sqft)
 t_stat <- qt(1-alpha/2, df = N-3)
 
-d_MarginalEffect <- function(d_age){
-  ME = b2 + 2*b3*d_age
+marginalEffect <- function(age){
+  ME = b2 + b3*age
   cat("Marginal Effect: ", ME, "\n")
   c2 <- 1
-  c3 <-  AGE$
+  c3 <- age 
   se = sqrt(c2^2 * var_b2 + c3^2 * var_b3  + 2*c2*c3*cov_b2_b3 )
   upper = ME + t_stat * se
   lower = ME - t_stat * se
@@ -68,33 +68,33 @@ New		1
 (i) 5 years old
 
 ```
-d_age_1 = 3
-d_MarginalEffect(d_age_1)
+age_1 = 3
+marginalEffect(age_1)
+
 
 ```
-Marginal Effect:  0.1674482 
-The 95% Confidence Interval: [ -0.7062835 ,  1.04118 ]
+Marginal Effect:  0.1260778 
+The 95% Confidence Interval: [ -0.74701 ,  0.9991656 ]
 
 
 (ii) 20 years old
 
 ```
-d_age_2 = 6
-d_MarginalEffect(d_age_2)
+age_2 = 6
+marginalEffect(age_2)
 
 ```
-Marginal Effect:  0.2501892 
-The 95% Confidence Interval: [ -0.6235425 ,  1.123921 ]
+Marginal Effect:  0.1674482 
+The 95% Confidence Interval: [ -0.7037089 ,  1.038605 ]
 
 (iii) 40 years old
 
 ```
-d_age_3 = 8
-d_MarginalEffect(d_age_3)
-
+age_3 = 8
+marginalEffect(age_3)
 ```
-Marginal Effect:  0.3053498 
-The 95% Confidence Interval: [ -0.5683819 ,  1.179082 ]
+Marginal Effect:  0.1950286 
+The 95% Confidence Interval: [ -0.6748425 ,  1.0649 ]
 
 由於 AGE 為類別變數， 若房屋年齡增加幅度沒有使 AGE 增加 (例如: 12 增加到 14， AGE 仍為 1 ) ，則其他變數不改變。
 
