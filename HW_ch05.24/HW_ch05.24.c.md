@@ -99,7 +99,7 @@ Marginal Effect:  0.1950286
 
 The 95% Confidence Interval: [ -0.6748425 ,  1.0649 ]
 
-The ages of the houses are 5 years, 20 years, and 40 years respectively, and the corresponding category variable AGE values ​​are 3, 6, and 8 respectively. Because the age gap of houses over the classification range, the increase in AGE value also increases the marginal effect.
+The ages of the houses are 5 years, 20 years, and 40 years respectively, and the corresponding category variable AGE values ​​are 3, 6, and 8 respectively. Because the age gap of houses over the classification range, the increase in AGE value also strengthen the marginal effect.
 
 
 
