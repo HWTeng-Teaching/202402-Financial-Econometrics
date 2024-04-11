@@ -1,4 +1,5 @@
 ## This homework is written by 游政諺 (311707012)
+## ch05.24 (a)、(b)、(c)
 ## ch05.24 (a)
 Q: Report the results. Are the estimated coefficients significantly different from zero?
 
