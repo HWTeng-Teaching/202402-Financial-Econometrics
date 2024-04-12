@@ -8,7 +8,7 @@ sum_linear <- summary(linear_model)
 sum_linear
 
 
-##ch0524.b
+##ch0524.c
 price <- collegetown$price
 sqft <- collegetown$sqft
 age <- price*sqft
