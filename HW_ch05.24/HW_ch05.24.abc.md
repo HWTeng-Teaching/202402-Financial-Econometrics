@@ -28,7 +28,7 @@ At 90% and 95% confidence levels, the p-values ​​of  $\beta_3$ and $\beta_1$
 
 However, the p-value of $\beta_2$ is greater than 0.1 and 0.05, so the null hypothesis H0 is not rejected. Assume that it is not significantly different from 0
 
-4/12 描述要加上是假設檢定的p-value值(虛無假設H0、H1為何)，而不是beta的p-value
+回去改 4/12 描述要加上是假設檢定的p-value值(虛無假設H0、H1為何)，而不是beta的p-value
 
 
 ## ch05.24 (b)
