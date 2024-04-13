@@ -24,7 +24,7 @@ H0: estimated coefficients equal zero
 
 H1: estimated coefficients different from zero
 
-At 90% and 95% confidence levels, the p-values ​​for hypothesis test of whether the estimated coefficients equal zero,  $\beta_3$ and $\beta_1$ are both less than 0.1 and 0.05, rejecting the null hypothesis H0. 
+At 90% and 95% confidence levels, the p-values ​​for hypothesis test of  $\beta_3$ and $\beta_1$ are both less than 0.1 and 0.05, rejecting the null hypothesis H0. 
 
 However, the p-value of $\beta_2$ is greater than 0.1 and 0.05, so the null hypothesis H0 is not rejected. Assume that it is not significantly different from 0
 
