@@ -83,7 +83,7 @@ $\frac{\delta m}{\delta b_2} = 1$
 
 $\frac{\delta m}{\delta b_3} = AGE$
 
-$se(f) = \sqrt{\sum c_i^2var(b_i) + \sum_{i \ne j} 2c_ic_jcov(b_i, b_j)}$\
+$se(f) = \sqrt{\sum c_i^2var(b_i) + \sum_{i \ne j} 2c_ic_jcov(b_i, b_j)}$
 ```
 b2 <- linear_model$coefficients[[2]]
 b3 <- linear_model$coefficients[[3]]
