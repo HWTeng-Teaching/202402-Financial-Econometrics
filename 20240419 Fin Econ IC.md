@@ -16,9 +16,9 @@ PS: page 14
 
 
 
-Consider a simple model ￼$y=\beta_1+\beta_2 x_i+e_i$.
+Consider a simple model: $y=\beta_1+\beta_2 x_i + e_i$.
 
-Assume $\sigma_i = \sigma^2 x_i$. 
+Assume $\sigma_i^2 = \sigma^2 x_i$. 
 
 1. How do you transform the model into a homoskedastic one?
 2. Show your transformed model in 1 is homoskedastic.
