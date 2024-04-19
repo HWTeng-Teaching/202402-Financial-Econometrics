@@ -29,7 +29,7 @@ PS: page 18, 19
 
 
 Consider the general multiple regression model:        $$y_i=\beta_1+\beta_2x_{i2}+\cdots+\beta_K x_{iK}+e_i.$$                                  ￼
-A general form for the variance function is          $$var(y_i|z_i) =\sigma_i^2= E(e_i^2|z_i)=h(\alpha_1+\alpha_2 z_{i2}+\cdots+\alpha_S Z_{iS}),$$            ￼
+A general form for the variance function is          $$var(y_i|z_i) =\sigma_i^2= E(e_i^2|z_i)=h(\alpha_1+\alpha_2 z_{i2}+\cdots+\alpha_S z_{iS}),$$            ￼
 
 1. Specify $H_0$ and $H_1$ in the Breusch-Pagan test for heteroskedasticity
 2. What is the White test for heteroskedasticity? 
