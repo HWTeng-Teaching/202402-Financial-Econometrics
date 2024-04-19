@@ -16,7 +16,7 @@ PS: page 14
 
 
 
-Consider a simple model ￼$y=\beta_1+\beta_2 x_i+e_i.$
+Consider a simple model ￼$y=\beta_1+\beta_2 x_i+e_i$.
 
 Assume $\sigma_i = \sigma^2 x_i$. 
 
