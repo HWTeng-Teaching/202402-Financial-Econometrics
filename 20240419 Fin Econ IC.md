@@ -25,7 +25,7 @@ Assume $\sigma_i^2 = \sigma^2 x_i$.
 
 PS: page 18, 19
 
-## Question 3. 
+## Question 3. (No need to work on this problem)
 
 
 Consider the general multiple regression model:        $$y_i=\beta_1+\beta_2x_{i2}+\cdots+\beta_K x_{iK}+e_i.$$                                  ￼
