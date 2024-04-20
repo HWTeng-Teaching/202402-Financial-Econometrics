@@ -7,3 +7,15 @@ $WAGE_i = \beta_1 + \beta_2 EDUC_i + \beta_3 EXPER_i + \beta_4 METRO_i + e_i$
 
 ### a小题
 We are curious whether holding education, experience, and METRO constant, there is the same amount of random variation in wages for males and females. Suppose $\text{Var}(e_i| x_i, \text{FEMALE} = 0) = \sigma_M^2$ and $\text{Var}(e_i| x_i, \text{FEMALE} = 0) = \sigma_F^2$. We specifically wish to test the null hypothesis $\sigma_M^2=\sigma_F^2$ against $\sigma_M^2 ≠\sigma_F^2$. Using 577 observations on males, we obtain the sum of squared OLS residuals, $SSE_M = 97161.9174$. The regression using data on females yields $\hat{\sigma_F} = 12.024$. Test the nullhypothesis at the 5% level of significance. Clearly state the value of the test statistic and the rejection region, along with your conclusion.
+
+$df_M = 577-3-1 =573$
+
+$\hat{\sigma_M^2} = SSE_M/df_M = 97161.9174/573 = 169.567$
+
+$F = \hat{\sigma_M^2}/\hat{\sigma_F^2} = 169.567/12.024^2 = 1.173$
+
+$df_F = 1000-577-3-1 =419$
+
+At the 5% level of significance, since the calculated F-statistic (1.173) is less than the critical value of 1.313, we fail to reject the null hypothesis. Therefore, we do not have enough evidence to support the hypothesis that the variability in wages is different between males and females.
+
+### b小题
