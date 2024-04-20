@@ -19,3 +19,18 @@ $df_F = 1000-577-3-1 =419$
 At the 5% level of significance, since the calculated F-statistic (1.173) is less than the critical value of 1.313, we fail to reject the null hypothesis. Therefore, we do not have enough evidence to support the hypothesis that the variability in wages is different between males and females.
 
 ### b小题
+We hypothesize that married individuals, relying on spousal support, can seek wider employment types and hence holding all else equal should have more variable wages. Suppose
+$\text{Var}(e_i| x_i, \text{MARRIED} = 0) = \sigma_{SINGLE}^2$ and $\text{Var}(e_i| x_i, \text{MARRIED} = 1) = \sigma_{MARRIED}^2$. Specify the null hypothesis $\sigma_{SINGLE}^2=\sigma_{MARRIED}^2$ versus the alternative hypothesis $\sigma_{MARRIED}^2>\sigma_{SINGLE} ^2$. We add FEMALE to the wage equation as an explanatory variable, so that 
+
+$WAGE_i = \beta_1 + \beta_2 EDUC_i + \beta_3 EXPER_i + \beta_4 METRO_i +\beta_5 FEMALE+ e_i$
+
+Using $N = 400$ observations on single individuals, OLS estimation of the above equation yields a sum of squared residuals is 56231.0382. For the 600 married individuals, the sum of squared errors is 100,703.0471. Test the null hypothesis at the 5% level of significance. Clearly state the value of the test statistic and the rejection region, along with your conclusion.
+
+$MSE_{SINGLE} = SSE_{SINGLE} / df_{SINGLE} = 56231.0382 / 400-4-1 = 142.357$
+
+$MSE_{MARRIED} = SSE_{MARRIED} / df_{MARRIED} = 100,703.0471 / 1000-400-4-1 = 169.249$
+
+$F = MSE_{SINGLE}/MSE_{MARRIED} = 142.357/169.249 = 0.8411$
+
+Based on our calculated F-statistic of 0.84, at the 5% significance level, as the calculated F-statistic is less than the critical value of 1.315, we fail to reject the null hypothesis.
+Therefore, our conclusion is that at the 5% significance level, we do not have enough evidence to support the hypothesis that the variability in wages is higher for married individuals compared to single individuals.
