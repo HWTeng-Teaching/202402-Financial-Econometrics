@@ -10,6 +10,8 @@ $WAGE_i = \beta_1 + \beta_2 EDUC_i + \beta_3 EXPER_i + \beta_4 METRO_i + e_i$
 ### a小题
 We are curious whether holding education, experience, and METRO constant, there is the same amount of random variation in wages for males and females. Suppose $\text{Var}(e_i| x_i, \text{FEMALE} = 0) = \sigma_M^2$ and $\text{Var}(e_i| x_i, \text{FEMALE} = 0) = \sigma_F^2$. We specifically wish to test the null hypothesis $\sigma_M^2=\sigma_F^2$ against $\sigma_M^2 ≠\sigma_F^2$. Using 577 observations on males, we obtain the sum of squared OLS residuals, $SSE_M = 97161.9174$. The regression using data on females yields $\hat{\sigma_F} = 12.024$. Test the nullhypothesis at the 5% level of significance. Clearly state the value of the test statistic and the rejection region, along with your conclusion.
 
+### ANSWER:
+
 $df_M = 577-3-1 =573$
 
 $\hat{\sigma_M^2} = SSE_M/df_M = 97161.9174/573 = 169.567$
@@ -28,6 +30,8 @@ $WAGE_i = \beta_1 + \beta_2 EDUC_i + \beta_3 EXPER_i + \beta_4 METRO_i +\beta_5 
 
 Using $N = 400$ observations on single individuals, OLS estimation of the above equation yields a sum of squared residuals is 56231.0382. For the 600 married individuals, the sum of squared errors is 100,703.0471. Test the null hypothesis at the 5% level of significance. Clearly state the value of the test statistic and the rejection region, along with your conclusion.
 
+### ANSWER:
+
 $MSE_{SINGLE} = SSE_{SINGLE} / df_{SINGLE} = 56231.0382 / 400-4-1 = 142.357$
 
 $MSE_{MARRIED} = SSE_{MARRIED} / df_{MARRIED} = 100,703.0471 / 1000-400-4-1 = 169.249$
@@ -41,4 +45,6 @@ Therefore, our conclusion is that at the 5% significance level, we do not have e
 Following the regression in part (b), we carry out the NR2 test using the right-hand-side variables in (XR8.6b) as candidates related to the heteroskedasticity. The value of this statistic is 59.03.
 What do we conclude about heteroskedasticity, at the 5% level? Does this provide evidence about the issue discussed in part (b), whether the error variation is different for married and unmarried individuals? Explain.
 
-ANS:The NR^2 test evaluates whether the variance of errors between observations in the regression model is constant, but it does not specifically examine whether the error variation differs between married and unmarried individuals. Therefore, although the result of the NR^2 test suggests potential heteroskedasticity, it does not directly provide evidence regarding the specific issue discussed in the question.
+### ANSWER:
+
+The NR^2 test evaluates whether the variance of errors between observations in the regression model is constant, but it does not specifically examine whether the error variation differs between married and unmarried individuals. Therefore, although the result of the NR^2 test suggests potential heteroskedasticity, it does not directly provide evidence regarding the specific issue discussed in the question.
