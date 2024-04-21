@@ -6,7 +6,7 @@ Assume the heteroskedasticity pattern is $\sigma^2X2^2$. Obtain GLS estimates wi
 robust standard errors. Are the GLS parameter estimates closer to the true parameter values or
 not? Which set of standard errors should be used?
 
-Solution:\
+Solution:
 
 ```
 w <- 1/X2^2
