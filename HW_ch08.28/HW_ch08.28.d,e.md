@@ -1,13 +1,22 @@
 #
 ## This homework is written by  葉宗翰 (312707001)
 # ch08.28 (d)
-Question:\
+**Question:**\
 Assume the heteroskedasticity pattern is $\sigma^2X2^2$. Obtain GLS estimates with conventional and
 robust standard errors. Are the GLS parameter estimates closer to the true parameter values or
 not? Which set of standard errors should be used?
 
-Solution:
+**Solution:**
+|$b_1$ GLS Standard Errors| $b_1$ GLS Robust Standard Errors |
+|:--------:|:-----------:|
+| 1.622549 | 1.864489  |
+|$b_2$ GLS Standard Errors| $b_2$ GLS Robust Standard Errors |
+|0.4687378|  0.5631968 |
+|$b_3$ GLS Standard Errors| $b_3$ GLS Robust Standard Errors |
+|0.3768156 | 0.3854274 |
+#### Yes, GLS provides more precise estimates due to its smaller standard errors, potentially closer to the true parameter values. This boosts confidence in the model results, enabling reliable statistical inferences and hypothesis testing. Therefore, GLS is preferred for the model.
 
+**Code:**
 ```
 w <- 1/X2^2
 gls <- lm(Y ~ X2 + X3, weights = w)
