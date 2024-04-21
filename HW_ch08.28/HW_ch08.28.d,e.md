@@ -8,12 +8,12 @@ not? Which set of standard errors should be used?
 
 **Solution:**
 |$b_1$ GLS Standard Errors| $b_1$ GLS Robust Standard Errors |
-|:--------:|:-----------:|
-| 1.622549 | 1.864489  |
+|:-----------------------:|:--------------------------------:|
+|         1.622549        |             1.864489             |
 |$b_2$ GLS Standard Errors| $b_2$ GLS Robust Standard Errors |
-|0.4687378|  0.5631968 |
+|         0.4687378       |             0.5631968            |
 |$b_3$ GLS Standard Errors| $b_3$ GLS Robust Standard Errors |
-|0.3768156 | 0.3854274 |
+|         0.3768156       |             0.3854274            |
 #### Yes, GLS provides more precise estimates due to its smaller standard errors, potentially closer to the true parameter values. This boosts confidence in the model results, enabling reliable statistical inferences and hypothesis testing. Therefore, GLS is preferred for the model.
 
 **Code:**
