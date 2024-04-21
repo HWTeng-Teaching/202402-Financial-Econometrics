@@ -1,1 +1,33 @@
+# This homework is written by 葉宗翰
 
+# ch8.28 (d)
+w <- 1/X2^2
+gls <- lm(Y ~ X2 + X3, weights = w)
+cov4 <- hccm(gls, type = "hc1")
+vcvmod <- coeftest(gls, vcov. = cov4)
+glsseb1 <- sqrt(vcov(gls)[1,1])
+glsrobseb1 <- sqrt(cov4[1,1])
+glsseb2 <- sqrt(vcov(gls)[2,2])
+glsrobseb2 <- sqrt(cov4[2,2])
+glsseb3 <- sqrt(vcov(gls)[3,3])
+glsrobseb3 <- sqrt(cov4[3,3])
+cat("b1 GLS se:",glsseb1,",","b1 GLS Robust se:",glsrobseb1,"\n")
+cat("b2 GLS se:",glsseb2,",","b2 GLS Robust se:",glsrobseb2,"\n")
+cat("b3 GLS se:",glsseb3,",","b3 GLS Robust se:",glsrobseb3,"\n")
+
+# ch8.28 (e)
+OLS<-lm(Y~X2+X3)
+e_hatsq<-resid(OLS)^2
+sighatsq<-lm(log(e_hatsq)~X2+X3)
+var<-exp(fitted(sighatsq))
+flgs<-lm(Y~X2+X3,weights = 1/var)
+cov5 <- hccm(flgs, type = "hc1")
+flgsseb1 <- sqrt(vcov(flgs)[1,1])
+flgsrobseb1 <- sqrt(cov5[1,1])
+flgsseb2 <- sqrt(vcov(flgs)[2,2])
+flgsrobseb2 <- sqrt(cov5[2,2])
+flgsseb3 <- sqrt(vcov(flgs)[3,3])
+flgsrobseb3 <- sqrt(cov5[3,3])
+cat("b1 FLGS se:",flgsseb1,",","b1 FLGS Robust se:",flgsrobseb1,"\n")
+cat("b2 FLGS se:",flgsseb2,",","b2 FLGS Robust se:",flgsrobseb2,"\n")
+cat("b3 FLGS se:",flgsseb3,",","b3 FLGS Robust se:",flgsrobseb3,"\n")
