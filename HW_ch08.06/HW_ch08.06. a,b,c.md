@@ -34,3 +34,9 @@ $F = MSE_{SINGLE}/MSE_{MARRIED} = 142.357/169.249 = 0.8411$
 
 Based on our calculated F-statistic of 0.84, at the 5% significance level, as the calculated F-statistic is less than the critical value of 1.315, we fail to reject the null hypothesis.
 Therefore, our conclusion is that at the 5% significance level, we do not have enough evidence to support the hypothesis that the variability in wages is higher for married individuals compared to single individuals.
+
+### c小题
+Following the regression in part (b), we carry out the NR2 test using the right-hand-side variables in (XR8.6b) as candidates related to the heteroskedasticity. The value of this statistic is 59.03.
+What do we conclude about heteroskedasticity, at the 5% level? Does this provide evidence about the issue discussed in part (b), whether the error variation is different for married and unmarried individuals? Explain.
+
+ANS:The NR^2 test evaluates whether the variance of errors between observations in the regression model is constant, but it does not specifically examine whether the error variation differs between married and unmarried individuals. Therefore, although the result of the NR^2 test suggests potential heteroskedasticity, it does not directly provide evidence regarding the specific issue discussed in the question.
