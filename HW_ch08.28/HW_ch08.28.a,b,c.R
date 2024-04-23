@@ -14,10 +14,8 @@ beta1 <- 5
 beta2 <- 4
 beta3 <- 0
 
-# Fit the regression model
 mod1 <- lm(Y ~ X2 + X3)
 summary(mod1)
-
 # Compare the estimated coefficients to the true values
 coef_estimates <- coef(mod1)
 true_values <- c(beta1, beta2, beta3)
@@ -44,13 +42,16 @@ upb_beta3 <- coef_estimates[3]+tc*sqrt(diag(vcov(mod1)))[3]  # upper bound
 cat("CI of beta3 =", ci_beta3 <- c(lowb_beta3, upb_beta3))
 
 # ch8.28 (b)
-# Calculate the least squares residuals
 resid <- residuals(mod1)
-
-# Regress squared residuals on X2 and X3
 resid_squared <- resid^2
 resid_mod1 <- lm(resid_squared ~ X2 + X3)
 summary(resid_mod1)
+N <- nobs(resid_mod1)
+gresid_mod1 <- glance(resid_mod1)
+S <- gresid_mod1$df
+Rsqres <- gresid_mod1$r.squared
+chisq <- N*Rsqres; chisq
+pval <- 1-pchisq(chisq,S-1); pval
 
 # ch8.28 (c)
 kable(tidy(mod1),caption= "Regular standard errors")
