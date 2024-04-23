@@ -7,13 +7,11 @@ robust standard errors. Are the GLS parameter estimates closer to the true param
 not? Which set of standard errors should be used?
 
 **Solution:**
-|$b_1$ GLS Standard Errors| $b_1$ GLS Robust Standard Errors |
-|:-----------------------:|:--------------------------------:|
-|         1.622549        |             1.864489             |
-|$b_2$ GLS Standard Errors| $b_2$ GLS Robust Standard Errors |
-|         0.4687378       |             0.5631968            |
-|$b_3$ GLS Standard Errors| $b_3$ GLS Robust Standard Errors |
-|         0.3768156       |             0.3854274            |
+|     | GLS Standard Errors|  GLS Robust Standard Errors |
+|:---:|:-----------------------:|:--------------------------------:|
+|$b_1$|         1.622549        |             1.864489             |
+|$b_2$|         0.4687378       |             0.5631968            |
+|$b_3$|         0.3768156       |             0.3854274            |
 #### Yes, GLS provides more precise estimates due to its smaller standard errors, potentially closer to the true parameter values. This boosts confidence in the model results, enabling reliable statistical inferences and hypothesis testing. Therefore, GLS is preferred for the model.
 
 **Code:**
@@ -41,13 +39,11 @@ true parameter values than the GLS or OLS estimates? Which set of standard error
 be used?
 
 **Solution:**
-|$b_1$ FLGS Standard Errors| $b_1$ FLGS Robust Standard Errors |
-|:--------:|:-----------:|
-| 1.784454 | 1.664399 |
-|$b_2$ FLGS Standard Errors| $b_2$ FLGS Robust Standard Errors |
-|0.4985102|  0.542164  |
-|$b_3$ FLGS Standard Errors| $b_3$ FLGS Robust Standard Errors |
-|0.3772329| 0.3573456 |
+|     |FLGS Standard Errors|  FLGS Robust Standard Errors |
+|:---:|:--------:|:-----------:|
+|$b_1$| 1.784454 | 1.664399 |
+|$b_2$|0.4985102|  0.542164 |
+|$b_3$|0.3772329| 0.3573456 |
 
 #### The standard errors of FLGS are slightly larger than GLS and significantly smaller than OLS. Therefore, GLS estimates are closer to the true parameter values compared to FLGS. While the robust standard error of b2 in FLGS is slightly larger than that of GLS, the robust standard errors of other coefficients in FLGS are slightly smaller than GLS. Hence, robust FLGS is preferred for the model.
 
