@@ -7,12 +7,12 @@ robust standard errors. Are the GLS parameter estimates closer to the true param
 not? Which set of standard errors should be used?
 
 **Solution:**
-|     | GLS Standard Errors|  GLS Robust Standard Errors |
-|:---:|:-----------------------:|:--------------------------------:|
-|$b_1$|         1.622549        |             1.864489             |
-|$b_2$|         0.4687378       |             0.5631968            |
-|$b_3$|         0.3768156       |             0.3854274            |
-#### Yes, GLS provides more precise estimates due to its smaller standard errors, potentially closer to the true parameter values. This boosts confidence in the model results, enabling reliable statistical inferences and hypothesis testing. Therefore, GLS is preferred for the model.
+|     | GLS Standard Errors| Robust GLS  Standard Errors | 95% GLS CI| 95% Robust GLS CI |
+|:---:|:-----------------------:|:--------------------------------:|:-----------------------:|:--------------------------------:|
+|$b_1$|         1.622549        |             1.864489             |  [ 1.191005 , 7.631626 ]        |      [ 0.7108212 , 8.111809 ]        |
+|$b_2$|         0.4687378       |             0.5631968            | [ 2.482464 , 4.343094 ]        |         [ 2.294989 , 4.530569 ]           |
+|$b_3$|         0.3768156       |             0.3854274            | [ 0.01408436 , 1.509834 ]        |      [ -0.003007505 , 1.526926 ]            |
+#### Based on the 95% GLS confidence interval, $\beta_3$ falls outside the interval, while all true parameters fall within the 95% Robust GLS confidence interval. Additionally, the robust standard errors are larger than the conventional ones, indicating a more conservative approach. Hence, robust GLS is preferred for the model.
 
 **Code:**
 ```
@@ -26,9 +26,30 @@ glsseb2 <- sqrt(vcov(gls)[2,2])
 glsrobseb2 <- sqrt(cov4[2,2])
 glsseb3 <- sqrt(vcov(gls)[3,3])
 glsrobseb3 <- sqrt(cov4[3,3])
+lwgb1<-glsb1-tc*glsseb1
+ubgb1<-glsb1+tc*glsseb1
+lwgb2<-glsb2-tc*glsseb2
+ubgb2<-glsb2+tc*glsseb2
+lwgb3<-glsb3-tc*glsseb3
+ubgb3<-glsb3+tc*glsseb3
+
+lwgrb1<-glsb1-tc*glsrobseb1
+ubgrb1<-glsb1+tc*glsrobseb1
+lwgrb2<-glsb2-tc*glsrobseb2
+ubgrb2<-glsb2+tc*glsrobseb2
+lwgrb3<-glsb3-tc*glsrobseb3
+ubgrb3<-glsb3+tc*glsrobseb3
+
 cat("b1 GLS se:",glsseb1,",","b1 GLS Robust se:",glsrobseb1,"\n")
 cat("b2 GLS se:",glsseb2,",","b2 GLS Robust se:",glsrobseb2,"\n")
 cat("b3 GLS se:",glsseb3,",","b3 GLS Robust se:",glsrobseb3,"\n")
+cat("b1 95% GLS CI: [",lwgb1,",",ubgb1,"]","\n")
+cat("b2 95% GLS CI: [",lwgb2,",",ubgb2,"]","\n")
+cat("b3 95% GLS CI: [",lwgb3,",",ubgb3,"]","\n")
+
+cat("b1 95% robust GLS CI: [",lwgrb1,",",ubgrb1,"]","\n")
+cat("b2 95% robust GLS CI: [",lwgrb2,",",ubgrb2,"]","\n")
+cat("b2 95% robust GLS CI: [",lwgrb3,",",ubgrb3,"]","\n")
 ```
 ---
 ## ch08.28 (e)
