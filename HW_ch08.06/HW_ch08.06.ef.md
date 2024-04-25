@@ -19,8 +19,16 @@ Since robust standard error is bigger than usual standard errors for intercept a
 
 Because robust standard error is smaller than usual standard errors for the rest variables, so the interval estimates for the others have gotten narrower.
 
+There is no inconsistency because the robust standard errors might be larger or smaller than the incorrect OLS standard errors.
+
 ## ch08.06 (f)
 **Question:**\
 If we add $MARRIED$ to the model in part (b), we find that its $t-value$ using a White heteroskedasticity robust standard error is about 1.0. Does this conflict with, or is it compatible with, the result in (b) concerning heteroskedasticity? Explain.
 
-There is no inconsistency because the robust standard errors might be larger or smaller than the incorrect OLS standard errors.
+**Answer:**
+
+The addition of the intercept indicator variable $MARRIED$ allows the expected wage, conditional on the explanatory variables $EDUC$, $EXPER$, $METRO$, and $FEMALE$ to differ between those who are married and those who are not. 
+
+In part (b), we were asking about the amount of error variation between the two groups (married & single), which we found to be significant.
+
+So the above two issues are quite different.
