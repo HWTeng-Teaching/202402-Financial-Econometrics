@@ -14,4 +14,5 @@ $\widehat{WAGE} = -17.77 + 2.50\ EDUC + 0.23\ EXPER + 3.23\ METRO - 4.20\ FEMALE
 For which coefficients have interval estimates gotten narrower? For which coefficients have interval estimates gotten wider? Is there an inconsistency in the results?
 
 **Answer:**
-Since 
+Since robust standard errors is bigger than usual standard errors, the interval estimates for the intercept and the coefficient of $EDUC$ have gotten wider.
+B
