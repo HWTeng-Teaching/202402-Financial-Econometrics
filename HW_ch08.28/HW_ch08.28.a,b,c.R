@@ -16,30 +16,31 @@ beta3 <- 0
 
 mod1 <- lm(Y ~ X2 + X3)
 summary(mod1)
-# Compare the estimated coefficients to the true values
 coef_estimates <- coef(mod1)
+std_errors <- summary(mod1)$coefficients[, "Std. Error"]
+cat("Estimated Coefficients:\n")
+print(coef_estimates)
+cat("\nStandard Errors:\n")
+print(std_errors)
 true_values <- c(beta1, beta2, beta3)
 print("Estimated Coefficients vs True Values:")
 print(cbind(coef_estimates, true_values))
-
-# Check if coefficients are significantly different from 0 at 5% level
 alpha <- 0.05
 cat("critical value =", tc <- qt(1-0.05/2, mod1$df.residual))	# critical value
 
-# CI of beta1
-lowb_beta1 <- coef_estimates[1]-5-tc*sqrt(diag(vcov(mod1)))[1] # lower bound
-upb_beta1 <- coef_estimates[1]-5+tc*sqrt(diag(vcov(mod1)))[1]  # upper bound
-cat("CI of beta1 =", ci_beta1 <- c(lowb_beta1, upb_beta1))
+b1<-coef(OLS)[[1]]
+b2<-coef(OLS)[[2]]
+b3<-coef(OLS)[[3]]
 
-# CI of beta2
-lowb_beta2 <- coef_estimates[2]-4-tc*sqrt(diag(vcov(mod1)))[2] # lower bound
-upb_beta2 <- coef_estimates[2]-4+tc*sqrt(diag(vcov(mod1)))[2]  # upper bound
-cat("CI of beta2 =", ci_beta2 <- c(lowb_beta2, upb_beta2))
+seb1<-sqrt(vcov(OLS)[1,1])
+seb2<-sqrt(vcov(OLS)[2,2])
+seb3<-sqrt(vcov(OLS)[3,3])
 
-#CI of beta3
-lowb_beta3 <- coef_estimates[3]-tc*sqrt(diag(vcov(mod1)))[3] # lower bound
-upb_beta3 <- coef_estimates[3]+tc*sqrt(diag(vcov(mod1)))[3]  # upper bound
-cat("CI of beta3 =", ci_beta3 <- c(lowb_beta3, upb_beta3))
+test1<-(b1-5)/seb1
+test2<-(b2-4)/seb2
+test3<-b3/seb3
+
+cat("T value1:",test1,"T value2:",test2,"T value3:",test3)
 
 # ch8.28 (b)
 resid <- residuals(mod1)
