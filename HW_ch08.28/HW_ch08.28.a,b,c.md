@@ -89,7 +89,7 @@ pval <- 1-pchisq(chisq,S-1); pval
 Regress Y on X2 and X3 and obtain robust standard errors. Compare these to the conventional standard errors in (a).
 
 **Solution:**
-|  | OLS standard error | Robust standare error |
+|  | OLS standard error | Robust standard error |
 |:---:|:---:|:---:|
 | intercept | 3.2067977 | 3.2172642 |
 | X2 | 0.5719662 | 0.6648557 |
