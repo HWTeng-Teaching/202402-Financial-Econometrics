@@ -27,13 +27,13 @@ alpha <- 0.05
 cat("critical value =", tc <- qt(1-0.05/2, mod1$df.residual))	# critical value
 
 # CI of beta1
-lowb_beta1 <- coef_estimates[1]-tc*sqrt(diag(vcov(mod1)))[1] # lower bound
-upb_beta1 <- coef_estimates[1]+tc*sqrt(diag(vcov(mod1)))[1]  # upper bound
+lowb_beta1 <- coef_estimates[1]-5-tc*sqrt(diag(vcov(mod1)))[1] # lower bound
+upb_beta1 <- coef_estimates[1]-5+tc*sqrt(diag(vcov(mod1)))[1]  # upper bound
 cat("CI of beta1 =", ci_beta1 <- c(lowb_beta1, upb_beta1))
 
 # CI of beta2
-lowb_beta2 <- coef_estimates[2]-tc*sqrt(diag(vcov(mod1)))[2] # lower bound
-upb_beta2 <- coef_estimates[2]+tc*sqrt(diag(vcov(mod1)))[2]  # upper bound
+lowb_beta2 <- coef_estimates[2]-4-tc*sqrt(diag(vcov(mod1)))[2] # lower bound
+upb_beta2 <- coef_estimates[2]-4+tc*sqrt(diag(vcov(mod1)))[2]  # upper bound
 cat("CI of beta2 =", ci_beta2 <- c(lowb_beta2, upb_beta2))
 
 #CI of beta3
