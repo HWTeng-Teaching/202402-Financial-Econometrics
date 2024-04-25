@@ -20,12 +20,11 @@ Do the $t$-values suggest that the coefficients are significantly different from
 | $b_3$ / $\beta_3$ | -0.184 | 0 |
 
 ##### Test the coefficients are significantly different from zero on not.
-|  | 95% CI of the coefficients |
-|:---:|:---:|
-| $\beta_1$ | [-1.28 , 11.5] |
-| $\beta_2$ | [2.8 , 5.07] |
-| $\beta_3$ | [-1.41 , 1.04] |
-#### The coefficient of X2 are significantly different from zero at 5%.  
+$H_0 : b = \beta$ and the critical value = 1.984723  
+For $\beta_1$ : $t$-value = -0.6125954  
+For $\beta_2$ : $t$-value = -0.2087128  
+For $\beta_3$ : $t$-value = 1.17923  
+The result shows that $\beta_1$ is not significantly different from 5 at the 5% significance level, $\beta_2$ is not significantly different from 4 at the 5% significance level, and $\beta_3$ is not significantly different from 0 at the 5% significance level
 
 **Code:**
 ```
@@ -43,20 +42,19 @@ print(cbind(coef_estimates, true_values))
 alpha <- 0.05
 cat("critical value =", tc <- qt(1-0.05/2, mod1$df.residual))	# critical value
 
-# CI of beta1
-lowb_beta1 <- coef_estimates[1]-tc*sqrt(diag(vcov(mod1)))[1] # lower bound
-upb_beta1 <- coef_estimates[1]+tc*sqrt(diag(vcov(mod1)))[1]  # upper bound
-cat("CI of beta1 =", ci_beta1 <- c(lowb_beta1, upb_beta1))
+b1<-coef(OLS)[[1]]
+b2<-coef(OLS)[[2]]
+b3<-coef(OLS)[[3]]
 
-# CI of beta2
-lowb_beta2 <- coef_estimates[2]-tc*sqrt(diag(vcov(mod1)))[2] # lower bound
-upb_beta2 <- coef_estimates[2]+tc*sqrt(diag(vcov(mod1)))[2]  # upper bound
-cat("CI of beta2 =", ci_beta2 <- c(lowb_beta2, upb_beta2))
+seb1<-sqrt(vcov(OLS)[1,1])
+seb2<-sqrt(vcov(OLS)[2,2])
+seb3<-sqrt(vcov(OLS)[3,3])
 
-#CI of beta3
-lowb_beta3 <- coef_estimates[3]-tc*sqrt(diag(vcov(mod1)))[3] # lower bound
-upb_beta3 <- coef_estimates[3]+tc*sqrt(diag(vcov(mod1)))[3]  # upper bound
-cat("CI of beta3 =", ci_beta3 <- c(lowb_beta3, upb_beta3))
+test1<-(b1-5)/seb1
+test2<-(b2-4)/seb2
+test3<-b3/seb3
+
+cat("T value1:",test1,"T value2:",test2,"T value3:",test3)
 ```
 ---
 ## ch08.28 (b)
@@ -67,7 +65,8 @@ What evidence, if any, do you find for the presence of heteroskedasticity?
 **Solution:**\
 The estimated regression is $\widehat{e}^2$ = -29.386 + 26.966X2 −0.419X3.
 The regression $R^2$ = 0.138 so that the BP test statistic $NR^2$ = 13.8  
-Set $\alpha$=0.05. Since the $p$-value in the BP test is 0.000203, conclude that heteroskedasticity may exist.
+Set $\alpha$=0.05, we set $H_0$ : Homoskedasticity v.s. $H_1$ : Hetroskedasticity  
+Since the $p$-value in the BP test is 0.000203, conclude that heteroskedasticity may exist.
 
 **Code:**
 ```
