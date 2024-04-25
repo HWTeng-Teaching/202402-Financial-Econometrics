@@ -8,11 +8,11 @@ Following the regression in part (b) we carry out the White test for heteroskeda
 
 df = number of variables + number of variables square + number of interactions - indicator variables =  4 + 4 + 6 - 2 = 12
 
-$\ Rejection\ region : \lbrace \chi : \chi^* > \chi_{(12,0.05)} = 21.02607 \rbrace \$
+$\ Rejection\ region : \lbrace \chi : \chi^* > \chi_{(12,0.95)} = 21.02607 \rbrace \$
 
 $\ test\ statistic\quad \chi^* = 78.82 \$
 
-$\ \because \chi^* = 78.82 > \chi_{(12,0.05)} = 21.02607 \therefore Reject \ H_0 \$
+$\ \because \chi^* = 78.82 > \chi_{(12,0.95)} = 21.02607 \therefore Reject \ H_0 \$
 
 We have significant evidence to reject homoskedasticity. $\ (\sigma^2_{SINGLE} = \sigma^2_{MARRIED}) \$
 
