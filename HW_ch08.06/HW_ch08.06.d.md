@@ -4,7 +4,7 @@
 **Question:**\
 Following the regression in part (b) we carry out the White test for heteroskedasticity. The value of the test statistic is 78.82. What are the degrees of freedom of the test statistic? What is the  5% critical value for the test? What do you conclude?
 
-**Answer:**\
+**Answer:**
 
 df = number of variables + number of variables square + number of intersections - indicator variables =  4 + 4 + 6 - 2 = 14
 
