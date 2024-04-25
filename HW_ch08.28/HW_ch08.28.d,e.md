@@ -9,9 +9,9 @@ not? Which set of standard errors should be used?
 **Solution:**
 |     | OLS estimates |GLS estimates & Standard Errors| Robust GLS estimates & Standard Errors | 95% GLS CI| 95% Robust GLS CI |
 |:---:|:-----------------------:|:-----------------------:|:--------------------------------:|:-----------------------:|:--------------------------------:|
-|$b_1$|     3.4764     |       4.4113 (1.6225)       |           4.4113  (1.86449)         |  [ 1.1910 , 7.6316 ]        |      [ 0.7108 , 8.1118 ]        |
-|$b_2$|     3.8779       |     3.4128 (0.4687)       |           3.4128  (0.56320)         | [ 2.4825 , 4.3431 ]        |         [ 2.2950 , 4.5306 ]           |
-|$b_3$|     0.5838       |    0.7620 (0.3768)       |           0.7620  (0.38543)         | [ 0.0141 , 1.5098 ]        |      [ -0.0030 , 1.5269 ]            |
+|$b_1$|     3.4764     |       4.4113 (1.6225)       |           4.4113  (1.8645)         |  [ 1.1910 , 7.6316 ]        |      [ 0.7108 , 8.1118 ]        |
+|$b_2$|     3.8779       |     3.4128 (0.4687)       |           3.4128  (0.5632)         | [ 2.4825 , 4.3431 ]        |         [ 2.2950 , 4.5306 ]           |
+|$b_3$|     0.5838       |    0.7620 (0.3768)       |           0.7620  (0.3854)         | [ 0.0141 , 1.5098 ]        |      [ -0.0030 , 1.5269 ]            |
 #### Compared to OLS estimates, only $b_1$ is closer to the true parameter. Additionally, the robust standard errors are larger than the conventional ones, indicating a more conservative approach. Hence, robust GLS is preferred for the model.
 
 **Code:**
