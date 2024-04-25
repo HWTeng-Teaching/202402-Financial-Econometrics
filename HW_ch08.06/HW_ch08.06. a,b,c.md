@@ -47,4 +47,4 @@ What do we conclude about heteroskedasticity, at the 5% level? Does this provide
 
 ### ANSWER:
 
-The NR^2 test evaluates whether the variance of errors between observations in the regression model is constant, but it does not specifically examine whether the error variation differs between married and unmarried individuals. Therefore, although the result of the NR^2 test suggests potential heteroskedasticity, it does not directly provide evidence regarding the specific issue discussed in the question.
+The $NR^2$ test evaluates whether the variance of errors between observations in the regression model is constant, but it does not specifically examine whether the error variation differs between married and unmarried individuals. Therefore, although the result of the $NR^2$ test suggests potential heteroskedasticity, it does not directly provide evidence regarding the specific issue discussed in the question.
