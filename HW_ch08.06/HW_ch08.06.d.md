@@ -10,3 +10,4 @@ df = number of variables + number of variables square + number of intersections 
 
 $$ \chi_{(12,0.05)} = 21.026 $$
 $$ test statistic = 78.82 $$
+$$ Rejection region : {\chi : \chi > 21.026} $$
