@@ -19,4 +19,8 @@ Since robust standard error is bigger than usual standard errors for intercept a
 
 Because robust standard error is smaller than usual standard errors for the rest variables, so the interval estimates for the others have gotten narrower.
 
+## ch08.06 (f)
+**Question:**\
+If we add $MARRIED$ to the model in part (b), we find that its $t-value$ using a White heteroskedasticity robust standard error is about 1.0. Does this conflict with, or is it compatible with, the result in (b) concerning heteroskedasticity? Explain.
+
 There is no inconsistency because the robust standard errors might be larger or smaller than the incorrect OLS standard errors.
