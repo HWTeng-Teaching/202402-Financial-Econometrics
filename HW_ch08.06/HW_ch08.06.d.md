@@ -6,5 +6,6 @@ Following the regression in part (b) we carry out the White test for heteroskeda
 
 **Answer:**\
 
-df = number of variables + number of variables square + number of intersections - indicator variables
-=  4 + 4 + 6 - 2 = 14 \
+df = number of variables + number of variables square + number of intersections - indicator variables =  4 + 4 + 6 - 2 = 14
+
+\chi
