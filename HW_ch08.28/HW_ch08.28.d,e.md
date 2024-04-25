@@ -12,7 +12,7 @@ not? Which set of standard errors should be used?
 |$b_1$|     3.4764     |       4.4113 (1.6225)       |           4.4113  (1.86449)         |  [ 1.1910 , 7.6316 ]        |      [ 0.7108 , 8.1118 ]        |
 |$b_2$|     3.8779       |     3.4128 (0.4687)       |           3.4128  (0.56320)         | [ 2.4825 , 4.3431 ]        |         [ 2.2950 , 4.5306 ]           |
 |$b_3$|     0.5838       |    0.7620 (0.3768)       |           0.7620  (0.38543)         | [ 0.0141 , 1.5098 ]        |      [ -0.0030 , 1.5269 ]            |
-#### Compared to the OLS estimates, only $b_1$ is closer to the true parameter. Additionally, the robust standard errors are larger than the conventional ones, indicating a more conservative approach. Hence, robust GLS is preferred for the model.
+#### Compared to OLS estimates, only $b_1$ is closer to the true parameter. Additionally, the robust standard errors are larger than the conventional ones, indicating a more conservative approach. Hence, robust GLS is preferred for the model.
 
 **Code:**
 ```
@@ -56,7 +56,7 @@ cat("b2 95% robust GLS CI: [",lwgrb3,",",ubgrb3,"]","\n")
 **Question:**\
 Assume the multiplicative heteroskedasticity model $exp(α_1 + α_2X_2 + α_3X_3)$. Obtain FGLS
 estimates with conventional and robust standard errors. Are the FGLS estimates closer to the
-true parameter values than the GLS or OLS estimates? Which set of standard errors should
+true parameter values than the GLS estimates? Which set of standard errors should
 be used?
 
 **Solution:**
@@ -66,8 +66,7 @@ be used?
 |$b_2$|  3.4261 (0.4985) | 3.4261 (0.5422) | [ 2.4366 , 4.4155 ] | [ 2.3500 , 4.5021 ] 
 |$b_3$|  0.6525 (0.3772) | 0.6525 (0.3574) | [ -0.0962 , 1.4012 ] | [ -0.0567 , 1.3617 ] 
 
-#### The standard errors of FGLS are slightly larger than GLS and significantly smaller than OLS. Therefore, GLS estimates are closer to the true parameter values compared to FGLS. While the robust standard error of b2 in FGLS is slightly larger than that of GLS, the robust standard errors of other coefficients in FGLS are slightly smaller than GLS. Hence, robust FGLS is preferred for the model.
-
+#### Compared to GLS, all estimates in FGLS are closer to the true parameter. Although the standard errors of $b_2$ in FGLS is larger than GLS, the other estimates in FGLS are only slightly larger than their robust counterparts, suggesting a more conservative approach. Therefore, FGLS is preferred for the model.
 **Code:**
 
 ```
