@@ -14,7 +14,7 @@ $\ test\ statistic\quad \chi^* = 78.82 \$
 
 $\ \because \chi^* = 78.82 > \chi_{(12,0.95)} = 21.02607 \therefore Reject \ H_0 \$
 
-We have significant evidence to reject homoskedasticity. $\ (\sigma^2_{SINGLE} = \sigma^2_{MARRIED}) \$
+We have significant evidence to reject homoskedasticity. It means $\ \sigma^2_{SINGLE} \neq \sigma^2_{MARRIED} \$
 
 ```
 qchisq(0.95, df = 12)
