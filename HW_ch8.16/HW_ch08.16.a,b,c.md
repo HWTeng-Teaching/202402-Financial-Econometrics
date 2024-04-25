@@ -9,7 +9,7 @@
 **Question:**\
 Use the data file $vacation$ to estimate the model by OLS. Construct a 95% interval estimate for the effect of one more child on miles traveled, holidng the two other variables constant.
 
-**Ans:**\
+**Ans:**
 |               |      2.5%      |      97.5%      | 
 |---------------|:--------------:|:---------------:|
 | $(Intercept)$ |   -726.36871   |     -56.72731   |
@@ -24,10 +24,11 @@ Using the t critical value of 1.97214, the 95% interval estimate of the effect o
 Therefore, we estimate that another child will reduce average miles traveled by between 28 and 135 miles, with 95% confidence.
 
 ### (b)
-**Question:**\ 
+**Question:**\
 Plot the OLS residuals versus $INCOME$ and $AGE$. Do you observe any patterns suggesting that heteroskedasticity is present?
 
-**Ans:**\
+**Ans:**
+
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/blob/main/HW_ch8.16/residuals%20vs%20income.png)
 
 In the plot of the residuals against income, variation of the residuals increases as income increases.
@@ -40,4 +41,20 @@ While in the plot of the residuals against age, the same effect is not apparent.
 **Question:**\
 Sort the data accordingg to increasing magnitude of income. Estimate the model using the first 90 observations and again using the last 90 observations. Carry out the Goldfelf-Quandt  test for heteroskedasticity errors at the 5% level. State the null and alternative hypothesis.
 
-**Ans:**\
+**Ans:**
+
+$H0: \{\sigma_1^2} = \{\sigma_2^2}$
+
+$H1: \{\sigma_1^2} > \{\sigma_2^2}$
+
+$\alpha = 0.05$
+
+$df = n - k = 90-4=86$
+
+$F^* = \hat{\sigma_2^2}/\hat{\sigma_1^2} = [315821.55/(90-4)] / [(101744.65)/(90-4)] = 3.104$
+
+$\ Rejection\ region : \lbrace F : F^* > F_{(0.95,86,86)} = 1.4286 \rbrace \$
+
+$\\because F^* = 3.104 > F_{(0.95,86,86)} = 1.4286 \therefore Reject \ H_0 \$
+
+We can conclude that the error variance depends on income.
