@@ -32,9 +32,9 @@ Using $N = 400$ observations on single individuals, OLS estimation of the above 
 
 ### ANSWER:
 
-$MSE_{SINGLE} = SSE_{SINGLE} / df_{SINGLE} = 56231.0382 / 400-4-1 = 142.357$
+$MSE_{SINGLE} = SSE_{SINGLE} / df_{SINGLE} = 56231.0382 / （400-4-1） = 142.357$
 
-$MSE_{MARRIED} = SSE_{MARRIED} / df_{MARRIED} = 100,703.0471 / 1000-400-4-1 = 169.249$
+$MSE_{MARRIED} = SSE_{MARRIED} / df_{MARRIED} = 100,703.0471 / （1000-400-4-1） = 169.249$
 
 $F = MSE_{SINGLE}/MSE_{MARRIED} = 142.357/169.249 = 0.8411$
 
