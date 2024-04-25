@@ -14,4 +14,4 @@ $\ test\ statistic\quad \chi^* = 78.82 \$
 
 $\ \because \chi^* = 78.82 > \chi_{(12,0.05)} = 21.026 \therefore Reject \ H_0 \$
 
-So we can not conclude that $\ \sigma^2_{SINGLE} = \sigma^2_{MARRIED} \$
+We have significant evidence to reject homoskedasticity. $\ (\sigma^2_{SINGLE} = \sigma^2_{MARRIED}) \$
