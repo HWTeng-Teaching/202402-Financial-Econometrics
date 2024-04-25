@@ -5,5 +5,9 @@
 The OLS fitted model from part (b), with usual and robust standard errors, is
 
 $\widehat{WAGE} = -17.77 + 2.50\ EDUC + 0.23\ EXPER + 3.23\ METRO - 4.20\ FEMALE$
-  (se)            (2.36)  (0.14)        (0.031)       (1.05)       (0.81) 
+
+      | Variable |  intercept  |      EDUC     |     EXPER     |     METRO     |   FEMALE   |
+      |:--------:|:-----------:|:-------------:|:-------------:|:-------------:|-----------:|
+      |    se    |    2.36     |     0.14      |      0.031    |      1.05     |    0.81    |
+      |  robust  |    2.50     |     0.16      |      0.029    |      0.84     |    0.80    |
 
