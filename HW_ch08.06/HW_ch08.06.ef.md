@@ -4,5 +4,5 @@
 **Question:**\
 The OLS fitted model from part (b), with usual and robust standard errors, is
 
-$\widehat{WAGE} = -17.77 + 2.50\EDUC + 0.23\EXPER + 3.23\METRO - 4.20\FEMALE$
+$\widehat{WAGE} = -17.77 + 2.50\ EDUC + 0.23\ EXPER + 3.23\ METRO - 4.20\ FEMALE$
 
