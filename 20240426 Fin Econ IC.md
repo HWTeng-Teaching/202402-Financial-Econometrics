@@ -10,8 +10,8 @@ In the simple linear regression with random regressors, find the moment estimati
 
 
 ## Q2. 
-
-Show that OLS is consistent when $x$ is exogenous but inconsistent when $x$ is endogenous. 
+(a) Show that OLS is biased 
+(b) Show that OLS is consistent when $x$ is exogenous but inconsistent when $x$ is endogenous. 
 
 
 ## Q3.
