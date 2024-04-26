@@ -1,5 +1,8 @@
 #
 ### This homework is written by  黃馨霈 (312707006)
+
+[20240426 Teng: Please add scatter plot and residuals plots.]
+
 ## ch08.28 (a)
 Create simulated data with $N$ = 100.  
 1. Create $X2 = 1 + 5 \times U1$, where $U1$ is a random number between zero and one.
