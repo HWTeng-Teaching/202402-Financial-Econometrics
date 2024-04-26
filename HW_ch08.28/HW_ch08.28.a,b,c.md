@@ -1,4 +1,3 @@
-#
 ### This homework is written by  黃馨霈 (312707006)
 
 [20240426 Teng: Please add scatter plot and residuals plots.]
@@ -35,7 +34,10 @@ For $\beta_2$ : $t$-value = -0.2087128
 For $\beta_3$ : $t$-value = 1.17923  
 The result shows that $\beta_1$ is not significantly different from 5 at the 5% significance level, $\beta_2$ is not significantly different from 4 at the 5% significance level, and $\beta_3$ is not significantly different from 0 at the 5% significance level
 
+![messageImage_1714097335940](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/befcea04-2626-42f0-9789-e3f2ad9cd154)
+
 **Code:**
+
 ```
 mod1 <- lm(Y ~ X2 + X3)
 summary(mod1)
@@ -76,6 +78,10 @@ The estimated regression is $\widehat{e}^2$ = -29.386 + 26.966X2 −0.419X3.
 The regression $R^2$ = 0.138 so that the BP test statistic $NR^2$ = 13.8  
 Set $\alpha$=0.05, we set $H_0$ : Homoskedasticity v.s. $H_1$ : Hetroskedasticity  
 Since the $p$-value in the BP test is 0.000203, conclude that heteroskedasticity may exist.
+
+![messageImage_1714096377121](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/7ac89295-f2df-4b07-ba94-0caf0cbf5d88)
+![messageImage_1714096397099](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145751254/8a0dc888-bced-41ca-9e70-a84951c07de8)
+
 
 **Code:**
 ```
