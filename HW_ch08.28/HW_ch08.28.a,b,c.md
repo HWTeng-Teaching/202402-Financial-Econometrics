@@ -1,6 +1,11 @@
 #
 ### This homework is written by  黃馨霈 (312707006)
 ## ch08.28 (a)
+1. Create X2 = 1 + 5 × $U1$, where $U1$ is a random number between zero and one.
+2. Create X3 = 1 + 5 × $U2$, where $U2$ is another random number between zero and one.
+3. Create E = $exp$(2 + 0.6X2) × $Z$, where $Z \sim N(0, 1)$.
+4. Create Y = 5 + 4 X2 + $E$
+
 **Question:**\
 Regress Y on X2 and X3 and obtain conventional OLS standard errors. Compare the estimeted coefficients to the true values of the regression parameters, $\beta_1=5$, $\beta_2=4$, $\beta_3=0$.  
 Do the $t$-values suggest that the coefficients are significantly different from 0 at the 5% level?
