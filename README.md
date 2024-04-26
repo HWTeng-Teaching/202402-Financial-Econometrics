@@ -5,7 +5,7 @@
 
 | Cohort | Name | Question       | done |
 |--------|------|----------------|------|
-| 財金碩1 | 孫知岱 | ch08.6.(a,b,c)  |      |
+| 財金碩1 | 孫知岱 | ch08.6.(a,b,c)  |    Absent  |
 | 財金碩1 | 施昱全 | ch08.6.(d)      |      |
 | 財金碩1 | 歐陽君欣 | ch08.6.(e,f)    |      |
 | 財金碩1 | 吳亭儀 | ch08.16(a,b,c) |      |
@@ -19,13 +19,13 @@
 
 | Cohort   | Name     | Question      | done|
 |---------|--------|---------------------------------------------------------------------------------------------------|---|
-| 財金碩1  | 張家維 | Special Question: Show that when K=2, b has the same formula as b1 and b2 in Chapter 2.                  |absent|
+| 財金碩1  | 張家維 | Special Question: Show that when K=2, b has the same formula as b1 and b2 in Chapter 2.                  |Absent|
 | 財金博1  | 阮春順 | Special Question: Show that when K=2, b has the same sampling distribution as b1 and b2 in Chapter 2. | Done. Answer is wrong. |
-| 財金專1  | 林書帆 | ch05.06(a,b,c)                                                                                   | absent
+| 財金專1  | 林書帆 | ch05.06(a,b,c)                                                                                   | Absent
 | 財金碩3  | 曾川   | ch05.21(a,b,c)                                                                                   |
 | 財金碩2  | 汪文豪 | ch05.21(d,e)                                                                                     |
 | 財金碩2  | 游政諺 | ch05.24(a,b,c)                                                                                   |
-| 財金碩1  | 丁振朝 | ch05.24(d,e)                                                                                     | absent
+| 財金碩1  | 丁振朝 | ch05.24(d,e)                                                                                     | Absent
 
 
 
