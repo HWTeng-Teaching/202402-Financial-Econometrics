@@ -3,7 +3,7 @@
 
 ## Q1. 
 
-In the simple linear regression with random regressors, find the moment estimation estimators $\hat{\beta}_1$ and $\hat{\beta}_2$. 
+In the simple linear regression with random regressors: 
 - (a) Derive $\beta_2 =\frac{cov(x_i,y_i)}{var(x_i)}-\frac{cov(x_i,e_i)}{var(x_i)}$
 
 
