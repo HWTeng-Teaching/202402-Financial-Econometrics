@@ -9,7 +9,7 @@ $\widehat{WAGE} = -17.77 + 2.50\ EDUC + 0.23\ EXPER + 3.23\ METRO - 4.20\ FEMALE
  | Variable |  intercept  |      EDUC     |     EXPER     |     METRO     |   FEMALE   |
  |:--------:|:-----------:|:-------------:|:-------------:|:-------------:|:----------:|
  |    se    |    2.36  *   |     0.14   *   |      0.031 *   |      1.05     |    0.81  *  |
- |  robust  |    2.50     |     0.16      |      0.029    |      0.84     |    0.80    |
+ |  robust  |    2.50  *   |     0.16   *   |      0.029 *   |      0.84     |    0.80  *  |
 
 
 For which coefficients have interval estimates gotten narrower? For which coefficients have interval estimates gotten wider? Is there an inconsistency in the results?
@@ -20,7 +20,7 @@ Since robust standard error is bigger than usual standard errors for intercept a
 
 Because robust standard error is smaller than usual standard errors for the rest variables, so the interval estimates for the others have gotten narrower.
 
-There is no inconsistency because the robust standard errors might be larger or smaller than the incorrect OLS standard errors.
+From the significance of indicator results, we can find that it is consistent between two standard errors.
 
 [ Teng: You should add significant indicator ., *, **, ***, and compare if these two rows give you the same indicators.]
 
