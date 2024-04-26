@@ -66,7 +66,7 @@ be used?
 |$b_2$|  3.4261 (0.4985) | 3.4261 (0.5422) | [ 2.4366 , 4.4155 ] | [ 2.3500 , 4.5021 ] 
 |$b_3$|  0.6525 (0.3772) | 0.6525 (0.3574) | [ -0.0962 , 1.4012 ] | [ -0.0567 , 1.3617 ] 
 
-#### Compared to GLS, all estimates in FGLS are closer to the true parameter. Although the standard errors of $b_2$ in FGLS is larger than GLS, the other estimates in FGLS are only slightly larger than their robust counterparts, suggesting a more conservative approach. Therefore, FGLS is preferred for the model.
+#### Compared to GLS, all estimates in FGLS are closer to the true parameter. Although the standard errors of $b_2$ in FGLS is larger than GLS, the other estimates in FGLS are slightly larger than their robust counterparts, suggesting a more conservative approach. Therefore, FGLS is preferred for the model.
 **Code:**
 
 ```
