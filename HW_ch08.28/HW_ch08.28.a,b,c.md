@@ -1,6 +1,7 @@
 #
 ### This homework is written by  黃馨霈 (312707006)
 ## ch08.28 (a)
+Create simulated data with $N$ = 100.  
 1. Create $X2 = 1 + 5 \times U1$, where $U1$ is a random number between zero and one.
 2. Create $X3 = 1 + 5 \times U2$, where $U2$ is another random number between zero and one.
 3. Create $E = \sqrt{exp(2 + 0.6X2)} \times Z$, where $Z \sim N(0, 1)$.
