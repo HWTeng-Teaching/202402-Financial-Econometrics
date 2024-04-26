@@ -12,7 +12,6 @@ In the simple linear regression with random regressors:
 - (b)  Show that OLS $b_2$ is biased, and inconsistent for  endogenous regressors.
 
 
-## Q3.
 
-Write down the properties that an IV needs to satisfy. 
+(Skipped: Q3. Write down the properties that an IV needs to satisfy. )
 
