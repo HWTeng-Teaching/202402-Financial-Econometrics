@@ -8,8 +8,8 @@ In the simple linear regression with random regressors:
 
 
 ## Q2. 
-- (a) Show that OLS is biased, but consistent for  exogenous and endogenous regressors.
-- (b)  Show that OLS is biased, and inconsistent for  endogenous regressors.
+- (a) Show that OLS $b_2$ is biased, but consistent for  exogenous regressors.
+- (b)  Show that OLS $b_2$ is biased, and inconsistent for  endogenous regressors.
 
 
 ## Q3.
