@@ -16,12 +16,12 @@ Find the MM in the simple linear regression $y=\beta_1+\beta_2 x + \varepsilon$.
 
 If the model is
 
-$y=\beta_1+\beta_2x_2+\beta_3x_3+e$
-where $x_2$ and $x_3$ are endogenous. 
+$y=\beta_1+\beta_2x_2+\beta_3x_3+\beta_4 x_4+ e$
+where $x_2$ is exogenous, but $x_3$ and $x_4$ are exogenous. 
 
 If we have three IVs, $z_1$, $z_2$, and $z_3$. 
 
-Suppose we will use all these three IVs. 
+Suppose we use all these three IVs. 
 
 1. Write down the first equation in the 2SLS.
 2. Write down the second equation. 
