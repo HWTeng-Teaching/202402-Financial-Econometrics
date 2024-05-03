@@ -17,7 +17,7 @@ Find the MM in the simple linear regression $y=\beta_1+\beta_2 x + \varepsilon$.
 If the model is
 
 $y=\beta_1+\beta_2x_2+\beta_3x_3+\beta_4 x_4+ e$
-where $x_2$ is exogenous, but $x_3$ and $x_4$ are exogenous. 
+where $x_2$ is exogenous, but $x_3$ and $x_4$ are endogenous. 
 
 If we have three IVs, $z_1$, $z_2$, and $z_3$. 
 
