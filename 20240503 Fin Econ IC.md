@@ -6,8 +6,9 @@
 Find the MM in the simple linear regression $y=\beta_1+\beta_2 x + \varepsilon$. Suppose that $x$ is endogenous and  $z$ is a good IV.
 1. How many parameters in the simple linear regression
 2. Write down the two moments conditions. 
-3. Express the two moments in step 2 using paremeters. 
-4. Write down the MM estimators for $\beta_1$ and $\beta_2$. 
+3. Express the two moments in step 2 using paremeters.
+4. Express parameters using moments. 
+5. Write down the MM estimators for $\beta_1$ and $\beta_2$. 
 
 
 
