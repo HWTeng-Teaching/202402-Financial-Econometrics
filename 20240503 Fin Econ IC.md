@@ -23,6 +23,6 @@ If we have three IVs, $z_1$, $z_2$, and $z_3$.
 
 Suppose we use all these three IVs. 
 
-1. Write down the first equation in the 2SLS.
-2. Write down the second equation. 
+1. Write down the first stage equation in the 2SLS.
+2. Write down the second stage equation. 
 
