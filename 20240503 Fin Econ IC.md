@@ -3,7 +3,7 @@
 
 ## Q1. 
 
-Find the MM in the simple linear regression $y=\beta_1+\beta_2 x + \varepsilon$, where $z$ is a good IV.
+Find the MM in the simple linear regression $y=\beta_1+\beta_2 x + \varepsilon$. Suppose that $x$ is endogenous and  $z$ is a good IV.
 1. How many parameters in the simple linear regression
 2. Write down the two moments conditions. 
 3. Express the parameters using moments. 
