@@ -19,7 +19,13 @@ $$cov(x_i,y_i) = \beta_2 var(x_i) + cov(x_i,e_i)$$
   The LSE is consistent:
   $$b_2 = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}=\frac{\hat{cov}(x,y)}{\hat{var}(x)}\rightarrow \frac{cov(x,y)}{var(x)}=\beta_2$$
 - (b)  Show that OLS $b_2$ is biased, and inconsistent for  endogenous regressors.
-
+ LSE is biased:
+  $$\mathsf{E}(b_2) = \mathsf{E}\left[{\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}}\right] \neq \frac{\mathsf{E}\left[\sum(x_i-\bar{x})(y_i-\bar{y})\right]}{\mathsf{E}\left[\sum(x_i-\bar{x})^2\right]}=\beta_2$$
+If $cov(x_i,e_i)\neq 0$,
+$$\beta_2 =\frac{cov(x_i,y_i)}{var(x_i)}-\frac{cov(x_i,e_i)}{var(x_i))}.$$
+Then, the least squares estimator $\beta_2$ converges to:
+ $$b_2\overset{p}{\longrightarrow} \frac{cov(x,y)}{var(x)} = \beta_2 +\frac{cov(x,e)}{var(x)}\neq \beta_2$$
+$b_2$ is an inconsistent estimator of $\beta_2 $! 
 
 
 (Skipped: Q3. Write down the properties that an IV needs to satisfy. )
