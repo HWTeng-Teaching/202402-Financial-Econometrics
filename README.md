@@ -1,9 +1,28 @@
 # README
 
+## Homework 7: 20240502
+
+
+Here's your table reformatted:
+
+| Cohort   | Name     | Question                  | Note |
+|----------|----------|---------------------------|------|
+| 財金碩1 | 陳家祺    | Demo using python: sample mean converges to population |      |
+| 財金碩1 | 黃鈺婷    | ch10.14.(a,b)              |      |
+| 財金碩1 | 李宇量    | ch10.14(c,d,e)             |      |
+| 財金碩1 | 鄭今惠    | ch10.18(a,b)               |      |
+| 財金碩1 | 許雯娟    | ch10.18(c,d)               |      |
+| 財金碩1 | 韓淨貽    | ch10.18(e,f,g)             |      |
+| 財金碩1 | 許淨喻    | ch10.20(a,b)               |      |
+| 財金碩1 | 邱澤宇    | ch10.20(c,d)               |      |
+| 財金碩1 | 王柏皓    | ch10.20(e,f)               |      |
+| 財金碩1 | 林震洋    | ch10.20(g,h)               |      |
+
+
 ## Homework 6: 20240419
 
 
-| Cohort | Name | Question       | done |
+| Cohort | Name | Question       | Note |
 |--------|------|----------------|------|
 | 財金碩1 | 孫知岱 | ch08.6.(a,b,c)  |    Absent  |
 | 財金碩1 | 施昱全 | ch08.6.(d)      |      |
