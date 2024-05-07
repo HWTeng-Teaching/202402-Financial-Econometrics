@@ -57,7 +57,7 @@ According to the conditions for instrumental variables:\
 1.The instrumental variable should not have a direct effect on the outcome variable (yi) and therefore should not be included as an explanatory variable in the model.\
 2.It should not be correlated with the error term of the regression (i.e., it should be exogenous).\
 3.It should be strongly correlated (or at least not weakly correlated) with the endogenous variable (xi).\
-Given the context provided, $MOTHERCOLL$ and $FATHERCOLL$ are more likely to satisfy condition two. This is because they are binary variables indicating whether a parent has some college education, which are less susceptible to endogeneity concerns compared to continuous variables like $MOTHEREDUC$ and $FATHEREDUC$. These binary variables are less likely to be influenced by contemporaneous factors affecting the outcome variable, such as family income.
+Given the context provided, $MOTHERCOLL$ and $FATHERCOLL$ are more likely to satisfy condition two. This is because they are binary variables indicating whether a parent has some college education, which are less susceptible to endogeneity concerns compared to continuous variables like $MOTHEREDUC$ and $FATHEREDUC$. These binary variables are less likely to be influenced by contemporaneous factors affecting the outcome variable.
 
 **code**
 
