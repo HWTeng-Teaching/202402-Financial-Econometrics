@@ -11,7 +11,7 @@ a. Create two new variables. $MOTHERCOLL$ is a dummy variable equaling one if $M
 
 ans:\
 The percentage of mothers with some college education is 12.1495327102804 %\
-The percentage of fathers with some college education is 11.6822429906542 %"
+The percentage of fathers with some college education is 11.6822429906542 %
 
 **code**
 
