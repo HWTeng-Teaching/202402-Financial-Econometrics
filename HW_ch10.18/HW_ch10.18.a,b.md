@@ -43,7 +43,7 @@ Question:\
 b. Find the correlations between $EDUC$, $MOTHERCOLL$, and $FATHERCOLL$. Are the magnitudes of these correlations important? Can you make a logical argument why $MOTHERCOLL$ and $FATHERCOLL$ might be better instruments than $MOTHEREDUC$ and $FATHEREDUC$?
 
 ans:\
-The correlation coefficient between $EDUC$ and $MOTHERCOLL$ is 0.3594705, while the correlation coefficient between $EDUC$ and $FATHERCOLL$ is 0.3984962. These correlation coefficients indicate a positive relationship between $EDUC$ and parents' college education, but it is not very strong, rather fall between moderate and strong."
+The correlation coefficient between $EDUC$ and $MOTHERCOLL$ is 0.3594705, while the correlation coefficient between $EDUC$ and $FATHERCOLL$ is 0.3984962. These correlation coefficients indicate a positive relationship between $EDUC$ and parents' college education, but it is not very strong, rather fall between moderate and strong.
 
 | Correlation Range | Interpretation          |
 |-------------------|-------------------------|
