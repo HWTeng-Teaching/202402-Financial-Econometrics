@@ -1,24 +1,3 @@
----
-title: "312707012_鄭今惠_HW7"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
-date: "2024-05-05"
----
-
-```{R}
-###################################################
-#                   setting env                   #
-###################################################
-
-options(repos = c(CRAN = "https://cloud.r-project.org"))
-install.packages("devtools")
-library(devtools)
-install_git("https://github.com/ccolonescu/POE5Rdata")
-library(POE5Rdata)
-
-```
 
 ## This homework is written by 鄭今惠
 
