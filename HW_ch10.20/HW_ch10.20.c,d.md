@@ -4,3 +4,5 @@
 
 
 ### (c)
+**Question:**\
+Compute the first-stage residuals, $\hat{v}$, and add them to the CAPM model. Estimate the resulting augmented equation by OLS and test the significance of $\hat{v}$ at 1% level of significance. Can we conclude that the market return is exogenous?
