@@ -28,7 +28,7 @@ The rejection region is { $X^2:X^2>3.84$ } \
 Thus we fail to reject the $H_0:cov(RANK,e)=0 , cov(POS,e)=0$\
 This means that the surplus IVs ($RANK$ and $POS$) are valid instruments.
 
-```{r}
+```
 # (h)
 # Sargan test for the validity of surplus IV
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
