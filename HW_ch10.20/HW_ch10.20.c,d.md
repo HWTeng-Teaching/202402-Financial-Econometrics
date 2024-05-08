@@ -7,4 +7,21 @@
 **Question:**\
 Compute the first-stage residuals, $\hat{v}$, and add them to the CAPM model. Estimate the resulting augmented equation by OLS and test the significance of $\hat{v}$ at 1% level of significance. Can we conclude that the market return is exogenous?
 
-**Answer:**\
+**Answer:**
+
+```
+rm(list = ls())
+library(AER)
+library(POE5Rdata)
+data(capm5)
+
+capm5$Ex_Return = capm5$msft - capm5$riskfree
+capm5$RP = capm5$mkt - capm5$riskfree
+
+capm5$rank = rank(capm5$RP)
+mod2S1 = lm(RP ~ rank, data = capm5) \# first stage regression
+
+vhat1 = residuals(mod2S1) \# obtain first stage residuals
+modc = lm(Ex_Return ~ vhat1 + RP, data = capm5)
+summary(modc)
+```
