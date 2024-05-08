@@ -1,3 +1,6 @@
+
+#This homework is written by 林震洋 (312707020)
+
 ### g.
 
 Obtain the IV/2SLS estimates of the CAPM model using RANK and POS as instrumental variables. Compare this IV estimate to the OLS estimate in part (a). Does the IV estimate agree with your expectations?
