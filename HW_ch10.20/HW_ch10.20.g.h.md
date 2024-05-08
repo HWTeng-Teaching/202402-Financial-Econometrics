@@ -7,9 +7,9 @@ Obtain the IV/2SLS estimates of the CAPM model using RANK and POS as instrumenta
 
 Answer:
 
-The coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.201840. The IV estimate is slightly larger, which is what we would expect
+The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.201840. The IV estimate is slightly larger, which is what we would expect
 
-```{r}
+```
 # (g)
 # Estimate CAPM model using IV/2SLS with RANK and POS as IVs
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
