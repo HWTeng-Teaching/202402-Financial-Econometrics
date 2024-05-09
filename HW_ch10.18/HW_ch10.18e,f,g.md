@@ -38,3 +38,12 @@ which is $\widehat{\text{EDUC}} = \widehat{\gamma_1} + \widehat{\theta_1} \text{
 \
 The F-test statistic of the joint significance of the two IV is 57.59666 , is far greater than the rule of thumb value of 10 for a weak IV.\
 Thus we reject the null hypothesis that the instruments are weak.
+
+**code**
+
+```
+mroz.lm2 <- lm(educ ~ MOTHERCOLL + FATHERCOLL, data = mroz)
+f_test_f <- summary(mroz.lm2)$fstatistic[1]
+cat("F-test statistic for the joint significance of MOTHERCOLL and FATHERCOLL:", f_test_f, "\n")
+
+```
