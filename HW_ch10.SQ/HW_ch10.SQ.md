@@ -1,4 +1,4 @@
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/880258b5-31b1-4e8f-a147-3167427f16a8)![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/136c021c-a9d5-46de-bb7d-a54223b5bc20)### This homework is written by 陳家祺(312707002)
+### This homework is written by 陳家祺(312707002)
 
 #### Special Question: Demo using python: sample mean converges to population
 
