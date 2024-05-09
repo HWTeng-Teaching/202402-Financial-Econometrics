@@ -68,6 +68,8 @@ Thus we fail to reject the null hypothesis.
 ```
 summary_mroz_iv3 <- summary(mroz.iv2, diagnostics=TRUE)
 g_test <- summary_mroz_iv3$diagnostics["Sargan", "statistic"]
+quantile_value <- qchisq(0.95, df=1) 
+print(quantile_value)
 cat("Sargan-Hansen statistic for the validity of the surplus instrument:", g_test, "\n")
 
 ```
