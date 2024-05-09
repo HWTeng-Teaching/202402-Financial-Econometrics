@@ -55,7 +55,7 @@ For the IV estimation in part (e), test the validity of the surplus instrument. 
 
 Answer:\
 When we have surplus instrument, we can use sargan test to estimate that the instrument is vaild or not.\
-So we can have a hypothesis that the surplus instrument is vaild, first, we can get the $\widehat{\e<sub>IV</sub>}$\
+So we can have a hypothesis that the surplus instrument is vaild, first, we can get the $\widehat{e<sub>IV</sub>}$\
 
 **code**
 
