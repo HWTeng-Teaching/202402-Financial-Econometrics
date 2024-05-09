@@ -6,7 +6,8 @@ The estimated first-stage regression of ( $r_{IBM}$ − $r_𝑓$) on ${RANK}$ yi
 significance of 93.77. What can we conclude about the strength of the IV $RANK$?  
   
 **Answer:**  
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/d9cb4f63-afa7-4493-bd63-5bd399fbf23f)  
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/102803318/52885d89-45c4-4687-b677-ac1dc776151f)  
+
 
 By the rule of thumb , we assume the critical_value = 10 
   
