@@ -37,10 +37,10 @@ Can we conclude that the market return is exogenous at the 1% level of significa
 
 ```
 capm5$first_stage_rank_pos_resid <- residuals(first_stage_rank_pos)
-augmented_capm_plm <- plm(msft ~ (mkt - riskfree) + first_stage_rank_pos_resid, data = capm5, model = "pooling") 
+augmented_capm_plm <- plm(msftr ~ RP + first_stage_rank_pos_resid, data = capm5, model = "pooling") 
 summary(augmented_capm_plm)
 ```
-![image](https://github.com/pulsar20000517/HW/blob/main/10.20f.png?raw=true)
+![image](https://github.com/pulsar20000517/HW/blob/main/10.20f4.png?raw=true)
 
 The t-value on the first stage residuals is −2.22 with a p-value of 0.028. 
 It is not significant at the 1% level. Thus at the 1% level we cannot reject the null hypothesis that the market return is exogenous.
