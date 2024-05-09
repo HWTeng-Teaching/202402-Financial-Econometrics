@@ -4,7 +4,7 @@
 
 Given: $$X \sim \mathcal{N}(10, 5^2)$$
 
-define: $$\overline{X}_{n} = \frac{x_1 + x_2 + \ldots + x_n}{n}$$
+define: $$\bar{X_n} = \frac{x_1 + x_2 + \ldots + x_n}{n}$$
 
 We can plot distribution of Means for $n$=10, $n$=100, and $n$=1000.
 
@@ -68,6 +68,6 @@ plt.legend()
 plt.show()
 ```
 
-From the above two examples, we can observe that as  $n$ becomes larger, the distribution plot of $\overline{X}\lim_{n \to \infty}$
+From the above two examples, we can observe that as $n$ becomes larger, the distribution plot of $\bar{X_n}$ becomes narrower. Moreover, as $\lim_{n \to \infty}\{\bar{X_n} \to \mu}$
 
 
