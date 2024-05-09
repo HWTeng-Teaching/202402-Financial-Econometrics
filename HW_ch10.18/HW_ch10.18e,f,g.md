@@ -32,3 +32,7 @@ Answer:\
 The first-stage equation is:\
 $x = \gamma_1 + \theta_1 z + \theta_2 z + v$\
 which is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + \theta_2\text{FATHERCOLL} + v$\
+So we get that\
+$\widehat{x} = \widehat{\gamma_1} + \widehat{\theta_1}z + \widehat{\theta_2}z$\
+which is $\widehat{\text{EDUC}} = \widehat{\gamma_1} + \widehat{\theta_1} \text{MOTHERCOLL} + \widehat{\theta_2} \text{FATHERCOLL}$\
+The F-test statistic for the hypothesis that MOTHERCOLL has no effect on EDUC is 63.21602.\
