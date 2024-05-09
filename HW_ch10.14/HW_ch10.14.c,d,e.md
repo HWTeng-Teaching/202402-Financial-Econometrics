@@ -6,14 +6,9 @@ The estimated first-stage regression of ( $r_{IBM}$ − $r_𝑓$) on ${RANK}$ yi
 significance of 93.77. What can we conclude about the strength of the IV $RANK$?  
   
 **Answer:**
-```
-N <- 180
-critical_value <- qf(1 - 0.05, 1, N - 2)
-critical_value
-```
-critical_value = 3.894232 
+By the rule of thumb , we assume the critical_value = 10 
   
-The first stage simple linear regression F-value is 93.77, compared to the critival value 3.894232 (given α=0.05)  
+The first stage simple linear regression F-value is 93.77, compared to the critival value 10  
 Since $H_0:β_{1IV}=0$ is rejected we can say that RANK might be a good IV.   
 ## ch10.14 (d)  
 **Question:**\
