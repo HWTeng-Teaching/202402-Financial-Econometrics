@@ -52,3 +52,13 @@ cat("F-test statistic for the joint significance of MOTHERCOLL and FATHERCOLL:",
 
 Question:\
 For the IV estimation in part (e), test the validity of the surplus instrument. What do you conclude?
+
+
+**code**
+
+```
+summary_mroz_iv3 <- summary(mroz.iv2, diagnostics=TRUE)
+g_test <- summary_mroz_iv3$diagnostics["Sargan", "statistic"]
+cat("Sargan-Hansen statistic for the validity of the surplus instrument:", g_test, "\n")
+
+```
