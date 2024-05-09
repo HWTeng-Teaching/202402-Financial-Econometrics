@@ -19,7 +19,7 @@ summary(msftrf)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/a2cd5d76-7be8-483a-8207-f280cbe826d7)
 
-The Microsoft is relatively hazardous as its beta exceeds 1. This indicates higher rates compared to the market and only by its riskier (we compensate for its risk) does CAPM assume.
+Microsoft's estimated beta is 1.2018, with a standard error of 0.122152. The t-value is 9.839, and the p-value is very small (< 2e-16). This means that the relationship is significant. Thus Microsoft is relatively hazardous as its beta exceeds 1. This indicates higher rates compared to the market and only by its riskier (we compensate for its risk) does CAPM assume.
 
 ### (b)
 **Question:**\
@@ -33,3 +33,7 @@ rmrf.ols=lm(rmrf~rank , data=capm5)
 summary(rmrf.ols)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/fd0d3082-120d-4348-a5ee-897b9e14850d)
+
+The variable $RANK$ has no obvious causal effect on Microsoft’s return, so it satisfies condition IV1. This classification is probably exogenous to satisfy IV2. The ranking should be highly predictive so that IV3 is likely to be satisfied. 
+
+The $R^2$ = 0.9126 is very large. The t-value is 43.10 which corresponds to F = 1858, which is huge. Thus $RANK$ seems to be an extremely strong IV, if it is valid.
