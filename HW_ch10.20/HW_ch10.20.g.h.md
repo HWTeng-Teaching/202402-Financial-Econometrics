@@ -15,7 +15,9 @@ The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
 summary(capm_iv_rank_pos)
 ```
-
+|Coefficients|Estimate|Std. Error|t value|P-value|
+|--------|--------|--------|--------|--------|
+|MKTRET|1.283118|0.127866|10.035|<2e-16 `***`|
 
 ### h.
 
