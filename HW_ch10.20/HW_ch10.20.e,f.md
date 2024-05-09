@@ -37,8 +37,8 @@ Can we conclude that the market return is exogenous at the 1% level of significa
 
 ```
 capm5$first_stage_rank_pos_resid <- residuals(first_stage_rank_pos)
-augmented_capm_plm <- plm(msftr ~ RP + first_stage_rank_pos_resid, data = capm5, model = "pooling") 
-summary(augmented_capm_plm)
+augmented_capm_lm <- lm(msftr ~ RP + first_stage_rank_pos_resid, data = capm5, model = "pooling") 
+summary(augmented_capm_lm)
 ```
 ![image](https://github.com/pulsar20000517/HW/blob/main/10.20f4.png?raw=true)
 
