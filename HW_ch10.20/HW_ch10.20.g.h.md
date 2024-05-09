@@ -34,10 +34,13 @@ This means that the surplus IVs ($RANK$ and $POS$) are valid instruments.
 # (h)
 # Sargan test for the validity of surplus IV
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
+# This line estimates an IV regression using the ivreg function
+# the dependent variable (msft-riskfree) and the endogenous variable (MKTRET). RANK + POS is instrumental variables
 summary_capm_iv2=summary(capm_iv_rank_pos)
 residuals = summary_capm_iv2$residuals
+# extracts the residuals from the IV regression.
 OLS_eIV = lm(residuals~RANK+POS,data = capm5)
-
+# This line runs an (OLS) regression using the extracted residuals as the dependent variable and the (RANK and POS) as independent variables
 summary_OLS_eIV = summary(OLS_eIV)
 N = length(capm_iv_rank_pos$residuals)
 Rsquard = summary_OLS_eIV$r.squared
