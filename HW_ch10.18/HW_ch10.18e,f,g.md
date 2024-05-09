@@ -22,3 +22,11 @@ conf_int_e <- confint(mroz.iv2, level = 0.95)["educ",]
 print(conf_int_e)
 
 ```
+
+## 10.18 (f)
+
+Question:\
+For the problem in part (e), estimate the first-stage equation. Test the joint significance of MOTHERCOLL and FATHERCOLL. Do these instruments seem adequately strong?
+
+Answer:\
+
