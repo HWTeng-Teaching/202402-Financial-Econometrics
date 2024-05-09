@@ -5,13 +5,31 @@
 
 ### (a)
 **Question:**\
-Use the observations on Microsoft in the data fle capm5 to estimate the CAPM model using OLS.
+Use the observations on Microsoft in the data file $capm5$ to estimate the CAPM model using OLS.
 How would you classify the Microsoft stock over this period? Risky or relatively safe, relative to the market portfolio?
 
 **Ans:**\
 
+```{R }
+data(capm5)
+capm5$msftrf = (capm5$msft-capm5$riskfree)
+capm5$rmrf = (capm5$mkt-capm5$riskfree)
+msftrf=lm(msftrf~rmrf, data=capm5)
+summary(msftrf)
+```
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/a2cd5d76-7be8-483a-8207-f280cbe826d7)
+
+The Microsoft is relatively hazardous as its beta exceeds 1. This indicates higher rates compared to the market and only by its riskier (we compensate for its risk) does CAPM assume.
+
 ### (b)
 **Question:**\
-It has been suggested that it is possible to construct an IV by ranking the values of the explanatory variable and using the rank as the IV, that is, we sort $r_m - r_f$ from smallest to largest, and assign the values $RANK$ = 1,2,....,180. Does this variable potentially satisfy the conditions IV1-IV3? Create $RANK$ and obtain the first-stage regression results. Is the coefficient of RANK very significant? What is the $R^2$ of the first-stage regression? Can $RANK$ be regarded as a strong IV?
+It has been suggested that it is possible to construct an IV by ranking the values of the explanatory variable and using the rank as the IV, that is, we sort $r_m - r_f$ from smallest to largest, and assign the values $RANK$ = 1,2,....,180. Does this variable potentially satisfy the conditions IV1-IV3? Create $RANK$ and obtain the first-stage regression results. Is the coefficient of $RANK$ very significant? What is the $R^2$ of the first-stage regression? Can $RANK$ be regarded as a strong IV?
 
 **Ans:**\
+
+```{R }
+capm5$rank = rank(capm5$rmrf)
+rmrf.ols=lm(rmrf~rank , data=capm5)
+summary(rmrf.ols)
+```
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/fd0d3082-120d-4348-a5ee-897b9e14850d)
