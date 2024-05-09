@@ -14,7 +14,11 @@ In the repeated sampling, the 95% interval estimate for the coefficient of EDUC 
 So we can konw that the 95% interval is slightly narrower than the one in part(c).
 
 **code**
+
+```
 mroz.iv2 <- ivreg(log(wage) ~ educ + exper + I(exper^2) | MOTHERCOLL + FATHERCOLL + exper + I(exper^2), data
                    = mroz)
 conf_int_e <- confint(mroz.iv2, level = 0.95)["educ",]
 print(conf_int_e)
+
+```
