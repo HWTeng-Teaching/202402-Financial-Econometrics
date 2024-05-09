@@ -10,9 +10,9 @@ market portfolio, and $\beta_j$ is the *j*th security’s “*beta*” value. A 
 Using 180 monthly observations from January 1988, the OLS estimate of IBM’s beta is 0.9769 with a standard error of 0.0978. If our constructed values of the market return and the risk-free rate are measured with error is the OLS estimator unbiased and consistent? If it is biased, what is the direction of the bias?  
 
 **Answer:**  
-Consider measurement error: $x^*+u$, where $x^*$ is the real explanatory variable and u is a random error.  
-The regression model is $$\begin{aligned} y&=\beta_1+\beta_2x^*+e \\&=\beta_1+\beta_2(x-u)+e \\&=\beta_1+\beta_2x+(e-\beta_2u) \end{aligned}$$ 
-The $cov(x,e-\beta_2u)=cov(x^*+u,e-\beta_2u)=cov(u,-\beta_2u)=-\beta_2var(u)\neq 0$.  
+Consider measurement error: $x^\*+u$, where $x^\*$ is the real explanatory variable and u is a random error.  
+The regression model is $$\begin{aligned} y&=\beta_1+\beta_2x^*+e \\&=\beta_1+\beta_2(x-u)+e \\&=\beta_1+\beta_2x+(e-\beta_2u) \end{aligned}$$  
+The $cov(x,e-\beta_2u)=cov(x^\*+u,e-\beta_2u)=cov(u,-\beta_2u)=-\beta_2var(u)\neq 0$.  
 The explanatory variable $(r_m − r_f )$ is endogenous.  
 Therefore, OLS estimator is inconsistent.  
 $\beta_2=0.9769>0$, there is a negative correlation between $x$ and the randon error $e-\beta_2u$. The least square estimator will underestimate $\beta_2$.  
