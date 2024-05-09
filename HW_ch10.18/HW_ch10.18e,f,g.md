@@ -29,4 +29,6 @@ Question:\
 For the problem in part (e), estimate the first-stage equation. Test the joint significance of MOTHERCOLL and FATHERCOLL. Do these instruments seem adequately strong?
 
 Answer:\
-
+The first-stage equation is:\
+$x = \gamma_1 + \theta_1 z + \theta_2 z v$\
+which is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + \theta_2text{FATHERCOLL} v$\
