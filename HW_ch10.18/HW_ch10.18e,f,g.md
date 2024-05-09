@@ -30,5 +30,5 @@ For the problem in part (e), estimate the first-stage equation. Test the joint s
 
 Answer:\
 The first-stage equation is:\
-$x = \gamma_1 + \theta_1 z + \theta_2 z v$\
-which is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + \theta_2text{FATHERCOLL} v$\
+$x = \gamma_1 + \theta_1 z + \theta_2 z + v$\
+which is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + \theta_2\text{FATHERCOLL} + v$\
