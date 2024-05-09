@@ -55,10 +55,10 @@ For the IV estimation in part (e), test the validity of the surplus instrument. 
 
 Answer:\
 When we have surplus instrument, we can use sargan test to estimate that the instrument is vaild or not.\
-So we can have a hypothesis that the surplus instrument is vaild from useing $\{NR}^2$ , if $\{NR}^2$ is lower than critical value,\
+So we can have a hypothesis that the surplus instrument is vaild from useing $\{NR}^2$ , if $\{NR}^2$ is lower than critical value,
 then we can that the hypothesis can not be rejected.
 
-In this case, the $\{NR}^2$ is 0.2375851, This test statistic has a χ²(1) distribution under the nullhypothesis that the surplus IV is valid.\
+In this case, the $\{NR}^2$ is 0.2375851, This test statistic has a χ²(1) distribution under the null hypothesis that the surplus IV is valid.\
 The 5% critical value is 3.841. Thus we fail to reject the null hypothesis.
 
 
