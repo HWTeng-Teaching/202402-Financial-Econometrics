@@ -47,3 +47,8 @@ f_test_f <- summary(mroz.lm2)$fstatistic[1]
 cat("F-test statistic for the joint significance of MOTHERCOLL and FATHERCOLL:", f_test_f, "\n")
 
 ```
+
+## 10.18 (g)
+
+Question:\
+For the IV estimation in part (e), test the validity of the surplus instrument. What do you conclude?
