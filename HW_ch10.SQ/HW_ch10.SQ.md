@@ -42,6 +42,7 @@ plt.show()
 Also we can given that: $$X \sim \mathcal{U}(0, 10)$$
 We can thus determine that the mean of $X$ is $\\mu = \frac{{0+10}}{2} = 5\$.
 We can plot distribution of Means for $n$=10, $n$=100, and $n$=1000,too.
+
 <img width="850" alt="截圖 2024-05-09 下午2 35 56" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/0d38c5f4-940b-4b16-bf9f-b1335fefd6ab">
 
 #### Code:
