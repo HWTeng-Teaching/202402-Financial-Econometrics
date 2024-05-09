@@ -44,6 +44,30 @@ We can thus determine that the mean of $X$ is $\\mu = \frac{{0+10}}{2} = 5\$.
 We can plot distribution of Means for $n$=10, $n$=100, and $n$=1000,too.
 <img width="850" alt="截圖 2024-05-09 下午2 35 56" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/0d38c5f4-940b-4b16-bf9f-b1335fefd6ab">
 
+```{python}
+#uniform
+X = np.random.uniform(0, 10, size=(1000, 1000))
+X = pd.DataFrame(X)
+X
+
+x1_bar = X[0]
+x2_bar = (X[0]+X[1])/2
+x10_bar = X.iloc[:, :10].sum(axis=1)/10
+x100_bar = X.iloc[:, :100].sum(axis=1)/100
+x1000_bar = X.iloc[:, :1000].sum(axis=1)/1000
+
+plt.figure(figsize=(10, 6))
+sns.kdeplot(x1000_bar, color='red', linewidth=2, label='X1000_bar')
+sns.kdeplot(x100_bar, color='orange', linewidth=2, label='X100_bar')
+sns.kdeplot(x10_bar, color='skyblue', linewidth=2, label='X10_bar')
+plt.title('Distribution of Means')
+plt.xlabel('X_bar')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.legend() 
+plt.show()
+```
+
 From the above two examples, we can observe that as  $n$ becomes larger, the distribution plot of $\overline{X}\lim_{n \to \infty}$
 
 
