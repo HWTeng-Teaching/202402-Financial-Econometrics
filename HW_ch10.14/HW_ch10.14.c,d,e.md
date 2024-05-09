@@ -24,7 +24,7 @@ model?
 **Answer:**\
 By Hausman test, our regression model will be $y_i=\beta_1+\beta_2∗x_i+\delta_1∗\hat{v_i}+e_i$,i=1,2,...,n
 , then the null hypothesis is $H_0:\delta_1=0$
-. Given the coefficient of $\delta_1$=60.6
+. Given the coefficient of $\delta_1$ has $t$-value = 60.60 , which is significantly different from zero
 , we reject $H0$
 , which means endogeneity issue does exist.
 ## ch10.14 (e)
