@@ -11,7 +11,7 @@ Using 180 monthly observations from January 1988, the OLS estimate of IBM’s be
 
 **Answer:**  
 Consider measurement error: $x^\*+u$, where $x^\*$ is the real explanatory variable and u is a random error.  
-The regression model is $$\begin{aligned} y&=\beta_1+\beta_2x^*+e \\&=\beta_1+\beta_2(x-u)+e \\&=\beta_1+\beta_2x+(e-\beta_2u) \end{aligned}$$  
+The regression model is $$y=\beta_1+\beta_2x^*+e =\beta_1+\beta_2(x-u)+e =\beta_1+\beta_2x+(e-\beta_2u)$$  
 The $cov(x,e-\beta_2u)=cov(x^\*+u,e-\beta_2u)=cov(u,-\beta_2u)=-\beta_2var(u)\neq 0$.  
 The explanatory variable $(r_m − r_f )$ is endogenous.  
 Therefore, OLS estimator is inconsistent.  
