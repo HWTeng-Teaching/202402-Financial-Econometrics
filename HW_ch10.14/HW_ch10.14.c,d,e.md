@@ -5,7 +5,7 @@
 The estimated first-stage regression of ( $r_{IBM}$ − $r_𝑓$) on ${RANK}$ yields an overall $F$-test of model
 significance of 93.77. What can we conclude about the strength of the IV $RANK$?  
   
-**Answer:**
+**Answer:**  
 By the rule of thumb , we assume the critical_value = 10 
   
 The first stage simple linear regression F-value is 93.77, compared to the critival value 10  
