@@ -13,6 +13,10 @@ The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1
 # (g)
 # Estimate CAPM model using IV/2SLS with RANK and POS as IVs
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
+/* estimates an IV regression using the ivreg function*/
+/*  the dependent variable (msft-riskfree) and the endogenous variable (MKTRET).
+RANK + POS is instrumental variables */
+
 summary(capm_iv_rank_pos)
 ```
 |Coefficients|Estimate|Std. Error|t value|P-value|
@@ -32,20 +36,24 @@ This means that the surplus IVs ($RANK$ and $POS$) are valid instruments.
 
 ```
 # (h)
-# Sargan test for the validity of surplus IV
+/* Sargan test for the validity of surplus IV*/
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
-# This line estimates an IV regression using the ivreg function
-# the dependent variable (msft-riskfree) and the endogenous variable (MKTRET). RANK + POS is instrumental variables
+
+
 summary_capm_iv2=summary(capm_iv_rank_pos)
+
 residuals = summary_capm_iv2$residuals
-# extracts the residuals from the IV regression.
+/* extracts the residuals from the IV regression. */
+
 OLS_eIV = lm(residuals~RANK+POS,data = capm5)
-# This line runs an (OLS) regression using the extracted residuals as the dependent variable and the (RANK and POS) as independent variables
+/* runs an (OLS) regression using the extracted residuals as the dependent variable and the
+(RANK and POS) as independent variables*/
+
 summary_OLS_eIV = summary(OLS_eIV)
 N = length(capm_iv_rank_pos$residuals)
 Rsquard = summary_OLS_eIV$r.squared
 Rsquard*N
-
+/* multiplies the R-squared value by the number of observations.*/
 chi_2 <- qchisq(0.95,1)
 chi_2
 ```
