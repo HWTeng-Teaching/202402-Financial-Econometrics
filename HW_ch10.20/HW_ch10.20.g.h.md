@@ -56,4 +56,8 @@ Rsquard*N
 /* multiplies the R-squared value by the number of observations.*/
 chi_2 <- qchisq(0.95,1)
 chi_2
+
+/*The Sargan test examines whether the  IV are uncorrelated with the error term.
+It does this by regressing the IV residuals on the instruments and checking the N*R-squared*/
+
 ```
