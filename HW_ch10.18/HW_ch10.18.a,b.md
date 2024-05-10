@@ -10,8 +10,8 @@ Question:\
 a. Create two new variables. $MOTHERCOLL$ is a dummy variable equaling one if $MOTHEREDUC$ \> 12, zero otherwise. Similarly, $FATHERCOLL$ equals one if $FATHEREDUC$ \> 12 and zero otherwise. What percentage of parents have some college education in this sample?
 
 ans:\
-The percentage of mothers with some college education is 12.1495327102804 %\
-The percentage of fathers with some college education is 11.6822429906542 %
+The percentage of mothers with some college education is 12.15 %\
+The percentage of fathers with some college education is 11.68 %
 
 **code**
 
@@ -43,7 +43,7 @@ Question:\
 b. Find the correlations between $EDUC$, $MOTHERCOLL$, and $FATHERCOLL$. Are the magnitudes of these correlations important? Can you make a logical argument why $MOTHERCOLL$ and $FATHERCOLL$ might be better instruments than $MOTHEREDUC$ and $FATHEREDUC$?
 
 ans:\
-The correlation coefficient between $EDUC$ and $MOTHERCOLL$ is 0.3594705, while the correlation coefficient between $EDUC$ and $FATHERCOLL$ is 0.3984962. These correlation coefficients indicate a positive relationship between $EDUC$ and parents' college education, but it is not very strong, fall between Weak and Moderate.
+The correlation coefficient between $EDUC$ and $MOTHERCOLL$ is 0.36, while the correlation coefficient between $EDUC$ and $FATHERCOLL$ is 0.40. These correlation coefficients indicate a positive relationship between $EDUC$ and parents' college education, but it is not very strong, fall between Weak and Moderate.
 
 | Correlation Range | Interpretation          |
 |-------------------|-------------------------|
