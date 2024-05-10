@@ -33,7 +33,7 @@ This is the Hausman test for endogeneity. The t-statistic on $\hat{v}$ is -2.04 
 
 ### (d)
 **Question:**\
-Use RANK as an IV and estimate the CAPM model by IV/2SLS. Compare this IV estimate to the OLS estimate in part(a). Does the IV estimate agree with your expectations?
+Use RANK as an IV and estimate the CAPM model by IV/2SLS. Compare this IV estimate to the OLS estimate in part (a). Does the IV estimate agree with your expectations?
 
 ```
 iv1 = ivreg(Ex_Return ~ RP | rank, data = capm5)
@@ -51,4 +51,4 @@ And the 95% interval estimate of RP is:
 |--------|--------|--------|
 |RP|1.027421458|1.52921503|
 
-If there is a measurement error problem (and the error is random), the OLS estimator suffers attenuation bias and is biased downward. The coefficient of RP in IV regression(1.2783) is slightly larger than the original OLS one(1.2018), which is what we would expect. The 95% interval estimate is now [1.0274, 1.5292]. We would still reject the null hypothesis that Microsoft's beta equals to 1.
+If there is a measurement error problem (and the error is random), the OLS estimator suffers attenuation bias and is biased downward. The coefficient of RP in IV regression (1.2783) is slightly larger than the original OLS one (1.2018), which is what we would expect. The 95% interval estimate is now [1.0274, 1.5292]. We would still reject the null hypothesis that Microsoft's beta equals to 1.
