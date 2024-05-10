@@ -6,7 +6,7 @@ Given: $$X \sim \mathcal{N}(10, 5^2)$$
 
 define: $$\bar{X_n} = \frac{x_1 + x_2 + \ldots + x_n}{n}$$
 
-We can plot distribution of Means for $n$=10, $n$=100, and $n$=1000.
+We can plot distribution of sample means for $n$=10, $n$=100, and $n$=1000.
 
 <img width="849" alt="截圖 2024-05-09 下午2 34 40" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/2b9595dd-67a0-4f74-b7cc-3f993ea6de28">
 
@@ -41,7 +41,7 @@ plt.show()
 
 Also we can given that: $$X \sim \mathcal{U}(0, 10)$$
 We can thus determine that the mean of $X$ is $\\mu = \frac{{0+10}}{2} = 5\$.
-We can plot distribution of Means for $n$=10, $n$=100, and $n$=1000,too.
+We can plot distribution of sample means for $n$=10, $n$=100, and $n$=1000,too.
 
 <img width="850" alt="截圖 2024-05-09 下午2 35 56" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/107116674/0d38c5f4-940b-4b16-bf9f-b1335fefd6ab">
 
