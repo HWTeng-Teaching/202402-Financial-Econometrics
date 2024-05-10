@@ -70,6 +70,6 @@ plt.legend()
 plt.show()
 ```
 
-From the above two examples, we can observe that as $n$ becomes larger, the distribution plot of $\bar{X_n}$ becomes narrower. Moreover, with $\{n \to \infty}$ the $\{\bar{X_n} \to \mu}$
+From the above two examples, we can observe that as $n$ becomes larger, the distribution plot of $\bar{X_n}$ becomes narrower. Moreover, as $\{n \to \infty}$ the $\{\bar{X_n} \to \mu}$
 
 
