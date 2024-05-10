@@ -5,9 +5,9 @@
 
 Obtain the IV/2SLS estimates of the CAPM model using RANK and POS as instrumental variables. Compare this IV estimate to the OLS estimate in part (a). Does the IV estimate agree with your expectations?
 
-Answer:
-
-The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.20. The IV estimate is slightly larger, which is what we would expect
+Answer: 
+1. Estimates an IV regression using the ivreg function the dependent variable (msft-riskfree) and the endogenous variable (MKTRET).RANK + POS is instrumental variables.
+2. The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.20. The IV estimate is slightly larger, which is what we would expect
 
 ```
 # (g)
