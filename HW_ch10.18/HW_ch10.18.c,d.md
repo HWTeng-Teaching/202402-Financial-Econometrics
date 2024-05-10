@@ -13,7 +13,8 @@ Answer:\
 The wage equation in Example 10.5 is $\ln(\text{WAGE}) = \beta_1 + \beta_2 \text{EXPER} + \beta_3 \text{EXPER}^2 + \beta_4 \text{EDUC} + \epsilon$\
 First, we take MOTHERCOLL to substitute EDUC, and get first-stage equation is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + v$\
 Next, we take first-stage equation into orginal model to get second-stage equation is $\ln(\text{WAGE}) = \beta_1 + \beta_2 \text{EXPER} + \beta_3 \text{EXPER}^2 + \beta_4 \text{MOTHERCOLL} + \epsilon^*$\
-The 95% interval estimate of $\beta_4$[ is -0.0012, 0.1533]. Interpretatinos: In repeated sampling, about 95% interval estimate for the coefficient of EDUC using MOTHERCOLL as the instrumental variable constructed this way will contain the true value of the the parameter $\beta_4$.
+The 95% interval estimate of $\beta_4$ is [-0.0012, 0.1533].\
+Interpretatinos: In repeated sampling, about 95% interval estimate for the coefficient of EDUC using MOTHERCOLL as the instrumental variable constructed this way will contain the true value of the the parameter $\beta_4$.
 
 **code**
 
