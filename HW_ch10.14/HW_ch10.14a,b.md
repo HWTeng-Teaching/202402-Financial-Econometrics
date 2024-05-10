@@ -25,6 +25,6 @@ from smallest to largest, and assign the values *RANK* = 1, 2,…, 180. Does thi
 
 **Answer:**  
 The constructed variable *RANK* does not belong in the regression, so IV1($z_i$ doesn't have a direct effect on $y_i$) is satisfied.  
-Because we have “sorted” the values of the explanatory variables and assigned according to the rank of ($r_m-r_f$), it is probable to believe that the regression error in time *t* is not correlated to the ranked values.(IV2($z_i$ is not correlated with the regression error) is satisfied.)    
+Because we have “sorted” the values of the explanatory variables and assigned according to the rank of ($r_m-r_f$), it is probable to believe that the regression error in time *t* is not correlated to the ranked values. (IV2 ($z_i$ is not correlated with the regression error) is satisfied.)    
 We can speculate that there is a correlation because when ($r_m-r_f$) is large it
-will have a high rank.(IV3($z_i$ is strongly correlated with $x_i$, the endogenous variable) is satisfied.)  
+will have a high rank. (IV3 ($z_i$ is strongly correlated with $x_i$, the endogenous variable) is satisfied.)  
