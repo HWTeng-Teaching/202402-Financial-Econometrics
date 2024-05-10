@@ -28,6 +28,9 @@ summary(capm_iv_rank_pos)
 Obtain the IV/2SLS residuals from part (g) and use them (not an automatic command) to carry out a Sargan test for the validity of the surplus IV at the 5% level of significance.
 
 Answer:
+1. Estimates an IV regression using the ivreg function the dependent variable (msft-riskfree) and the endogenous variable (MKTRET).RANK + POS is instrumental variables.
+2.  runs an (OLS) regression using the extracted residuals as the dependent variable and the (RANK and POS) as independent variables
+3.  multiplies the R-squared value by the number of observations
 
 The test statistic $NR^2$ = 0.56\
 The rejection region is { $X^2:X^2>3.84$ } \
