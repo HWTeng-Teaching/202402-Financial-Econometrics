@@ -10,9 +10,10 @@ significance of 93.77. What can we conclude about the strength of the IV $RANK$?
 
 
 By the rule of thumb , we assume the critical_value = 10 
-  
+
+  $(r_m-r_f) = \theta + \gamma * RANK + v$  
 The first stage simple linear regression F-value is 93.77, compared to the critival value 10  
-Since $H_0:β_{1IV}=0$ is rejected we can say that RANK might be a good IV.   
+Since $H_0:\gamma=0$ is rejected we can say that RANK might be a good IV.   
 ## ch10.14 (d)  
 **Question:**\
 If we compute the first-stage residuals and add them to the CAPM model, the resulting coefficient
