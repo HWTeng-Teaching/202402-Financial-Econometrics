@@ -7,7 +7,7 @@ Obtain the IV/2SLS estimates of the CAPM model using RANK and POS as instrumenta
 
 Answer:
 
-The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.201840. The IV estimate is slightly larger, which is what we would expect
+The IV coefficient estimate 1.28 is larger than the OLS estimate from part (a) 1.20. The IV estimate is slightly larger, which is what we would expect
 
 ```
 # (g)
@@ -29,7 +29,7 @@ Obtain the IV/2SLS residuals from part (g) and use them (not an automatic comman
 
 Answer:
 
-The test statistic $NR^2$ = 0.5584634\
+The test statistic $NR^2$ = 0.56\
 The rejection region is { $X^2:X^2>3.84$ } \
 Thus we fail to reject the $H_0:cov(RANK,e)=0 , cov(POS,e)=0$\
 This means that the surplus IVs ($RANK$ and $POS$) are valid instruments.
