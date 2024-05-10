@@ -11,7 +11,9 @@ What is the 95% interval estimate for the coefficient of EDUC?
 
 Answer:\
 The wage equation in Example 10.5 is $\ln(\text{WAGE}) = \beta_1 + \beta_2 \text{EXPER} + \beta_3 \text{EXPER}^2 + \beta_4 \text{EDUC} + \epsilon$\
-In the repeated sampling, the 95% interval estimate for the coefficient of EDUC using MOTHERCOLL as the instrumental variable is [-0.0012, 0.1533].
+First, we take MOTHERCOLL to substitute EDUC, and get first-stage equation is $\text{EDUC} = \gamma_1 + \theta_1 \text{MOTHERCOLL} + v$\
+Next, we take first-stage equation into orginal model to get second-stage equation is $\ln(\text{WAGE}) = \beta_1 + \beta_2 \text{EXPER} + \beta_3 \text{EXPER}^2 + \beta_4 \text{MOTHERCOLL} + \epsilon^*$\
+In repeated sampling, about 95% interval estimate for the coefficient of EDUC using MOTHERCOLL as the instrumental variable constructed this way will contain the true value of the the parameter $\beta_4$ is [-0.0012, 0.1533].
 
 **code**
 
@@ -46,7 +48,7 @@ Estimate the first-stage equation by OLS and obtain the fitted value:\
 $\widehat{x} = \widehat{\gamma_1} + \widehat{\theta_1}z$\
 which is $\widehat{\text{EDUC}} = \widehat{\gamma_1} + \widehat{\theta_1} \text{MOTHERCOLL}$\
 The F-test statistic for the hypothesis that MOTHERCOLL has no effect on EDUC is 63.21602.\
-Since 63.21602 is greater than the rule of the thumb value of 10, we reject the notion that the IV is weak.
+Since 63.21602 is greater than the rule of the thumb value of 10, we reject the null hypothesis that the IV which is MOTHERCOLL is weak.
 
 **code**
 
