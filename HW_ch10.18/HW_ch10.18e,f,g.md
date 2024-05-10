@@ -11,7 +11,7 @@ Estimate the wage equation in Example 10.5 using MOTHERCOLL and FATHERCOLL as th
 Answer:\
 The wage equation in Example 10.5 is $\ln(\text{WAGE}) = \beta_1 + \beta_2 \text{EXPER} + \beta_3 \text{EXPER}^2 + \beta_4 \text{EDUC} + \epsilon$\
 So the 95% interval estimate for the coefficient of EDUC using MOTHERCOLL and FATHERCOLL as the instrumental variables is [0.02752,0.1482].\
-So we can konw that the 95% interval is slightly narrower than the one in part(c).
+So we can konw that the 95% interval is slightly narrower than the one in part (c).
 
 **code**
 
@@ -55,13 +55,12 @@ For the IV estimation in part (e), test the validity of the surplus instrument. 
 
 Answer:\
 When we have surplus instrument, we can use sargan test to estimate that the instrument is vaild or not.\
-So we can have a hypothesis that the surplus instrument is vaild from useing $\{NR}^2$ , if $\{NR}^2$ is lower than critical value,
+So we can have a hypothesis that the surplus instrument is vaild, i.e. $\{cov(z_i, e_i)} = 0$, from useing $\{NR}^2$ , if $\{NR}^2$ is lower than critical value,
 then we know that the hypothesis can not be rejected.
 
 In this case, the $\{NR}^2$ is 0.2375851, This test statistic has a χ²(1) distribution under the null hypothesis that the surplus IV is valid,
 and the 5% critical value is 3.841. \
-Thus we fail to reject the null hypothesis.
-
+Thus we fail to reject the null hypothesis, which means that the instrumental variables $\{z_i}$ is exogeneity from the residual $\{e_i}$.
 
 **code**
 
