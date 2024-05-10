@@ -34,6 +34,6 @@ summary(rmrf.ols)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71587037/fd0d3082-120d-4348-a5ee-897b9e14850d)
 
-The variable $RANK$ has no obvious causal effect on Microsoft’s return, so it satisfies condition IV1. This classification is probably exogenous to satisfy IV2. When $r_m - r_f$ is larger, the ranking should be higher. Hence we can conclude that IV3 is satisfied. 
+The variable $RANK$ has no obvious causal effect on Microsoft’s return, so it satisfies condition IV1. It is probable to believe that the regression error in time t is not correlated to the ranked values, so the classification is probably exogenous to satisfy IV2. When $r_m - r_f$ is larger, the ranking should be higher. Hence we can conclude that IV3 is satisfied. 
 
 The $R^2$ = 0.9126 is very large. The t-value is 43.10 which corresponds to F = 1858, which is huge. Thus $RANK$ seems to be an extremely strong IV, if it is valid.
