@@ -11,7 +11,7 @@ Answer:
 
 ```
 # (g)
-# Estimate CAPM model using IV/2SLS with RANK and POS as IVs
+
 capm_iv_rank_pos <- ivreg(msft-riskfree ~ MKTRET | RANK + POS, data = capm5)
 /* estimates an IV regression using the ivreg function*/
 /*  the dependent variable (msft-riskfree) and the endogenous variable (MKTRET).
