@@ -6,7 +6,7 @@
 The model consists of two equations:
 
 $$
-CN_t = \alpha_1 + \alpha_2 I_t + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t = \alpha_1 + \alpha_2 I_t + \alpha_3 TIME_t + e_{1t}
 $$
 
 $$
@@ -41,7 +41,7 @@ To find the reduced form, we express the endogenous variables $CN_t$ and $I_t$ a
 Given the structural equations:
 
 $$
-CN_t = \alpha_1 + \alpha_2 I_t + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t = \alpha_1 + \alpha_2 I_t + \alpha_3 TIME_t + e_{1t}
 $$
 
 $$
@@ -57,31 +57,31 @@ $$
 Substitute this into the first equation:
 
 $$
-CN_t = \alpha_1 + \alpha_2 (\beta_1 + \beta_2 CN_t + \beta_3 K_{t-1} + e_{2t}) + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t = \alpha_1 + \alpha_2 (\beta_1 + \beta_2 CN_t + \beta_3 K_{t-1} + e_{2t}) + \alpha_3 TIME_t + e_{1t}
 $$
 
 Solve for $CN_t$:
 
 $$
-CN_t = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_2 CN_t + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_2 CN_t + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 TIME_t + e_{1t}
 $$
 
 $$
-CN_t - \alpha_2 \beta_2 CN_t = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t - \alpha_2 \beta_2 CN_t = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 TIME_t + e_{1t}
 $$
 
 $$
-CN_t (1 - \alpha_2 \beta_2) = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 \text{TIME}_t + e_{1t}
+CN_t (1 - \alpha_2 \beta_2) = \alpha_1 + \alpha_2 \beta_1 + \alpha_2 \beta_3 K_{t-1} + \alpha_2 e_{2t} + \alpha_3 TIME_t + e_{1t}
 $$
 
 $$
-CN_t = \frac{\alpha_1 + \alpha_2 \beta_1}{1 - \alpha_2 \beta_2} + \frac{\alpha_2 \beta_3}{1 - \alpha_2 \beta_2} K_{t-1} + \frac{\alpha_3}{1 - \alpha_2 \beta_2} \text{TIME}_t + \frac{\alpha_2 e_{2t} + e_{1t}}{1 - \alpha_2 \beta_2}
+CN_t = \frac{\alpha_1 + \alpha_2 \beta_1}{1 - \alpha_2 \beta_2} + \frac{\alpha_2 \beta_3}{1 - \alpha_2 \beta_2} K_{t-1} + \frac{\alpha_3}{1 - \alpha_2 \beta_2} TIME_t + \frac{\alpha_2 e_{2t} + e_{1t}}{1 - \alpha_2 \beta_2}
 $$
 
 Thus, we have:
 
 $$
-CN_t = \pi_1 + \pi_2 K_{t-1} + \pi_3 \text{TIME}_t + \text{error term}
+CN_t = \pi_1 + \pi_2 K_{t-1} + \pi_3 TIME_t + \text{error term}
 $$
 
 where:
