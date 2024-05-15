@@ -101,6 +101,8 @@ $$
 ## 11.18 (c)
 ### Using the data file klein, estimate each of the structural equations by OLS. Comment on the signs and significance of the coefficients.
 
+<img width="474" alt="截圖 2024-05-15 下午2 41 04" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/47cafaa3-46a5-43d1-8316-146462c3c780">
+
 ```{r}
 library(POE5Rdata) 
 summary(klein)
@@ -110,5 +112,4 @@ summary(consumption_model)
 # Estimate the investment equation by OLS 
 investment_model <- lm(i ~ cn + klag, data = klein)
 summary(investment_model)
-
 ```
