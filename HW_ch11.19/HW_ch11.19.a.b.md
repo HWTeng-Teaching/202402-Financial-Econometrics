@@ -22,9 +22,9 @@ Women not in the labor force are on average slightly older, and a higher income 
 (b)
 
 Q:Consider the following supply equation specification:
-
+$$
 HOURS = \beta_1 +  \beta_2 ln(WAGE) + \beta_3EDUC +  \beta_4AGE +  \beta_5KIDSL6 + \beta_6KIDS618 + \beta_7NWIFEINC + e
-
+$$
 What signs do you expect each of the coefficients to have, and why? What does NWIFEINC
 measure?
 
