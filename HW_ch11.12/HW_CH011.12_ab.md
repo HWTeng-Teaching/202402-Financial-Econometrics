@@ -12,14 +12,15 @@ Is the wage equation "identified"? What does the term $identifiction$ mean in th
 ***Answer:***
 The steps for checking identification of an equation is : \
 (1).Find the values of $M$ endogenous variables which joints determind in simulataneous equation. \
-(2).Determine the endogenous and exogenous variables \
+(2).Determine the endogenous and exogenous variables. \
 (3.)check there are at least (M-1) exogenous variable is absent from an equation.  
 
-Check the wage equation is "identified"  
+Check the wage equation is "identified"  or not.  
 (1.) $M$ = 2  
 (2.) endogenous variables : $ln(WAGE)、HOURS$；  
-       exogenous variables : $EDUC、EXPER、EXPER^2、KIDS、ln(HWAGE)$ 
-(3.) There are 2 exogenous variables ($KIDS and ln(HWAGE)$) absent in wage equation.    
+       exogenous variables : $EDUC、EXPER、EXPER^2、KIDS、ln(HWAGE)$  
+(3.) There are 2 exogenous variables ($KIDS and ln(HWAGE)$) absent in wage equation.  
+
 So, the wage equation is identified.
 
 
