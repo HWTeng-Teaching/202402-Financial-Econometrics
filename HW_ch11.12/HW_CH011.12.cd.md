@@ -7,7 +7,7 @@
 Two stage least squares can be described as follows.\
 1. First stage:
 
-$HOURS=\pi_1+\pi_2 EDUC+\pi_3EXPER^2+\pi_5KIDS+\pi ln(HWAGE)+v$\
+$HOURS=\pi_1+\pi_2 EDUC+\pi_3EXPER^2+\pi_5KIDS+\pi_6 ln(HWAGE)+v$
 
 Obtain the fitted values $\hat{HOURS}$ from the reduced form equation. Note that the fitted values depend only on exogenous variables.
 
