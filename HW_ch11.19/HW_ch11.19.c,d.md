@@ -1,7 +1,7 @@
 ### This homework is written by 鄧筠潔 (312707031)
 
 ### 11.19(c)
-#### Estimate the supply equation in (b) using OLS regression on only the women who worked (LFP = 1). Did things come out as expected? If not, why not?
+#### Estimate the supply equation in (b) using OLS regression on only the women who worked (LFP = 1). Did things come out as expected? 
 
 ***Answer:***
 
@@ -29,7 +29,7 @@ summary(m1.ols)
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786558/f8176a14-1342-4bd7-ad94-c5a73d6ff7a1)
 
 The coefficient of education implies an additional year of education will increase wages by approximately 10.11% holding other factors constant.\
-And the estimate is statistically significant a the 1% level.
+And we can conclude that the estimate is significant.
 
 ```{r}
 m2.ols <- lm(log(wage)~educ+age+kidsl6+kids618+nwifeinc+exper, data=mroz1)
