@@ -101,6 +101,36 @@ $$
 ## 11.18 (c)
 ### Using the data file klein, estimate each of the structural equations by OLS. Comment on the signs and significance of the coefficients.
 
+
+### Equation of CN
+
+$$
+CN_t = 52.0479 + 1.35521 \cdot I_t + 1.00537 \cdot TIME_t
+$$
+
+-   **Intercept**: 52.0479, **p** \< 0.001 (顯著)
+
+-   **Investment (I)**: 1.35521, **p** \< 0.001 (顯著)
+
+-   **Time**: 1.00537, **p** \< 0.001 (顯著)
+
+-   $R^2$: 0.9114 (adjusted $R^2$: 0.902)
+
+### Equation of I
+
+$$
+I_t = 27.5973 + 0.3337 \cdot CN_t - 0.2208 \cdot K_{t-1}
+$$
+
+-   **Intercept**: 27.5973, **p** ≈ 0.0138 (顯著)
+
+-   **Consumption (CN)**: 0.3337, **p** ≈ 0.0006 (顯著)
+
+-   **Capital of last period (Klag)**: -0.2208, **p** ≈ 0.0009 (顯著)
+
+-   $R^2$: 0.543 (adjusted $R^2$: 0.4949)
+
+
 <img width="474" alt="截圖 2024-05-15 下午2 41 04" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/67742647/47cafaa3-46a5-43d1-8316-146462c3c780">
 
 ```{r}
