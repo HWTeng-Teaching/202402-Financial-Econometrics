@@ -19,26 +19,32 @@ Summary statistics for women who did not work (LFP = 0)
 
 Women not in the labor force are on average slightly older, and a higher income from their partners.
 
+
+
 (b)
 
 Q:Consider the following supply equation specification:
+
 $$
 HOURS = \beta_1 +  \beta_2 ln(WAGE) + \beta_3EDUC +  \beta_4AGE +  \beta_5KIDSL6 + \beta_6KIDS618 + \beta_7NWIFEINC + e
 $$
+
 What signs do you expect each of the coefficients to have, and why? What does NWIFEINC
 measure?
 
 A:
 
-\beta_2> 0: A higher wage leads to an increased quantity of labor supplied. 
 
-\beta_ 3 : The effect of an increase in education is unclear.
+$\beta_2$ > 0: A higher wage leads to an increased quantity of labor supplied. 
 
-\beta_4 : This sample has been taken for working women between the ages of 30 and 60. It is not certain . 
+$\beta_3$ : The effect of an increase in education is unclear.
 
-\beta_ 5<0, \beta_6< 0: The presence of children in the household reduces the number of hours worked because they demand time from their mother. 
+$\beta_4$ : This sample has been taken for working women between the ages of 30 and 60. It is not certain . 
 
-\beta_7 < 0: As income from other sources increases, it becomes less necessary for the woman to work. 
+$\beta_ 5$ <0, $\beta_6$ < 0: The presence of children in the household reduces the number of hours worked because they demand time from their mother. 
+
+$\beta_7$ < 0: As income from other sources increases, it becomes less necessary for the woman to work. 
+
 
 NWIFEINC measures the sum of all family income excluding the wife's income.
 
