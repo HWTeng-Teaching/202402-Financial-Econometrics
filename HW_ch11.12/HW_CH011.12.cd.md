@@ -25,4 +25,4 @@ This estimation process yields consistent estimators for the wage equation param
 ***Answer:***
 
 In order for 2SLS estimation process to be reliable the null hypothesis $H_0:\pi_5=0$ and $H_0:\pi_6=0$
-must produce a large F-statistic value, greater than 10. This ensures that the two variables in the supply equation that are not in the demand equation do substantially shift supply relative to demand, making demand identified.
+must produce a large F-statistic value, greater than 10.
