@@ -15,7 +15,8 @@ Summary statistics for women who worked (LFP = 1)
 
 Summary statistics for women who did not work (LFP = 0)
 
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161672454/4f94f37c-ac07-410f-bbcf-303db22b19c7)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161672454/d02535ba-c692-446b-b504-7f4b8616bc66)
+
 
 Women not in the labor force are on average slightly older, and a higher income from their partners.
 
