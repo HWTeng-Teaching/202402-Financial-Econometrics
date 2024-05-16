@@ -12,7 +12,7 @@ $HOURS=\pi_1+\pi_2 EDUC+\pi_3EXPER^2+\pi_5KIDS+\pi_6 ln(HWAGE)+v$
 Obtain the fitted values $\hat{HOURS}$ from the reduced form equation. Note that the fitted values depend only on exogenous variables.
 
 2. Second stage:
-   we replace $ HOURS $ by $\hat{HOURS}$ in the wage equation. Estimate this resulting equation by OLS. That is,
+   we replace $HOURS$ by $\hat{HOURS}$ in the wage equation. Estimate this resulting equation by OLS. That is,
 
 $ln(WAGE)=\beta_1+\beta_2\hat{HOURS}\beta_3EDUC+\beta_4EXPER+\beta_5EXPER^2+e_1^*$
 
