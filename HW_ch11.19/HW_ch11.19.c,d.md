@@ -4,8 +4,10 @@
 #### Estimate the supply equation in (b) using OLS regression on only the women who worked (LFP = 1). Did things come out as expected? 
 
 ***Answer:***
+$$HOURS = \beta_1 +  \beta_2 ln(WAGE) + \beta_3EDUC +  \beta_4AGE +  \beta_5KIDSL6 + \beta_6KIDS618 + \beta_7NWIFEINC + e$$
 
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786558/9d0fc5d6-ad9e-4d26-8512-3304805b3a93)
+
 
 We did not expect the coefficient of $ln(WAGE)$ to be negative and insignificant.\
 It is meant to be a supply equation so that coefficient should be positive and significant.
