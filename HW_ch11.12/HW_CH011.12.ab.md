@@ -19,7 +19,7 @@ Check the wage equation is "identified"  or not.
 1. $M$ = 2 ($ln(Wage)、HOURS$)   
 2. endogenous variables : $ln(WAGE)、HOURS$  
        exogenous variables : $EDUC、EXPER、EXPER^2、KIDS、ln(HWAGE)$  
-3. There are 2 exogenous variables ($KIDS and ln(HWAGE)$) absent in wage equation.  
+3. There are 2 exogenous variables ( $KIDS$ and $ln(HWAGE)$ ) absent in wage equation.  
 
 So, the wage equation is identified.
 
