@@ -108,11 +108,11 @@ $$
 CN_t = 52.0479 + 1.35521 \cdot I_t + 1.00537 \cdot TIME_t
 $$
 
--   **Intercept**: 52.0479, **p** \< 0.001 (顯著)
+-   **Intercept**: 52.0479, **p** \< 0.001 (significant)
 
--   **Investment (I)**: 1.35521, **p** \< 0.001 (顯著)
+-   **Investment (I)**: 1.35521, **p** \< 0.001 (significant)
 
--   **Time**: 1.00537, **p** \< 0.001 (顯著)
+-   **Time**: 1.00537, **p** \< 0.001 (significant)
 
 -   $R^2$: 0.9114 (adjusted $R^2$: 0.902)
 
@@ -122,11 +122,11 @@ $$
 I_t = 27.5973 + 0.3337 \cdot CN_t - 0.2208 \cdot K_{t-1}
 $$
 
--   **Intercept**: 27.5973, **p** ≈ 0.0138 (顯著)
+-   **Intercept**: 27.5973, **p** ≈ 0.0138 (significant)
 
--   **Consumption (CN)**: 0.3337, **p** ≈ 0.0006 (顯著)
+-   **Consumption (CN)**: 0.3337, **p** ≈ 0.0006 (significant)
 
--   **Capital of last period (Klag)**: -0.2208, **p** ≈ 0.0009 (顯著)
+-   **Capital of last period (Klag)**: -0.2208, **p** ≈ 0.0009 (significant)
 
 -   $R^2$: 0.543 (adjusted $R^2$: 0.4949)
 
