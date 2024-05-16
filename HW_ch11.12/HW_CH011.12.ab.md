@@ -7,7 +7,7 @@
 No, we can't use the OLS estimator. Because HOURS is determined by WAGE, and WAGE is simultaneously determined by HOURS in this problem. There will be an potential endogenous situation. So, this equation violate the ordinary least squares (OLS) assumption of no correlation between the independent variables and the error term.  Directly using OLS to estimate the wage equation would likely lead to biased and inconsistent estimates. Therefore, the wage equation may not be satisfactorily estimated using OLS.
 
 ### 11.12(b.)
-Is the wage equation "identified"? What does the term $identifiction$ mean in this context?
+### Is the wage equation "identified"? What does the term $identifiction$ mean in this context?
 
 ***Answer:***  
 The steps for checking identification of an equation is : 
