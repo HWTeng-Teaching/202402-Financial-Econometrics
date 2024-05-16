@@ -1,3 +1,8 @@
+#### 11.12(c)
+If you seek an alternative to least squares estimation for the wage equation, suggest an estimation
+procedure and how (step by step, and NOT a computer command) it is carried out.
+
+***Answer:***
 Two stage least squares can be described as follows. 
 In the first stage we estimate:
 
