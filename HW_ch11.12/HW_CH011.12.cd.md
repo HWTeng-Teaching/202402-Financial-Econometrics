@@ -1,6 +1,6 @@
 ### This homework is written by 許桂萍 (312707028)
 ### 11.12(c)
-### If you seek an alternative to least squares estimation for the wage equation, suggest an estimationprocedure and how (step by step, and NOT a computer command) it is carried out.
+### If you seek an alternative to least squares estimation for the wage equation, suggest an estimation procedure and how (step by step, and NOT a computer command) it is carried out.
 
 ***Answer:***
 
