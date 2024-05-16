@@ -10,12 +10,12 @@ No, we can't use the OLS estimator. Because HOURS is determined by WAGE, and WAG
 ### Is the wage equation "identified"? What does the term $identifiction$ mean in this context?
 
 ***Answer:***  
-The steps for checking identification of an equation is : 
+The steps for checking identification of an equation : 
 1. Find the values of $M$ endogenous variables which joints determind in simulataneous equation. 
 2. Determine the endogenous and exogenous variables. 
 3. check there are at least (M-1) exogenous variable is absent from an equation.  
 
-Check the wage equation is "identified"  or not.  
+Check the wage equation is "identified"  or not:  
 1. $M$ = 2 ($ln(Wage)、HOURS$)   
 2. endogenous variables : $ln(WAGE)、HOURS$  
        exogenous variables : $EDUC、EXPER、EXPER^2、KIDS、ln(HWAGE)$  
