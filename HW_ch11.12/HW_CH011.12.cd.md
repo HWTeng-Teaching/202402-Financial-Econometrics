@@ -1,6 +1,6 @@
+### This homework is written by 許桂萍 (312707028)
 ### 11.12(c)
-If you seek an alternative to least squares estimation for the wage equation, suggest an estimation
-procedure and how (step by step, and NOT a computer command) it is carried out.
+### If you seek an alternative to least squares estimation for the wage equation, suggest an estimationprocedure and how (step by step, and NOT a computer command) it is carried out.
 
 ***Answer:***
 
@@ -18,3 +18,6 @@ $ln(WAGE)=\beta_1+\beta_2\hat{HOURS}\beta_3EDUC+\beta_4EXPER+\beta_5EXPER^2+e_1^
 This estimation process yields consistent estimators for the wage equation parameters. The standard errors from the second stage OLS estimation are not correct, as the error variance
 $\sigma_1^2=var(e_1)$ is not correctly computed.
 
+
+### 11.12(d)
+### Other than the identification condition in part (b), are there any other conditions that must be met so that we can confidently use the estimation procedure in part (c)? What are those conditions?
