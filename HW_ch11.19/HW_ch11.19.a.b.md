@@ -68,7 +68,7 @@ $\beta_2$ > 0: A higher wage leads to an increased quantity of labor supplied.
 
 $\beta_3$ : The effect of an increase in education is unclear.
 
-$\beta_4$ : This sample has been taken for working women between the ages of 30 and 60. It is not certain . 
+$\beta_4$ : This sample has been taken for working women between the ages of 30 to 60. It is not certain . 
 
 $\beta_ 5$ <0, $\beta_6$ < 0: The presence of children in the household reduces the number of hours worked because they demand time from their mother. 
 
