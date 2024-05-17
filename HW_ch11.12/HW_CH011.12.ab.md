@@ -7,20 +7,21 @@
 No, we can't use the OLS estimator. Because HOURS is determined by WAGE, and WAGE is simultaneously determined by HOURS in this problem. There will be an potential endogenous situation. So, this equation violate the ordinary least squares (OLS) assumption of no correlation between the independent variables and the error term.  Directly using OLS to estimate the wage equation would likely lead to biased and inconsistent. Therefore, the wage equation may not be satisfactorily estimated using OLS.
 
 ### 11.12(b.)
-### Is the wage equation "identified"?
+### Is the wage equation "identified"? What does the term $identifiction$ mean in this context?
 
 ***Answer:***  
 The steps for checking identification of an equation : 
-1. Find the values of $M$ endogenous variables which joints determind in simulataneous equation. 
-2. Determine the endogenous and exogenous variables. 
+1. Find the values of $M$. M means endogenous variables which jointly determined in simulataneous equation. 
+2. Determine the variables in simulataneous equation are endogenous and exogenous variables. 
 3. check there are at least (M-1) exogenous variable is absent from an equation.  
 
-Check the wage equation is "identified"  or not:  
+Check the wage equation: $ln(wage) = \beta_1+\beta_2HOURS+\beta_3EDUC+\beta_4EXPER+\beta_5EXPER^2+e_i$ is "identified"  or not:  
 1. $M$ = 2 ($ln(Wage)、HOURS$)   
 2. endogenous variables : $ln(WAGE)、HOURS$  
        exogenous variables : $EDUC、EXPER、EXPER^2、KIDS、ln(HWAGE)$  
 3. There are 2 exogenous variables ( $KIDS$ and $ln(HWAGE)$ ) absent in wage equation.  
 
-So, the wage equation is identified.
+Because there are 2 exogenous variables absent in this equation, we can conclude that this wage equation is identified.
 
+In the context, the term $identifiction$ means that variation in these variables shifts the supply curve relative to the demand. In a figure analogous to Figure 11.4, the supply curve would be shifting relative to a fixed demand(wage) equation.
 
