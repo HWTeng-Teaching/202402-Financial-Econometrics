@@ -15,7 +15,7 @@ $$
 & \text{Estimate the consumption function in equation (11.17) by OLS. Comment on the signs and significance of the coefficients.} \\
 & \text{Answer: } \\
 & \text{Given } \alpha \text{ is set to be 0.05, the t-values of both total wages and the profit of current year are significantly positive since they are} \\
-& \text{larger than the critical value t\_{(0.025, 17)} = 2.109816.} \\
+& \text{larger than the critical value t_{(0.025, 17)} = 2.109816.} \\
 \end{aligned}
 $$
 
