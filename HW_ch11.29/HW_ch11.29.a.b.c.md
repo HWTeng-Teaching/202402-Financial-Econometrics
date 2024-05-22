@@ -86,7 +86,7 @@ $$
 & \text{and lagged profits, } P\_{t-1} \text{. Save the residuals, } \hat{\nu}\_{1t} \text{.} \\
 & \text{Answer:} \\
 & \text{The reduced form equation would be:} \\
-& \W\_{1t} = \beta\_1 + \beta\_2 P\_{t-1} + \beta\_3 K\_{t-1} + \beta\_4 W\_2 + \beta\_5 G + \beta\_6 TX + \beta\_7 TIME + \beta\_8 E\_{t-1} + \nu\_{it} \text{.} \\
+& W\_{1t} = \beta\_1 + \beta\_2 P\_{t-1} + \beta\_3 K\_{t-1} + \beta\_4 W\_2 + \beta\_5 G + \beta\_6 TX + \beta\_7 TIME + \beta\_8 E\_{t-1} + \nu\_{it} \text{.} \\
 & \text{In order to test the joint significance of all the variables except wages of workers in the public } \\
 & \text{sector, }W\_{2t} \text{, and lagged profits, }P\_{t-1}\text{, we implement partial F-test.} \\
 & H\_0: \text{The full model and the reduced model possess equivalent explanatory power.} \\
@@ -242,7 +242,7 @@ $$
 & \text{and lagged profits, } P\_{t-1} \text{. Save the residuals, } \hat{\nu}\_{2t} \text{.} \\
 & \text{Answer:} \\
 & \text{The reduced form equation would be:} \\
-& \P\_{t} = \beta\_1 + \beta\_2 P\_{t-1} + \beta\_3 K\_{t-1} + \beta\_4 W\_2 + \beta\_5 G + \beta\_6 TX + \beta\_7 TIME + \beta\_8 E\_{t-1} + \nu\_{it} \text{.} \\
+& P\_{t} = \beta\_1 + \beta\_2 P\_{t-1} + \beta\_3 K\_{t-1} + \beta\_4 W\_2 + \beta\_5 G + \beta\_6 TX + \beta\_7 TIME + \beta\_8 E\_{t-1} + \nu\_{it} \text{.} \\
 & \text{In order to test the joint significance of all the variables except wages of workers in the public } \\
 & \text{sector, }W\_{2t} \text{, and lagged profits, }P\_{t-1}\text{, we implement partial F-test.} \\
 & H\_0: \text{The full model and the reduced model possess equivalent explanatory power.} \\
