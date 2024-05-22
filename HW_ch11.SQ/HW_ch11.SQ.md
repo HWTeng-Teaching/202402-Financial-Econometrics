@@ -50,23 +50,23 @@ $TIME_t=YEAR_t-1931$
 
 and five identity equation
 
-# 1.Total wages identity equation
+## 1.Total wages identity equation
 
 ## $W_t=W_{1t}+W_{2t}$
 
-# 2.Total national product minus public sector wages identity equation
+## 2.Total national product minus public sector wages identity equation
 
 ## $E_t=CN_t+I_t+(G_t-W_{2t})$
 
-# 3. Capital stock identity equaion
+## 3. Capital stock identity equaion
 
 ## $K_t=K_{t-1}+I_t-\delta K_{t-1}$
 
-# 4. Profit identity equation
+## 4. Profit identity equation
 
 ## $P_t=R_t-W_t$
 
-# 5. Total revenue identity equation
+## 5. Total revenue identity equation
 
 ## $R_t=CN_t+I_t+G_t$
 
