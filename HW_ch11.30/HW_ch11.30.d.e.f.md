@@ -52,7 +52,7 @@ Use the information we get in the regression,we obtain:
 
 |             |   $TR^2$    | $\chi^2_{(4,0.95)}$  |
 |-------------|-------------|----------------------|
-| (Intercept) |  20.83568   |      9.487729        |
+| (Intercept) |  14.79123   |      9.487729        |
 
 
 
