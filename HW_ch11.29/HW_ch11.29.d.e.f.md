@@ -18,6 +18,7 @@ Obtain the 2SLS estimates of the consumption equation using all eight exogenous 
 The primary difference is that profits, $P$, has a much smaller coefficient estimate and is no longer significant. On the other hand, lagged profits, $PLAG$, has a larger coefficient estimate and is significant at the 10% level, using the critical value $t_{(0.95,17)}\=1.74$. 
 
 ![截圖 2024-05-21 下午8 24 37](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/142668635/b2817b55-76c7-45ce-81e0-b9cf9dfe9cb9)
+![截圖 2024-05-24 上午12 10 06](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/142668635/d95f09b2-210f-4793-bbdd-34396d8d5d7c)
 
 ## **Question 11.29 (f)**
 Let the 2SLS residuals from part (e) be $\hat{e_{1t}}$. Regress these residuals on all the exogenous and predetermined variables. If these instruments are valid, then the $R^2$ from this regression should be low, and none of the variables are statistically significant. The Sargan test for instrument validity is discussed in Section 10.4.3. The test statistic $TR^2$ has a chi-square distribution with degrees of freedom equal to the number of “surplus” IVs if the surplus instruments are valid. The consumption equation includes three exogenous and/or predetermined variables of the total of eight possible. There are $L$ = 5 external instruments and $B$ = 2 right-hand side endogenous variables. Compare the value of the test statistic to the 95th percentile value from the $\chi^2_{(3)}$ distribution. What do we conclude about the validity of the surplus instruments in this case?
