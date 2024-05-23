@@ -30,6 +30,8 @@ Estimated the second-stage model
 $$I_t = b_1+b_2 \hat{P_{t}}+b_3P_{t-1}+b_4K_{t-1}+e_{2t}$$
 by OLS.Compare the estimates and standard errors from this estimation to those in part (d). What differences are there?  
 
+**Ans:**
+
 | Term        | Estimate    | Std. Error  | Statistic  | p-value     | significant | 
 |-------------|-------------|-------------|------------|-------------|-------------|
 | (Intercept) | 9.82318     | 5.42984     | 1.809      | 0.088153    |             |
@@ -40,6 +42,17 @@ by OLS.Compare the estimates and standard errors from this estimation to those i
 These two different methods have almost same estimates on coefficients, but the method we used in part (e) has smaller standard errors,lead to higher t-value and lower p-value.
 
 ### f.
+Let the 2SLS residuals from part (e) be $\hat{e_{2t}}$. Regress these residuals on all the exogenous and predetermined variables. If these instruments are valid, then the $R^2$ from this regression should be low, and none of the variables are statistically significant. The Sargan test for instrument validity is discussed in Section 10.4.3. The test statistic $TR^2$ has a chi-square distribution with degrees of freedom equal to the number of “surplus” IVs if the surplus instruments are valid. The consumption equation includes three exogenous and/or predetermined variables of the total of eight possible. There are $L$ = 5 external instruments and $B$ = 1 right-hand side endogenous variables. Compare the value of the test statistic to the 95th percentile value from the $\chi^2_{(4)}$ distribution. What do we conclude about the validity of the surplus instruments in this case?
+
+**Ans:**
+
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71300551/983d056e-b63f-408f-90b6-d015dbf650b2)
+
+Use the information we get in the regression,we obtain:
+
+|             |   $TR^2$    | $\chi^2_{(4,0.95)}$  |
+|-------------|-------------|----------------------|
+| (Intercept) |  20.83568   |      9.487729        |
 
 
 
