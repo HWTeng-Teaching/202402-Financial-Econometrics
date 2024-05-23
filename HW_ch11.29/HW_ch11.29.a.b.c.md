@@ -2,14 +2,6 @@
 # 29
 
 ## a
-
-$$
-\begin{aligned}
-& \text{According to equation 11.17,} \\
-& CN\_t = \alpha\_1 + \alpha\_2 (W\_{1t} + W\_{2t}) + \alpha\_3 P\_t + \alpha\_4 P\_{t-1} + e\_{1t}.
-\end{aligned}
-$$
-
 $$
 \begin{aligned}
 & \text{Question: } \\
@@ -17,7 +9,7 @@ $$
 & \text{Answer: } \\
 & \text{According to equation 11.17,} \\
 & CN\_t = \alpha\_1 + \alpha\_2 (W\_{1t} + W\_{2t}) + \alpha\_3 P\_t + \alpha\_4 P\_{t-1} + e\_{1t}. \\
-& \text{Given } \alpha \text{ is set to be 0.05, the t-values of both total wages and the profit of the current year are significantly positive since they are} \\
+& \text{Given } \alpha \text{ is set to be 0.05, the t-values of both total wages and profits of the current year are significantly positive since they are} \\
 & \text{larger than the critical value } t_{(0.025, 17)} = 2.109816. \\
 \end{aligned}
 $$
