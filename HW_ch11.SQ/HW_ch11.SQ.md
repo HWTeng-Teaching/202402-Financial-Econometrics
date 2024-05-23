@@ -1,16 +1,16 @@
 ## This homework is written by 李昀庭 (312707034)
 ## Special Question 
-Question: Introduce the "Klein model" in Example11.3
+Question: Introduce the "Klein model I" in Example11.3
 
 Answer:
 
-Klein model is a macroeconomic model used to predict economic policies and economic forecasts.
+Klein Model I is a type of macroeconomic model designed for economic forecasting and policy analysis.
 
-Klein Model has three main equations:
+Klein Model I has three main equations:
 
-# 1.Consumption function
+## 1.Consumption function
 
-## $CN_t=\alpha_1+\alpha_2(W_{1t}+W_{2t})+\alpha_3P_t+\alpha_4P_{t-1}+e_{1t}$
+### $CN_t=\alpha_1+\alpha_2(W_{1t}+W_{2t})+\alpha_3P_t+\alpha_4P_{t-1}+e_{1t}$
 
 ### Variable
 
@@ -20,11 +20,11 @@ $W_t=W_{1t}+W_{2t}$
 
 $W_t$: Total wages, $W_{1t}$: Private sector wages, $W_{2t}$:Public sector wages.
 
-$P_t$: Non-wage income
+$P_t$: Profit
 
-# 2.Investment function
+## 2.Investment function
 
-## $I_t=\beta_1+\beta_2P_t+\beta_3P_{t-1}+\beta_4K_{t-1}+e_{2t}$
+### $I_t=\beta_1+\beta_2P_t+\beta_3P_{t-1}+\beta_4K_{t-1}+e_{2t}$
 
 ### Variable
 
@@ -32,9 +32,9 @@ $I_t$: Net investment
 
 $K_{t-1}$: Previous year capital stock
 
-# 3.Wage function
+## 3.Wage function
 
-## $W_{1t}=\gamma_1+\gamma_2E_t+\gamma_3E_{t-1}+\gamma_4TIME_t+e_{3t}$
+### $W_{1t}=\gamma_1+\gamma_2E_t+\gamma_3E_{t-1}+\gamma_4TIME_t+e_{3t}$
 
 ### Variable
 
@@ -48,7 +48,7 @@ $TIME_t=YEAR_t-1931$
 
 ---
 
-and five identity equation
+and five marcoeconomic identity equations
 
 ## 1.Total wages identity equation
 
@@ -71,9 +71,9 @@ and five identity equation
 ## $R_t=CN_t+I_t+G_t$
 
 ---
-Thus,we got eight equation , eight endogenous and some exogenous andpredetermined variables.
+Thus,we got eight equation , eight endogenous variables , some exogenous variables and predetermined variables.
 
-Endognenous: $CN_t,I_t,W_{1t},P_t,E_t,K_t,P_t,R_t$
+Endognenous: $CN_t,I_t,W_{1t},P_t,E_t,K_t,W_t,R_t$
 
 Exogenous: $G_t,W_{2t},TX_t,TIME_t$,Constant term
 
