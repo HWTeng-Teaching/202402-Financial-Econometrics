@@ -1,6 +1,8 @@
 ### This homework is written by 包坤達 (312707033)
 ### 11.19(e)
 #### Check the identification of the supply equation,considering tha availability of instrument EXPER.
+![螢幕擷取畫面 2024-05-23 164432](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162653388/e77a3fe8-03a0-4053-8bd7-12aa17da6801)
+![螢幕擷取畫面 2024-05-23 164450](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162653388/cb8db338-51ed-4ec0-a9af-f80ccf32d09a)
 
 
 
