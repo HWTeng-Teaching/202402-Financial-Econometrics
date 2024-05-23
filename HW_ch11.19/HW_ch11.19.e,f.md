@@ -6,7 +6,7 @@
 
 When estimating the supply equation, in order to ensure the reliability of the estimation results, the instrumental variables used must be valid.Effective instrumental variables need to be strongly correlated with endogenous variables (WAGE) in order to accurately estimate the equation.
 From the picture we know that the coefficient on EXPER is
-significant with t-value 3.6.We translate to F statistic is 12.96(F=t²).
+significant with t-value 3.6.We translate to F-value is 12.96(F=t²).
 If the F-value is at least 10, then the instrumental variable is considered strong.The we conclude that EXPER can effectively identify the supply equation and does not lead to weak instrumental variable problems.
 
 
