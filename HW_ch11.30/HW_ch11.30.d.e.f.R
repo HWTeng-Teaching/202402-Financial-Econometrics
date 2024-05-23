@@ -24,7 +24,7 @@ model_residuals_NA<- c(NA, model_residuals)
 model_TR=lm(model_residuals_NA~cn+plag+klag+w2+g+tx+time+elag,data=klein)
 summary(model_TR)
 n <- length(model_reduce$fitted.values)
-R_square_TR <- summary(model_reduce)$r.squared
+R_square_TR <- summary(model_TR)$r.squared
 sargon <- n*R_square_TR
 alpha <- 0.05
 L <- 5
