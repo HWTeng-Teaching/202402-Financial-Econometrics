@@ -54,6 +54,8 @@ Use the information we get in the regression,we obtain:
 |-------------|-------------|----------------------|
 | (Intercept) |  14.79123   |      9.487729        |
 
+Since $TR^2 > \chi^2_{(4,0.95)}$ we reject the null hypothsis that all the surplus moment conditions are valid.
+We conclude that at least one of the surplus moment condition is not valid.
 
 
 
