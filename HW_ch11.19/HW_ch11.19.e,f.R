@@ -3,9 +3,9 @@ library(AER)
 library(systemfit)
 library(POE5Rdata)
 data=mroz
+#定義變量
 lfp=mroz$lfp
 mroz_work=mroz[lfp==1,]
-#定義變量
 wage=mroz_work$wage
 ln_wage=log(wage)
 educ=mroz_work$educ
