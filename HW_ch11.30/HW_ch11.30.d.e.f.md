@@ -26,8 +26,15 @@ OLS:
 There is no significant different between the estimates of two method.
 
 ### e.
+Estimated the second-stage model 
+$$I_t = b_1+b_2 \hat{P_{t}}+b_3P_{t-1}+b_4K_{t-1}+e_{2t}$$
+by OLS.Compare the estimates and standard errors from this estimation to those in part (d). What differences are there?  
 
-
-
+| Term        | Estimate    | Std. Error  | Statistic  | p-value     | significant | 
+|-------------|-------------|-------------|------------|-------------|-------------|
+| (Intercept) | 9.82318     | 5.42984     | 1.809      | 0.088153    |             |
+| p           | 0.48945     | 0.09736     | 5.027      | 0.000104    |     ***     |
+| plag        | 0.32461     | 0.10070     | 3.223      | 0.004990    |     **      |
+| klag        | -0.11042    | 0.02654     | -4.161     | 0.000655    |     ***     |
 
 
