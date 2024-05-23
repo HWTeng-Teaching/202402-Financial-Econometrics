@@ -37,4 +37,10 @@ by OLS.Compare the estimates and standard errors from this estimation to those i
 | plag        | 0.32461     | 0.10070     | 3.223      | 0.004990    |     **      |
 | klag        | -0.11042    | 0.02654     | -4.161     | 0.000655    |     ***     |
 
+These two different methods have almost same estimates on coefficients, but the method we used in part (e) has smaller standard errors,lead to higher t-value and lower p-value.
+
+### f.
+
+
+
 
