@@ -243,7 +243,7 @@ $$
 & H\_0: \text{The full model and the reduced model possess equivalent explanatory power.} \\
 & H\_a: \text{The full model has superior explanatory power compared to the reduced model.} \\
 & \text{Full Model :} P\_{t} = \beta\_1 + \beta\_2 P\_{t-1} + \beta\_3 K\_{t-1} + \beta\_4 W\_2 + \beta\_5 G + \beta\_6 TX + \beta\_7 TIME + \beta\_8 E\_{t-1} + \nu\_{it} \\
-& \text{Reduced Model :} W\_{1t} = \alpha\_1 + \alpha\_2 W\_{2t} + \alpha\_3 P\_{t-1} + v\_{it} \\
+& \text{Reduced Model :} P\_{1t} = \alpha\_1 + \alpha\_2 W\_{2t} + \alpha\_3 P\_{t-1} + v\_{it} \\
 & \text{F} = \frac{\frac{\text{SSE}\_R - \text{SSE}\_F}{m}}{\frac{\text{SSE}\_F}{n - k}} \overset{H\_0}{\sim} F(m, n - k) \\
 & \text{The F value would be :}\frac{\frac{141.75 - 61.95}{5}}{\frac{61.95}{13}} \approx 3.35 .\\
 & \text{Given } \alpha \text{ is set to be 0.05, the critical value is } F(5, 13) \approx 3.025 \text{.} \\
