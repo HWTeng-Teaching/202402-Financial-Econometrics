@@ -18,12 +18,12 @@ OLS:
 2SLS:
 | Term        | Estimate    | Std. Error  | Statistic  | p-value     | significant | 
 |-------------|-------------|-------------|------------|-------------|-------------|
-| (Intercept) | 9.8231795   | 5.4888546   | 1.78966    | 0.0913376   |             |
-| p           | 0.4894543   | 0.0984216   | 4.97304    | 0.0001159   |     ***     |
-| plag        | 0.3246063   | 0.1017989   | 3.18870    | 0.0053766   |     **      |
-| klag        | -0.1104238  | 0.0268265   | -4.11621   | 0.0007209   |     ***     |
+| (Intercept) |20.2782089   | 8.3832489   | 2.41890    | 0.0270705   |     *       |
+| p           | 0.1502218   | 0.1925336   | 0.78024    | 0.4459798   |             |
+| plag        | 0.6159436   | 0.1809258   | 3.40440    | 0.0033755   |     **      |
+| klag        | -0.1577876  | 0.0401521   | -3.92975   | 0.0010797   |     **      |
 
-There is no significant different between the estimates of two method.
+P became insignificant and intercept became significant.
 
 ### e.
 Estimated the second-stage model 
@@ -34,10 +34,10 @@ by OLS.Compare the estimates and standard errors from this estimation to those i
 
 | Term        | Estimate    | Std. Error  | Statistic  | p-value     | significant | 
 |-------------|-------------|-------------|------------|-------------|-------------|
-| (Intercept) | 9.82318     | 5.42984     | 1.809      | 0.088153    |             |
-| p           | 0.48945     | 0.09736     | 5.027      | 0.000104    |     ***     |
-| plag        | 0.32461     | 0.10070     | 3.223      | 0.004990    |     **      |
-| klag        | -0.11042    | 0.02654     | -4.161     | 0.000655    |     ***     |
+| (Intercept) |20.27821     | 9.97663     | 2.033      | 0.05802     |             |
+| p           | 0.15022     | 0.22913     | 0.656      | 0.52084     |             |
+| plag        | 0.61594     | 0.21531     | 2.861      | 0.01083     |     *       |
+| klag        | -0.15779    | 0.04778     | -3.302     | 0.00421     |     **      |
 
 These two different methods have almost same estimates on coefficients, but the method we used in part (e) has smaller standard errors,lead to higher t-value and lower p-value.
 
@@ -46,13 +46,14 @@ Let the 2SLS residuals from part (e) be $\hat{e_{2t}}$. Regress these residuals 
 
 **Ans:**
 
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71300551/983d056e-b63f-408f-90b6-d015dbf650b2)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/71300551/a4909d5b-1334-4293-b3fa-ed0cd6db8800)
+
 
 Use the information we get in the regression,we obtain:
 
 |             |   $TR^2$    | $\chi^2_{(4,0.95)}$  |
 |-------------|-------------|----------------------|
-| (Intercept) |  14.79123   |      9.487729        |
+| (Intercept) |  9.674965   |      9.487729        |
 
 Since $TR^2 > \chi^2_{(4,0.95)}$ we reject the null hypothsis that all the surplus moment conditions are valid.
 We conclude that at least one of the surplus moment condition is not valid.
