@@ -44,11 +44,9 @@ $$x_{4} = \gamma_{12} + \gamma_{22} x_2 +\theta_{12}z_1+\theta_{22}z_2+\theta_{3
 
 
 
+
+
+2. Write down the second stage equation.
+   
 $$y = \beta_1 + \beta_2 x_2 + \beta_{3} \hat{x}_{3} + \beta_4 \hat{x}_4+ e^* $$
-
-2. Write down the second stage equation. 
-
  
-$$x_{3} = \gamma_{11} + \gamma_{21} x_2 +\theta_{11}z_1+\theta_{21}z_2+\theta_{31}z_3+\nu_1$$ 
-
-$$x_{4} = \gamma_{12} + \gamma_{22} x_2 +\theta_{12}z_1+\theta_{22}z_2+\theta_{32}z_3+\nu_2$$
