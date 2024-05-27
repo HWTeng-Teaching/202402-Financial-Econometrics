@@ -50,8 +50,10 @@ lw = hatb4.gls-tc*seb4.gls
 cat("GLS estimate of b4 is",hatb4.gls,"\n")
 cat("[",lw,",",up,"]")
 ```
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/18cefd43-8c9b-49cb-8b15-8499c4536560)
-![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/87d84e8a-31ec-4a09-acc5-8d734e5fbb44)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/615f21ad-3a1a-4057-8d9b-f7eda0fc8b59)
+
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161786886/8b4ca2db-5e46-4215-86ea-ddcbd8cb12f1)
+
 
 Compare to (a) and (d). GLS method has the smallest standard error and narrowest 95% confidence interval.
 |                        | OLS                      | Heteroskedasticity robust standard errors | GLS                      |
