@@ -13,13 +13,15 @@ IV: $y_1,y_2$
 
 Exogenous: $x_2,x_3,x_4$
 
-I. Apply the $(M-1)$ rule , which equation are identifued?
+I. 
+
+Apply the $(M-1)$ rule , which equation are identifued?
 
 M = 2
 
-$\alpha$ 1 variable omitted
+$\alpha$ : 1 variable omitted
 
-$\beta$ 2 variable omitted 
+$\beta$ : 2 variable omitted 
 
 Both identified.
 
