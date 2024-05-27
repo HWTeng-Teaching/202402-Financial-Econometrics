@@ -33,5 +33,10 @@ If we have three IVs, $z_1$, $z_2$, and $z_3$.
 Suppose we use all these three IVs. 
 
 1. Write down the first stage equation in the 2SLS.
-2. Write down the second stage equation. 
+ \begin{align}
+& x_{3} = \gamma_{11} + \gamma_{21} x_2 +\theta_{11}z_1+\theta_{21}z_2+\theta_{31}z_3+\nu_1,\\    
+& x_{4} = \gamma_{12} + \gamma_{22} x_2 +\theta_{12}z_1+\theta_{22}z_2+\theta_{32}z_3+\nu_2\\    
+\end{align} 
+2. Write down the second stage equation.
+   $$y=\beta_1+\beta_2x_2+\beta_{3}\hat{x}_{3}+\beta_{4}\hat{x}_{4}+e^*.$$
 
