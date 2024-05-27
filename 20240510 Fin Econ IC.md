@@ -6,6 +6,7 @@ $$\mbox{ Supply}: Q_i =\beta_1+\beta_2 P_i +\beta_3 PF_i +  e_{si}.$$
 1. $M=2$
 
 2. Exogenous: $PS,PF,DI$
+   
 Endogenous: $Q,P$
 
 3.
@@ -24,7 +25,10 @@ $$\text{(Supply)}\quad\ln(QUAN_t) = \beta_1+\beta_2\ln (PRICE_t) +\beta_3 STORMY
 1. $M=2$
 
 2. Exogenous: $Q,P$
+   
 Endogenous: $MON,TUE,WED,THU,STORMY$
 
-3. check $D: STORMY$  is absent (1 absent) $\therefore$  identified 
+3.
+check $D: STORMY$  is absent (1 absent) $\therefore$  identified 
+
 check $S:MON,TUE,WED,THU$ are absent(4  absent ) $\therefore$  identified 
