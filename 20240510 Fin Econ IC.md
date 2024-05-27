@@ -15,11 +15,11 @@ check $D: PF$  is absent (1 exogeous variable is absent) $\therefore$  identifie
 check $S:PS,DI$ are absent(2 exogenous variables are absent ) $\therefore$  identified 
 
 II.
-\begin{eqnarray*}
-\mbox{(Demand)}\quad\ln(QUAN_t) &=& \alpha_1 +\alpha_2 \ln(PRICE_t)+\alpha_3 MON_t + \alpha_4 TUE_t\\
-&&+\alpha_5 WED_t +\alpha_6 THU_t + e_t^{*d},\\
-\mbox{(Supply)}\quad\ln(QUAN_t) &=& \beta_1+\beta_2\ln (PRICE_t) +\beta_3 STORMY_t + e^s_{*t}.
-\end{eqnarray*}
+
+$$\text{(Demand)}\quad\ln(QUAN_t) = \alpha_1 +\alpha_2 \ln(PRICE_t)+\alpha_3 MON_t + \alpha_4 TUE_t+\alpha_5 WED_t +\alpha_6 THU_t + e_t^{*d},$$
+
+$\text{(Supply)}\quad\ln(QUAN_t) = \beta_1+\beta_2\ln (PRICE_t) +\beta_3 STORMY_t + e^s_{*t}.$$
+
 
 1. $M=2$
 
