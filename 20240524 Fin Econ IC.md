@@ -31,4 +31,4 @@ II.
 
 (b) Write down the fixed effect model in this example
 
-$$$y_{it}= \beta_{11}D_{1i}+\beta_{12}D_{2i}+\beta_{13}D_{3i}+\beta_2 x_{it}+e_{it}$
+$$y_{it}= \beta_{11}D_{1i}+\beta_{12}D_{2i}+\beta_{13}D_{3i}+\beta_2 x_{it}+e_{it}$$
