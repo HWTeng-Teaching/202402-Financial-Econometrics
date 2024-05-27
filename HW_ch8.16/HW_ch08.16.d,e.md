@@ -37,7 +37,7 @@ cat("[",lw,",",up,"]")
 ## e.
 ### Obtain GLS estimates assuming $σ^2= σ^2INCOME^2$. Using both conventional GLS and robust GLS standard errors, construct a 95% interval estimate for the effect of one more child on miles traveled,holding the two other variables constant. How do these interval estimates compare to the ones in (a) and (d)?
 ## Ans.
-Set the weight as $\frac{1}{\sqrt{x_i}}$ $=\frac{1}{\sqrt{INCOME}}$.  
+Set $\sigma_i^2=\sigma^2INCOME^2$, we need to multiply the model by $\frac{1}{INCOME}$, weight should be $\frac{1/income}$  
 Using GLS robust standard error, the estimate for the effect of one more child is -78.36334, se is 24.73552 and the 95% confidence interval estimate is  [ -127.1453 , -29.5814 ].
 ```
 w = 1/income
