@@ -1,12 +1,12 @@
 
 ### This homework is written by 張永濬 (312707048)
 
-## **CH15.20** ##
+## **Q15.20** ##
 
-## This exercise uses data from the STAR experiment introduced to illustrate fixed and random effects for grouped data. In the STAR experiment, children were randomly assigned within schools into three types of classes: small classes with 13–17 students, regular-sized classes with 22–25 students, and regular-sized classes with a full-time teacher aide to assist the teacher. Student scores on achievement tests were recorded as well as some information about the students, teachers, and schools. Data for the kindergarten classes are contained in the data file star.
+This exercise uses data from the STAR experiment introduced to illustrate fixed and random effects for grouped data. In the STAR experiment, children were randomly assigned within schools into three types of classes: small classes with $13–17$ students, regular-sized classes with $22–25$ students, and regular-sized classes with a full-time teacher aide to assist the teacher. Student scores on achievement tests were recorded as well as some information about the students, teachers, and schools.
 
 ## ch15.20(a)
-Estimate a regression equation (with no fixed or random effects) where READSCORE is related to SMALL, AIDE, TCHEXPER, BOY, WHITE_ASIAN, and FREELUNCH. Discuss the results. Do students perform better in reading when they are in small classes? Does a teacher’s aide improve scores? Do the students of more experienced teachers score higher on reading tests? Does the student’s sex or race make a difference?
+Estimate a regression equation (with no fixed or random effects) where $READSCORE$ is related to `SMALL`, `AIDE`, `TCHEXPER`, `BOY`, `WHITE_ASIAN`, and `FREELUNCH`. Discuss the results.
 
 ## **Ans.**
 1. We estimate that the average reading score will be 5.8 points higher if the students are in a small class instead of a regular sized class. The coefficient is significantly different from zero using a 1% level of significance.
@@ -26,7 +26,9 @@ Estimate a regression equation (with no fixed or random effects) where READSCORE
 | `freelunch`   | -14.77 ***   |
 
 ## ch15.20(b)
-Reestimate the model in part (a) with school fixed effects. Compare the results with those in part (a). Have any of your conclusions changed? 
+Reestimate the model in part (a) with school fixed effects. 
+
+Compare the results with those in part (a). Have any of your conclusions changed? 
 
 ## **Ans.**
 1. The effect of being in a small class is estimated to increase average reading score by 6.49 points, which is slightly larger than the OLS estimate.
@@ -46,6 +48,7 @@ Reestimate the model in part (a) with school fixed effects. Compare the results 
 
 ## ch15.20(c)
 Test for the significance of the school fixed effects.
+
 Under what conditions would we expect the inclusion of significant fixed effects to have little influence on the coefficient estimates of the remaining variables?
 
 ## **Ans.**
