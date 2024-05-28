@@ -14,22 +14,35 @@ Estimate a regression equation (with no fixed or random effects) where READSCORE
 3. Each year of teaching experience is estimated to increase average reading score by 0.49 points.
 4. Boys are estimated to have 6 point lower reading scores than girl.
 5. White or Asian students are estimated to have reading scores 3.91 points higher than black students.
-6. Those students who receive a free lunch are predicted to have an average reading score that is 14.8 points lower than those who do not.
+6. Those students who receive a free lunch are predicted to have an average reading score that is 14.77 points lower than those who do not.
 
-| Coefficients| Estimate | 
-|-------------|----------|
-| small       |   5.8 ***     |
-| aide        |   0.82        |
-|  tchexper   |   0.49 ***    |
-| boy         |  -6.16 ***   |
-| white_asian |   3.91  ***   |
-| freelunch   | -14.8 ***   |
+| Coefficients  |  Estimate   | 
+|:-------------:|:------------:|
+| `small`       |   5.80 *** |
+| `aide`        |   0.82     |
+| `tchexper`    |   0.49 *** |
+| `boy`         |  -6.16 *** |
+| `white_asian` |   3.91 *** |
+| `freelunch`   | -14.77 *** |
+
+## ch15.20(b)
+Reestimate the model in part (a) with school fixed effects. Compare the results with those in part (a). Have any of your conclusions changed? 
+
+## **Ans.**
+1. The effect of being in a small class is estimated to increase average reading score by 6.49 points, which is slightly larger than the OLS estimate.
+2. The estimated effect of teaching experience on average reading score falls to 0.29 points per additional year of experience.
+3. The estimated difference between boys and girls average reading scores is slightly smaller than the OLS estimates indicate.
+4. The estimated difference in average reading scores between white or Asian students and black students roughly doubles to 8 points.
 
 
-
-
-
-
+| Coefficients|  Estimate(OLS)  | Estimate(FE)  |
+|:-------------:|:---------------:|:----------:|
+| `small`       |   5.80 ***      |4.90 ***
+| `aide`       |   0.82          |0.10
+| `tchexper`    |   0.49 ***      |0.29 ***
+| `boy`         |  -6.16 ***      |-5.46 ***
+| `white_asian` |   3.91 ***      |8.03 ***
+| `freelunch`   | -14.77 ***      |-14.59 ***
 
 
 
