@@ -16,14 +16,14 @@ Estimate a regression equation (with no fixed or random effects) where READSCORE
 5. White or Asian students are estimated to have reading scores 3.91 points higher than black students.
 6. Those students who receive a free lunch are predicted to have an average reading score that is 14.77 points lower than those who do not.
 
-| Coefficients  |  Estimate   | 
+| Coefficients  |  Estimate    | 
 |:-------------:|:------------:|
-| `small`       |   5.80 *** |
-| `aide`        |   0.82     |
-| `tchexper`    |   0.49 *** |
-| `boy`         |  -6.16 *** |
-| `white_asian` |   3.91 *** |
-| `freelunch`   | -14.77 *** |
+| `small`       |   5.80 ***   |
+| `aide`        |   0.82       |
+| `tchexper`    |   0.49 ***   |
+| `boy`         |  -6.16 ***   |
+| `white_asian` |   3.91 ***   |
+| `freelunch`   | -14.77 ***   |
 
 ## ch15.20(b)
 Reestimate the model in part (a) with school fixed effects. Compare the results with those in part (a). Have any of your conclusions changed? 
@@ -36,17 +36,24 @@ Reestimate the model in part (a) with school fixed effects. Compare the results 
 
 
 | Coefficients|  Estimate(OLS)  | Estimate(FE)  |
-|:-------------:|:---------------:|:----------:|
-| `small`       |   5.80 ***      |4.90 ***
-| `aide`       |   0.82          |0.10
-| `tchexper`    |   0.49 ***      |0.29 ***
-| `boy`         |  -6.16 ***      |-5.46 ***
-| `white_asian` |   3.91 ***      |8.03 ***
-| `freelunch`   | -14.77 ***      |-14.59 ***
+|:-------------:|:---------------:|:-----------:|
+| `small`       |   5.80 ***      |4.90   ***   |
+| `aide`        |   0.82          |0.10         |
+| `tchexper`    |   0.49 ***      |0.29   ***   |
+| `boy`         |  -6.16 ***      |-5.46  ***   |
+| `white_asian` |   3.91 ***      |8.03   ***   |
+| `freelunch`   | -14.77 ***      |-14.59 ***   |
 
+## ch15.20(c)
+Test for the significance of the school fixed effects.
+Under what conditions would we expect the inclusion of significant fixed effects to have little influence on the coefficient estimates of the remaining variables?
 
+## **Ans.**
+The F-test statistic is $16.698$.
 
+1. The rejection region is $$\{F:F>F_{0.95,78,5681} = 1.27979\}$$ so that we reject the null hypothesis that there are no significant differences between schools.
 
+2. If the school indicator variables are uncorrelated with the included explanatory variables, then they should have little effect on the regression estimates.
 
 
 
