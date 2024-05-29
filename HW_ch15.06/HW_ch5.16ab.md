@@ -21,7 +21,7 @@ The ordinary least square (OLS) estimates have little difference for the 1987 an
   
 **Question:**  
 The ln($WAGE$) equation specified as a panel data regression model
-is $$ln(WAGE) = \beta_1 + \beta_2 EXPER_{it} + \beta_3 EXPER^2_{it} + \beta_4 SOUTH_{it} + \beta_5 UNION_{it} + (u_i+e_{it})$$
+is $$ln(WAGE_{it}) = \beta_1 + \beta_2 EXPER_{it} + \beta_3 EXPER^2_{it} + \beta_4 SOUTH_{it} + \beta_5 UNION_{it} + (u_i+e_{it})$$
 
 Explain any differences in assumptions between this model and the models in part (a).  
   
