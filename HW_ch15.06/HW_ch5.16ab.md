@@ -2,6 +2,7 @@
 
   
 Using the NLS panel data on N=716 young women, we consider only years 1987 and 1988. We are interested in the relationship between ln(WAGE) and experience, its square, and indicator variables for living in the south and union membership. Some estimation results are in Table 15.10.  
+![Uploading TABLE 15.10.jpg…]()
 
 # ch15.06(a)  
   
