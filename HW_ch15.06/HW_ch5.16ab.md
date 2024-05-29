@@ -10,7 +10,8 @@ Using the NLS panel data on N=716 young women, we consider only years 1987 and 1
 The OLS estimates of the ln($WAGE$) model for each of the years
 1987 and 1988 are reported in columns (1) and (2). How do the results compare? For these individual year estimations, what are you assuming about the regression parameter values across individuals (heterogeneity)?  
   
-**Answer:**  
+**Answer:**
+$$ln(WAGE_{i}) = \beta_1 + \beta_2 EXPER_{i} + \beta_3 EXPER^2_{i} + \beta_4 SOUTH_{i} + \beta_5 UNION_{i} + e_{i})$$
 The ordinary least square (OLS) estimates have little difference for the 1987 and 1988 regressions. The obtained differences are on the order of one standard error or less than it. According to the ordinary least square (OLS) estimates, the population parameter values are identical including intercept of the estimation. The key assumption is that there is **no heterogeneity** across individuals.  
 
 
