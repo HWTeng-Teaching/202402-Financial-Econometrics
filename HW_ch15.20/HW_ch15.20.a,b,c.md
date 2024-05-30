@@ -39,8 +39,8 @@ Compare the results with those in part (a). Have any of your conclusions changed
 
 | Coefficients|  Estimate(OLS)  | Estimate(FE)  |
 |:-------------:|:---------------:|:-----------:|
-| `small`       |   5.80 ***      |4.90   ***   |
-| `aide`        |   0.82          |0.10         |
+| `small`       |   5.80 ***      |6.49   ***   |
+| `aide`        |   0.82          |0.996        |
 | `tchexper`    |   0.49 ***      |0.29   ***   |
 | `boy`         |  -6.16 ***      |-5.46  ***   |
 | `white_asian` |   3.91 ***      |8.03   ***   |
