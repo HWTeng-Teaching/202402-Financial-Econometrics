@@ -19,6 +19,7 @@ The estimated regression with differenced data is <br>
 $LIQUOR$ = 0.2975 $INCOMED$
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/7ff70ff7-a3b8-4a1e-b669-87a4a388e813)
 
+
 The 95% interval estimate of the coefficient of INCOMED is [-0.0284146, 0.0879082]. The
 interval covers zero; we have no evidence against the hypothesis that income does not affect
 liquor expenditures. 
