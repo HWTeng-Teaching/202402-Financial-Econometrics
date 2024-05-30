@@ -6,8 +6,8 @@
 
 ### **Question:**
 
-The data file liquor contains observations on annual expenditure on liquor ($\hat{LIQUOR}$) and annual
-income $\hat{INCOMED}$) (both in thousands of dollars) for 40 randomly selected households for three consecutive years
+The data file liquor contains observations on annual expenditure on liquor ($LIQUOR$) and annual
+income ($INCOMED$) (both in thousands of dollars) for 40 randomly selected households for three consecutive years
 
 a. Create the first-differenced observations on LIQUOR and INCOME. Call these new variables
 LIQUORD and INCOMED. Using OLS regress LIQUORD on INCOMED without a constant
