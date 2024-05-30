@@ -33,7 +33,7 @@ Compare the results with those in part (a). Have any of your conclusions changed
 ## **Ans.**
 1. The effect of being in a small class is estimated to increase average reading score by 6.49 points, which is slightly larger than the OLS estimate.
 2. The estimated effect of teaching experience on average reading score falls to 0.29 points per additional year of experience.
-3. The estimated difference between boys and girls average reading scores is slightly smaller than the OLS estimates indicate.
+3. The estimated difference between boys and girls average reading scores is slightly smaller than the OLS estimates.
 4. The estimated difference in average reading scores between white or Asian students and black students roughly doubles to 8 points.
 
 
