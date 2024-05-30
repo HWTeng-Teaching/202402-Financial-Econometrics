@@ -15,8 +15,6 @@ term. Construct a 95% interval estimate of the coefficient.
 
 ### **answer:**
 
-![](1711640238134.jpg)
-
 The estimated regression with differenced data is
 $\LIQUOR_it$=0.2975$\INCOMED_it$
 
