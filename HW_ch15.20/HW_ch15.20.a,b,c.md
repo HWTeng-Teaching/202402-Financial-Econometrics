@@ -58,5 +58,7 @@ The F-test statistic is $16.698$.
 
 2. If the school indicator variables are uncorrelated with the included explanatory variables, then they should have little effect on the regression estimates.
 
-
+```{r}
+pFtest(model.within, model.pooling)
+```
 
