@@ -16,7 +16,7 @@ term. Construct a 95% interval estimate of the coefficient.
 ### **answer:**
 
 The estimated regression with differenced data is <br>
-$LIQUOR$ = 0.2975 $INCOMED$
+$\hat{LIQUOR}$ = 0.2975 $\hat{INCOMED}$
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/7ff70ff7-a3b8-4a1e-b669-87a4a388e813)
 
 
