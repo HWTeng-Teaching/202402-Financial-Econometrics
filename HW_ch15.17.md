@@ -15,7 +15,7 @@ term. Construct a 95% interval estimate of the coefficient.
 
 ### **answer:**
 
-The estimated regression with differenced data is
+The estimated regression with differenced data is <br>
 $LIQUOR$ = 0.2975 $INCOMED$
 
 The 95% interval estimate of the coefficient of INCOMED is [-0.0284146, 0.0879082]. The
