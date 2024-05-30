@@ -22,6 +22,8 @@ $LIQUOR$ = 0.2975 $INCOMED$
 The 95% interval estimate of the coefficient of INCOMED is [-0.0284146, 0.0879082]. The
 interval covers zero; we have no evidence against the hypothesis that income does not affect
 liquor expenditures. 
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/162611288/29ef8c54-b9bd-427f-bc02-12ac8cef6eab)
+
 
 
 
