@@ -16,7 +16,7 @@ term. Construct a 95% interval estimate of the coefficient.
 ### **answer:**
 
 The estimated regression with differenced data is
-$\LIQUOR_it$ = 0.2975 $\INCOMED_it$
+$LIQUOR_it$ = 0.2975 $INCOMED_it$
 
 The 95% interval estimate of the coefficient of INCOMED is [-0.0284146, 0.0879082]. The
 interval covers zero; we have no evidence against the hypothesis that income does not affect
