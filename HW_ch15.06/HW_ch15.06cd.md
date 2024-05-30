@@ -1,7 +1,8 @@
 # This homework is written by 張禕紘 (312707043)
 
-![螢幕擷取畫面 2024-05-30 161057](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/56f8d3e5-8bf0-46ec-a41c-897870aa4167)
-![螢幕擷取畫面 2024-05-30 161115](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/28f78a12-a354-4151-ac9b-df8d9a7cad2d)
+![螢幕擷取畫面 2024-05-30 161057](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/bc7ad4b4-1425-4eb5-940e-a1f91a4460e8)
+![螢幕擷取畫面 2024-05-30 161115](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/799ad5a1-bb1d-49f5-804c-e589203ee42d)
+![螢幕擷取畫面 2024-05-30 175232](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/b0b3e6ca-3d1c-4ac4-88ff-5b15b6b80b6e)
 
 ## ch15.6(c)
 
