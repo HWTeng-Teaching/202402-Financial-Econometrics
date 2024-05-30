@@ -12,7 +12,7 @@ Estimate a regression equation (with no fixed or random effects) where $READSCOR
 1. We estimate that the average reading score will be 5.8 points higher if the students are in a small class instead of a regular sized class. The coefficient is significantly different from zero using a 1% level of significance.
 2. Having a teacher aide makes no significant improvement on the average reading score relative to the regular sized class.
 3. Each year of teaching experience is estimated to increase average reading score by 0.49 points.
-4. Boys are estimated to have 6 point lower reading scores than girl.
+4. Boys are estimated to have 6.16 point lower reading scores than girl.
 5. White or Asian students are estimated to have reading scores 3.91 points higher than black students.
 6. Those students who receive a free lunch are predicted to have an average reading score that is 14.77 points lower than those who do not.
 
