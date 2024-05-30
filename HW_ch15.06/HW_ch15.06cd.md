@@ -4,7 +4,7 @@
 ![螢幕擷取畫面 2024-05-30 161115](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/799ad5a1-bb1d-49f5-804c-e589203ee42d)
 ![螢幕擷取畫面 2024-05-30 175232](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/161785685/b0b3e6ca-3d1c-4ac4-88ff-5b15b6b80b6e)
 
-$ln(wage)=\beta_1+\beta_2EXPER_{it}+\beta_3EXPER^2_{it}+\beta_4SOUTH_{it}+\beta_5UNION_{it}+(u_i+e_{it})$
+THe FE model is $ln(wage)=\beta_1+\beta_2EXPER_{it}+\beta_3EXPER^2_{it}+\beta_4SOUTH_{it}+\beta_5UNION_{it}+(u_i+e_{it})$
 ## ch15.6(c)
 
 ### Question:
