@@ -2,8 +2,17 @@
 
 ## Show OLS is unbiased when $cov(e,x)=0$. 
 
-036 黃子騏 
+312707036 黃子騏 
 
+在SLR的架構下， 
+
+$$\beta_1 = \frac{\sum (X_{i}-\overline{X})(Y_{i}-\overline{Y})}{\sum (X_{i}-\overline{X})^{2}}= \frac{\sum (X_{i}-\overline{X})(\beta_{0} + \beta_{1}X_{i} + \epsilon_{i} - \overline{Y})}{\sum (X_{i}-\overline{X})^{2}} = \beta_1\frac{\sum (X_{i}-\overline{X})X_{i}}{\sum (X_{i}-\overline{X})^{2}} + \frac{\sum (X_{i}-\overline{X}) \epsilon_{i}}{\sum (X_{i}-\overline{X})^{2}}
+$$
+
+$$= \beta_1\frac{\sum (X_{i}-\overline{X})^{2}}{\sum (X_{i}-\overline{X})^{2}} + \frac{\sum (X_{i}-\overline{X})(\epsilon_{i} - \overline{\epsilon})}{\sum (X_{i}-\overline{X})^{2}}=\beta_1 + \frac{\sum (X_{i}-\overline{X})(\epsilon_{i} - \overline{\epsilon})}{N-1} \Bigg/ \frac{\sum (X_{i}-\overline{X})^{2}}{N-1}=\beta_1 + \frac{\text{Cov}(X_i, \epsilon_i)}{E[(X_i - \overline{X})^2]}=\beta_1 $$
+
+$$故\beta_1為不偏估計式。$$
+ 
 
 ## Homework 7: 20240502
 
