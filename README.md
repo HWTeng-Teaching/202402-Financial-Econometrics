@@ -2,6 +2,7 @@
 
 ## Show OLS is unbiased when $cov(e,x)=0$. 
 
+036 黃子騏 
 
 
 ## Homework 7: 20240502
