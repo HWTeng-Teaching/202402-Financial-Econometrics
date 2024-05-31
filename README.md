@@ -1,5 +1,9 @@
 # README
 
+## Show OLS is unbiased when $cov(e,x)=0$. 
+
+
+
 ## Homework 7: 20240502
 
 
