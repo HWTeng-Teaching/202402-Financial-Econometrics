@@ -10,8 +10,6 @@ star.pd <- pdata.frame(star, index = c("schid"))
 # Estimate a pooled OLS model
 model.pooling <- plm(readscore ~ small + aide + tchexper + boy + white_asian + freelunch,data = star.pd, model = "pooling")
 summary(model.pooling)
-a= lm(readscore ~ small + aide + tchexper + boy + white_asian + freelunch,data = star)
-summary(a)
 
 # b
 star.pd <- pdata.frame(star, index = c("schid")) 
