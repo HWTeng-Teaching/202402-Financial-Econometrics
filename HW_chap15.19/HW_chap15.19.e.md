@@ -10,13 +10,14 @@ Using the t-test statistic in equation (15.36) and a 5% significance level, test
 
 #### Answer:
 
-
-\[ \ln(\text{PRICE})_{it} = \beta_1 + \beta_2 \text{BAR}_{it} + \beta_3 \text{STREET}_{it} + \beta_4 \text{OTHERSITE}_{it} + \beta_5 \text{NOCONDOM}_{it} + \beta_6 \text{ATTRACTIVE}_{it} + \beta_7 \text{SCHOOL}_{it} + \beta_8 \text{AGE}_{it} + \beta_9 \text{RICH}_{it} + \beta_{10} \text{REGULAR}_{it} + \beta_{11} \text{ALCOHOL}_{it} + e_{it} \]
+$$
+\ln(\text{PRICE}_{it}) = \beta_1 + \beta_2 \text{BAR}_{it} + \beta_3 \text{STREET}_{it} + \beta_4 \text{OTHERSITE}_{it} + \beta_5 \text{NOCONDOM}_{it} + \beta_6 \text{ATTRACTIVE}_{it} + \beta_7 \text{SCHOOL}_{it} + \beta_8 \text{AGE}_{it} + \beta_9 \text{RICH}_{it} + \beta_{10} \text{REGULAR}_{it} + \beta_{11} \text{ALCOHOL}_{it} + e_{it}
+$$
 
 ##### equation (15.36)
-\[ 
+$$ 
 t = \frac{b_{FE,k} - b_{RE,k}}{\sqrt{\widehat{\text{var}}(b_{FE,k}) - \widehat{\text{var}}(b_{RE,k})}} = \frac{b_{FE,k} - b_{RE,k}}{\sqrt{\text{se}(b_{FE,k})^2 - \text{se}(b_{RE,k})^2}} 
-\]
+$$
 
 
 ##### Results of fixed effects and random effects estimates and t-test statistic in equation (15.36)
