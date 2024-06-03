@@ -8,7 +8,7 @@ This exercise uses the data and model in Exercise 15.18
 Extimate the model assuming random effects and with the characteristics of the sex workers included in the model. Carry out a test of the joint significance of the sex worker characteristics at the 5% level. Are these coefficients jointly significant? Are they individually significant?
 
 
-**Solution:**\
+**Solution:**
 |    term   | Coeff.  | SD.  |  p-value    | 
 |:------------:|:-------------:|:------------:|:------------:|
 | intercept      |  5.9104 ***| 0.1303 | 0.0000 |
