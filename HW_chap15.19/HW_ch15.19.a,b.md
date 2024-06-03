@@ -4,11 +4,11 @@
 
 This exercise uses the data and model in Exercise 15.18
 
-**Question:**
+**Question:**\
 Extimate the model assuming random effects and with the characteristics of the sex workers included in the model. Carry out a test of the joint significance of the sex worker characteristics at the 5% level. Are these coefficients jointly significant? Are they individually significant?
 
 
-**Solution:**
+**Solution:**\
 |    term   | Coeff.  | SD.  |  p-value    | 
 |:------------:|:-------------:|:------------:|:------------:|
 | intercept      |  5.9104 ***| 0.1303 | 0.0000 |
@@ -28,10 +28,10 @@ Individual Significance: The coefficients for AGE, ATTRACTIVE, and SCHOOL are in
 
 ## ch15.19 (b)
 
-**Question:**
+**Question:**\
 What is your 95% interval estimate of the risk premium, the coefficient on NOCONDOM, based on these random effects estimates?
 
-**Solution:**
+**Solution:**\
 95% Confidence Interval: [0.0899, 0.1880]
 In repeated sampling, about 95% intervals constructed this way will contain the true value of the risk premium.
 
