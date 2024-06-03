@@ -33,5 +33,6 @@ What is your 95% interval estimate of the risk premium, the coefficient on NOCON
 
 **Solution:**\
 95% Confidence Interval: [0.0899, 0.1880]
+
 In repeated sampling, about 95% intervals constructed this way will contain the true value of the risk premium.
 
