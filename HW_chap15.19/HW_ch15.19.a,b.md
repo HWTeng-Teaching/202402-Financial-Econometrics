@@ -22,6 +22,6 @@ Extimate the model assuming random effects and with the characteristics of the s
 | BAR | 0.4642 ***|0.0999 |0.0000 |
 | STREET   |  0.1033 | 0.1011 | 0.3068 |
 
-The chi-squared statistic is 123.23 with a p-value < 2.2e-16, indicating that the characteristics AGE, ATTRACTIVE, and SCHOOL are jointly significant at the 5% level.
+Joint Significance: The chi-squared statistic is 123.23 with a p-value < 2.2e-16, indicating that the characteristics AGE, ATTRACTIVE, and SCHOOL are jointly significant at the 5% level.
 
-The coefficients for AGE, ATTRACTIVE, and SCHOOL are individually significant based on their p-values
+Individual Significance: The coefficients for AGE, ATTRACTIVE, and SCHOOL are individually significant based on their p-values
