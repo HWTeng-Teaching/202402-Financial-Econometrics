@@ -18,12 +18,15 @@ Estimate a regression equation (with no fixed or random effects) where $READSCOR
 
 | Coefficients  |  Estimate    |  Std. Error  |
 |:-------------:|:------------:|:------------:|
-| `small`       |   5.80 ***   |0.989333|
-| `aide`        |   0.82       |0.952993|
-| `tchexper`    |   0.49 ***   |0.069555|
-| `boy`         |  -6.16 ***   |0.796128|
-| `white_asian` |   3.91 ***   |0.953607|
-| `freelunch`   | -14.77 ***   |0.890248|
+| `small`       |   5.80 ***   |0.989333      |
+| `aide`        |   0.82       |0.952993      |
+| `tchexper`    |   0.49 ***   |0.069555      |
+| `boy`         |  -6.16 ***   |0.796128      |
+| `white_asian` |   3.91 ***   |0.953607      |
+| `freelunch`   | -14.77 ***   |0.890248      |
+
+<img width="483" alt="截圖 2024-06-03 下午4 51 27" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145115138/09b3197d-6b6f-407c-999c-67c3b9fab8b0">
+
 
 ## ch15.20(b)
 Reestimate the model in part (a) with school fixed effects. 
@@ -46,6 +49,9 @@ Compare the results with those in part (a). Have any of your conclusions changed
 | `white_asian` |   3.91 ***      |8.03   ***   |
 | `freelunch`   | -14.77 ***      |-14.59 ***   |
 
+<img width="471" alt="截圖 2024-06-03 下午4 52 08" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145115138/207a0085-c237-425d-89fe-ffe6a2fc5311">
+
+
 ## ch15.20(c)
 Test for the significance of the school fixed effects.
 
@@ -54,9 +60,10 @@ Under what conditions would we expect the inclusion of significant fixed effects
 ## **Ans.**
 The F-test statistic is $16.698$.
 
-1. The rejection region is $$\{F:F>F_{0.95,78,5681} = 1.27979\}$$ so that we reject the null hypothesis that there are no significant differences between schools.
+1. The rejection region is $$\{F:F>F_{0.95,78,5681} = 1.27979\}$$ so that we reject the null hypothesis that
+there are no significant differences between schools and `conclude` that there are individual differences in the school fixed effects.
 
-2. If the school indicator variables are uncorrelated with the included explanatory variables, then they should have little effect on the regression estimates.
+2. If the school indicator variables are `uncorrelated` with the included explanatory variables, then they should have little effect on the regression estimates.
 
 ```{r}
 pFtest(model.within, model.pooling)
