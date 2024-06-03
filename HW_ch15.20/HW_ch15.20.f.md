@@ -4,6 +4,7 @@ This homework is written by 吳悅寧 (312707056)
 
 **Question**\
 Create school-averages of the variables and carry out the Mundlak test for correlation between them and the unobserved heterogeneity.
+\
 **Answer**
 
 -   Sample code
@@ -29,7 +30,7 @@ plm.random.m <- plm(readscore ~ small + aide + tchexper + tchmasters + boy +
                     model = "random",
                     random.method = "walhus")
 # Test that average variables are jointly different from 0
-
+```
 ##
 linearHypothesis(plm.random.m, c("boym = 0", "white_asianm = 0", "freelunchm = 0"))
 Hypothesis:
@@ -45,6 +46,6 @@ Model 2: readscore ~ small + aide + tchexper + tchmasters + boy + white_asian +
 1   5758                       
 2   5755  3 7.2087    0.06554 .
 ##
-``` 
+ 
 
 Testing the joint significance of these variables, we obtain a Wald test of 7.2087, The critical value of 5% = 7.815, we cannot reject the null hypothesis that the random effects are uncorrelated with the regressors.
