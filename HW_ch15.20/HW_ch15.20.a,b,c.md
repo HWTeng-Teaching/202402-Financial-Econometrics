@@ -16,14 +16,14 @@ Estimate a regression equation (with no fixed or random effects) where $READSCOR
 5. White or Asian students are estimated to have reading scores 3.91 points higher than black students.
 6. Those students who receive a free lunch are predicted to have an average reading score that is 14.77 points lower than those who do not.
 
-| Coefficients  |  Estimate    | 
-|:-------------:|:------------:|
-| `small`       |   5.80 ***   |
-| `aide`        |   0.82       |
-| `tchexper`    |   0.49 ***   |
-| `boy`         |  -6.16 ***   |
-| `white_asian` |   3.91 ***   |
-| `freelunch`   | -14.77 ***   |
+| Coefficients  |  Estimate    |  Std. Error  |
+|:-------------:|:------------:|:------------:|
+| `small`       |   5.80 ***   |0.989333|
+| `aide`        |   0.82       |0.952993|
+| `tchexper`    |   0.49 ***   |0.069555|
+| `boy`         |  -6.16 ***   |0.796128|
+| `white_asian` |   3.91 ***   |0.953607|
+| `freelunch`   | -14.77 ***   |0.890248|
 
 ## ch15.20(b)
 Reestimate the model in part (a) with school fixed effects. 
@@ -37,7 +37,7 @@ Compare the results with those in part (a). Have any of your conclusions changed
 4. The estimated difference in average reading scores between white or Asian students and black students roughly doubles to 8 points.
 
 
-| Coefficients|  Estimate(OLS)  | Estimate(FE)  |
+| Coefficients  |  Estimate(OLS)  | Estimate(FE)|
 |:-------------:|:---------------:|:-----------:|
 | `small`       |   5.80 ***      |6.49   ***   |
 | `aide`        |   0.82          |0.996        |
