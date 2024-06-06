@@ -30,6 +30,8 @@ lm_test <- plmtest(fixed_model, effect = "individual", type = "bp")
 
 print(lm_test)
 ```
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/c79cc354-5407-41c5-a6a2-c6227d47b76d)
+
 
 ### chisq = 20.68, df = 1, p-value = 5.429e-06 < 5% 
 ### At the 5% significance level, reject null hypothesis, and there is a significant random effect.
