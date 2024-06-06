@@ -1,7 +1,7 @@
 # This homework is written by 梁宏宇 (312707050)
 
 ## ch15.17(c)
-### Question: Test for the presence of random effects using the LM statistic in quation(15.35). Use the 5% level of significance.
+### Question: Test for the presence of random effects using the LM statistic in equation(15.35). Use the 5% level of significance.
 
 ## Answer: 
 ```{r setup, include=FALSE}
