@@ -32,6 +32,11 @@ print(lm_test)
 ```
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/c79cc354-5407-41c5-a6a2-c6227d47b76d)
 
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/55812d7c-0c4c-4053-b8be-aec950ca0795)
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/127933479/b39eea94-88ab-4a3c-8f1d-7d12422c605c)
+
+
+
 
 ### chisq = 20.68, df = 1, p-value = 5.429e-06 < 5% 
 ### At the 5% significance level, reject null hypothesis, and there is a significant random effect.
