@@ -14,3 +14,6 @@ the coefficient on BOY?
 ![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/8676e6e7-7a4e-41b1-be81-59fd92378ecc)
 
 The results of the Hausman test indicate that the null hypothesis is rejected at the 5% significance level, suggesting that there is a difference between the fixed effects and random effects, and the fixed effects model should be used.
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/9b5c8654-0954-41f9-b70f-734dfa95537b)
+
+For the variable BOY, the same approach was applied, but its p-value does not reject the null hypothesis, indicating no difference between the effects, and the random effects model is valid.
