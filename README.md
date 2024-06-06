@@ -12,6 +12,11 @@ $$
 $$= \beta_1\frac{\sum (X_{i}-\overline{X})^{2}}{\sum (X_{i}-\overline{X})^{2}} + \frac{\sum (X_{i}-\overline{X})(\epsilon_{i} - \overline{\epsilon})}{\sum (X_{i}-\overline{X})^{2}}=\beta_1 + \frac{\sum (X_{i}-\overline{X})(\epsilon_{i} - \overline{\epsilon})}{N-1} \Bigg/ \frac{\sum (X_{i}-\overline{X})^{2}}{N-1}=\beta_1 + \frac{\text{Cov}(X_i, \epsilon_i)}{E[(X_i - \overline{X})^2]}=\beta_1 $$
 
 $$故\beta_1為不偏估計式。$$
+
+## Homework: 20240521
+
+<img width="378" alt="image" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/55239313/3c08956a-c3d0-46c3-8d6c-524d66e209da">
+
  
 
 ## Homework 7: 20240502
