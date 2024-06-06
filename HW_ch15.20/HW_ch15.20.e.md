@@ -35,3 +35,4 @@ t_test_coef <- function(fe_coef, re_coef) {
 # Apply the t-test function
 coef_test_results <- t_test_coef(fe_coef, re_coef)
 print(coef_test_results)
+```
