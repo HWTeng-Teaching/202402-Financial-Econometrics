@@ -36,3 +36,5 @@ t_test_coef <- function(fe_coef, re_coef) {
 coef_test_results <- t_test_coef(fe_coef, re_coef)
 print(coef_test_results)
 ```
+![image](https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/145032062/8676e6e7-7a4e-41b1-be81-59fd92378ecc)
+The results of the Hausman test indicate that the null hypothesis is rejected at the 5% significance level, suggesting that there is a difference between the fixed effects and random effects, and the fixed effects model should be used.
