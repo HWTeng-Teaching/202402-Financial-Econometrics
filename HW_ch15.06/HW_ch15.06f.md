@@ -1,4 +1,5 @@
-
+## This homework is written by 陳怡仁
+## Questions: Column (5) contains the random effects estimates. Which coefficients, apart from the intercepts, show the most difference from the fixed effects estimates? Use the Hausman test statistic (15.36) to test whether there are significant differences between the random effects estimates and the fixed effects estimates in column (3) (Why that one?). Based on the test results, is random effects estimation in this model appropriate?
 
 <img width="544" alt="336701294-397ed571-5d98-4220-bd4e-bf3ba2485439" src="https://github.com/HWTeng-Course/202402-Financial-Econometrics/assets/150407283/4296408a-629b-4a96-bd97-5f7379776ba2">
 
